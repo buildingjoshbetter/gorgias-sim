@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section governs revenue bonds payable solely from real property sale proceeds, explicitly excluding tax revenue per Subsection (g). Homestead exemption changes affect tax valuations, not these bond provisions.",
+ "quote": "The bonds may be payable only from the revenues described by Subsection (a) and may not be payable or paid from any taxes levied and collected in the district.",
+ "_note": "No conflict. These bonds are secured by sale-of-real-property proceeds, not ad valorem taxes, so homestead exemption changes do not affect this section."
+}

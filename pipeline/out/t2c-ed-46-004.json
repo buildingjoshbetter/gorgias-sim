@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "Increasing the homestead exemption shrinks the local tax base for M&O taxes levied to pay district shares of lease-purchase agreements. Section 46.003(b), cross-referenced in subsection (b), likely requires consequential amendment to adjust state assistance calculations for the reduced taxable value.",
+ "quote": "taxes levied for purposes of maintenance and operations that are necessary to pay a district's share of the payments under a lease-purchase agreement for which the district receives state assistance under this subchapter are considered to be bond taxes",
+ "_note": "Conflict is indirect: \u00a746.004 does not directly reference the homestead exemption amount, but the increased exemption reduces the local tax base supporting lease-purchase payments, and \u00a746.003(b) (cross-referenced in subsection (b)) likely needs consequential amendment."
+}

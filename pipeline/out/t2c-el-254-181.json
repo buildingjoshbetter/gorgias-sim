@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change concerns Tax Code \u00a711.13(b) homestead exemption amounts. Elec. Code \u00a7254.181 governs campaign finance modified reporting thresholds. The two provisions address unrelated subjects and share no operative dependency.",
+ "quote": "Sec. 254.181. MODIFIED REPORTING AUTHORIZED. (a) An opposed candidate or specific-purpose committee required to file reports under Subchapter C or E may file a report under this subchapter instead if the candidate or committee does not intend to accept political contributions that in the aggregate exceed $500 or to make political expenditures that in the aggregate exceed $500 in connection with the election.",
+ "_note": "No conflict; rule_text is unrelated to proposed_change."
+}

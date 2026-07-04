@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change concerns property tax homestead exemption amounts under Tax Code \u00a711.13(b). Elec. Code \u00a7254.232 governs campaign finance reporting liability. The two provisions address entirely unrelated subject matters and do not interact.",
+ "quote": "A candidate, officeholder, or campaign treasurer or assistant campaign treasurer of a political committee who fails to report in whole or in part a political contribution or political expenditure as required by this chapter is liable in damages to the state in the amount of triple the amount not reported that is required to be reported.",
+ "_note": "No conflict. The rule_text pertains to campaign finance reporting penalties; the proposed change pertains to property tax exemptions. No statutory or constitutional interaction identified."
+}

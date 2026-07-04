@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "No direct conflict. Section 45.0031 operates on 'taxable value of property,' a derived figure that automatically reflects exemption amounts. Increasing the homestead exemption reduces taxable values but requires no amendment to this statute; districts simply demonstrate capacity on a lower base.",
+ "quote": "a school district must demonstrate to the attorney general under Subsection (b) or (c) that, with respect to the proposed issuance, the district has a projected ability to pay the principal of and interest on the proposed bonds and all previously issued bonds other than bonds authorized to be issued at an election held on or before April 1, 1991, and issued before September 1, 1992, from a tax at a rate not to exceed $0.50 per $100 of valuation.",
+ "_note": "Indirect fiscal impact: a larger homestead exemption shrinks the taxable value base school districts use under Subsections (b) and (c), potentially constraining bond issuance capacity, but creates no statutory conflict requiring amendment or rulemaking."
+}

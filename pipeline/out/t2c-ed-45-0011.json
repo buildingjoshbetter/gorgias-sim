@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Educ. Code \u00a745.0011 governs school district bond issuance and credit agreements. It does not reference the Tax Code \u00a711.13(b) homestead exemption amount. While a larger exemption reduces taxable property value, the statute allows unlimited tax rates to cover bond obligations, so no direct statutory conflict arises.",
+ "quote": "include the question of whether the governing board or commissioners court may levy, pledge, assess, and collect annual ad valorem taxes, on all taxable property in the district, sufficient, without limit as to rate or amount, to pay the principal of and interest on the bonds",
+ "_note": "No direct textual conflict. Indirect fiscal interaction exists\u2014increased homestead exemption shrinks the taxable base\u2014but \u00a745.0011(c) permits unlimited tax rates, mitigating revenue impact on bond repayment capacity."
+}

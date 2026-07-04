@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Statute already anticipates 89th Legislature homestead exemption increases via subsections (a-3), (a-4), (b-3), (b-4). Proposed $200,000 increase would trigger additional state aid calculations under existing framework, requiring rulemaking updates to implement new baselines and aid computations.",
+ "quote": "a school district is entitled to additional state aid under this subchapter to the extent that state and local revenue used to service debt eligible under this chapter is less than the state and local revenue that would have been available to the district under this chapter as it existed on January 1, 2025, if any increase in the residence homestead exemption under Section 1-b(c), Article VIII, Texas Constitution, as proposed by the 89th Legislature, Regular Session, 2025, had not occurred.",
+ "_note": "Statute already contains provisions referencing the 89th Legislature, Regular Session, 2025, for homestead exemption increases. If the proposed $200,000 increase is the same increase anticipated by those subsections, no statutory amendment may be needed\u2014only rulemaking implementation. If it exceeds what the 89th Legislature already enacted, consequential amendment may be required (severity 2). Insufficient information to distinguish."
+}

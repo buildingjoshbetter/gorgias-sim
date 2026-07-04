@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 46.013 is a coordination rule preventing duplicate state assistance between Subchapter B, Chapter 46 and Subchapter E, Chapter 48. Increasing the homestead exemption changes underlying tax amounts but does not conflict with this anti-double-counting mechanism.",
+ "quote": "A school district is not entitled to state assistance under this subchapter based on taxes with respect to which the district receives state assistance under Subchapter E, Chapter 48.",
+ "_note": "No direct conflict. The increased homestead exemption alters local tax yield inputs but \u00a746.013's coordination function remains operative without amendment."
+}

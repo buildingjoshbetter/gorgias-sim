@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "Increasing the homestead exemption reduces each district's taxable value of property (DPV), which directly alters both BTR and the local-share subtraction in the FYA formula, increasing state facilities allotment costs without any statutory adjustment to the formula.",
+ "quote": "\"DPV\" is the district's taxable value of property as determined under Subchapter M, Chapter 403, Government Code, or, if applicable, Section 48.258.",
+ "_note": "DPV and BTR both derive from taxable value; a larger homestead exemption lowers DPV, raising state FYA cost. Consequential amendment to \u00a746.003 or its funding appropriation likely required."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Educ. Code \u00a745.111 operates on assessed valuation as defined in subsection (e), which is whatever appears on the tax rolls. Increasing the homestead exemption would reduce assessed valuation but the statute adjusts automatically; no internal threshold or cross-reference to Tax Code \u00a711.13(b) exists.",
+ "quote": "Assessed valuation means the valuation for school district purposes on the tax rolls of the district most recently approved before the authorization of the certificates.",
+ "_note": "No direct conflict. The proposed change would indirectly reduce assessed valuations used in \u00a745.111(d)\u2013(e) calculations, but the statute contains no fixed exemption amount or direct cross-reference to Tax Code \u00a711.13(b)."
+}

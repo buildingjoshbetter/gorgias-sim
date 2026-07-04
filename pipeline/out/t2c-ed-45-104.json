@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Educ. Code \u00a745.104 governs school district pledging of delinquent taxes for loans. It does not reference homestead exemption amounts or Tax Code \u00a711.13(b). The proposed change may indirectly reduce delinquent tax revenue but creates no legal conflict.",
+ "quote": "The board of trustees of any school district may pledge its delinquent taxes levied for maintenance purposes for specific past, current, and future school years as security for a loan",
+ "_note": "No direct conflict. Indirect fiscal impact possible via reduced taxable value lowering delinquent tax collections, but \u00a745.104 contains no homestead-exemption-dependent thresholds or formulas."
+}

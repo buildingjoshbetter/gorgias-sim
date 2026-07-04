@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change to Tax Code \u00a711.13(b) homestead exemption has no relation to Elec. Code \u00a7251.002, which governs which officeholders are covered by election title provisions.",
+ "quote": "Sec. 251.002. OFFICEHOLDERS COVERED. (a) The provisions of this title applicable to an officeholder apply only to a person who holds an elective public office and to the secretary of state.",
+ "_note": "No conflict; rule_text concerns election code officeholder coverage, unrelated to homestead exemption amounts."
+}

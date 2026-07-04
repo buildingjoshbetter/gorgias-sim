@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change to Tax Code \u00a711.13(b) homestead exemption amount is unrelated to Elec. Code \u00a7277.0021, which merely defines 'qualified voter' as 'registered voter' for petition eligibility.",
+ "quote": "A reference in a law outside this code to \"qualified voter\" in the context of eligibility to sign a petition means \"registered voter.\"",
+ "_note": "No overlap between the proposed homestead exemption increase and the election-code definition of qualified voter."
+}

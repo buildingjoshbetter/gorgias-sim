@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "No direct conflict. Section 46.034 caps the existing debt tax rate and limits state assistance based on tax rates and valuation. Increasing the homestead exemption alters taxable valuation but does not contradict any operative provision; the statute applies to whatever valuation results.",
+ "quote": "The existing debt tax rate (\"EDTR\") under Section 46.032 may not exceed $0.29 per $100 of valuation, or a greater amount for any year provided by appropriation.",
+ "_note": "Indirect fiscal interaction possible (reduced tax base affects state assistance calculations), but no statutory conflict requiring amendment of \u00a746.034."
+}

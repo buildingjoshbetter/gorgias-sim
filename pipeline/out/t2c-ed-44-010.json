@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Educ. Code \u00a744.010 is a procedural review provision requiring agency staff to analyze school district budgets and fiscal reports. It does not set exemption levels or funding formulas, so increasing the homestead exemption does not conflict with it.",
+ "quote": "The budgets, fiscal reports, and audit reports filed with the agency shall be reviewed and analyzed by the staff of the agency to determine whether all legal requirements have been met and to collect fiscal data needed in preparing school fiscal reports for the governor and the legislature.",
+ "_note": "No direct conflict; \u00a744.010 is administrative/procedural and agnostic to exemption amounts."
+}

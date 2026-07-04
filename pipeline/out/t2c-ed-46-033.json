@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Educ. Code \u00a746.033 governs bond eligibility based on payment history and state assistance status. It does not reference the homestead exemption amount or Tax Code \u00a711.13(b). No direct textual conflict exists; any impact is indirect via reduced local tax revenue affecting debt service calculations.",
+ "quote": "the district does not receive state assistance under Subchapter A for payment of the principal and interest on the bonds.",
+ "_note": "No direct conflict. Increasing the homestead exemption could indirectly affect school district property tax revenue and debt service collections, but \u00a746.033 contains no provision tied to the exemption amount."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "The EDA formula depends on DPV (district taxable value) and EDTR (existing debt tax rate), both derived from taxable value. A larger homestead exemption reduces DPV, increasing EDTR and state EDA obligations\u2014consequential fiscal interaction requiring statutory amendment.",
+ "quote": "\"EDTR\" is the existing debt tax rate of the district, which is determined by dividing the amount budgeted by the district for payment of eligible bonds by the quotient of the district's taxable value of property as determined under Subchapter M, Chapter 403, Government Code, or, if applicable, under Section 48.258, divided by 100; and",
+ "_note": "The homestead exemption directly reduces taxable property values that feed the EDA formula's DPV and EDTR variables, increasing state debt-assistance costs. No explicit dollar threshold or cap adjustment exists in this section to absorb the change."
+}

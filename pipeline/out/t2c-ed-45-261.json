@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "Increasing the homestead exemption reduces taxable property values, shrinking the ad valorem tax base. This interacts with \u00a745.261(c) and (e), which tie reimbursement revenue and voter-approval tax rate calculations to that tax base, potentially requiring consequential statutory amendments to maintain intended reimbursement mechanics.",
+ "quote": "(c) The commissioner may order a school district to set an ad valorem tax rate capable of producing an amount of revenue sufficient to enable the district to:\n(1) provide reimbursement under this section; and\n(2) pay the remaining principal of and interest on the bonds as the principal and interest become due.",
+ "_note": "Proposed change does not directly amend \u00a745.261 but reduces the ad valorem tax base that underlies the revenue-production and voter-approval tax rate mechanics in subsections (c) and (e), creating a consequential interaction likely requiring statutory adjustment."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change concerns Tax Code \u00a711.13(b) homestead exemption amounts. Elec. Code \u00a7254.127 governs campaign finance termination reports. The two provisions address unrelated subjects and do not interact.",
+ "quote": "Sec. 254.127. TERMINATION REPORT. (a) If the campaign treasurer appointment of a specific-purpose committee is terminated, the terminated campaign treasurer shall file a termination report.",
+ "_note": "No conflict; rule_text is unrelated to the proposed homestead exemption change."
+}

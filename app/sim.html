@@ -1942,7 +1942,7 @@ window.GORGIAS = GORGIAS;
      ============================================================ -->
 <style id="verdict-style">
 .vpanel { overflow: auto; }
-.v-gauge-wrap { position: relative; width: 100%; display: flex; justify-content: center; }
+.v-gauge-wrap { position: relative; width: 100%; display: flex; justify-content: center; margin: 6px 0 18px; }
 .v-gauge-svg { width: 100%; max-width: 340px; height: auto; }
 .v-gauge-center { position: absolute; left: 0; right: 0; bottom: 2px; text-align: center; }
 .v-gauge-score { font-family: var(--font-display); font-size: clamp(40px, 5vw, 72px); font-weight: 800; color: var(--text); line-height: 1; }
@@ -1958,16 +1958,17 @@ window.GORGIAS = GORGIAS;
 .v-path.clean .v-path-val { color: var(--gold-hi); }
 .v-path-note { font-family: var(--font-body); font-size: 13px; color: var(--text-dim); line-height: 1.4; }
 .v-sub-h { font-family: var(--font-mono); font-size: 11px; color: var(--text-dim); letter-spacing: 0.12em; text-transform: uppercase; margin-top: var(--s4); }
-.v-driver { display: flex; flex-direction: column; gap: 5px; padding: 10px 0; border-top: 1px solid var(--hairline); }
+.v-driver { display: flex; flex-direction: column; gap: 3px; padding: 7px 0; border-top: 1px solid var(--hairline); }
 .v-driver-tag { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.1em; color: var(--gold); }
-.v-driver-txt { font-family: var(--font-body); font-size: 13px; color: var(--text); line-height: 1.4; }
+.v-driver-txt { font-family: var(--font-body); font-size: 13px; color: var(--text-dim); line-height: 1.35;
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 .v-driver.clickable { cursor: pointer; }
 .v-driver.clickable:hover .v-driver-txt { color: var(--gold); }
 .v-gate-tile { border: 1px solid var(--gold); background: var(--bg-gold-tint); padding: 16px; display: flex; flex-direction: column; gap: 6px; }
 .v-gate-tag { font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.14em; color: var(--gold); text-transform: uppercase; }
 .v-gate-txt { font-family: var(--font-body); font-size: 15px; color: var(--text); line-height: 1.35; }
 .v-rail { display: flex; flex-direction: column; margin-top: var(--s2); }
-.v-step { position: relative; padding: 0 0 var(--s5) 28px; }
+.v-step { position: relative; padding: 0 0 var(--s3) 28px; }
 .v-step:last-child { padding-bottom: 0; }
 .v-step::before { content: ""; position: absolute; left: 6px; top: 4px; width: 9px; height: 9px; background: var(--gold); }
 .v-step::after { content: ""; position: absolute; left: 10px; top: 13px; bottom: -4px; width: 1px; background: var(--hairline); }
@@ -2083,14 +2084,13 @@ window.VerdictEngine = (function () {
     const driverRows = drivers.map(d => {
       const clickable = d.nodeId ? " clickable" : "";
       const dataAttr = d.nodeId ? ' data-node="' + d.nodeId + '"' : "";
-      const chip = d.cite ? '<span class="chip"><span class="anchor"></span>' + d.cite + '</span>' : "";
       return '<div class="v-driver' + clickable + '"' + dataAttr + '>' +
         '<span class="v-driver-tag">' + d.tag + '</span>' +
-        '<span class="v-driver-txt">' + d.txt + '</span>' + chip + '</div>';
+        '<span class="v-driver-txt">' + d.txt + '</span></div>';
     }).join("");
 
     const panelExposure =
-      '<div class="vpanel"><h3>Litigation exposure · two paths</h3>' +
+      '<div class="vpanel"><h3>Litigation exposure</h3>' +
         '<div class="v-gauge-wrap">' + gauge.svg +
           '<div class="v-gauge-center"><div class="v-gauge-score">' + statutePct + '%</div>' +
           '<div class="v-gauge-band">AS STATUTE ONLY · ' + band(statutePct) + '</div></div>' +
@@ -2106,8 +2106,7 @@ window.VerdictEngine = (function () {
             '<span class="v-path-note">The path Texas just walked: a joint resolution to the ballot, ratified by voters. Last done for Prop 13 (S.J.R. 2) in Nov 2025, which raised the exemption $100k→$140k.</span>' +
             '<span class="chip"><span class="anchor"></span>S.J.R. 2 → Prop 13 · Nov 2025 · 79.4% yes</span>' +
           '</div>' +
-        '</div>' +
-        '<div class="v-sub-h">Exposure drivers</div>' + driverRows +
+        '</div>' + driverRows +
       '</div>';
 
     /* ---- Panel 2: human approval gate + path-to-enactment rail ---- */

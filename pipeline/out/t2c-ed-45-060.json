@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "No direct conflict. The proposed change affects homestead exemption amounts, while the rule governs bond acceleration upon default.",
+ "quote": "If a school district or charter district fails to pay principal or interest on a guaranteed bond when it matures, other amounts not yet mature are not accelerated and do not become due by virtue of the school district's or charter district's default.",
+ "_note": null
+}

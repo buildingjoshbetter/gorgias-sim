@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Elec. Code \u00a7277.0024 governs signature computation for petitions by excluding voters with 'S' notation. It bears no relation to Tax Code \u00a711.13(b) homestead exemption amounts.",
+ "quote": "if the minimum number of signatures required for a petition is determined by a computation applied to the number of registered voters of a particular territory, voters whose names appear on the list of registered voters with the notation \"S\", or a similar notation, shall be excluded from the computation.",
+ "_note": "No conflict; rule_text concerns election petition signature counting and is unrelated to homestead exemption amounts."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 46.006 dynamically references taxable value of property under Gov. Code Ch. 403, Subch. M. Increasing the homestead exemption lowers taxable values but does not contradict or require amendment of this section's ranking or distribution mechanism.",
+ "quote": "\"wealth per student\" means a school district's taxable value of property as determined under Subchapter M, Chapter 403, Government Code, or, if applicable, Section 48.258, divided by the district's average daily attendance as determined under Section 48.005.",
+ "_note": "No direct conflict. The proposed homestead exemption increase would reduce district taxable values, indirectly lowering wealth-per-student figures used in \u00a746.006 rankings, but the statute self-adjusts via dynamic cross-reference and needs no amendment."
+}

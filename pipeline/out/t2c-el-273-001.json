@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change modifies property tax homestead exemption amounts under Tax Code \u00a711.13(b). Elec. Code \u00a7273.001 governs criminal investigations of election conduct. The provisions address entirely unrelated subject matters with no operative overlap.",
+ "quote": "If two or more registered voters of the territory covered by an election present affidavits alleging criminal conduct in connection with the election to the county or district attorney having jurisdiction in that territory, the county or district attorney shall investigate the allegations.",
+ "_note": "No conflict. The rule_text concerns election criminal investigations; the proposed change concerns property tax exemptions. No statutory intersection exists."
+}

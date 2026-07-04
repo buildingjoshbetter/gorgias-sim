@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption affects school district property tax calculations. Software standards under \u00a739.086 must be updated to ensure financial accounting software accommodates the new $200,000 exemption amount.",
+ "quote": "Standards adopted under this section must ensure that the software will enable a school district to share and report information in a timely manner for purposes of financial management, operational decision-making, and transparency of district operations to the public.",
+ "_note": "Indirect conflict: school district financial accounting software must be updated to reflect changed exemption; rulemaking update needed for interoperability standards."
+}

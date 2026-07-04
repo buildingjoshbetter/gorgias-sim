@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "Increasing the homestead exemption reduces local taxable property values, directly affecting \"wealth per student\" calculations and district grant rankings under \u00a77.062(e)(3), and may alter excess Chapter 46 funds available for grants under \u00a77.062(c).",
+ "quote": "\"wealth per student\" means a school district's taxable value of property as determined under Subchapter M, Chapter 403, Government Code, or, if applicable, Section 48.258, divided by the district's average daily attendance as determined under Section 48.005.",
+ "_note": "Indirect fiscal interaction: homestead exemption increase lowers local taxable values, shifting wealth-per-student rankings and potentially state aid/excess fund calculations feeding the grant program. No direct textual conflict with operative provisions."
+}
