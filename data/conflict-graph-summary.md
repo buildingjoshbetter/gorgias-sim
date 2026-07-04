@@ -2,8 +2,8 @@
 
 Proposed change: Increase the Texas residence homestead exemption under Tax Code §11.13(b) from $140,000 to $200,000 of appraised value.
 
-Sections crawled: **8111** across 370 chapters; cross-refs followed: **5607**; layers L1/L2/L3/L4 = 6/7606/304/195.
-Conflicts by severity: 3=1, 2=15, 1=38, 0=8057 (of which 4956 heading-only / not GLM-scanned). GLM: 5068 jobs, $12.7.
+Sections in graph: **5175** (from a 8111-section full crawl of 370 chapters, pruned to the property-tax / school-finance cascade); cross-refs followed: **4216**; layers L1/L2/L3 = 6/4974/195.
+Conflicts by severity: 3=1, 2=15, 1=38, 0=5121 (of which 2522 heading-only / not GLM-scanned). GLM: 5068 jobs, $12.7.
 
 ## Top conflicts
 - **sev 3** — Tex. Const. art. VIII, §1-b (RESIDENCE HOMESTEAD TAX EXEMPTIONS AND LIMITATIONS): The constitution fixes the school homestead exemption at $140,000. A statute increasing it to $200,000 would exceed constitutional authority, requiring a consti

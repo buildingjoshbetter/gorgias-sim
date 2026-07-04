@@ -492,27 +492,61 @@ def do_assemble() -> int:
                     conflicted.append((sev, sl, n["cite"], heading, node_out["conflict_rationale"]))
             except Exception:  # noqa: BLE001
                 pass
-        sev_counts[node_out["conflict_severity"]] += 1
+        # Chapter of this section, for prune scoping (from the crawl corpus).
+        node_out["_chap"] = n.get("chap", "")
         out_nodes.append(node_out)
 
-    unscanned = sum(1 for n in out_nodes if not n["analyzed"])
+    # ---- Prune to the homestead-relevant cascade, under the 2 MB cap ----
+    # NEVER drop a conflicted node (all 54 conflicts, wherever they land, stay).
+    # Keep the layer-1 seeds and the four codes that ARE the homestead ->
+    # school-finance -> state-backfill cascade: Tax, Education, Constitution,
+    # Government (LBB/Comptroller). Drop cross-ref spillover into unrelated codes
+    # (Local Gov't, Water, Election, Family, ...) and out-of-spec layer-4 nodes.
+    CASCADE_CODES = {"TX", "ED", "CN", "GV"}
+
+    def keep(n: dict) -> bool:
+        if n["conflict_severity"] > 0 or n["layer"] == 1:
+            return True
+        if n["layer"] >= 4:
+            return False
+        return n["code"] in CASCADE_CODES
+
+    kept = [n for n in out_nodes if keep(n)]
+    for n in kept:
+        n.pop("_chap", None)
+    kept_ids = {n["id"] for n in kept}
+    edges = [e for e in corpus["edges"] if e["from"] in kept_ids and e["to"] in kept_ids]
+
+    # Recompute stats on the kept set (honest denominators).
+    sev_counts = {0: 0, 1: 0, 2: 0, 3: 0}
+    layer_counts: dict[int, int] = {}
+    unscanned = 0
+    for n in kept:
+        sev_counts[n["conflict_severity"]] += 1
+        layer_counts[n["layer"]] = layer_counts.get(n["layer"], 0) + 1
+        if not n["analyzed"]:
+            unscanned += 1
+    # "analyzed" is a build-time flag, not part of the node schema — drop it.
+    for n in kept:
+        n.pop("analyzed", None)
 
     graph = {
         "stats": {
-            "sections_crawled": len(nodes),
-            "cross_refs_followed": corpus["stats"]["cross_refs_followed"],
+            "sections_crawled": len(kept),
+            "sections_in_full_corpus": len(nodes),
+            "cross_refs_followed": len(edges),
             "chapters_fetched": corpus["stats"]["chapters_fetched"],
             "conflicts_by_severity": {str(k): v for k, v in sev_counts.items()},
             "glm_jobs": glm_jobs,
             "glm_spend_usd": round(glm_spend, 4),
-            "layers": {str(k): v for k, v in corpus["stats"]["layers"].items()},
+            "layers": {str(k): layer_counts.get(k, 0) for k in sorted(layer_counts)},
             "t1_extracted": t1_hits,
             "t2_scanned": t2_hits,
             "nodes_heading_only": unscanned,
             "proposed_change": corpus["proposed_change"],
         },
-        "nodes": out_nodes,
-        "edges": corpus["edges"],
+        "nodes": kept,
+        "edges": edges,
     }
     outp = DATA / "conflict-graph.json"
     outp.write_text(json.dumps(graph, ensure_ascii=False, separators=(",", ":")))
@@ -526,11 +560,10 @@ def do_assemble() -> int:
         "",
         f"Proposed change: {corpus['proposed_change']}",
         "",
-        f"Sections crawled: **{len(nodes)}** across {corpus['stats']['chapters_fetched']} "
-        f"chapters; cross-refs followed: **{corpus['stats']['cross_refs_followed']}**; "
-        f"layers L1/L2/L3/L4 = {corpus['stats']['layers'].get('1',0)}/"
-        f"{corpus['stats']['layers'].get('2',0)}/{corpus['stats']['layers'].get('3',0)}/"
-        f"{corpus['stats']['layers'].get('4',0)}.",
+        f"Sections in graph: **{len(kept)}** (from a {len(nodes)}-section full crawl of "
+        f"{corpus['stats']['chapters_fetched']} chapters, pruned to the property-tax / "
+        f"school-finance cascade); cross-refs followed: **{len(edges)}**; layers "
+        f"L1/L2/L3 = {layer_counts.get(1,0)}/{layer_counts.get(2,0)}/{layer_counts.get(3,0)}.",
         f"Conflicts by severity: 3={sev_counts[3]}, 2={sev_counts[2]}, 1={sev_counts[1]}, "
         f"0={sev_counts[0]} (of which {unscanned} heading-only / not GLM-scanned). "
         f"GLM: {glm_jobs} jobs, ${round(glm_spend,2)}.",
@@ -545,7 +578,7 @@ def do_assemble() -> int:
     (DATA / "conflict-graph-summary.md").write_text("\n".join(lines) + "\n")
 
     print(f"=== p4 assemble summary ===")
-    print(f"nodes           : {len(nodes)} (T1 {t1_hits}, T2 {t2_hits})")
+    print(f"nodes kept       : {len(kept)} of {len(nodes)} crawled (T1 {t1_hits}, T2 {t2_hits})")
     print(f"conflicts       : sev3={sev_counts[3]} sev2={sev_counts[2]} sev1={sev_counts[1]} sev0={sev_counts[0]}")
     print(f"glm             : {glm_jobs} jobs, ${round(glm_spend,4)}")
     print(f"graph           : {outp}  ({size_mb:.2f} MB)")
