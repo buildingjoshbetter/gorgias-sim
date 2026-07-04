@@ -691,9 +691,10 @@ body.presenter #app { font-size: 1.06em; }
     #cascade-root .gx-stamp.gx-on{opacity:1}
 
     /* footer hint */
-    #cascade-root .gx-hint{position:absolute;bottom:18px;left:0;right:0;text-align:center;z-index:4;
+    #cascade-root .gx-hint{position:absolute;bottom:14px;left:50%;transform:translateX(-50%);text-align:center;z-index:5;
       font-family:var(--gx-mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;
-      color:var(--gx-dim);opacity:0;transition:opacity .4s linear;pointer-events:none}
+      color:var(--gx-dim);opacity:0;transition:opacity .4s linear;pointer-events:none;
+      background:#0A0A0A;padding:9px 20px;box-shadow:0 0 0 1px var(--gx-hair),0 -10px 20px 8px #0A0A0A}
     #cascade-root .gx-hint.gx-on{opacity:1;animation:gx-hintpulse 1800ms ease-in-out infinite}
     #cascade-root .gx-hint b{color:var(--gx-gold);font-weight:600}
     @keyframes gx-hintpulse{0%,100%{opacity:.5}50%{opacity:1}}
@@ -2422,14 +2423,15 @@ window.DrawerEngine = (function () {
 .gn.s0 { fill: #5A574C; opacity: 0.5; }
 .gn.s1 { fill: var(--gold-2); opacity: 0.85; cursor: pointer; }
 .gn.s2 { fill: var(--gold); opacity: 0.95; cursor: pointer; }
-/* will-change promotes the pulsing nodes to their own compositing layer so their
-   animation does NOT force a full-SVG repaint. Without it, filtering 8k+ nodes
-   drops to ~9fps whenever the pulse runs; with it, 60fps in every state. */
-.gn.s3 { fill: var(--gold-hi); opacity: 1; cursor: pointer; animation: gPulse 1700ms ease-in-out infinite; will-change: transform, opacity; }
+/* No continuous animation on nodes: inside an 8k-element SVG, any running
+   animation forces a full-SVG repaint every frame, which collapses to <10fps
+   once a severity filter dims thousands of nodes. The blocking-conflict node
+   is emphasized by size+brightness instead, which costs nothing. */
+.gn.s3 { fill: var(--gold-hi); opacity: 1; cursor: pointer; }
 .gn.L1 { transition-delay: 0ms; } .gn.L2 { transition-delay: 90ms; } .gn.L3 { transition-delay: 180ms; } .gn.L4 { transition-delay: 260ms; }
 .ge.L1 { transition-delay: 0ms; } .ge.L2 { transition-delay: 90ms; } .ge.L3 { transition-delay: 180ms; } .ge.L4 { transition-delay: 260ms; }
 .gn:hover { stroke: var(--text); stroke-width: 1.5; }
-.core-ring { fill: none; stroke: var(--gold-hi); stroke-width: 1.4; opacity: 0.9; animation: gRing 2600ms ease-in-out infinite; transform-origin: center; will-change: transform, opacity; }
+.core-ring { fill: none; stroke: var(--gold-hi); stroke-width: 1.4; opacity: 0.9; transform-origin: center; }
 .core-lbl { font-family: var(--font-mono); font-size: 15px; fill: var(--gold-hi); text-anchor: middle; letter-spacing: 0.04em; }
 .guide-ring { fill: none; stroke: var(--hairline); stroke-width: 0.6; opacity: 0.55; }
 .guide-lbl { font-family: var(--font-mono); font-size: 11px; fill: var(--text-faint); text-anchor: middle; letter-spacing: 0.18em; }
@@ -2557,12 +2559,6 @@ window.GraphEngine = (function () {
     parts.push('<g class="gnodes">' + nParts.join("") + "</g>");
 
     svg.innerHTML = parts.join("");
-    // Force the animated elements onto their own compositing layers AFTER paint.
-    // Static CSS will-change gets de-optimized; applying it here reliably promotes
-    // them so the pulse never triggers a full-SVG repaint (60fps even at 8k nodes).
-    requestAnimationFrame(function () {
-      svg.querySelectorAll(".gn.s3, .core-ring").forEach(function (e) { e.style.willChange = "transform, opacity"; });
-    });
     renderStats();
     wire();
     built = true;
