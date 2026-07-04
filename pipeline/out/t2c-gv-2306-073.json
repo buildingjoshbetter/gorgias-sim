@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change to the homestead exemption under Tax Code \u00a711.13(b) has no relation to Gov't Code \u00a72306.073, which governs internal audit procedures for a state department.",
+ "quote": "Sec. 2306.073. INTERNAL AUDIT. (a) The director, with the approval of the board, shall appoint an internal auditor who reports directly to the board and serves at the pleasure of the board.",
+ "_note": "No conflict; rule_text concerns internal audit governance and is unrelated to homestead exemption amounts."
+}

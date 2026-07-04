@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the statutory exemption amount may require affected agencies to update administrative rules reflecting the new $200,000 threshold, triggering the 30-day notice and publication requirements of this section.",
+ "quote": "A state agency shall give at least 30 days' notice of its intention to adopt a rule before it adopts the rule.",
+ "_note": "Gov't Code \u00a72001.023 governs agency rulemaking notice, not statutory amendments directly. Conflict is indirect: any conforming rule updates would need to comply with these notice procedures."
+}

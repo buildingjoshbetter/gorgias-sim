@@ -1,0 +1,30 @@
+{
+ "cite": "Educ. Code \u00a739.301",
+ "heading": "ADDITIONAL PERFORMANCE INDICATORS: REPORTING",
+ "operative_text": "(a) In addition to the indicators adopted under Section 39.053, the commissioner shall adopt indicators of the quality of learning for the purpose of preparing reports under this chapter. The commissioner biennially shall review the indicators for the consideration of appropriate revisions.\n(b) Performance on the indicators adopted under this section shall be evaluated in the same manner provided for evaluation of the achievement indicators under Section 39.053(c).\n(c) Indicators for reporting purposes must include:\n(1) the percentage of graduating students who meet the course requirements established by State Board of Education rule for:\n(A) the foundation high school program;\n(B) the distinguished level of achievement under the foundation high school program; and\n(C) each endorsement described by Section 28.025(c-1);\n(2) the results of the SAT, ACT, and certified workforce training programs described by Chapter 311, Labor Code;\n(3) for students who have failed to perform satisfactorily, under each performance standard under Section 39.0241, on an assessment instrument required under Section 39.023(a) or (c), the performance of those students on subsequent assessment instruments required under those sections, aggregated by grade level and subject area;\n(4) for each campus, the number of students, disaggregated by major student subpopulations, that take courses under the foundation high school program and take additional courses to earn an endorsement under Section 28.025(c-1), disaggregated by type of endorsement;\n(5) the percentage of students, aggregated by grade level, provided accelerated instruction under Section 28.0211, the results of assessment instruments administered under that section, the subject of the assessment instrument on which each student failed to perform satisfactorily under each performance standard under Section 39.0241, and the performance of those students in the subsequent school year on the assessment instruments required under Section 39.023;\n(6) the percentage of emergent bilingual students exempted from the administration of an assessment instrument under Sections 39.027(a)(1) and (2);\n(7) the percentage of students in a special education program under Subchapter A, Chapter 29, assessed through assessment instruments developed or adopted under Section 39.023(b);\n(8) the percentage of students who satisfy the college readiness measure;\n(9) the measure of progress toward dual language proficiency under Section 39.034(b), for emergent bilingual students, as defined by Section 29.052;\n(10) the percentage of students who are not educationally disadvantaged;\n(11) the percentage of students who enroll and begin instruction at an institution of higher education in the school year following high school graduation; and\n(12) the percentage of students who successfully complete the first year of instruction at an institution of higher education without needing a developmental education course.\n(d) Performance on the indicators described by Section 39.053(c) and Subsections (c)(3), (4), and (9) must be based on longitudinal student data that is disaggregated by the bilingual education or special language program, if any, in which emergent bilingual students, as defined by Section 29.052, are or former emergent bilingual students were enrolled. If a student described by this subsection is not or was not enrolled in specialized language instruction, the number and percentage of those students shall be provided.\n(e) Section 39.055 applies in evaluating indicators described by Subsection (c).",
+ "cross_refs": [
+  "Educ. Code \u00a739.053",
+  "Educ. Code \u00a739.053(c)",
+  "Educ. Code \u00a728.025(c-1)",
+  "Labor Code Ch. 311",
+  "Educ. Code \u00a739.0241",
+  "Educ. Code \u00a739.023(a)",
+  "Educ. Code \u00a739.023(c)",
+  "Educ. Code \u00a739.023",
+  "Educ. Code \u00a728.0211",
+  "Educ. Code \u00a739.027(a)(1)",
+  "Educ. Code \u00a739.027(a)(2)",
+  "Educ. Code Ch. 29, Subch. A",
+  "Educ. Code \u00a739.023(b)",
+  "Educ. Code \u00a739.034(b)",
+  "Educ. Code \u00a729.052",
+  "Educ. Code \u00a739.055"
+ ],
+ "defined_terms": [
+  {
+   "term": "emergent bilingual students",
+   "definition_excerpt": null
+  }
+ ],
+ "_note": "The text references 'emergent bilingual students, as defined by Section 29.052' but does not contain the verbatim definition itself; definition_excerpt is therefore null."
+}

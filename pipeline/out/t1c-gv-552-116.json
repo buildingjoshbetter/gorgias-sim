@@ -1,0 +1,21 @@
+{
+ "cite": "Gov't Code \u00a7552.116",
+ "heading": "EXCEPTION: AUDIT WORKING PAPERS",
+ "operative_text": "(a) An audit working paper of an audit of the state auditor or the auditor of a state agency, an institution of higher education as defined by Section 61.003, Education Code, a county, a municipality, a school district, a hospital district, or a joint board operating under Section 22.074, Transportation Code, including any audit relating to the criminal history background check of a public school employee, is excepted from the requirements of Section 552.021. If information in an audit working paper is also maintained in another record, that other record is not excepted from the requirements of Section 552.021 by this section.",
+ "cross_refs": [
+  "Educ. Code \u00a761.003",
+  "Transp. Code \u00a722.074",
+  "Gov't Code \u00a7552.021"
+ ],
+ "defined_terms": [
+  {
+   "term": "Audit",
+   "definition_excerpt": "means an audit authorized or required by a statute of this state or the United States, the charter or an ordinance of a municipality, an order of the commissioners court of a county, the bylaws adopted by or other action of the governing board of a hospital district, a resolution or other action of a board of trustees of a school district, including an audit by the district relating to the criminal history background check of a public school employee, or a resolution or other action of a joint board described by Subsection (a) and includes an investigation."
+  },
+  {
+   "term": "Audit working paper",
+   "definition_excerpt": "includes all information, documentary or otherwise, prepared or maintained in conducting an audit or preparing an audit report, including:\n(A) intra-agency and interagency communications; and\n(B) drafts of the audit report or portions of those drafts."
+  }
+ ],
+ "_note": null
+}

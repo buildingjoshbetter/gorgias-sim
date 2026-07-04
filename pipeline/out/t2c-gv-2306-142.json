@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change concerns Tax Code \u00a711.13(b) property tax homestead exemptions. Gov't Code \u00a72306.142 governs single-family mortgage revenue bond issuance by the housing department. The two provisions address unrelated subjects with no operative overlap.",
+ "quote": "Sec. 2306.142. AUTHORIZATION OF BONDS. (a) Subject to the requirements of this section, the board shall authorize all bonds issued by the department.",
+ "_note": "No conflict; rule_text addresses mortgage revenue bond authorization, not property tax homestead exemptions."
+}

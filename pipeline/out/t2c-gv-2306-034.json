@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change to Tax Code \u00a711.13(b) homestead exemption amounts has no relation to Gov't Code \u00a72306.034, which governs disqualification of board members and employees based on trade association affiliations.",
+ "quote": "A person may not be a member of the board and may not be a department employee employed in a \"bona fide executive, administrative, or professional capacity,\"",
+ "_note": "No conflict; the rule_text concerns board member disqualification, unrelated to homestead exemption amounts."
+}

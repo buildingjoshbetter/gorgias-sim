@@ -4,3 +4,5 @@
 [driver] batch 2 of t2_crawl.jsonl: 200/200 ok | run_total 399/400 | cumulative=$10.356
 [driver] batch 3 of t2_crawl.jsonl: 199/200 ok | run_total 598/600 | cumulative=$10.766
 [driver] batch 4 of t2_crawl.jsonl: 200/200 ok | run_total 798/800 | cumulative=$11.303
+[driver] batch 5 of t2_crawl.jsonl: 199/200 ok | run_total 997/1000 | cumulative=$12.023
+[driver] batch 6 of t2_crawl.jsonl: 200/200 ok | run_total 1197/1200 | cumulative=$12.571

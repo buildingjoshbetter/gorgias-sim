@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change to Tax Code \u00a711.13(b) residence homestead exemption amount has no relation to Gov't Code \u00a72001.055, which governs interpreter provision for deaf or hearing impaired parties in contested agency cases.",
+ "quote": "In a contested case, a state agency shall provide an interpreter whose qualifications are approved by the Texas Commission for the Deaf and Hard of Hearing to interpret the proceedings for a party or subpoenaed witness who is deaf or hearing impaired.",
+ "_note": "No conflict; rule_text concerns administrative hearing interpreters, unrelated to homestead exemption amounts."
+}

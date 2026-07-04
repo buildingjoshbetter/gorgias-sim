@@ -1,0 +1,20 @@
+{
+ "cite": "Tax Code \u00a7151.154",
+ "heading": "RESALE CERTIFICATE: LIABILITY OF PURCHASER",
+ "operative_text": "(a) If a purchaser who gives a resale certificate makes any use of the taxable item other than retention, demonstration, or display while holding it for sale, lease, or rental in the regular course of business or for transfer as an integral part of a taxable service in the regular course of business, the purchaser shall be liable for payment of the sales tax on the value of the taxable item for any period during which the taxable item is used other than for retention, demonstration, or display.\n(b) The value of an item of tangible personal property is the fair market rental value of the tangible personal property, which is the amount that a purchaser would pay on the open market to rent or lease the tangible personal property for his use. The value of a taxable service is the fair market value of the taxable service, which is the amount that a purchaser would pay on the open market to obtain the service for the use of the purchaser.\n(c) If an item of tangible personal property has no fair market rental value or if a taxable service has no fair market value, the original purchase price shall be the measure of the tax.\n(d) At any time, the person making the divergent use may cease paying tax on the fair market rental value or fair market value and may pay sales tax on the original purchase price without credit for taxes previously paid.\n(e) A purchaser of a taxable item who gives a resale certificate is not liable for the tax imposed by this chapter if he donates the item to an organization exempted under Section 151.309 or 151.310(a)(1) or (2) of this code; except that any use by the purchaser of the taxable item other than retention, demonstration, or display shall be subject to taxes imposed by this section.\n(f) A purchaser who issues a resale certificate for the purchase of a taxable item is liable for payment of the sales tax on the purchase price of the taxable item if the purchaser uses the item as a part of the excludable consideration on the purchase of another taxable item.",
+ "cross_refs": [
+  "Tax Code \u00a7151.309",
+  "Tax Code \u00a7151.310"
+ ],
+ "defined_terms": [
+  {
+   "term": "fair market rental value",
+   "definition_excerpt": "the amount that a purchaser would pay on the open market to rent or lease the tangible personal property for his use"
+  },
+  {
+   "term": "fair market value",
+   "definition_excerpt": "the amount that a purchaser would pay on the open market to obtain the service for the use of the purchaser"
+  }
+ ],
+ "_note": ""
+}

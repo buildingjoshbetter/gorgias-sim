@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change to Tax Code \u00a711.13(b) homestead exemption has no relation to Gov't Code \u00a72259.031, which governs governmental self-insurance funds. No overlap in subject matter.",
+ "quote": "Sec. 2259.031. ESTABLISHMENT OF FUND. (a) A governmental unit may establish a self-insurance fund to protect the governmental unit and its officers, employees, and agents from any insurable risk or hazard.",
+ "_note": "Rule text concerns governmental self-insurance funds; proposed change concerns property tax homestead exemption. No conflict exists."
+}

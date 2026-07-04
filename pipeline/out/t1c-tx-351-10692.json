@@ -1,0 +1,17 @@
+{
+ "cite": "Tax Code \u00a7351.10692",
+ "heading": "ALLOCATION OF REVENUE: CERTAIN MUNICIPALITIES",
+ "operative_text": "Notwithstanding any other provision of this chapter, a municipality to which this section applies may use revenue from the municipal hotel occupancy tax for the promotion and preservation of dark skies through construction and maintenance of infrastructure and the purchase and installation of hardware that reduces light pollution and sky glow.",
+ "cross_refs": [
+  "Tax Code \u00a7351.10692(b)",
+  "Tax Code \u00a7351.10692(c)",
+  "Tax Code \u00a7351.10692(d)"
+ ],
+ "defined_terms": [
+  {
+   "term": "municipality to which this section applies",
+   "definition_excerpt": "a municipality with a population of less than 5,000 located in a county that:\n(1) is adjacent to the county in which the State Capitol is located; and\n(2) has a population of:\n(A) not more than 25,000; or\n(B) at least 200,000 but not more than 300,000."
+  }
+ ],
+ "_note": "Section applies only to small municipalities (<5,000 pop.) in counties adjacent to Travis County meeting specified population thresholds. Spending capped at lesser of dark-skies-attributable hotel revenue (measured over 5 years) or 25% of annual HOT revenue."
+}
