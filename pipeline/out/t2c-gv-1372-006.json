@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Gov't Code \u00a71372.006 governs application and closing fees for private activity bond allocations. It has no relation to Tax Code \u00a711.13(b) residence homestead exemption amounts.",
+ "quote": "Sec. 1372.006. FEES. (a) An application for a reservation under Subchapter B or a carryforward designation under Subchapter C must be accompanied by a nonrefundable fee in the amount of $500",
+ "_note": "No conflict: the rule_text concerns private activity bond fees, unrelated to homestead exemption."
+}

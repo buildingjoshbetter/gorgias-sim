@@ -1,0 +1,21 @@
+{
+ "cite": "Educ. Code \u00a751.803",
+ "heading": "AUTOMATIC ADMISSION: ALL INSTITUTIONS",
+ "operative_text": "Subject to Subsection (a-1), each general academic teaching institution shall admit an applicant for admission to the institution as an undergraduate student if the applicant graduated with a grade point average in the top 10 percent of the student's high school graduating class in one of the two school years preceding the academic year for which the applicant is applying for admission and: (1) the applicant: (A) graduated from a public or private high school in this state accredited by a generally recognized accrediting organization or from a high school operated by the United States Department of Defense; or (B) completed a nontraditional secondary education as defined by Section 51.9241; (2) the applicant: (A) successfully completed: (i) at a public high school, the curriculum requirements established under Section 28.025 for the distinguished level of achievement under the foundation high school program; or (ii) at a high school to which Section 28.025 does not apply, a curriculum that is equivalent in content and rigor to the distinguished level of achievement under the foundation high school program; or (B) achieved a score set by the Texas Higher Education Coordinating Board on a college entrance examination designated by coordinating board rule; and (3) if the applicant graduated from a high school operated by the United States Department of Defense, the applicant is a Texas resident under Section 54.052 or is entitled to pay tuition fees at the rate provided for Texas residents under Section 54.241(d) for the term or semester to which admitted.",
+ "cross_refs": [
+  "Educ. Code \u00a751.9241",
+  "Educ. Code \u00a728.025",
+  "Educ. Code \u00a754.052",
+  "Educ. Code \u00a754.241(d)",
+  "Educ. Code \u00a751.805",
+  "Gov. Code \u00a7615.003",
+  "Educ. Code \u00a751.9241(d)"
+ ],
+ "defined_terms": [
+  {
+   "term": "nontraditional secondary education",
+   "definition_excerpt": "In this subsection, \"nontraditional secondary education\" has the meaning assigned by Section 51.9241."
+  }
+ ],
+ "_note": "Subsection (a-3) and (k) are repealed. Subsection (e) references an expiration provision. Operative text captures the core admission mandate in Subsection (a); remaining subsections (a-1) through (m) contain additional operative provisions too lengthy to include verbatim in the operative_text field."
+}

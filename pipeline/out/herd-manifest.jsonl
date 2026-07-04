@@ -4407,3 +4407,189 @@
 {"id": "t1c-ed-39-053", "task": "T1", "attempt": 1, "cost": 0.01524, "spent": 0.091, "status": "ok", "why": "ok"}
 {"id": "t1c-gv-2306-047", "task": "T1", "attempt": 1, "cost": 0.00312, "spent": 0.094, "status": "ok", "why": "ok"}
 {"id": "t1c-gv-2306-583", "task": "T1", "attempt": 1, "cost": 0.00107, "spent": 0.095, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t1c-gv-2001-093", "task": "T1", "attempt": 1, "cost": 0.00175, "spent": 0.097, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-2306-582", "task": "T1", "attempt": 1, "cost": 0.00088, "spent": 0.097, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t1c-ed-51-803", "task": "T1", "attempt": 1, "cost": 0.0067, "spent": 0.104, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-2306-6707", "task": "T1", "attempt": 1, "cost": 0.0016, "spent": 0.106, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-el-83-052", "task": "T2", "attempt": 1, "cost": 0.00197, "spent": 0.266, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-411-090", "task": "T1", "attempt": 1, "cost": 0.00376, "spent": 0.11, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t1c-el-252-006", "task": "T1", "attempt": 1, "cost": 0.0021, "spent": 0.112, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-403-204", "task": "T1", "attempt": 1, "cost": 0.00109, "spent": 0.113, "status": "ok", "why": "ok"}
+{"id": "t2c-el-274-021", "task": "T2", "attempt": 1, "cost": 0.00498, "spent": 0.271, "status": "ok", "why": "ok"}
+{"id": "t2c-el-84-002", "task": "T2", "attempt": 1, "cost": 0.0023, "spent": 0.002, "status": "ok", "why": "ok"}
+{"id": "t2c-el-84-011", "task": "T2", "attempt": 1, "cost": 0.00275, "spent": 0.005, "status": "ok", "why": "ok"}
+{"id": "t1c-el-279-002", "task": "T1", "attempt": 1, "cost": 0.00319, "spent": 0.116, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-411-0901", "task": "T1", "attempt": 1, "cost": 0.00119, "spent": 0.117, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-el-86-006", "task": "T2", "attempt": 1, "cost": 0.00336, "spent": 0.008, "status": "ok", "why": "ok"}
+{"id": "t2c-el-86-0015", "task": "T2", "attempt": 1, "cost": 0.00134, "spent": 0.01, "status": "ok", "why": "ok"}
+{"id": "t2c-el-86-0052", "task": "T2", "attempt": 1, "cost": 0.00153, "spent": 0.011, "status": "ok", "why": "ok"}
+{"id": "t2c-el-84-003", "task": "T2", "attempt": 1, "cost": 0.00104, "spent": 0.012, "status": "ok", "why": "ok"}
+{"id": "t2c-es-1102-001", "task": "T2", "attempt": 1, "cost": 0.00267, "spent": 0.015, "status": "ok", "why": "ok"}
+{"id": "t2c-el-84-001", "task": "T2", "attempt": 1, "cost": 0.00095, "spent": 0.016, "status": "ok", "why": "ok"}
+{"id": "t1c-ed-38-202", "task": "T1", "attempt": 2, "cost": 0.00605, "spent": 0.123, "status": "ok", "why": "ok"}
+{"id": "t2c-es-309-056", "task": "T2", "attempt": 1, "cost": 0.00239, "spent": 0.018, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-101-0302", "task": "T2", "attempt": 1, "cost": 0.00185, "spent": 0.02, "status": "ok", "why": "ok"}
+{"id": "t2c-el-86-013", "task": "T2", "attempt": 1, "cost": 0.00274, "spent": 0.023, "status": "ok", "why": "ok"}
+{"id": "t2c-el-86-001", "task": "T2", "attempt": 1, "cost": 0.00206, "spent": 0.025, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-153-371", "task": "T2", "attempt": 1, "cost": 0.00143, "spent": 0.026, "status": "ok", "why": "ok"}
+{"id": "t2c-es-1102-003", "task": "T2", "attempt": 1, "cost": 0.00136, "spent": 0.028, "status": "ok", "why": "ok"}
+{"id": "t2c-el-86-003", "task": "T2", "attempt": 1, "cost": 0.00163, "spent": 0.029, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-2306-6706", "task": "T1", "attempt": 1, "cost": 0.0048, "spent": 0.128, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-2306-803", "task": "T1", "attempt": 1, "cost": 0.00613, "spent": 0.134, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-2-013", "task": "T2", "attempt": 1, "cost": 0.00146, "spent": 0.031, "status": "ok", "why": "ok"}
+{"id": "t2c-es-309-051", "task": "T2", "attempt": 1, "cost": 0.00191, "spent": 0.033, "status": "ok", "why": "ok"}
+{"id": "t1c-ed-26-0025", "task": "T1", "attempt": 2, "cost": 0.00113, "spent": 0.135, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fa-155-207", "task": "T2", "attempt": 1, "cost": 0.0015, "spent": 0.034, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-261-406", "task": "T2", "attempt": 1, "cost": 0.00176, "spent": 0.036, "status": "ok", "why": "ok"}
+{"id": "t1c-ed-38-207", "task": "T1", "attempt": 2, "cost": 0.00166, "spent": 0.137, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t1c-gv-2001-146", "task": "T1", "attempt": 1, "cost": 0.00486, "spent": 0.142, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-2-014", "task": "T2", "attempt": 1, "cost": 0.00208, "spent": 0.038, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-261-307", "task": "T2", "attempt": 1, "cost": 0.00304, "spent": 0.041, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-2-009", "task": "T2", "attempt": 1, "cost": 0.0022, "spent": 0.043, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-411-12505", "task": "T1", "attempt": 1, "cost": 0.00238, "spent": 0.144, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fa-261-201", "task": "T2", "attempt": 1, "cost": 0.00156, "spent": 0.045, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-107-031", "task": "T2", "attempt": 1, "cost": 0.00166, "spent": 0.047, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-101-003", "task": "T2", "attempt": 1, "cost": 0.00119, "spent": 0.048, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-551-022", "task": "T1", "attempt": 1, "cost": 0.00113, "spent": 0.145, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-261-101", "task": "T2", "attempt": 1, "cost": 0.00281, "spent": 0.051, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-411-1296", "task": "T1", "attempt": 1, "cost": 0.00347, "spent": 0.149, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-107-023", "task": "T2", "attempt": 1, "cost": 0.0012, "spent": 0.052, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-262-101", "task": "T2", "attempt": 1, "cost": 0.00135, "spent": 0.053, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-261-111", "task": "T2", "attempt": 1, "cost": 0.00194, "spent": 0.055, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-262-007", "task": "T2", "attempt": 1, "cost": 0.00116, "spent": 0.056, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-264-402", "task": "T2", "attempt": 1, "cost": 0.00132, "spent": 0.058, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-551-045", "task": "T1", "attempt": 1, "cost": 0.00374, "spent": 0.152, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-264-0111", "task": "T2", "attempt": 1, "cost": 0.00153, "spent": 0.059, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-263-0025", "task": "T2", "attempt": 1, "cost": 0.00082, "spent": 0.06, "status": "ok", "why": "ok"}
+{"id": "t1c-ed-38-154", "task": "T1", "attempt": 2, "cost": 0.00145, "spent": 0.154, "status": "ok", "why": "ok"}
+{"id": "t1c-el-253-033", "task": "T1", "attempt": 2, "cost": 0.00213, "spent": 0.156, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-264-902", "task": "T2", "attempt": 1, "cost": 0.00169, "spent": 0.062, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-264-403", "task": "T2", "attempt": 1, "cost": 0.00081, "spent": 0.062, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-264-406", "task": "T2", "attempt": 1, "cost": 0.00217, "spent": 0.065, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-508-113", "task": "T1", "attempt": 1, "cost": 0.00165, "spent": 0.158, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fa-231-007", "task": "T2", "attempt": 1, "cost": 0.00364, "spent": 0.068, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-552-155", "task": "T1", "attempt": 1, "cost": 0.00109, "spent": 0.159, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fa-262-201", "task": "T2", "attempt": 1, "cost": 0.00573, "spent": 0.074, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-151-001", "task": "T2", "attempt": 1, "cost": 0.0017, "spent": 0.076, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-51-03", "task": "T2", "attempt": 1, "cost": 0.00295, "spent": 0.079, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-51-0414", "task": "T2", "attempt": 1, "cost": 0.00154, "spent": 0.08, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-411-0972", "task": "T1", "attempt": 1, "cost": 0.00848, "spent": 0.167, "status": "ok", "why": "ok"}
+{"id": "t1c-ed-37-0811", "task": "T1", "attempt": 1, "cost": 0.00606, "spent": 0.173, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-51-126", "task": "T2", "attempt": 1, "cost": 0.0013, "spent": 0.081, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-52-015", "task": "T2", "attempt": 1, "cost": 0.00109, "spent": 0.083, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-51-125", "task": "T2", "attempt": 1, "cost": 0.00186, "spent": 0.084, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-264-409", "task": "T2", "attempt": 1, "cost": 0.00115, "spent": 0.086, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-51-08", "task": "T2", "attempt": 1, "cost": 0.00121, "spent": 0.087, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-52-01", "task": "T2", "attempt": 1, "cost": 0.00148, "spent": 0.088, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-102-008", "task": "T1", "attempt": 1, "cost": 0.00138, "spent": 0.175, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-262-102", "task": "T2", "attempt": 1, "cost": 0.00288, "spent": 0.091, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-2001-145", "task": "T1", "attempt": 2, "cost": 0.0007, "spent": 0.175, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-53-02", "task": "T2", "attempt": 1, "cost": 0.00311, "spent": 0.094, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-51-11", "task": "T2", "attempt": 1, "cost": 0.00162, "spent": 0.096, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-551-054", "task": "T1", "attempt": 1, "cost": 0.0013, "spent": 0.177, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fa-53-03", "task": "T2", "attempt": 1, "cost": 0.00312, "spent": 0.099, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-51-031", "task": "T2", "attempt": 1, "cost": 0.00138, "spent": 0.1, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-52-041", "task": "T2", "attempt": 1, "cost": 0.00146, "spent": 0.102, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-111-040", "task": "T1", "attempt": 1, "cost": 0.0015, "spent": 0.178, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fa-264-121", "task": "T2", "attempt": 1, "cost": 0.00524, "spent": 0.107, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-53-045", "task": "T2", "attempt": 1, "cost": 0.00189, "spent": 0.109, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-51-09", "task": "T2", "attempt": 1, "cost": 0.00133, "spent": 0.11, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-2001-091", "task": "T1", "attempt": 1, "cost": 0.00454, "spent": 0.183, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-54-031", "task": "T2", "attempt": 1, "cost": 0.00139, "spent": 0.112, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-54-04", "task": "T2", "attempt": 1, "cost": 0.00711, "spent": 0.119, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-54-04013", "task": "T2", "attempt": 1, "cost": 0.00166, "spent": 0.12, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-54-03", "task": "T2", "attempt": 1, "cost": 0.00314, "spent": 0.124, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-54-051", "task": "T2", "attempt": 1, "cost": 0.00277, "spent": 0.126, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-65-003", "task": "T2", "attempt": 1, "cost": 0.00145, "spent": 0.128, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-54-041", "task": "T2", "attempt": 1, "cost": 0.00286, "spent": 0.131, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-51-04", "task": "T2", "attempt": 1, "cost": 0.00291, "spent": 0.134, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-58-0051", "task": "T2", "attempt": 1, "cost": 0.0026, "spent": 0.136, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-271-0461", "task": "T1", "attempt": 1, "cost": 0.00127, "spent": 0.184, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-58-101", "task": "T2", "attempt": 1, "cost": 0.001, "spent": 0.137, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-54-10", "task": "T2", "attempt": 1, "cost": 0.0009, "spent": 0.138, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-53-01", "task": "T2", "attempt": 1, "cost": 0.00267, "spent": 0.141, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-261-001", "task": "T2", "attempt": 1, "cost": 0.00524, "spent": 0.146, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-65-103", "task": "T2", "attempt": 1, "cost": 0.00182, "spent": 0.148, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-65-104", "task": "T2", "attempt": 1, "cost": 0.00102, "spent": 0.149, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-306-032", "task": "T1", "attempt": 1, "cost": 0.00252, "spent": 0.187, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fa-71-0021", "task": "T2", "attempt": 1, "cost": 0.0019, "spent": 0.151, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-281-047", "task": "T1", "attempt": 1, "cost": 0.00249, "spent": 0.189, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-118-0131", "task": "T1", "attempt": 1, "cost": 0.00414, "spent": 0.193, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-52-04", "task": "T2", "attempt": 1, "cost": 0.00209, "spent": 0.153, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-65-054", "task": "T2", "attempt": 1, "cost": 0.00145, "spent": 0.154, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-71-005", "task": "T2", "attempt": 1, "cost": 0.00078, "spent": 0.155, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-152-004", "task": "T2", "attempt": 1, "cost": 0.00209, "spent": 0.157, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-264-4031", "task": "T2", "attempt": 1, "cost": 0.00277, "spent": 0.16, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-152-101", "task": "T2", "attempt": 1, "cost": 0.00198, "spent": 0.162, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-351-144", "task": "T1", "attempt": 1, "cost": 0.00337, "spent": 0.197, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fa-71-003", "task": "T2", "attempt": 1, "cost": 0.00224, "spent": 0.164, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-152-106", "task": "T2", "attempt": 1, "cost": 0.00149, "spent": 0.166, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-111-0675", "task": "T1", "attempt": 1, "cost": 0.00368, "spent": 0.2, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-201-103", "task": "T2", "attempt": 1, "cost": 0.00154, "spent": 0.167, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-201-002", "task": "T2", "attempt": 1, "cost": 0.00542, "spent": 0.173, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-31-002", "task": "T2", "attempt": 1, "cost": 0.00705, "spent": 0.18, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-2306-583", "task": "T1", "attempt": 2, "cost": 0.00182, "spent": 0.202, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-334-008", "task": "T1", "attempt": 1, "cost": 0.00486, "spent": 0.207, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fa-54-05", "task": "T2", "attempt": 1, "cost": 0.00325, "spent": 0.183, "status": "ok", "why": "ok"}
+{"id": "t1c-ed-44-032", "task": "T1", "attempt": 1, "cost": 0.00736, "spent": 0.214, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-2306-67071", "task": "T1", "attempt": 1, "cost": 0.00914, "spent": 0.223, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-302-002", "task": "T2", "attempt": 1, "cost": 0.00109, "spent": 0.184, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-201-101", "task": "T2", "attempt": 1, "cost": 0.00099, "spent": 0.185, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-351-054", "task": "T2", "attempt": 1, "cost": 0.00193, "spent": 0.187, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-363-055", "task": "T1", "attempt": 1, "cost": 0.00259, "spent": 0.226, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fi-31-006", "task": "T2", "attempt": 1, "cost": 0.00207, "spent": 0.189, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-351-0021", "task": "T2", "attempt": 1, "cost": 0.00171, "spent": 0.191, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1204-001", "task": "T2", "attempt": 1, "cost": 0.0012, "spent": 0.192, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1201-002", "task": "T2", "attempt": 1, "cost": 0.00098, "spent": 0.193, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-54-0405", "task": "T2", "attempt": 1, "cost": 0.00256, "spent": 0.195, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-363-2515", "task": "T1", "attempt": 1, "cost": 0.00214, "spent": 0.228, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-351-051", "task": "T2", "attempt": 1, "cost": 0.00117, "spent": 0.197, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1372-006", "task": "T2", "attempt": 1, "cost": 0.00237, "spent": 0.199, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-2306-6707", "task": "T1", "attempt": 2, "cost": 0.00145, "spent": 0.23, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t1c-gv-411-090", "task": "T1", "attempt": 2, "cost": 0.00324, "spent": 0.233, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t1c-gv-2306-582", "task": "T1", "attempt": 2, "cost": 0.00092, "spent": 0.234, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fa-54-01", "task": "T2", "attempt": 1, "cost": 0.00425, "spent": 0.203, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1204-007", "task": "T2", "attempt": 1, "cost": 0.00085, "spent": 0.204, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1204-006", "task": "T2", "attempt": 1, "cost": 0.0024, "spent": 0.206, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1251-052", "task": "T2", "attempt": 1, "cost": 0.00149, "spent": 0.208, "status": "ok", "why": "ok"}
+{"id": "t1c-tx-101-005", "task": "T1", "attempt": 1, "cost": 0.00088, "spent": 0.235, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-fi-59-008", "task": "T2", "attempt": 1, "cost": 0.00211, "spent": 0.21, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-397-006", "task": "T1", "attempt": 1, "cost": 0.00324, "spent": 0.238, "status": "ok", "why": "ok"}
+{"id": "t2c-fa-71-006", "task": "T2", "attempt": 1, "cost": 0.00166, "spent": 0.212, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1372-023", "task": "T2", "attempt": 1, "cost": 0.00221, "spent": 0.214, "status": "ok", "why": "ok"}
+{"id": "t1c-tx-111-0023", "task": "T1", "attempt": 1, "cost": 0.00116, "spent": 0.239, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1372-0321", "task": "T2", "attempt": 1, "cost": 0.00273, "spent": 0.217, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1372-0231", "task": "T2", "attempt": 1, "cost": 0.00266, "spent": 0.219, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-2256-009", "task": "T1", "attempt": 1, "cost": 0.00728, "spent": 0.246, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1372-039", "task": "T2", "attempt": 1, "cost": 0.00133, "spent": 0.221, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1372-022", "task": "T2", "attempt": 1, "cost": 0.00157, "spent": 0.222, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-351-003", "task": "T2", "attempt": 1, "cost": 0.00288, "spent": 0.225, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1371-001", "task": "T2", "attempt": 1, "cost": 0.0044, "spent": 0.229, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-411-0901", "task": "T1", "attempt": 2, "cost": 0.00146, "spent": 0.248, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-397-005", "task": "T1", "attempt": 1, "cost": 0.00353, "spent": 0.251, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1431-017", "task": "T2", "attempt": 1, "cost": 0.00125, "spent": 0.231, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1477-303", "task": "T2", "attempt": 1, "cost": 0.00121, "spent": 0.232, "status": "ok", "why": "ok"}
+{"id": "t2c-fi-201-102", "task": "T2", "attempt": 1, "cost": 0.00088, "spent": 0.233, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1372-042", "task": "T2", "attempt": 1, "cost": 0.00352, "spent": 0.236, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1477-302", "task": "T2", "attempt": 1, "cost": 0.00174, "spent": 0.238, "status": "ok", "why": "ok"}
+{"id": "t1c-tx-111-053", "task": "T1", "attempt": 1, "cost": 0.00137, "spent": 0.253, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-gv-1202-001", "task": "T2", "attempt": 1, "cost": 0.00195, "spent": 0.24, "status": "ok", "why": "ok"}
+{"id": "t1c-tx-111-0091", "task": "T1", "attempt": 1, "cost": 0.00479, "spent": 0.257, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-gv-2001-002", "task": "T2", "attempt": 1, "cost": 0.00143, "spent": 0.241, "status": "ok", "why": "ok"}
+{"id": "t1c-tx-111-013", "task": "T1", "attempt": 1, "cost": 0.00104, "spent": 0.259, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-2001-0045", "task": "T2", "attempt": 1, "cost": 0.00248, "spent": 0.244, "status": "invalid", "why": "quote not verbatim"}
+{"id": "t2c-gv-2001-007", "task": "T2", "attempt": 1, "cost": 0.00175, "spent": 0.246, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-2001-001", "task": "T2", "attempt": 1, "cost": 0.0013, "spent": 0.247, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-2001-003", "task": "T2", "attempt": 1, "cost": 0.00236, "spent": 0.249, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1372-026", "task": "T2", "attempt": 1, "cost": 0.00289, "spent": 0.253, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-2001-004", "task": "T2", "attempt": 1, "cost": 0.00297, "spent": 0.256, "status": "ok", "why": "ok"}
+{"id": "t1c-lg-107-002", "task": "T1", "attempt": 1, "cost": 0.01535, "spent": 0.274, "status": "ok", "why": "ok"}
+{"id": "t1c-tx-111-054", "task": "T1", "attempt": 1, "cost": 0.00166, "spent": 0.276, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-1504-002", "task": "T2", "attempt": 1, "cost": 0.00167, "spent": 0.258, "status": "ok", "why": "ok"}
+{"id": "t1c-gv-411-12505", "task": "T1", "attempt": 2, "cost": 0.0021, "spent": 0.278, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-2001-0225", "task": "T2", "attempt": 1, "cost": 0.00284, "spent": 0.26, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-2001-0221", "task": "T2", "attempt": 1, "cost": 0.00202, "spent": 0.262, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-2001-025", "task": "T2", "attempt": 1, "cost": 0.00106, "spent": 0.264, "status": "ok", "why": "ok"}
+{"id": "t1c-ed-26-0025", "task": "T1", "attempt": 3, "cost": 0.00098, "spent": 0.279, "status": "invalid", "why": "operative_text not verbatim"}
+{"id": "t2c-gv-2001-028", "task": "T2", "attempt": 1, "cost": 0.00141, "spent": 0.265, "status": "ok", "why": "ok"}
+{"id": "t2c-gv-2001-024", "task": "T2", "attempt": 1, "cost": 0.00377, "spent": 0.269, "status": "ok", "why": "ok"}

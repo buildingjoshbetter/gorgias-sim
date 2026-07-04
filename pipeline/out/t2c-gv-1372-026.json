@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Gov't Code \u00a71372.026 governs the state ceiling allocation for qualified mortgage bonds issued by housing finance corporations based on population. It does not reference or depend on the Tax Code \u00a711.13(b) homestead exemption amount.",
+ "quote": "Sec. 1372.026. LIMITATION ON AMOUNT OF STATE CEILING AVAILABLE TO HOUSING FINANCE CORPORATIONS.",
+ "_note": "No textual or operational linkage between the homestead exemption amount in Tax Code \u00a711.13(b) and the population-based bond ceiling formulas in Gov't Code \u00a71372.026."
+}

@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gorgias · How it works</title>
+<meta name="description" content="A flight simulator for lawmaking — how Gorgias sees a bill break before the vote.">
+<link rel="icon" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@800;900&family=Inter:wght@300;400&family=JetBrains+Mono:wght@300;400;500;700&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Departure Mono';src:url('/assets/fonts/DepartureMono-Regular.woff2') format('woff2');font-weight:400;font-display:swap;}
+
+:root{
+  --bg:#0a0a0a; --bg2:#0d0d0d; --panel:#111; --line:rgba(255,255,255,.08);
+  --gold:#ffc861; --gold2:#ffd684; --gold3:#ffe9b8; --goldDeep:#9a7a1c;
+  --ink:#fff; --dim:rgba(255,255,255,.46); --faint:rgba(255,255,255,.28);
+  --mono:'Departure Mono','JetBrains Mono',monospace;
+  --ease:cubic-bezier(.7,0,.15,1);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%;overflow:hidden;background:var(--bg);color:var(--ink);}
+body{font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;font-weight:300;}
+
+/* grain + vignette */
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:60;
+  background:radial-gradient(130% 100% at 50% 40%,transparent 55%,rgba(0,0,0,.55) 100%);}
+.grain{position:fixed;inset:-50%;z-index:1;pointer-events:none;opacity:.035;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");}
+
+/* deck shell */
+#deck{position:fixed;inset:0;}
+.slide{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;
+  padding:clamp(28px,7vw,120px);opacity:0;visibility:hidden;
+  transform:translateY(14px) scale(.994);
+  transition:opacity .62s var(--ease),transform .62s var(--ease),visibility 0s linear .62s;
+  z-index:2;}
+.slide.active{opacity:1;visibility:visible;transform:none;transition:opacity .62s var(--ease),transform .62s var(--ease),visibility 0s;z-index:3;}
+.slide.past{transform:translateY(-14px) scale(.994);}
+
+/* staggered reveal of content when active */
+.rise{opacity:0;transform:translateY(20px);transition:opacity .7s var(--ease),transform .7s var(--ease);}
+.slide.active .rise{opacity:1;transform:none;}
+.slide.active .rise{transition-delay:var(--d,0s);}
+
+.wrap{position:relative;z-index:4;max-width:1180px;width:100%;margin:0 auto;}
+
+.kicker{font-family:var(--mono);font-size:clamp(9px,1.05vw,11px);letter-spacing:.28em;
+  text-transform:uppercase;color:var(--gold);margin-bottom:clamp(18px,3.4vh,40px);
+  display:flex;align-items:center;gap:12px;}
+.kicker .bar{width:34px;height:1px;background:var(--gold);opacity:.7;}
+
+h1.big{font-family:'Archivo',sans-serif;font-weight:900;line-height:.96;letter-spacing:-.02em;
+  font-size:clamp(38px,7.6vw,116px);text-transform:none;}
+h2.head{font-family:'Archivo',sans-serif;font-weight:900;line-height:1.0;letter-spacing:-.015em;
+  font-size:clamp(32px,5.8vw,84px);}
+.dim{color:var(--faint);}
+.gold{color:var(--gold);}
+.serif{font-family:'Newsreader',serif;font-weight:300;}
+
+.sub{font-family:'Newsreader',serif;font-weight:300;color:var(--dim);
+  font-size:clamp(16px,1.9vw,26px);line-height:1.5;max-width:44ch;margin-top:clamp(18px,3vh,34px);}
+.sub b{color:var(--gold3);font-weight:400;}
+
+.mono-note{font-family:var(--mono);font-size:clamp(9px,1vw,11px);letter-spacing:.2em;
+  text-transform:uppercase;color:var(--faint);margin-top:clamp(16px,2.6vh,28px);}
+
+/* ---- chrome: progress, counter, dots, arrows, hint ---- */
+.topbar{position:fixed;top:0;left:0;right:0;height:2px;z-index:50;background:rgba(255,255,255,.06);}
+.topbar .fill{height:100%;background:linear-gradient(90deg,var(--goldDeep),var(--gold));width:0;
+  transition:width .6s var(--ease);box-shadow:0 0 12px rgba(255,200,97,.5);}
+.brandmark{position:fixed;top:clamp(20px,3.2vh,34px);left:clamp(28px,5vw,64px);z-index:50;
+  font-family:'Archivo',sans-serif;font-weight:900;font-size:15px;letter-spacing:.02em;
+  color:var(--ink);text-decoration:none;}
+.brandmark::after{content:"";display:block;height:2px;width:0;background:var(--gold);transition:width .4s var(--ease);}
+.brandmark:hover::after{width:100%;}
+.counter{position:fixed;top:clamp(20px,3.2vh,34px);right:clamp(28px,5vw,64px);z-index:50;
+  font-family:var(--mono);font-size:11px;letter-spacing:.2em;color:var(--faint);}
+.counter b{color:var(--gold);font-weight:400;}
+
+.dots{position:fixed;bottom:clamp(22px,3.4vh,38px);left:50%;transform:translateX(-50%);
+  z-index:50;display:flex;gap:11px;}
+.dot{width:8px;height:8px;border:1px solid rgba(255,255,255,.32);background:transparent;
+  cursor:pointer;padding:0;transition:all .3s var(--ease);}
+.dot.on{background:var(--gold);border-color:var(--gold);box-shadow:0 0 10px rgba(255,200,97,.6);}
+.dot:hover{border-color:var(--gold);}
+
+.arrow{position:fixed;bottom:clamp(20px,3.2vh,36px);z-index:50;width:44px;height:44px;
+  display:flex;align-items:center;justify-content:center;cursor:pointer;
+  border:1px solid var(--line);background:rgba(255,255,255,.02);color:var(--dim);
+  transition:all .3s var(--ease);user-select:none;}
+.arrow:hover{color:var(--gold);border-color:var(--gold);}
+.arrow.prev{right:calc(clamp(28px,5vw,64px) + 52px);}
+.arrow.next{right:clamp(28px,5vw,64px);}
+.arrow svg{width:16px;height:16px;}
+.arrow.hide{opacity:.25;pointer-events:none;}
+
+.hint{position:fixed;bottom:clamp(22px,3.4vh,38px);left:clamp(28px,5vw,64px);z-index:50;
+  font-family:var(--mono);font-size:10px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);
+  display:flex;align-items:center;gap:10px;transition:opacity .5s;}
+.key{border:1px solid var(--line);padding:2px 7px;color:var(--dim);}
+
+/* ---- graphics layers ---- */
+.gfx{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden;}
+.gfx svg{width:100%;height:100%;display:block;}
+
+/* morphing gold blobs */
+.blob{position:absolute;border-radius:42% 58% 63% 37% / 41% 44% 56% 59%;
+  filter:blur(46px);opacity:.5;mix-blend-mode:screen;
+  background:radial-gradient(circle at 34% 32%,rgba(255,200,97,.9),rgba(255,200,97,0) 70%);
+  animation:morph 14s var(--ease) infinite alternate;}
+@keyframes morph{
+  0%{border-radius:42% 58% 63% 37% / 41% 44% 56% 59%;transform:translate(0,0) rotate(0deg) scale(1);}
+  50%{border-radius:64% 36% 33% 67% / 61% 57% 43% 39%;transform:translate(4%,-3%) rotate(24deg) scale(1.12);}
+  100%{border-radius:37% 63% 51% 49% / 55% 39% 61% 45%;transform:translate(-3%,4%) rotate(-14deg) scale(.94);}
+}
+
+/* constellation canvas-free svg */
+.stars line{stroke:var(--gold);stroke-width:.6;}
+.stars circle{fill:var(--gold);}
+
+/* cascade */
+.cascade .edge{stroke:var(--gold);stroke-width:1;fill:none;opacity:.34;
+  stroke-dasharray:var(--len);stroke-dashoffset:var(--len);}
+.slide.active .cascade .edge{animation:draw 1.1s var(--ease) forwards;animation-delay:var(--ed,.3s);}
+@keyframes draw{to{stroke-dashoffset:0;}}
+.cascade .lyr-node{fill:var(--bg);stroke:var(--gold);stroke-width:1.4;opacity:0;transform-box:fill-box;transform-origin:center;}
+.slide.active .cascade .lyr-node{animation:pop .5s var(--ease) forwards;animation-delay:var(--nd,.5s);}
+@keyframes pop{0%{opacity:0;transform:scale(.4);}60%{opacity:1;transform:scale(1.18);}100%{opacity:1;transform:scale(1);}}
+.cascade .lyr-hot{fill:var(--gold);}
+.cascade .lyr-lbl{font-family:var(--mono);font-size:12px;letter-spacing:.16em;fill:var(--faint);text-transform:uppercase;}
+.cascade .lyr-cnt{font-family:'Archivo',sans-serif;font-weight:900;font-size:20px;fill:var(--gold);}
+
+/* number morph (scenario) */
+.numrow{display:flex;align-items:baseline;gap:clamp(14px,3vw,42px);flex-wrap:wrap;}
+.num{font-family:'Archivo',sans-serif;font-weight:900;letter-spacing:-.02em;line-height:.9;
+  font-size:clamp(46px,10vw,150px);}
+.num.from{color:var(--faint);position:relative;}
+.num.from::after{content:"";position:absolute;left:-4%;right:-4%;top:52%;height:5px;background:var(--gold);
+  transform:scaleX(0);transform-origin:left;transition:transform .8s var(--ease) .5s;}
+.slide.active .num.from::after{transform:scaleX(1);}
+.num.to{color:var(--gold);text-shadow:0 0 46px rgba(255,200,97,.35);}
+.morpharrow{color:var(--gold);font-family:'Archivo',sans-serif;font-weight:900;font-size:clamp(30px,6vw,80px);opacity:.8;}
+
+/* stat grid (grounded) */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);
+  border:1px solid var(--line);margin-top:clamp(22px,4vh,46px);}
+.stat{background:var(--bg);padding:clamp(18px,3vw,34px);}
+.stat .n{font-family:'Archivo',sans-serif;font-weight:900;font-size:clamp(30px,4.6vw,60px);color:var(--gold);line-height:1;letter-spacing:-.02em;}
+.stat .l{font-family:var(--mono);font-size:clamp(8.5px,.95vw,10.5px);letter-spacing:.16em;text-transform:uppercase;color:var(--faint);margin-top:12px;}
+@media(max-width:720px){.stats{grid-template-columns:repeat(2,1fr);}}
+
+/* finding — blocking node */
+.finding-gfx{position:absolute;right:clamp(28px,6vw,120px);top:50%;transform:translateY(-50%);z-index:1;
+  width:min(38vw,420px);aspect-ratio:1;pointer-events:none;}
+.sevwrap{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;}
+.sevring{position:absolute;border:1px solid var(--gold);border-radius:50%;opacity:.5;
+  animation:sonar 3.4s ease-out infinite;}
+@keyframes sonar{0%{transform:scale(.35);opacity:.7;}100%{transform:scale(1.35);opacity:0;}}
+.sevcore{width:34%;height:34%;background:radial-gradient(circle at 40% 35%,var(--gold2),var(--goldDeep));
+  border-radius:50%;box-shadow:0 0 60px rgba(255,200,97,.5);display:flex;align-items:center;justify-content:center;
+  font-family:'Archivo',sans-serif;font-weight:900;color:#1a1204;font-size:clamp(22px,3vw,40px);}
+.sevtag{position:absolute;bottom:8%;left:50%;transform:translateX(-50%);font-family:var(--mono);
+  font-size:11px;letter-spacing:.24em;color:var(--gold);text-transform:uppercase;white-space:nowrap;}
+
+/* close cta */
+.cta{display:inline-flex;align-items:center;gap:12px;margin-top:clamp(26px,4.5vh,48px);
+  font-family:var(--mono);font-size:13px;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--bg);background:var(--gold);padding:16px 26px;text-decoration:none;
+  transition:all .3s var(--ease);border:1px solid var(--gold);}
+.cta:hover{background:var(--gold2);box-shadow:0 0 40px rgba(255,200,97,.4);transform:translateY(-2px);}
+.cta.ghost{background:transparent;color:var(--gold);}
+.cta.ghost:hover{background:rgba(255,200,97,.08);box-shadow:none;transform:none;}
+.cta-row{display:flex;gap:16px;flex-wrap:wrap;align-items:center;}
+
+.romans{display:flex;gap:0;margin-top:clamp(22px,4vh,44px);border-top:1px solid var(--line);}
+.roman{flex:1;padding:clamp(16px,2.4vw,26px) clamp(14px,2vw,26px) 0;border-right:1px solid var(--line);}
+.roman:last-child{border-right:0;}
+.roman .rn{font-family:'Archivo',sans-serif;font-weight:900;font-size:clamp(14px,1.5vw,19px);color:var(--gold);}
+.roman .rd{font-family:'Newsreader',serif;font-size:clamp(13px,1.35vw,17px);color:var(--dim);margin-top:8px;line-height:1.4;}
+@media(max-width:720px){.romans{flex-direction:column;}.roman{border-right:0;border-bottom:1px solid var(--line);padding-bottom:16px;}}
+
+@media (prefers-reduced-motion: reduce){
+  .slide,.rise{transition:opacity .2s;}
+  .blob,.sevring{animation:none;}
+  .cascade .edge{stroke-dashoffset:0;animation:none;}
+  .cascade .lyr-node{opacity:1;animation:none;}
+}
+</style>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="topbar" aria-hidden="true"><div class="fill" id="progress"></div></div>
+<a class="brandmark" href="/">GORGIAS</a>
+<div class="counter"><b id="cur">01</b> / <span id="tot">07</span></div>
+
+<div id="deck">
+
+  <!-- 01 · COVER -->
+  <section class="slide" data-i="0">
+    <div class="gfx" aria-hidden="true">
+      <div class="blob" style="width:52vw;height:52vw;left:44%;top:8%"></div>
+      <div class="blob" style="width:34vw;height:34vw;left:8%;top:44%;animation-delay:-6s;opacity:.32"></div>
+      <svg class="stars" id="stars-cover" viewBox="0 0 1000 620" preserveAspectRatio="xMidYMid slice"></svg>
+    </div>
+    <div class="wrap">
+      <div class="kicker rise"><span class="bar"></span>A flight simulator for lawmaking</div>
+      <h1 class="big rise" style="--d:.08s">See it <span class="gold">break</span><br>before the vote.</h1>
+      <p class="sub rise" style="--d:.18s">Gorgias takes one proposed law and shows every statute it touches,
+      every conflict it creates, and every dollar it moves — grounded in the primary source, before a single vote is cast.</p>
+      <div class="mono-note rise" style="--d:.28s">Press <span style="color:var(--gold)">→</span> to begin</div>
+    </div>
+  </section>
+
+  <!-- 02 · THE PROBLEM -->
+  <section class="slide" data-i="1">
+    <div class="gfx" aria-hidden="true">
+      <svg viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice">
+        <g id="fork-lines"></g>
+      </svg>
+    </div>
+    <div class="wrap">
+      <div class="kicker rise"><span class="bar"></span>// 01 — The gap</div>
+      <h2 class="head rise" style="--d:.08s">Everyone models elections.<br><span class="dim">Nobody models the bill.</span></h2>
+      <p class="sub rise" style="--d:.18s">A legislator can poll a district to the decimal. But no tool shows the
+      <b>second-order consequences</b> of a law before it is written — the statutes it breaks, the seniors it over-taxes,
+      the half-billion it costs. One line in becomes hundreds of nodes waking up.</p>
+    </div>
+  </section>
+
+  <!-- 03 · THE SCENARIO -->
+  <section class="slide" data-i="2">
+    <div class="gfx" aria-hidden="true">
+      <div class="blob" style="width:40vw;height:40vw;right:2%;top:22%;opacity:.28"></div>
+    </div>
+    <div class="wrap">
+      <div class="kicker rise"><span class="bar"></span>// 02 — One change</div>
+      <div class="numrow rise" style="--d:.06s">
+        <div class="num from" id="num-from">$140,000</div>
+        <div class="morpharrow">&rarr;</div>
+        <div class="num to" id="num-to">$140,000</div>
+      </div>
+      <p class="sub rise" style="--d:.2s">Raise the Texas residence homestead exemption for school-district taxation.
+      The <b>$140,000</b> floor is what the code and constitution read today. The jump to <b>$200,000</b> is the
+      counterfactual Gorgias runs.</p>
+      <div class="mono-note rise" style="--d:.3s">Texas Tax Code §11.13(b) · Const. art. VIII §1-b(c)</div>
+    </div>
+  </section>
+
+  <!-- 04 · THE CASCADE -->
+  <section class="slide" data-i="3">
+    <div class="wrap">
+      <div class="kicker rise"><span class="bar"></span>// 03 — The cascade</div>
+      <h2 class="head rise" style="--d:.06s">One change. <span class="gold">Six layers.</span></h2>
+      <div class="gfx rise" style="--d:.14s;position:relative;height:clamp(240px,42vh,440px);margin-top:24px;">
+        <svg class="cascade" id="cascade" viewBox="0 0 1160 460" preserveAspectRatio="xMidYMid meet" style="overflow:visible"></svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 · THE FINDING -->
+  <section class="slide" data-i="4">
+    <div class="finding-gfx" aria-hidden="true">
+      <div class="sevwrap">
+        <div class="sevring" style="width:100%;height:100%"></div>
+        <div class="sevring" style="width:100%;height:100%;animation-delay:1.1s"></div>
+        <div class="sevring" style="width:100%;height:100%;animation-delay:2.2s"></div>
+        <div class="sevcore">!</div>
+        <div class="sevtag">SEV 3 · BLOCKING</div>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="kicker rise"><span class="bar"></span>// 04 — The headline</div>
+      <h2 class="head rise" style="--d:.08s;max-width:15ch">The statute<br>can't do this <span class="gold">alone.</span></h2>
+      <p class="sub rise" style="--d:.2s">$200,000 exceeds the $140,000 amount written into the Texas Constitution.
+      So the finding isn't a budget number — it's that the change is <b>facially unconstitutional</b> without a
+      statewide vote. It needs a constitutional amendment first.</p>
+    </div>
+  </section>
+
+  <!-- 06 · GROUNDED -->
+  <section class="slide" data-i="5">
+    <div class="gfx" aria-hidden="true">
+      <svg class="stars" id="stars-ground" viewBox="0 0 1000 600" preserveAspectRatio="xMidYMid slice" style="opacity:.5"></svg>
+    </div>
+    <div class="wrap">
+      <div class="kicker rise"><span class="bar"></span>// 05 — Real, not generated</div>
+      <h2 class="head rise" style="--d:.06s">Grounded <span class="dim">before</span> generated.</h2>
+      <div class="stats rise" style="--d:.16s">
+        <div class="stat"><div class="n" data-count="545">0</div><div class="l">sections crawled</div></div>
+        <div class="stat"><div class="n" data-count="651">0</div><div class="l">cross-references</div></div>
+        <div class="stat"><div class="n" data-count="1849">0</div><div class="l">GLM extraction jobs</div></div>
+        <div class="stat"><div class="n" data-suffix="%" data-count="100">0</div><div class="l">verbatim-gated</div></div>
+      </div>
+      <p class="sub rise" style="--d:.26s;max-width:58ch">Every excerpt is a verbatim substring of a source we
+      actually fetched. Fable planned and audited; a herd of GLM 5.2 workers did the extraction — and every job is
+      logged to an audit trail an inspector general could replay.</p>
+    </div>
+  </section>
+
+  <!-- 07 · CLOSE -->
+  <section class="slide" data-i="6">
+    <div class="gfx" aria-hidden="true">
+      <div class="blob" style="width:46vw;height:46vw;left:50%;top:16%;transform:translateX(-50%);opacity:.3"></div>
+      <svg class="stars" id="stars-close" viewBox="0 0 1000 620" preserveAspectRatio="xMidYMid slice"></svg>
+    </div>
+    <div class="wrap">
+      <div class="kicker rise"><span class="bar"></span>// 06 — The third Roman</div>
+      <h2 class="head rise" style="--d:.06s;font-size:clamp(26px,4.4vw,58px)">Justinian reads the law. Trajan serves the
+      citizen. <span class="gold">Gorgias asks what happens if you change it.</span></h2>
+      <div class="romans rise" style="--d:.18s">
+        <div class="roman"><div class="rn">JUSTINIAN</div><div class="rd">reads the law as it is</div></div>
+        <div class="roman"><div class="rn">TRAJAN</div><div class="rd">serves the citizen as it is</div></div>
+        <div class="roman"><div class="rn">GORGIAS</div><div class="rd">keeps the Romans honest</div></div>
+      </div>
+      <div class="cta-row rise" style="--d:.28s">
+        <a class="cta" href="/sim">Open the simulator &rarr;</a>
+        <a class="cta ghost" href="/">Back to landing</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- chrome -->
+<div class="hint" id="hint"><span class="key">&larr;</span><span class="key">&rarr;</span> to navigate</div>
+<div class="dots" id="dots" role="tablist" aria-label="Slides"></div>
+<div class="arrow prev" id="prev" role="button" aria-label="Previous slide"><svg viewBox="0 0 24 24" fill="none"><path d="M15 5l-7 7 7 7" stroke="currentColor" stroke-width="1.6"/></svg></div>
+<div class="arrow next" id="next" role="button" aria-label="Next slide"><svg viewBox="0 0 24 24" fill="none"><path d="M9 5l7 7-7 7" stroke="currentColor" stroke-width="1.6"/></svg></div>
+
+<script>
+(function(){
+  "use strict";
+  var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
+  var N = slides.length;
+  var i = 0, animated = {};
+  var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var elCur = document.getElementById('cur'), elProg = document.getElementById('progress');
+  var elPrev = document.getElementById('prev'), elNext = document.getElementById('next');
+  var elHint = document.getElementById('hint');
+  document.getElementById('tot').textContent = String(N).padStart(2,'0');
+
+  // dots
+  var dotsWrap = document.getElementById('dots'), dots = [];
+  for(var d=0; d<N; d++){
+    var b = document.createElement('button');
+    b.className = 'dot'; b.setAttribute('role','tab'); b.setAttribute('aria-label','Slide '+(d+1));
+    (function(idx){ b.addEventListener('click', function(){ go(idx); }); })(d);
+    dotsWrap.appendChild(b); dots.push(b);
+  }
+
+  function go(n){
+    n = Math.max(0, Math.min(N-1, n));
+    if(n === i) return;
+    slides.forEach(function(s, k){
+      s.classList.toggle('active', k === n);
+      s.classList.toggle('past', k < n);
+    });
+    dots.forEach(function(dt, k){ dt.classList.toggle('on', k === n); });
+    i = n;
+    elCur.textContent = String(n+1).padStart(2,'0');
+    elProg.style.width = (N === 1 ? 100 : (n/(N-1))*100) + '%';
+    elPrev.classList.toggle('hide', n === 0);
+    elNext.classList.toggle('hide', n === N-1);
+    if(n > 0 && elHint) elHint.style.opacity = '0';
+    onEnter(n);
+  }
+  function next(){ go(i+1); }
+  function prev(){ go(i-1); }
+
+  // keyboard
+  window.addEventListener('keydown', function(e){
+    switch(e.key){
+      case 'ArrowRight': case 'ArrowDown': case 'PageDown': case ' ': case 'Spacebar':
+        e.preventDefault(); next(); break;
+      case 'ArrowLeft': case 'ArrowUp': case 'PageUp':
+        e.preventDefault(); prev(); break;
+      case 'Home': e.preventDefault(); go(0); break;
+      case 'End': e.preventDefault(); go(N-1); break;
+      default:
+        if(e.key >= '1' && e.key <= '9'){ var t = parseInt(e.key,10)-1; if(t < N){ e.preventDefault(); go(t); } }
+    }
+  });
+  elNext.addEventListener('click', next);
+  elPrev.addEventListener('click', prev);
+
+  // touch swipe
+  var tx=0, ty=0;
+  window.addEventListener('touchstart', function(e){ tx=e.changedTouches[0].clientX; ty=e.changedTouches[0].clientY; }, {passive:true});
+  window.addEventListener('touchend', function(e){
+    var dx=e.changedTouches[0].clientX-tx, dy=e.changedTouches[0].clientY-ty;
+    if(Math.abs(dx) > 55 && Math.abs(dx) > Math.abs(dy)){ dx < 0 ? next() : prev(); }
+  }, {passive:true});
+
+  // click zones (right 30% = next, left 22% = prev) — ignore links/buttons
+  document.getElementById('deck').addEventListener('click', function(e){
+    if(e.target.closest('a,button,.dot,.arrow')) return;
+    var x = e.clientX / window.innerWidth;
+    if(x > 0.72) next(); else if(x < 0.22) prev();
+  });
+
+  /* ---------- per-slide graphics ---------- */
+  function onEnter(n){
+    if(n === 2) morphNumber();
+    if(n === 3) buildCascade();
+    if(n === 5) countStats();
+  }
+
+  // constellation — drifting nodes + nearest-neighbour gold links
+  function constellation(svg, count){
+    var W = 1000, H = +svg.viewBox.baseVal.height || 600;
+    var pts = [];
+    for(var k=0;k<count;k++){
+      pts.push({ x:Math.random()*W, y:Math.random()*H,
+        vx:(Math.random()-.5)*.16, vy:(Math.random()-.5)*.16, r:Math.random()*1.6+.8 });
+    }
+    var gLines = document.createElementNS('http://www.w3.org/2000/svg','g');
+    var gDots = document.createElementNS('http://www.w3.org/2000/svg','g');
+    svg.appendChild(gLines); svg.appendChild(gDots);
+    var circs = pts.map(function(p){
+      var c = document.createElementNS('http://www.w3.org/2000/svg','circle');
+      c.setAttribute('r', p.r.toFixed(2)); c.setAttribute('fill','var(--gold)');
+      c.setAttribute('opacity', (Math.random()*.5+.3).toFixed(2));
+      gDots.appendChild(c); return c;
+    });
+    var lineEls = [];
+    function tick(){
+      for(var a=0;a<pts.length;a++){
+        var p = pts[a];
+        p.x += p.vx; p.y += p.vy;
+        if(p.x<0||p.x>W) p.vx*=-1;
+        if(p.y<0||p.y>H) p.vy*=-1;
+        circs[a].setAttribute('cx', p.x.toFixed(1));
+        circs[a].setAttribute('cy', p.y.toFixed(1));
+      }
+      // rebuild links (sparse)
+      var li = 0;
+      for(var a2=0;a2<pts.length;a2++){
+        for(var b2=a2+1;b2<pts.length;b2++){
+          var dxp = pts[a2].x-pts[b2].x, dyp = pts[a2].y-pts[b2].y;
+          var dist = Math.sqrt(dxp*dxp+dyp*dyp);
+          if(dist < 150){
+            var ln = lineEls[li];
+            if(!ln){ ln = document.createElementNS('http://www.w3.org/2000/svg','line'); ln.setAttribute('stroke','var(--gold)'); ln.setAttribute('stroke-width','.5'); gLines.appendChild(ln); lineEls[li]=ln; }
+            ln.setAttribute('x1',pts[a2].x.toFixed(1)); ln.setAttribute('y1',pts[a2].y.toFixed(1));
+            ln.setAttribute('x2',pts[b2].x.toFixed(1)); ln.setAttribute('y2',pts[b2].y.toFixed(1));
+            ln.setAttribute('opacity', (Math.max(0,(150-dist)/150)*.28).toFixed(3));
+            ln.style.display=''; li++;
+          }
+        }
+      }
+      for(var z=li; z<lineEls.length; z++) lineEls[z].style.display='none';
+      raf = requestAnimationFrame(tick);
+    }
+    var raf;
+    if(reduce){ tick(); cancelAnimationFrame(raf); } else { tick(); }
+  }
+
+  // fork lines for problem slide (one root splaying into many)
+  function fork(){
+    var g = document.getElementById('fork-lines');
+    if(!g || g.childNodes.length) return;
+    var rootX = 120, rootY = 300, tips = 22;
+    for(var t=0;t<tips;t++){
+      var ty2 = 40 + (t/(tips-1))*520;
+      var tx2 = 640 + Math.random()*300;
+      var mx = 340 + Math.random()*80;
+      var p = document.createElementNS('http://www.w3.org/2000/svg','path');
+      p.setAttribute('d','M'+rootX+' '+rootY+' C '+mx+' '+rootY+', '+mx+' '+ty2+', '+tx2+' '+ty2);
+      p.setAttribute('fill','none'); p.setAttribute('stroke','var(--gold)');
+      p.setAttribute('stroke-width','.8'); p.setAttribute('opacity',(0.06+Math.random()*0.14).toFixed(2));
+      g.appendChild(p);
+      var dot = document.createElementNS('http://www.w3.org/2000/svg','circle');
+      dot.setAttribute('cx',tx2); dot.setAttribute('cy',ty2); dot.setAttribute('r',(Math.random()*2+1).toFixed(1));
+      dot.setAttribute('fill','var(--gold)'); dot.setAttribute('opacity','.4'); g.appendChild(dot);
+    }
+    var root = document.createElementNS('http://www.w3.org/2000/svg','circle');
+    root.setAttribute('cx',rootX); root.setAttribute('cy',rootY); root.setAttribute('r','5');
+    root.setAttribute('fill','var(--gold)'); g.appendChild(root);
+  }
+
+  // scenario number count-up 140k -> 200k
+  function morphNumber(){
+    if(animated.num) return; animated.num = true;
+    var el = document.getElementById('num-to');
+    var start = 140000, end = 200000, t0 = null, dur = reduce ? 0 : 1400;
+    function fmt(v){ return '$' + Math.round(v).toLocaleString('en-US'); }
+    if(reduce){ el.textContent = fmt(end); return; }
+    function step(ts){ if(!t0) t0 = ts; var p = Math.min(1,(ts-t0)/dur); var e = 1-Math.pow(1-p,3);
+      el.textContent = fmt(start+(end-start)*e); if(p<1) requestAnimationFrame(step); }
+    requestAnimationFrame(step);
+  }
+
+  // grounded stat counters
+  function countStats(){
+    if(animated.stats) return; animated.stats = true;
+    document.querySelectorAll('#deck .stat .n').forEach(function(el){
+      var end = +el.getAttribute('data-count'), suf = el.getAttribute('data-suffix') || '';
+      var dur = reduce ? 0 : 1200, t0 = null;
+      if(reduce){ el.textContent = end.toLocaleString('en-US')+suf; return; }
+      function step(ts){ if(!t0) t0=ts; var p=Math.min(1,(ts-t0)/dur); var e=1-Math.pow(1-p,3);
+        el.textContent = Math.round(end*e).toLocaleString('en-US')+suf; if(p<1) requestAnimationFrame(step); }
+      requestAnimationFrame(step);
+    });
+  }
+
+  // cascade — six strata, flowing edges
+  function buildCascade(){
+    var svg = document.getElementById('cascade');
+    if(animated.cascade) return; animated.cascade = true;
+    var W = 1160;
+    var layers = [
+      {lbl:'STATUTES',   n:7, cnt:'6',    hot:[]},
+      {lbl:'CONFLICTS',  n:6, cnt:'35',   hot:[2]},
+      {lbl:'AGENCIES',   n:5, cnt:'5',    hot:[]},
+      {lbl:'BUDGET',     n:4, cnt:'−$0.5B', hot:[1]},
+      {lbl:'254 COUNTIES', n:9, cnt:'254', hot:[4]},
+      {lbl:'LITIGATION', n:3, cnt:'2 paths', hot:[1]}
+    ];
+    var topPad = 30, botPad = 30, H = 460;
+    var bandH = (H - topPad - botPad) / layers.length;
+    var geo = [];
+    layers.forEach(function(L, li){
+      var y = topPad + bandH*li + bandH*0.42;
+      var avail = W - 360, gap = avail/(L.n+1);
+      var row = [];
+      for(var k=0;k<L.n;k++){ row.push({ x: 300 + gap*(k+1), y:y, hot: L.hot.indexOf(k)>=0 }); }
+      geo.push(row);
+    });
+    var edgeSvg = '', nodeSvg = '', lblSvg = '', ei = 0;
+    // edges: connect each node to nearest node in next band
+    for(var li=0; li<geo.length-1; li++){
+      geo[li].forEach(function(a){
+        var below = geo[li+1];
+        var nearest = below[0], best = 1e9;
+        below.forEach(function(b){ var dd=Math.abs(b.x-a.x); if(dd<best){best=dd;nearest=b;} });
+        var midY = (a.y+nearest.y)/2;
+        var dpath = 'M'+a.x+' '+a.y+' L'+a.x+' '+midY+' L'+nearest.x+' '+midY+' L'+nearest.x+' '+nearest.y;
+        var len = Math.abs(a.y-midY)+Math.abs(nearest.x-a.x)+Math.abs(nearest.y-midY);
+        edgeSvg += '<path class="edge" d="'+dpath+'" style="--len:'+len.toFixed(0)+';--ed:'+(0.25+li*0.16).toFixed(2)+'s"/>';
+      });
+    }
+    // nodes + labels
+    layers.forEach(function(L, li){
+      geo[li].forEach(function(p){
+        var r = p.hot ? 8 : 5;
+        nodeSvg += '<circle class="lyr-node'+(p.hot?' lyr-hot':'')+'" cx="'+p.x.toFixed(1)+'" cy="'+p.y.toFixed(1)+'" r="'+r+'" style="--nd:'+(0.4+li*0.16).toFixed(2)+'s"/>';
+      });
+      var ly = topPad + bandH*li + bandH*0.42;
+      lblSvg += '<text class="lyr-lbl" x="0" y="'+(ly+4).toFixed(1)+'">'+L.lbl+'</text>';
+      lblSvg += '<text class="lyr-cnt" x="'+(W-8)+'" y="'+(ly+7).toFixed(1)+'" text-anchor="end">'+L.cnt+'</text>';
+    });
+    svg.innerHTML = '<g class="ge">'+edgeSvg+'</g><g class="gn">'+nodeSvg+'</g><g class="gl">'+lblSvg+'</g>';
+  }
+
+  // boot
+  constellation(document.getElementById('stars-cover'), 46);
+  constellation(document.getElementById('stars-ground'), 40);
+  constellation(document.getElementById('stars-close'), 52);
+  fork();
+  go(0);
+})();
+</script>
+</body>
+</html>
