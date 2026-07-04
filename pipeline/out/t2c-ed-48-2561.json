@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces local school district property tax revenue, altering the per-cent-of-tax-effort and wealth-per-weighted-student calculations that drive the guaranteed yield increment adjustment. The agency must recalculate the adjustment amounts, but no statutory text amendment is required.",
+ "quote": "the estimated cost to the state of maintaining the guaranteed level of state and local funds per weighted student per cent of tax effort under Section 48.202(a-1)(1) at the 96th percentile of wealth per weighted student for each year of the biennium",
+ "_note": "Conflict is indirect: \u00a748.2561 does not reference Tax Code \u00a711.13 or homestead exemptions directly, but the homestead exemption amount affects local tax effort and wealth-per-student figures used in the guaranteed yield formula."
+}

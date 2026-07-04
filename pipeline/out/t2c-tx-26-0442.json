@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.0442 computes a rate adjustment using 'Current Total Value' and 'New Property Value' as inputs. Increasing the homestead exemption indirectly reduces taxable values, but the statute operates on whatever values exist; no textual conflict or amendment needed.",
+ "quote": "the no-new-revenue maintenance and operations rate for the county is increased by the lesser of the rates computed according to the following formulas",
+ "_note": "No direct reference to Tax Code \u00a711.13(b) or homestead exemption amounts. The formula denominators (Current Total Value, New Property Value) would change in magnitude as a downstream fiscal effect, but the operative text requires no amendment."
+}

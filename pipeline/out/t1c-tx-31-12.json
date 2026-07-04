@@ -1,0 +1,44 @@
+{
+ "cite": "Tax Code \u00a731.12",
+ "heading": "PAYMENT OF CERTAIN TAX REFUNDS; INTEREST",
+ "operative_text": "(a) A refund of a tax provided by Section 11.35(j), 11.431(b), 11.436(b), 11.438(c), 11.439(b), 23.1243(d), 23.48(d), 23.60(d), 26.05(e), 26.07(g), 26.075(k), 26.08(d-2), 26.1115(c), 26.112(b), 26.1125(b), 26.1127(b), 26.15(f), 31.061(e), 31.071(c), 31.11, 31.111, or 31.112(c)(3) must be paid not later than the 60th day after the date the liability for the refund arises as determined under this section. (b) If a refund to which this section applies is paid in accordance with Subsection (a), no interest is due on the amount refunded. If the refund is not paid in accordance with Subsection (a), the amount of the tax to be refunded accrues interest at an annual rate of 12 percent, calculated from the date on which the liability for the refund arises until the date the refund is paid. (c) For purposes of this section, liability for a refund arises: (1) if the refund is required by Section 11.35(j), on the date the collector for the taxing unit learns the refund is required; (2) if the refund is required by Section 11.431(b), 11.436(b), 11.438(c), or 11.439(b), on the date the chief appraiser notifies the collector for the taxing unit of the approval of the applicable exemption; (3) if the refund is required by Section 23.1243(d), on the date the chief appraiser notifies the collector for the taxing unit of the amount of tax to be refunded; (4) if the refund is required by Section 23.48(d), 23.60(d), 26.1115(c), 26.112(b), 26.1125(b), or 26.1127(b), on the date the assessor notifies the collector for the taxing unit of the decrease in the person's tax liability; (5) if the refund is required by Section 26.05(e), on the date the action to enjoin the collection of taxes imposed by the taxing unit is finally determined; (6) if the refund is required by Section 26.07(g), 26.075(k), or 26.08(d-2), on the date the assessor for the taxing unit mails the corrected tax bills under Section 26.07(f), 26.075(j), or 26.08(d-1), as applicable; (7) if the refund is required by Section 26.15(f): (A) for a correction to the tax roll made under Section 26.15(b), on the date the change in the tax roll is certified to the assessor for the taxing unit under Section 25.25; or (B) for a correction to the tax roll made under Section 26.15(c), on the date the change in the tax roll is ordered by the governing body of the taxing unit; (8) if the refund is required by Section 31.061(e), on the date the taxing unit determines that the amount credited under Section 31.061(d) exceeds the amount due to the taxing unit; (9) if the refund is required by Section 31.071(c), on the date the challenge, protest, or appeal is finally determined; (10) if the refund is required by Section 31.11, on the date the auditor for the taxing unit determines that the payment was erroneous or excessive; (11) if the refund is required by Section 31.111, on the date the collector for the taxing unit determines that the payment was erroneous; or (12) if the refund is required by Section 31.112(c)(3), on the date the agreement described by Section 31.112(c) is made.",
+ "cross_refs": [
+  "Tax Code \u00a711.35(j)",
+  "Tax Code \u00a711.431(b)",
+  "Tax Code \u00a711.436(b)",
+  "Tax Code \u00a711.438(c)",
+  "Tax Code \u00a711.439(b)",
+  "Tax Code \u00a723.1243(d)",
+  "Tax Code \u00a723.48(d)",
+  "Tax Code \u00a723.60(d)",
+  "Tax Code \u00a726.05(e)",
+  "Tax Code \u00a726.07(g)",
+  "Tax Code \u00a726.075(k)",
+  "Tax Code \u00a726.08(d-2)",
+  "Tax Code \u00a726.1115(c)",
+  "Tax Code \u00a726.112(b)",
+  "Tax Code \u00a726.1125(b)",
+  "Tax Code \u00a726.1127(b)",
+  "Tax Code \u00a726.15(f)",
+  "Tax Code \u00a726.15(b)",
+  "Tax Code \u00a726.15(c)",
+  "Tax Code \u00a731.061(e)",
+  "Tax Code \u00a731.061(d)",
+  "Tax Code \u00a731.071(c)",
+  "Tax Code \u00a731.11",
+  "Tax Code \u00a731.111",
+  "Tax Code \u00a731.112(c)(3)",
+  "Tax Code \u00a731.112(c)",
+  "Tax Code \u00a726.07(f)",
+  "Tax Code \u00a726.075(j)",
+  "Tax Code \u00a726.08(d-1)",
+  "Tax Code \u00a725.25"
+ ],
+ "defined_terms": [
+  {
+   "term": "liability for a refund",
+   "definition_excerpt": "liability for a refund arises:"
+  }
+ ],
+ "_note": "The defined term 'liability for a refund' is defined across subsection (c) with multiple sub-items specifying the triggering date for each refund type. No single contiguous excerpt captures the full definition; the lead-in phrase is quoted verbatim."
+}

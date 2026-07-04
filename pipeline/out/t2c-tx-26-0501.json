@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 1,
+ "rationale": "No direct conflict. \u00a726.0501 limits defunding municipalities' tax rates. Increasing the homestead exemption affects taxable value calculations feeding into no-new-revenue and voter-approval rates, requiring rulemaking updates to calculation worksheets, but no statutory amendment to \u00a726.0501 is needed.",
+ "quote": "the governing body of a defunding municipality may not adopt a tax rate for the current tax year that exceeds the lesser of the defunding municipality's no-new-revenue tax rate or voter-approval tax rate for that tax year.",
+ "_note": "Indirect interaction only: changed exemption amount alters taxable value inputs used in rate calculations referenced by \u00a726.0501(b)\u2013(c); no operative conflict with the defunding municipality limitation itself."
+}

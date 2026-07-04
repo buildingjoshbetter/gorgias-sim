@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 49.306 operates on 'taxable value of property' as a computed input and does not reference the homestead exemption amount or Tax Code \u00a711.13(b). The increased exemption would flow through automatically via reduced taxable values; no statutory amendment is required.",
+ "quote": "the district's taxable value of property does not exceed the value necessary to generate maintenance and operations tax revenue in the amount equal to the district's entitlement under Section 48.202(a-1)(2)",
+ "_note": "No direct textual conflict. The statute uses taxable value as an input variable; the proposed homestead exemption increase would alter that input but does not require amendment of \u00a749.306 itself."
+}

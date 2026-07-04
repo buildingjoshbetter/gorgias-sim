@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.04 does not reference the specific homestead exemption dollar amount. It uses total taxable value as determined from the appraisal roll, so any change to the \u00a711.13(b) exemption amount flows through automatically without requiring amendment to \u00a726.04.",
+ "quote": "the assessor for a taxing unit shall determine the total appraised value, the total assessed value, and the total taxable value of property taxable by the unit",
+ "_note": "No direct textual conflict. The proposed exemption increase affects taxable values used in \u00a726.04 formulas, but \u00a726.04 incorporates those values derivatively rather than hardcoding the exemption amount."
+}

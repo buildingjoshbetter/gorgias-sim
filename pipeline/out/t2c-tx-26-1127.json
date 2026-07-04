@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.1127 governs tax calculation for donated homestead exemptions under Section 11.132 (disabled veterans), which is a distinct exemption from the general residence homestead exemption in Section 11.13(b). No overlap or interaction.",
+ "quote": "if at any time during a tax year property is owned by an individual who qualifies for an exemption under Section 11.132",
+ "_note": "Rule addresses Section 11.132 (disabled veteran donated homestead), not Section 11.13(b) general residence homestead; no conflict identified."
+}

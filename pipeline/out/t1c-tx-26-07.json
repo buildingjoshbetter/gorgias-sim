@@ -1,0 +1,25 @@
+{
+ "cite": "Tax Code \u00a726.07",
+ "heading": "AUTOMATIC ELECTION TO APPROVE TAX RATE OF TAXING UNIT OTHER THAN SCHOOL DISTRICT",
+ "operative_text": "(a) This section applies to a taxing unit other than a school district. (b) If the governing body of a special taxing unit or a municipality with a population of 30,000 or more adopts a tax rate that exceeds the taxing unit's voter-approval tax rate, or the governing body of a taxing unit other than a special taxing unit or a municipality with a population of less than 30,000 regardless of whether it is a special taxing unit adopts a tax rate that exceeds the greater of the taxing unit's voter-approval tax rate or de minimis rate, the registered voters of the taxing unit at an election held for that purpose must determine whether to approve the adopted tax rate. (c) The governing body shall order that the election be held in the taxing unit on the uniform election date prescribed by Section 41.001, Election Code, that occurs in November of the applicable tax year. The order calling the election may not be issued later than the 71st day before the date of the election. At the election, the ballots shall be prepared to permit voting for or against the proposition: \"Approving the ad valorem tax rate of $_____ per $100 valuation in (name of taxing unit) for the current year, a rate that is $_____ higher per $100 valuation than the voter-approval tax rate of (name of taxing unit), for the purpose of (description of purpose of increase). Last year, the ad valorem tax rate in (name of taxing unit) was $__________ per $100 valuation.\" The ballot proposition must include the adopted tax rate, the difference between the adopted tax rate and the voter-approval tax rate, and the taxing unit's tax rate for the preceding tax year in the appropriate places. (d) If a majority of the votes cast in the election favor the proposition, the tax rate for the current year is the rate that was adopted by the governing body. (e) If the proposition is not approved as provided by Subsection (d), the taxing unit's tax rate for the current tax year is the taxing unit's voter-approval tax rate. (f) If, after tax bills for the taxing unit have been mailed, a proposition to approve the taxing unit's adopted tax rate is not approved by the voters of the taxing unit at an election held under this section, the assessor for the taxing unit shall prepare and mail corrected tax bills. The assessor shall include with the bill a brief explanation of the reason for and effect of the corrected bill. (g) If a property owner pays taxes calculated using the originally adopted tax rate of the taxing unit and the proposition to approve the adopted tax rate is not approved by voters, the taxing unit shall refund the difference between the amount of taxes paid and the amount due under the voter-approval tax rate if the difference between the amount of taxes paid and the amount due under the voter-approval tax rate is $1 or more. If the difference between the amount of taxes paid and the amount due under the voter-approval tax rate is less than $1, the taxing unit shall refund the difference on request of the taxpayer. An application for a refund of less than $1 must be made within 90 days after the date the refund becomes due or the taxpayer forfeits the right to the refund.",
+ "cross_refs": [
+  "Election Code \u00a741.001",
+  "Tax Code \u00a726.07(d)",
+  "Tax Code \u00a726.07(e)"
+ ],
+ "defined_terms": [
+  {
+   "term": "voter-approval tax rate",
+   "definition_excerpt": "the taxing unit's voter-approval tax rate"
+  },
+  {
+   "term": "de minimis rate",
+   "definition_excerpt": "the greater of the taxing unit's voter-approval tax rate or de minimis rate"
+  },
+  {
+   "term": "special taxing unit",
+   "definition_excerpt": "a special taxing unit or a municipality with a population of 30,000 or more"
+  }
+ ],
+ "_note": "No explicit definitions of 'voter-approval tax rate,' 'de minimis rate,' or 'special taxing unit' are provided in this section; those terms are defined elsewhere in Chapter 26. Cross-references to subsections (d) and (e) are internal to this section."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 1,
+ "rationale": "Section 49.302 determines taxable value by reference to Title 1, Tax Code, without hardcoding the homestead exemption amount. Increasing the exemption would automatically reduce taxable values computed here, affecting school district detachment/annexation calculations without requiring amendment.",
+ "quote": "the taxable value of the detached or annexed property determined under Title 1, Tax Code, for the preceding tax year",
+ "_note": "No direct conflict; rule incorporates Tax Code determinations by reference. Downstream fiscal impact on school district taxable values likely."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces school district tax bases, indirectly affecting the board's duty to adopt tax rates under Subsection (b)(8) and authority to levy M&O taxes under (c)(2). No direct statutory conflict, but fiscal-impact adjustments to rate-setting are required.",
+ "quote": "(8) adopt a tax rate each fiscal year as required under Section 26.05, Tax Code;",
+ "_note": "Educ. Code \u00a711.1511 governs board powers/duties generally; it does not set exemption amounts. Impact is indirect via reduced taxable values affecting rate-setting and revenue projections."
+}

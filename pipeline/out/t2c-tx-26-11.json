@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.11 prorates taxes on property acquired by government based on days elapsed, referencing Section 26.09 for the tax amount. The homestead exemption amount in Section 11.13(b) does not appear in or affect this proration formula.",
+ "quote": "the amount of the tax due on the property is calculated by multiplying the amount of taxes imposed on the property for the entire year as determined as provided by Section 26.09 of this code by a fraction",
+ "_note": "No direct conflict. \u00a726.11's proration mechanism operates on the total taxes imposed and is independent of the homestead exemption amount in \u00a711.13(b)."
+}

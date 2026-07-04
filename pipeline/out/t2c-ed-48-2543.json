@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Statute already anticipates a 2025 homestead exemption increase and provides hold-harmless state aid. No structural conflict, but state aid calculations must be updated to reflect the new $200,000 amount and resulting revenue loss.",
+ "quote": "Beginning with the 2025-2026 school year, a school district is entitled to additional state aid to the extent that state and local revenue under this chapter and Chapter 49 is less than the state and local revenue that would have been available to the district under this chapter and Chapter 49 as those chapters existed on September 1, 2024, if any increase in a residence homestead exemption under Section 1-b(c), Article VIII, Texas Constitution, as proposed by the 89th Legislature, Regular Session, 2025, had not occurred.",
+ "_note": "Subsection (a-2) already references the 89th Leg., R.S., 2025, indicating the statute was drafted to accommodate a proposed exemption increase this session. The proposed $200,000 amount would trigger the hold-harmless mechanism but does not require statutory amendment; implementing rules and fiscal calculations would need updating."
+}

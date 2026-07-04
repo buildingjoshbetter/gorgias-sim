@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.1115 references exemptions under Section 11.13 without hardcoding any dollar amount. Its formula-based calculations automatically incorporate whatever exemption amount is in effect, so increasing the homestead exemption requires no amendment here.",
+ "quote": "If an individual receives one or more exemptions under Section 11.13 for a portion of a tax year as provided by Section 11.42(f), except as provided by Subsection (b) of this section, the amount of tax due on the property for that year is calculated by:",
+ "_note": "No dollar amount is embedded in \u00a726.1115; the provision operates by formula and automatically adjusts to the exemption amount set in \u00a711.13(b)."
+}

@@ -1,0 +1,44 @@
+{
+ "cite": "Educ. Code \u00a748.202",
+ "heading": "TIER TWO ALLOTMENT",
+ "operative_text": "Each school district is guaranteed a specified amount per weighted student in state and local funds for each cent of tax effort over that required for the district's local fund assignment up to the maximum level specified in this subchapter. The amount of state support, subject only to the maximum amount under Section 48.203, is determined by the formula: GYA = (GL X WADA X DTR X 100) - LR",
+ "cross_refs": [
+  "Educ. Code \u00a748.203",
+  "Educ. Code \u00a748.051",
+  "Educ. Code \u00a748.256",
+  "Educ. Code \u00a748.256(d)",
+  "Educ. Code \u00a748.258",
+  "Educ. Code \u00a748.257",
+  "Gov't Code Ch. 403 Subch. M",
+  "Tax Code \u00a731.035",
+  "Tax Code \u00a731.036",
+  "Tax Code \u00a731.037",
+  "Tax Code \u00a726.135",
+  "Tax Code \u00a726.1115(c)",
+  "Tax Code Ch. 311",
+  "Tax Code Ch. 313 Subch. D (former)"
+ ],
+ "defined_terms": [
+  {
+   "term": "GYA",
+   "definition_excerpt": "\"GYA\" is the guaranteed yield amount of state funds to be allocated to the district;"
+  },
+  {
+   "term": "GL",
+   "definition_excerpt": "\"GL\" is the dollar amount guaranteed level of state and local funds per weighted student per cent of tax effort, which is an amount described by Subsection (a-1) or a greater amount for any year provided by appropriation;"
+  },
+  {
+   "term": "WADA",
+   "definition_excerpt": "\"WADA\" is the number of students in weighted average daily attendance, which is calculated by dividing the sum of the school district's allotments under Subchapters B and C by the basic allotment for the applicable year;"
+  },
+  {
+   "term": "DTR",
+   "definition_excerpt": "\"DTR\" is the district enrichment tax rate of the school district, which is determined by subtracting the amounts specified by Subsection (b) from the total amount of maintenance and operations taxes collected by the school district for the applicable school year and dividing the difference by the quotient of the district's taxable value of property as determined under Subchapter M, Chapter 403, Government Code, or, if applicable, under Section 48.258 or by the quotient of the value of \"DPV\" as determined under Section 48.256(d) if that subsection applies to the district, divided by 100; and"
+  },
+  {
+   "term": "LR",
+   "definition_excerpt": "\"LR\" is the local revenue, which is determined by multiplying \"DTR\" by the quotient of the district's taxable value of property as determined under Subchapter M, Chapter 403, Government Code, or, if applicable, under Section 48.258 or by the quotient of the value of \"DPV\" as determined under Section 48.256(d) if that subsection applies to the district, divided by 100."
+  }
+ ],
+ "_note": ""
+}

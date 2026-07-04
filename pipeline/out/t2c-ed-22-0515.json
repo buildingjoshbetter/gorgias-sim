@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change to Tax Code \u00a711.13(b) homestead exemption is unrelated to Educ. Code \u00a722.0515, which limits liability for school district professional employees. No overlap in subject matter.",
+ "quote": "The liability of a professional employee of a school district or of an individual that is entitled to any immunity and other protections afforded under the Paul D. Coverdell Teacher Protection Act of 2001 (20 U.S.C. Section 6731 et seq.), as amended, for an act incident to or within the scope of duties of the employee's position of employment may not exceed $100,000.",
+ "_note": "No conflict: rule_text concerns tort liability caps for school employees; proposed_change concerns property tax homestead exemption amounts."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "Increasing the homestead exemption reduces local school property tax revenue, which feeds into maximum compressed rate calculations under \u00a748.2551 and the state compression percentage adjustments in \u00a748.2552(c). Consequential amendments to these formulas may be needed to maintain intended compression outcomes.",
+ "quote": "(c) The amount of revenue available to the state as a result of the differences in the amount of state aid and reduction in local revenue between calculating a district's maximum compressed rate in accordance with Subsection (b) and calculating the district's maximum compressed rate under Section 48.2551 shall be used to lower the state compression percentage under Section 48.255.",
+ "_note": "Indirect but material conflict: \u00a748.2552 does not reference homestead exemptions directly, but its compression-rate revenue calculations depend on local property tax revenue, which the proposed exemption increase would reduce."
+}

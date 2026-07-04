@@ -1,0 +1,502 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GORGIAS — cascade dev</title>
+<!--
+  TRANSPLANT (5 steps): 1) copy the block between CASCADE-MODULE:START/END below.
+  2) paste it at the CASCADE-MOUNT marker inside index.html's scene-cascade container.
+  3) it self-inits on DOMContentLoaded; to gate on scene-enter instead, call Gorgias.Cascade.play() when the scene activates and Gorgias.Cascade.reset() on leave.
+  4) node clicks dispatch document event 'gorgias:node' {detail:{id}} — B1's drawer listens for it.
+  5) it fetches app/data/scenario-stub.json; on failure (file://) it uses the inlined INLINE_STUB fallback. No libs, no build step.
+-->
+<style>
+  /* dev-page chrome only — NOT part of the transplant block */
+  html,body{margin:0;background:#0A0A0A;color:#EDEAE0;
+    font-family:"Inter",-apple-system,"Segoe UI",Roboto,sans-serif;overflow-x:hidden}
+  .devbar{display:flex;justify-content:space-between;align-items:center;gap:16px;
+    padding:10px 20px;border-bottom:1px solid #22211C;
+    font-family:"JetBrains Mono","SF Mono",Menlo,ui-monospace,monospace;font-size:11px;
+    letter-spacing:.06em;color:#8A8579}
+  .devbar b{color:#9D8B5E;font-weight:600}
+  .devbar .k{color:#EDEAE0}
+  .devstage{height:calc(100vh - 41px);position:relative}
+</style>
+
+<div class="devbar">
+  <span><b>GORGIAS</b> · cascade dev harness</span>
+  <span><span class="k">R</span> restart · click a node → <span class="k">gorgias:node</span> · scene fits 16:9</span>
+</div>
+<div class="devstage">
+
+<!-- CASCADE-MODULE:START ============================================= -->
+<div id="cascade-root" data-gorgias-cascade>
+  <style>
+    #cascade-root{
+      --gx-bg:#0A0A0A; --gx-panel:#0C0C0C; --gx-panel2:#0E0D0A;
+      --gx-gold:#9D8B5E; --gx-gold2:#6C6042; --gx-goldhi:#C7B37A;
+      --gx-hair:#22211C; --gx-text:#EDEAE0; --gx-dim:#8A8579; --gx-faint:#5A574C;
+      --gx-mono:"JetBrains Mono","SF Mono",Menlo,ui-monospace,monospace;
+      --gx-body:"Inter",-apple-system,"Segoe UI",Roboto,sans-serif;
+      --gx-disp:"Archivo","Helvetica Neue",Arial,sans-serif;
+      position:absolute;inset:0;overflow:hidden;background:var(--gx-bg);
+      color:var(--gx-text);font-family:var(--gx-body);
+    }
+    #cascade-root *{box-sizing:border-box;border-radius:0}
+    #cascade-root .gx-svg{position:absolute;inset:0;width:100%;height:100%;display:block}
+    #cascade-root .gx-edge{fill:none;stroke:var(--gx-gold);stroke-width:1.5;
+      transition:stroke-dashoffset .42s cubic-bezier(.16,1,.3,1), stroke .5s linear, stroke-width .5s linear}
+    #cascade-root .gx-edge.gx-conflict-edge{stroke-width:2}
+
+    /* node cards (via foreignObject) */
+    #cascade-root .gx-node{opacity:0;transform:translateY(12px);
+      transition:opacity .38s cubic-bezier(.16,1,.3,1), transform .38s cubic-bezier(.16,1,.3,1);
+      cursor:pointer;height:100%}
+    #cascade-root .gx-node.gx-in{opacity:1;transform:translateY(0)}
+    #cascade-root .gx-card{height:100%;background:var(--gx-panel);border:1px solid var(--gx-hair);
+      padding:9px 11px;display:flex;flex-direction:column;gap:4px;overflow:hidden;
+      transition:border-color .18s linear, background .18s linear}
+    #cascade-root .gx-node:hover .gx-card{border-color:var(--gx-gold)}
+    #cascade-root .gx-node.gx-sel .gx-card{border-color:var(--gx-gold);background:var(--gx-panel2)}
+    #cascade-root .gx-kicker{font-family:var(--gx-mono);font-size:9.5px;letter-spacing:.14em;
+      text-transform:uppercase;color:var(--gx-dim);display:flex;align-items:center;gap:6px;flex:0 0 auto}
+    #cascade-root .gx-title{font-size:13px;font-weight:600;line-height:1.18;color:var(--gx-text);
+      display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+    #cascade-root .gx-foot{margin-top:auto;display:flex;align-items:center;gap:8px}
+    #cascade-root .gx-chip{font-family:var(--gx-mono);font-size:11px;padding:2px 7px;
+      border:1px solid var(--gx-gold2);color:var(--gx-gold);background:rgba(157,139,94,.06);
+      display:inline-flex;align-items:center;gap:6px;white-space:nowrap;max-width:100%;overflow:hidden;
+      text-overflow:ellipsis}
+    #cascade-root .gx-chip .gx-anchor{width:5px;height:5px;background:var(--gx-gold);flex:0 0 auto}
+    #cascade-root .gx-modeled{font-family:var(--gx-mono);font-size:9.5px;letter-spacing:.1em;
+      color:var(--gx-gold2);border:1px solid var(--gx-hair);padding:1px 5px;text-transform:uppercase}
+
+    /* policy node */
+    #cascade-root .gx-node--policy .gx-card{border-color:var(--gx-gold);border-width:2px;background:#0B0A08}
+    #cascade-root .gx-node--policy .gx-title{font-family:var(--gx-disp);font-size:17px;font-weight:700;
+      -webkit-line-clamp:2}
+
+    /* conflict node */
+    #cascade-root .gx-node--conflict .gx-card{border-color:var(--gx-gold);border-width:2px;background:var(--gx-panel2)}
+    #cascade-root .gx-node--conflict .gx-kicker{color:var(--gx-gold)}
+    #cascade-root .gx-node--conflict.gx-flash .gx-card{animation:gx-pulse .22s ease-out 1}
+    #cascade-root .gx-sev{font-family:var(--gx-mono);font-size:10px;letter-spacing:.08em;
+      margin-left:auto;padding:1px 6px;border:1px solid var(--gx-gold2);color:var(--gx-gold)}
+    #cascade-root .gx-tri{width:12px;height:12px;flex:0 0 auto}
+    @keyframes gx-pulse{0%{box-shadow:inset 0 0 0 2px var(--gx-gold)}100%{box-shadow:inset 0 0 0 0 transparent}}
+
+    /* conflict standing pulse (severity-weighted) */
+    #cascade-root .gx-node--conflict.gx-in .gx-card{animation:gx-breathe var(--gx-breathe,2600ms) ease-in-out infinite}
+    @keyframes gx-breathe{0%,100%{border-color:var(--gx-gold2)}50%{border-color:var(--gx-gold)}}
+
+    /* budget node */
+    #cascade-root .gx-delta{font-family:var(--gx-mono);font-size:18px;font-weight:600;
+      font-variant-numeric:tabular-nums}
+    #cascade-root .gx-delta.gx-neg{color:var(--gx-gold)}
+    #cascade-root .gx-delta.gx-pos{color:var(--gx-text)}
+    #cascade-root .gx-bar{height:4px;background:#161510;width:100%;margin-top:5px;overflow:hidden}
+    #cascade-root .gx-bar > i{display:block;height:100%;width:0;background:var(--gx-gold);
+      transition:width .7s cubic-bezier(.16,1,.3,1)}
+    #cascade-root .gx-node--budget .gx-foot{flex-direction:column;align-items:flex-start;gap:2px;width:100%}
+
+    /* fiscal counter */
+    #cascade-root .gx-counter{position:absolute;top:22px;right:28px;text-align:right;z-index:4;
+      pointer-events:none}
+    #cascade-root .gx-counter .gx-clabel{font-family:var(--gx-mono);font-size:12px;letter-spacing:.12em;
+      text-transform:uppercase;color:var(--gx-dim)}
+    #cascade-root .gx-counter .gx-cval{font-family:var(--gx-mono);font-weight:700;
+      font-size:clamp(48px,6vw,104px);line-height:1;color:var(--gx-text);
+      font-variant-numeric:tabular-nums;letter-spacing:-.01em;transition:opacity .3s linear}
+    #cascade-root .gx-counter .gx-cval .gx-sign{color:var(--gx-gold)}
+    #cascade-root .gx-stamp{font-family:var(--gx-mono);font-size:12px;letter-spacing:.22em;
+      text-transform:uppercase;color:var(--gx-gold);opacity:0;transition:opacity .5s linear;margin-top:6px}
+    #cascade-root .gx-stamp.gx-on{opacity:1}
+
+    /* footer hint */
+    #cascade-root .gx-hint{position:absolute;bottom:18px;left:0;right:0;text-align:center;z-index:4;
+      font-family:var(--gx-mono);font-size:12px;letter-spacing:.18em;text-transform:uppercase;
+      color:var(--gx-dim);opacity:0;transition:opacity .4s linear;pointer-events:none}
+    #cascade-root .gx-hint.gx-on{opacity:1;animation:gx-hintpulse 1800ms ease-in-out infinite}
+    #cascade-root .gx-hint b{color:var(--gx-gold);font-weight:600}
+    @keyframes gx-hintpulse{0%,100%{opacity:.5}50%{opacity:1}}
+
+    @media (prefers-reduced-motion: reduce){
+      #cascade-root .gx-node{transition:opacity .4s linear;transform:none}
+      #cascade-root .gx-edge{transition:stroke .4s linear}
+      #cascade-root .gx-node--conflict.gx-in .gx-card{animation:none}
+      #cascade-root .gx-bar > i{transition:width .01s linear}
+    }
+  </style>
+
+  <svg class="gx-svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid meet" aria-label="Policy impact cascade">
+    <g class="gx-edges"></g>
+    <g class="gx-nodes"></g>
+  </svg>
+
+  <div class="gx-counter" aria-live="polite">
+    <div class="gx-clabel">Net statewide fiscal impact · annual</div>
+    <div class="gx-cval">$0</div>
+    <div class="gx-stamp">Settled</div>
+  </div>
+
+  <div class="gx-hint">Space &rarr; <b>county map</b></div>
+
+  <script>
+  (function(){
+    "use strict";
+    var ROOT = document.currentScript.closest('#cascade-root') || document.getElementById('cascade-root');
+    var SVG  = ROOT.querySelector('.gx-svg');
+    var GEDGE = ROOT.querySelector('.gx-edges');
+    var GNODE = ROOT.querySelector('.gx-nodes');
+    var CVAL = ROOT.querySelector('.gx-cval');
+    var STAMP = ROOT.querySelector('.gx-stamp');
+    var HINT = ROOT.querySelector('.gx-hint');
+    var SVGNS = 'http://www.w3.org/2000/svg';
+
+    var VB_W = 1600, VB_H = 900, MARGIN = 48, GAP = 18;
+    var STRATA = [
+      {key:'policy',   y:90,  h:104, w:340, tag:'PROPOSED CHANGE'},
+      {key:'statute',  y:300, h:100, w:260, tag:'STATUTE'},
+      {key:'conflict', y:470, h:100, w:260, tag:'CONFLICT'},
+      {key:'agency',   y:640, h:100, w:260, tag:'AGENCY'},
+      {key:'budget',   y:822, h:100, w:260, tag:'BUDGET LINE'}
+    ];
+    var STRATA_IX = {policy:0, statute:1, conflict:2, agency:3, budget:4};
+    // wave schedule (ms from play): edges charge just before their stratum's nodes rise
+    var EDGE_CHARGE = [0, 500, 1900, 3100, 4600];   // indexed by child stratum
+    var NODE_REVEAL = [0, 900, 2300, 3500, 5000];   // indexed by stratum
+    var STAGGER     = [0, 140, 130, 120, 160];
+    var SETTLE_START = 5600, SETTLE_END = 9000;
+
+    var REDUCED = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    var timers = [], rafId = null, model = null, layout = null, playing = false, teaser = 0;
+
+    // ---- inline fallback (mirrors app/data/scenario-stub.json for file://) ----
+    var INLINE_STUB = {
+      policy:{title:"Raise the residence homestead exemption to $140,000",
+        delta_label:"+$40,000 per homestead", teaser_total_usd:-3100000000},
+      nodes:[
+        {id:"policy-root",type:"policy",parent:null,label:"Homestead exemption $100k → $140k",cite:"Tax Code §11.13(b)"},
+        {id:"st-1113b",type:"statute",parent:"policy-root",label:"School district residence homestead exemption",cite:"Tax Code §11.13(b)"},
+        {id:"st-1113n",type:"statute",parent:"policy-root",label:"Optional percentage exemption interplay",cite:"Tax Code §11.13(n)"},
+        {id:"st-1126",type:"statute",parent:"policy-root",label:"Tax ceiling for 65+ / disabled homeowners",cite:"Tax Code §11.26"},
+        {id:"st-2609",type:"statute",parent:"policy-root",label:"Assessor calculation of tax",cite:"Tax Code §26.09"},
+        {id:"st-4825x",type:"statute",parent:"policy-root",label:"State hold-harmless for exemption revenue loss",cite:"Educ. Code §48.2556"},
+        {id:"cf-const",type:"conflict",parent:"st-1113b",severity:3,label:"Constitutional amendment required before statute takes effect",cite:"Tex. Const. art. VIII, §1-b(c)"},
+        {id:"cf-ceiling",type:"conflict",parent:"st-1126",severity:2,label:"§11.26 ceiling over-taxes 65+ homeowners if left unamended",cite:"Tax Code §11.26"},
+        {id:"cf-tacrule",type:"conflict",parent:"st-1113b",severity:1,label:"Comptroller appraisal rules reference prior exemption amount",cite:"34 TAC §9.415"},
+        {id:"ag-cpa",type:"agency",parent:"cf-ceiling",label:"Comptroller — Property Tax Assistance Division",cite:"Gov. Code §403",clock_days:180},
+        {id:"ag-tea",type:"agency",parent:"st-4825x",label:"Texas Education Agency recomputes FSP entitlements",cite:"Educ. Code §48.255",clock_days:120},
+        {id:"ag-sos",type:"agency",parent:"cf-const",label:"Secretary of State — amendment election administration",cite:"Election Code §274",clock_days:240},
+        {id:"ag-cads",type:"agency",parent:"st-1113b",label:"253 county appraisal districts reprogram CAMA systems",cite:null,modeled:true,clock_days:90},
+        {id:"bd-fsp",type:"budget",parent:"ag-tea",label:"Foundation School Program — state hold-harmless cost",cite:"Educ. Code §48.2556",delta_usd:-3100000000},
+        {id:"bd-mno",type:"budget",parent:"ag-tea",label:"School district M&O local revenue",cite:"Tax Code §26.08",delta_usd:-2480000000},
+        {id:"bd-recap",type:"budget",parent:"ag-tea",label:"Recapture (\"Robin Hood\") payments",cite:"Educ. Code §49.004",delta_usd:-620000000},
+        {id:"bd-cnty",type:"budget",parent:"ag-cpa",label:"Per-county levy delta (map input)",cite:"Comptroller 2025 levies",delta_usd:-412000000,modeled:true}
+      ]
+    };
+
+    // ---------- data ----------
+    function loadModel(){
+      return fetch('data/scenario-stub.json',{cache:'no-store'})
+        .then(function(r){ if(!r.ok) throw new Error('http '+r.status); return r.json(); })
+        .catch(function(){ return INLINE_STUB; });
+    }
+
+    // ---------- layout ----------
+    function buildLayout(m){
+      var byStratum = [[],[],[],[],[]];
+      var byId = {};
+      m.nodes.forEach(function(n){
+        var si = STRATA_IX[n.type];
+        if(si === undefined) return;
+        byStratum[si].push(n);
+        byId[n.id] = n;
+      });
+      var geo = {};
+      byStratum.forEach(function(list, si){
+        var st = STRATA[si];
+        var n = list.length;
+        if(!n) return;
+        var avail = VB_W - MARGIN*2;
+        var w = Math.min(st.w, Math.max(150, (avail - (n-1)*GAP) / n));
+        var total = n*w + (n-1)*GAP;
+        var startX = (VB_W - total) / 2;
+        list.forEach(function(node, i){
+          var x = startX + i*(w+GAP);
+          geo[node.id] = {
+            si:si, node:node, w:w, h:st.h, x:x, top:st.y - st.h/2,
+            cx:x + w/2, top_y:st.y - st.h/2, bot_y:st.y + st.h/2, cy:st.y
+          };
+        });
+      });
+      // resolve edges from parent (fallback: nearest node in the stratum above)
+      var edges = [];
+      m.nodes.forEach(function(node){
+        var g = geo[node.id];
+        if(!g || g.si === 0) return;
+        var p = node.parent && geo[node.parent];
+        if(!p){
+          // nearest populated stratum above
+          for(var up = g.si - 1; up >= 0; up--){
+            var cands = byStratum[up].map(function(c){ return geo[c.id]; }).filter(Boolean);
+            if(cands.length){
+              cands.sort(function(a,b){ return Math.abs(a.cx-g.cx) - Math.abs(b.cx-g.cx); });
+              p = cands[0]; break;
+            }
+          }
+        }
+        if(p) edges.push({from:p, to:g, childStratum:g.si, conflict:(node.type==='conflict')});
+      });
+      return {byStratum:byStratum, byId:byId, geo:geo, edges:edges};
+    }
+
+    // ---------- render ----------
+    function esc(s){ return String(s==null?'':s).replace(/[&<>]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c];}); }
+    function fmtDelta(v){
+      var s = v<0?'−':'+', a=Math.abs(v);
+      if(a>=1e9) return s+'$'+(a/1e9).toFixed(2)+'B/yr';
+      if(a>=1e6) return s+'$'+Math.round(a/1e6)+'M/yr';
+      return s+'$'+Math.round(a).toLocaleString('en-US');
+    }
+    var TRI = '<svg class="gx-tri" viewBox="0 0 12 12" aria-hidden="true"><path d="M6 1 L11 11 L1 11 Z" fill="none" stroke="#9D8B5E" stroke-width="1.2"/><line x1="6" y1="4.5" x2="6" y2="8" stroke="#9D8B5E" stroke-width="1.2"/><circle cx="6" cy="9.4" r=".7" fill="#9D8B5E"/></svg>';
+
+    function cardHTML(node){
+      var t = node.type;
+      if(t === 'policy'){
+        return '<div class="gx-card">'+
+          '<div class="gx-kicker">Proposed change</div>'+
+          '<div class="gx-title">'+esc(node.label)+'</div>'+
+          '<div class="gx-foot">'+chip(node.cite)+'</div></div>';
+      }
+      if(t === 'conflict'){
+        return '<div class="gx-card">'+
+          '<div class="gx-kicker">'+TRI+'Conflict'+
+            '<span class="gx-sev">SEV '+(node.severity||1)+'</span></div>'+
+          '<div class="gx-title">'+esc(node.label)+'</div>'+
+          '<div class="gx-foot">'+chip(node.cite)+'</div></div>';
+      }
+      if(t === 'budget'){
+        var neg = (node.delta_usd||0) < 0;
+        return '<div class="gx-card">'+
+          '<div class="gx-kicker">Budget line'+(node.modeled?'<span class="gx-modeled" style="margin-left:auto">modeled</span>':'')+'</div>'+
+          '<div class="gx-title">'+esc(node.label)+'</div>'+
+          '<div class="gx-foot">'+
+            '<span class="gx-delta '+(neg?'gx-neg':'gx-pos')+'">'+fmtDelta(node.delta_usd||0)+'</span>'+
+            '<div class="gx-bar"><i data-bar></i></div>'+
+          '</div></div>';
+      }
+      // statute / agency
+      var tag = (t==='agency') ? 'Agency' : 'Statute';
+      return '<div class="gx-card">'+
+        '<div class="gx-kicker">'+tag+(node.modeled?'<span class="gx-modeled" style="margin-left:auto">modeled</span>':'')+'</div>'+
+        '<div class="gx-title">'+esc(node.label)+'</div>'+
+        '<div class="gx-foot">'+chip(node.cite)+'</div></div>';
+    }
+    function chip(cite){
+      if(!cite) return '';
+      return '<span class="gx-chip"><span class="gx-anchor"></span>'+esc(cite)+'</span>';
+    }
+
+    function render(){
+      GEDGE.innerHTML = '';
+      GNODE.innerHTML = '';
+      var maxAbs = 0;
+      layout.byStratum[4].forEach(function(n){ maxAbs = Math.max(maxAbs, Math.abs(n.delta_usd||0)); });
+
+      // edges
+      layout.edges.forEach(function(e){
+        var p = document.createElementNS(SVGNS,'path');
+        var x1 = e.from.cx, y1 = e.from.bot_y, x2 = e.to.cx, y2 = e.to.top_y;
+        var my = (y1+y2)/2;
+        p.setAttribute('d','M'+x1+','+y1+' C'+x1+','+my+' '+x2+','+my+' '+x2+','+y2);
+        p.setAttribute('class','gx-edge'+(e.conflict?' gx-conflict-edge':''));
+        p.setAttribute('data-stratum', e.childStratum);
+        GEDGE.appendChild(p);
+        e.el = p;
+      });
+
+      // nodes
+      layout.byStratum.forEach(function(list, si){
+        list.forEach(function(node){
+          var g = layout.geo[node.id];
+          var fo = document.createElementNS(SVGNS,'foreignObject');
+          fo.setAttribute('x', g.x); fo.setAttribute('y', g.top_y);
+          fo.setAttribute('width', g.w); fo.setAttribute('height', g.h);
+          var wrap = document.createElement('div');
+          wrap.className = 'gx-node gx-node--'+node.type;
+          wrap.setAttribute('data-id', node.id);
+          wrap.setAttribute('data-stratum', si);
+          wrap.setAttribute('role','button');
+          wrap.setAttribute('tabindex','0');
+          if(node.type === 'conflict'){
+            var sev = node.severity||1;
+            wrap.style.setProperty('--gx-breathe', (3400 - sev*400)+'ms'); // higher severity pulses faster
+          }
+          wrap.innerHTML = cardHTML(node);
+          // magnitude bar target
+          var bar = wrap.querySelector('[data-bar]');
+          if(bar){
+            var frac = maxAbs ? Math.abs(node.delta_usd||0)/maxAbs : 0;
+            bar.setAttribute('data-w', (Math.round((0.05 + frac*0.95)*100))+'%');
+          }
+          wrap.addEventListener('click', onNode);
+          wrap.addEventListener('keydown', function(ev){ if(ev.key==='Enter'||ev.key===' '){ ev.preventDefault(); onNode.call(wrap, ev); } });
+          fo.appendChild(wrap);
+          GNODE.appendChild(fo);
+          g.el = wrap;
+        });
+      });
+    }
+
+    function onNode(ev){
+      if(ev && ev.stopPropagation) ev.stopPropagation();
+      var el = this;
+      ROOT.querySelectorAll('.gx-node.gx-sel').forEach(function(n){ n.classList.remove('gx-sel'); });
+      el.classList.add('gx-sel');
+      document.dispatchEvent(new CustomEvent('gorgias:node',{detail:{id: el.getAttribute('data-id')}}));
+    }
+
+    // ---------- animation ----------
+    function chargeEdge(e){
+      var p = e.el, len;
+      try { len = p.getTotalLength(); } catch(_) { len = 400; }
+      p.style.strokeDasharray = len;
+      p.style.strokeDashoffset = len;
+      // force reflow so the transition runs
+      /* eslint-disable no-unused-expressions */
+      p.getBoundingClientRect();
+      p.style.strokeDashoffset = '0';
+      if(!e.conflict){
+        after(function(){ p.style.stroke = 'var(--gx-gold2)'; p.style.strokeWidth = '1'; }, 460);
+      }
+    }
+    function revealNode(g, flash){
+      g.el.classList.add('gx-in');
+      if(flash){
+        g.el.classList.add('gx-flash');
+        after(function(){ g.el.classList.remove('gx-flash'); }, 260);
+      }
+      var bar = g.el.querySelector('[data-bar]');
+      if(bar){ after(function(){ bar.style.width = bar.getAttribute('data-w'); }, 60); }
+    }
+    function after(fn, ms){ var id = setTimeout(fn, ms); timers.push(id); return id; }
+
+    // fiscal counter — ramps to teaser_total_usd (authority), stepped by budget landings
+    function setCounter(v, abbrev){
+      var neg = v < 0, a = Math.abs(v), body;
+      if(abbrev){
+        body = (a>=1e9)?('$'+(a/1e9).toFixed(2)+'B/yr'):(a>=1e6)?('$'+Math.round(a/1e6)+'M/yr'):('$'+Math.round(a).toLocaleString('en-US'));
+      } else {
+        body = '$'+Math.round(a).toLocaleString('en-US');
+      }
+      CVAL.innerHTML = (neg?'<span class="gx-sign">−</span>':'')+body;
+    }
+    // single time-based rAF drives the whole climb — no overlapping animations to clobber.
+    // stepped jumps synced to budget order (5.0s–7.6s), then a final ease closes to the exact
+    // teaser total (7.6s–9.0s), then the SETTLED stamp fires on its own timer.
+    var C_STEP0 = 5000, C_STEP_SPAN = 2600, C_FINAL_S = 7600, C_FINAL_E = 9000, C_PRE = 0.86;
+    function runCounter(){
+      var budgets = layout.byStratum[4];
+      var weights = budgets.map(function(n){ return Math.abs(n.delta_usd||0) || 1; });
+      var wsum = weights.reduce(function(a,b){ return a+b; },0) || 1;
+      var n = weights.length || 1;
+      var stepDur = C_STEP_SPAN / n;
+      var stepTargets = [], cw = 0;
+      weights.forEach(function(w){ cw += w; stepTargets.push(teaser * C_PRE * (cw/wsum)); });
+      var last = stepTargets.length ? stepTargets[stepTargets.length-1] : teaser;
+      var start = performance.now();
+      cancelAnimationFrame(rafId);
+      (function frame(now){
+        var t = now - start, v;
+        if(t < C_STEP0){ v = 0; }
+        else if(t < C_FINAL_S){
+          var idx = Math.min(n-1, Math.floor((t - C_STEP0) / stepDur));
+          var segStart = C_STEP0 + idx*stepDur;
+          var p = Math.min(1,(t - segStart)/stepDur), e = 1-Math.pow(1-p,3);
+          var prev = idx===0 ? 0 : stepTargets[idx-1];
+          v = prev + (stepTargets[idx]-prev)*e;
+        } else if(t < C_FINAL_E){
+          var pf = (t - C_FINAL_S)/(C_FINAL_E - C_FINAL_S), ef = 1-Math.pow(1-pf,3);
+          v = last + (teaser - last)*ef;
+        } else { v = teaser; }
+        setCounter(v, false);
+        if(t < C_FINAL_E){ rafId = requestAnimationFrame(frame); }
+        else { setCounter(teaser, true); }
+      })(start);
+      after(function(){ STAMP.classList.add('gx-on'); HINT.classList.add('gx-on'); playing = false; }, C_FINAL_E + 100);
+    }
+
+    // ---------- orchestration ----------
+    function clearAll(){
+      timers.forEach(clearTimeout); timers = [];
+      cancelAnimationFrame(rafId);
+    }
+    function reset(){
+      clearAll();
+      playing = false;
+      STAMP.classList.remove('gx-on');
+      HINT.classList.remove('gx-on');
+      setCounter(0, false);
+      ROOT.querySelectorAll('.gx-node').forEach(function(n){ n.classList.remove('gx-in','gx-flash','gx-sel'); });
+      layout.edges.forEach(function(e){
+        var p = e.el;
+        try{ var len = p.getTotalLength(); p.style.strokeDasharray = len; p.style.strokeDashoffset = len; }catch(_){}
+        p.style.stroke = ''; p.style.strokeWidth = '';
+      });
+    }
+    function play(){
+      if(!layout) return;
+      reset();
+      playing = true;
+
+      if(REDUCED){
+        ROOT.querySelectorAll('.gx-node').forEach(function(n){ n.classList.add('gx-in'); });
+        layout.edges.forEach(function(e){ e.el.style.strokeDashoffset='0'; if(!e.conflict){ e.el.style.stroke='var(--gx-gold2)'; e.el.style.strokeWidth='1'; } });
+        ROOT.querySelectorAll('[data-bar]').forEach(function(b){ b.style.width=b.getAttribute('data-w'); });
+        setCounter(teaser, true); STAMP.classList.add('gx-on'); HINT.classList.add('gx-on');
+        playing = false;
+        return;
+      }
+
+      // reveal policy immediately
+      var pol = layout.byStratum[0][0];
+      if(pol) after(function(){ revealNode(layout.geo[pol.id], false); }, 40);
+
+      // per-stratum: charge edges, then rise nodes
+      [1,2,3,4].forEach(function(si){
+        after(function(){
+          layout.edges.filter(function(e){ return e.childStratum===si; }).forEach(chargeEdge);
+        }, EDGE_CHARGE[si]);
+        after(function(){
+          layout.byStratum[si].forEach(function(node, i){
+            after(function(){ revealNode(layout.geo[node.id], si===2); }, i*STAGGER[si]);
+          });
+        }, NODE_REVEAL[si]);
+      });
+
+      // counter: single time-based driver — stepped climb then final ease, lands exactly on teaser
+      runCounter();
+    }
+
+    // ---------- boot ----------
+    document.addEventListener('keydown', function(ev){
+      if(ev.key === 'r' || ev.key === 'R'){ play(); }
+    });
+
+    window.Gorgias = window.Gorgias || {};
+    window.Gorgias.Cascade = { play:play, reset:reset, get model(){ return model; } };
+
+    loadModel().then(function(m){
+      model = m;
+      teaser = (m.policy && m.policy.teaser_total_usd) || 0;
+      layout = buildLayout(m);
+      render();
+      // autoplay shortly after mount
+      after(function(){ play(); }, 450);
+    });
+  })();
+  </script>
+</div>
+<!-- CASCADE-MODULE:END =============================================== -->
+
+</div>

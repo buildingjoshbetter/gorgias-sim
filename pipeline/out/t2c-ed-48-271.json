@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 48.271 addresses appraisal appeal adjustments under Tax Code Chapter 42, not homestead exemptions. The proposed exemption increase does not alter the appeal-triggered adjustment mechanism or the five-percent threshold.",
+ "quote": "If the final determination of an appeal under Chapter 42, Tax Code, results in a reduction in the taxable value of property that exceeds five percent of the total taxable value of property in the school district",
+ "_note": "No direct conflict; \u00a748.271 is scoped to Chapter 42 appraisal appeals, not to \u00a711.13(b) exemptions."
+}

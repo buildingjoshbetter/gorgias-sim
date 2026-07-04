@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Educ. Code \u00a713.231 governs minor boundary adjustments between contiguous school districts. It references taxable value as defined by Gov't Code \u00a7403.302, which already accounts for exemptions. No direct conflict with homestead exemption amount changes.",
+ "quote": "the taxable value of the territory that is transferred from one jurisdiction to the other does not exceed one-tenth of one percent of the total taxable value of all property in the school district from which the territory is transferred.",
+ "_note": "No conflict. The rule's taxable value definition already incorporates exemption effects via Gov't Code \u00a7403.302."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.05 governs the tax-rate adoption process and references 'total taxable value' without referencing the homestead exemption amount. Increasing the exemption reduces taxable value, which automatically flows into the calculations required by this section without requiring any amendment to it.",
+ "quote": "The tax rate consists of two components, each of which must be approved separately.",
+ "_note": "No direct conflict. The proposed exemption increase affects inputs to \u00a726.05 calculations (total taxable value, no-new-revenue rate, voter-approval rate) but does not require amendment to \u00a726.05 itself."
+}

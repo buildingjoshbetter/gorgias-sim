@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.042 references taxable value generally and Section 11.35 disaster exemptions, not the homestead exemption amount in Section 11.13(b). Its formulas automatically adjust to whatever taxable values result from any exemption level, so no amendment is needed.",
+ "quote": "the voter-approval tax rate calculated according to the following formula:\nVOTER-APPROVAL TAX RATE = (NO-NEW-REVENUE MAINTENANCE AND OPERATIONS RATE X 1.035) + (CURRENT DEBT RATE + UNUSED INCREMENT RATE + DISASTER RELIEF RATE)",
+ "_note": "No direct conflict. \u00a726.042 formulas use aggregate taxable value figures from appraisal rolls, which already reflect whatever exemption amounts apply under \u00a711.13(b). Changing the homestead exemption amount does not require conforming amendments to \u00a726.042."
+}

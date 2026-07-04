@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.061 governs conveyance of real property to taxing units in payment of delinquent taxes. It operates on whatever taxes are assessed, regardless of exemption amounts. Increasing the homestead exemption under \u00a711.13(b) does not alter \u00a731.061's operative mechanism.",
+ "quote": "An owner of real property may, subject to the approval of the governing body of all of the taxing units, by deed convey the property to the taxing unit that is owed the largest amount of the taxes, penalties, and interest assessed against the property in payment of the taxes, including delinquent taxes, penalties, and interest assessed against the property by each taxing unit.",
+ "_note": "No direct conflict. \u00a731.061 is tax-collection mechanism neutral to exemption levels; reduced tax amounts from a larger homestead exemption would flow through \u00a731.061 without requiring amendment."
+}

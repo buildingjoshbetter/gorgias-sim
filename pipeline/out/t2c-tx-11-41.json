@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 11.41 governs apportionment of exemptions among partial owners by multiplying the exemption by an ownership fraction. Raising the base exemption amount does not conflict; it simply flows through the existing fractional calculation.",
+ "quote": "the exemption shall be multiplied by a fraction, the numerator of which is the value of the property interest the person owns and the denominator of which is the value of the property.",
+ "_note": "No conflict. \u00a711.41 is ownership-apportionment mechanics, independent of the dollar amount set in \u00a711.13(b)."
+}

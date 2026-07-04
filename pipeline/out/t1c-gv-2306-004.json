@@ -1,0 +1,196 @@
+{
+ "cite": "Gov't Code \u00a72306.004",
+ "heading": "DEFINITIONS",
+ "operative_text": "In this chapter:",
+ "cross_refs": [
+  "Gov't Code ch. 2306 subch. P",
+  "26 U.S.C. \u00a7143(j)",
+  "26 U.S.C. \u00a7143",
+  "Tax Code \u00a7311",
+  "12 U.S.C. \u00a71701 et seq.",
+  "42 U.S.C. \u00a75301 et seq.",
+  "Gov't Code \u00a72306.123",
+  "Gov't Code \u00a72306.1231",
+  "Loc. Gov't Code \u00a7394",
+  "Gov't Code ch. 2306 subch. J",
+  "Gov't Code \u00a72306.143",
+  "Gov't Code \u00a72306.1111",
+  "Gov't Code \u00a72306.004(28-a)(B)",
+  "Gov't Code \u00a72306.004(28-a)(C)"
+ ],
+ "defined_terms": [
+  {
+   "term": "Board",
+   "definition_excerpt": "the governing board of the department."
+  },
+  {
+   "term": "Bond",
+   "definition_excerpt": "an evidence of indebtedness or other obligation, regardless of the source of payment, issued by the department under Subchapter P, including a bond, note, or bond or revenue anticipation note, regardless of whether the obligation is general or special, negotiable or nonnegotiable, in bearer or registered form, in certified or book-entry form, in temporary or permanent form, or with or without interest coupons."
+  },
+  {
+   "term": "Contract for Deed",
+   "definition_excerpt": "a seller-financed contract for the conveyance of real property under which:\n(A) legal title does not pass to the purchaser until the consideration of the contract is fully paid to the seller; and\n(B) the seller's remedy for nonpayment is recision or forfeiture or acceleration of any remaining payments rather than judicial or nonjudicial foreclosure."
+  },
+  {
+   "term": "Department",
+   "definition_excerpt": "the Texas Department of Housing and Community Affairs or any successor agency."
+  },
+  {
+   "term": "Development funding",
+   "definition_excerpt": "a loan or grant; or\nan in-kind contribution, including a donation of real property, a fee waiver for a building permit or for water or sewer service, or a similar contribution that:\n(i) provides an economic benefit; and\n(ii) results in a quantifiable cost reduction for the applicable development."
+  },
+  {
+   "term": "Director",
+   "definition_excerpt": "the executive director of the department."
+  },
+  {
+   "term": "Economically depressed or blighted area",
+   "definition_excerpt": "an area:\n(A) that is a qualified census tract as defined by Section 143(j), Internal Revenue Code of 1986 (26 U.S.C. Section 143(j)) or has been determined by the housing finance division to be an area of chronic economic distress under Section 143, Internal Revenue Code of 1986 (26 U.S.C. Section 143);\n(B) established in a municipality that has a substantial number of substandard, slum, deteriorated, or deteriorating structures and that suffers from a high relative rate of unemployment; or\n(C) that has been designated as a reinvestment zone under Chapter 311, Tax Code."
+  },
+  {
+   "term": "Elderly individual",
+   "definition_excerpt": "an individual 62 years of age or older or of an age specified by the applicable federal program."
+  },
+  {
+   "term": "Family of moderate income",
+   "definition_excerpt": "a family:\n(A) that is determined by the board to require assistance, taking into account:\n(i) the amount of the total income available for housing needs of the individuals and families;\n(ii) the size of the family;\n(iii) the cost and condition of available housing facilities;\n(iv) the ability of the individuals and families to compete successfully in the private housing market and to pay the amounts required by private enterprise for sanitary, decent, and safe housing; and\n(v) standards established for various federal programs determining eligibility based on income; and\n(B) that does not qualify as a family of low income."
+  },
+  {
+   "term": "Federal government",
+   "definition_excerpt": "the United States of America and includes any corporate or other instrumentality of the United States of America, including the Resolution Trust Corporation."
+  },
+  {
+   "term": "Federal mortgage",
+   "definition_excerpt": "a mortgage loan for residential housing:\n(A) that is made by the federal government; or\n(B) for which a commitment to make has been given by the federal government."
+  },
+  {
+   "term": "Federally assisted new communities",
+   "definition_excerpt": "federally assisted areas that receive or will receive assistance in the form of loan guarantees under Title X of the National Housing Act (12 U.S.C. Section 1701 et seq.), and a portion of that federally assisted area has received grants under Section 107(a)(1) of the Housing and Community Development Act of 1974, as amended (42 U.S.C. Section 5301 et seq.)."
+  },
+  {
+   "term": "Federally insured mortgage",
+   "definition_excerpt": "a mortgage loan for residential housing that:\n(A) is insured or guaranteed by the federal government; or\n(B) the federal government has committed to insure or guarantee."
+  },
+  {
+   "term": "Grant",
+   "definition_excerpt": "financial assistance that is awarded in the form of money to a housing sponsor for a specific purpose and that is not required to be repaid. For purposes of this chapter, a grant includes a forgivable loan."
+  },
+  {
+   "term": "Housing development",
+   "definition_excerpt": "property or work or a project, building, structure, facility, or undertaking, whether existing, new construction, remodeling, improvement, or rehabilitation, that meets or is designed to meet minimum property standards required by the department and that is financed under the provisions of this chapter for the primary purpose of providing sanitary, decent, and safe dwelling accommodations for rent, lease, use, or purchase by individuals and families of low and very low income and families of moderate income in need of housing. The term includes:\n(A) buildings, structures, land, equipment, facilities, or other real or personal properties that are necessary, convenient, or desirable appurtenances, including streets, water, sewers, utilities, parks, site preparation, landscaping, stores, offices, and other nonhousing facilities, such as administrative, community, and recreational facilities the department determines to be necessary, convenient, or desirable appurtenances; and\n(B) single and multifamily dwellings in rural and urban areas."
+  },
+  {
+   "term": "Housing sponsor",
+   "definition_excerpt": "an individual, joint venture, partnership, limited partnership, trust, firm, corporation, limited liability company, other form of business organization, or cooperative that is approved by the department as qualified to own, construct, acquire, rehabilitate, operate, manage, or maintain a housing development, subject to the regulatory powers of the department and other terms and conditions in this chapter."
+  },
+  {
+   "term": "Individuals and families of low income",
+   "definition_excerpt": "individuals and families earning not more than 80 percent of the area median income or applicable federal poverty line, as determined under Section 2306.123 or Section 2306.1231."
+  },
+  {
+   "term": "Individuals and families of very low income",
+   "definition_excerpt": "individuals and families earning not more than 60 percent of the area median income or applicable federal poverty line, as determined under Section 2306.123 or Section 2306.1231."
+  },
+  {
+   "term": "Individuals and families of extremely low income",
+   "definition_excerpt": "individuals and families earning not more than 30 percent of the area median income or applicable federal poverty line, as determined under Section 2306.123 or Section 2306.1231."
+  },
+  {
+   "term": "Land development",
+   "definition_excerpt": "acquiring land for residential housing construction; and\nmaking, installing, or constructing nonresidential improvements that the department determines are necessary or desirable for a housing development to be financed by the department, including:\n(i) waterlines and water supply installations;\n(ii) sewer lines and sewage disposal installations;\n(iii) steam, gas, and electric lines and installations; and\n(iv) roads, streets, curbs, gutters, and sidewalks, whether on or off the site."
+  },
+  {
+   "term": "Local government",
+   "definition_excerpt": "a county, municipality, special district, or any other political subdivision of the state, a public, nonprofit housing finance corporation created under Chapter 394, Local Government Code, or a combination of those entities."
+  },
+  {
+   "term": "Mortgage",
+   "definition_excerpt": "an obligation, including a mortgage, mortgage deed, bond, note, deed of trust, or other instrument, that is a lien:\n(A) on real property; or\n(B) on a leasehold under a lease having a remaining term that, at the time the lien is acquired, does not expire until after the maturity date of the obligation secured by the lien."
+  },
+  {
+   "term": "Mortgage lender",
+   "definition_excerpt": "a bank, trust company, savings bank, mortgage company, mortgage banker, credit union, national banking association, savings and loan association, life insurance company, or other financial institution authorized to transact business in this state and approved as a mortgage lender by the department."
+  },
+  {
+   "term": "Mortgage loan",
+   "definition_excerpt": "an obligation secured by a mortgage."
+  },
+  {
+   "term": "Municipality",
+   "definition_excerpt": "only a municipality in this state."
+  },
+  {
+   "term": "Neighborhood organization",
+   "definition_excerpt": "an organization that is composed of persons living near one another within the organization's defined boundaries for the neighborhood and that has a primary purpose of working to maintain or improve the general welfare of the neighborhood. A neighborhood organization includes a homeowners' association or a property owners' association."
+  },
+  {
+   "term": "New construction",
+   "definition_excerpt": "any construction to a development or a portion of a development that does not meet the definition of rehabilitation under this section."
+  },
+  {
+   "term": "Public agency",
+   "definition_excerpt": "the department or any agency, board, authority, department, commission, political subdivision, municipal corporation, district, public corporation, body politic, or instrumentality of this state, including a county, municipality, housing authority, state-supported institution of higher education, school district, junior college, other district or authority, or other type of governmental entity of this state."
+  },
+  {
+   "term": "Real estate owned contractor",
+   "definition_excerpt": "a person required to meet the obligations of a contract with the department for managing and marketing foreclosed property."
+  },
+  {
+   "term": "Real property",
+   "definition_excerpt": "land, including improvements and fixtures on the land, property of any nature appurtenant to the land or used in connection with the land, and a legal or equitable estate, interest, or right in land, including leasehold interests, terms for years, and a judgment, mortgage, or other lien."
+  },
+  {
+   "term": "Rehabilitation",
+   "definition_excerpt": "the improvement or modification of an existing residential development through an alteration, addition, or enhancement. The term includes the demolition of an existing residential development and the reconstruction of any development units, but does not include the improvement or modification of an existing residential development for the purpose of an adaptive reuse of the development."
+  },
+  {
+   "term": "Reserve fund",
+   "definition_excerpt": "any reserve fund established by the department."
+  },
+  {
+   "term": "Residential housing",
+   "definition_excerpt": "a specific work or improvement undertaken primarily to provide dwelling accommodations, including the acquisition, construction, reconstruction, remodeling, improvement, or rehabilitation of land and buildings and improvements to the buildings for residential housing and other incidental or appurtenant nonhousing facilities."
+  },
+  {
+   "term": "Rural area",
+   "definition_excerpt": "an area that is located:\n(A) outside the boundaries of a primary metropolitan statistical area or a metropolitan statistical area; or\n(B) within the boundaries of a primary metropolitan statistical area or a metropolitan statistical area, if the statistical area has a population of 25,000 or less and does not share a boundary with an urban area."
+  },
+  {
+   "term": "Rural development",
+   "definition_excerpt": "a development or proposed development that is located in a rural area, other than rural new construction developments with more than 80 units."
+  },
+  {
+   "term": "Servicer",
+   "definition_excerpt": "a person required to meet contractual obligations with the housing finance division or with a mortgage lender relating to a loan financed under Subchapter J, including:\n(A) purchasing mortgage certificates backed by mortgage loans;\n(B) collecting principal and interest from the borrower;\n(C) sending principal and interest payments to the division;\n(D) preparing periodic reports;\n(E) notifying the primary mortgage and pool insurers of delinquent and foreclosed loans; and\n(F) filing insurance claims on foreclosed property."
+  },
+  {
+   "term": "State low income housing plan",
+   "definition_excerpt": "the comprehensive and integrated plan for the state assessment of housing needs and allocation of housing resources."
+  },
+  {
+   "term": "Economic submarket",
+   "definition_excerpt": "a group of borrowers who have common home mortgage loan market eligibility characteristics, including income level, credit history or credit score, and employment characteristics, that are similar to Standard and Poor's credit underwriting criteria."
+  },
+  {
+   "term": "Geographic submarket",
+   "definition_excerpt": "a geographic region in the state, including a county, census tract, or municipality, that shares similar levels of access to home mortgage credit from the private home mortgage lending industry, as determined by the department based on home mortgage lending data published by federal and state banking regulatory agencies."
+  },
+  {
+   "term": "Rural county",
+   "definition_excerpt": "a county that is outside the boundaries of a primary metropolitan statistical area or a metropolitan statistical area."
+  },
+  {
+   "term": "Subprime loan",
+   "definition_excerpt": "a loan that is originated by a lender designated as a subprime lender on the subprime lender list maintained by the United States Department of Housing and Urban Development or identified as a lender primarily engaged in subprime lending under Section 2306.143."
+  },
+  {
+   "term": "Uniform application and funding cycle",
+   "definition_excerpt": "an application and funding cycle established under Section 2306.1111."
+  },
+  {
+   "term": "Urban area",
+   "definition_excerpt": "the area that is located within the boundaries of a primary metropolitan statistical area or a metropolitan statistical area other than an area described by Subdivision (28-a)(B) or eligible for funding as described by Subdivision (28-a)(C)."
+  }
+ ],
+ "_note": ""
+}

@@ -1,0 +1,28 @@
+{
+ "cite": "Educ. Code \u00a748.255",
+ "heading": "STATE COMPRESSION PERCENTAGE",
+ "operative_text": "(a) In this title, \"state compression percentage\" means the percentage of the rate of $1.00 per $100 valuation of taxable property that is used to determine a school district's maximum compressed tax rate under Section 48.2551. (b) The state compression percentage is the lower of: (1) 93 percent, or a lower percentage set by appropriation for a school year; (2) the percentage determined by the following formula: SCP = PYCP X 1.025/(1 + ECPV); or (3) the percentage determined under this section for the preceding school year. (c) For purposes of Subsection (b)(2): (1) \"SCP\" is the state compression percentage; (2) \"PYCP\" is the state compression percentage for the preceding school year; and (3) \"ECPV\" is the estimated percentage change in total taxable property value for the applicable tax year as determined based on the estimate submitted to the legislature under Section 48.269.",
+ "cross_refs": [
+  "Educ. Code \u00a748.2551",
+  "Educ. Code \u00a748.269"
+ ],
+ "defined_terms": [
+  {
+   "term": "state compression percentage",
+   "definition_excerpt": "the percentage of the rate of $1.00 per $100 valuation of taxable property that is used to determine a school district's maximum compressed tax rate under Section 48.2551"
+  },
+  {
+   "term": "SCP",
+   "definition_excerpt": "the state compression percentage"
+  },
+  {
+   "term": "PYCP",
+   "definition_excerpt": "the state compression percentage for the preceding school year"
+  },
+  {
+   "term": "ECPV",
+   "definition_excerpt": "the estimated percentage change in total taxable property value for the applicable tax year as determined based on the estimate submitted to the legislature under Section 48.269"
+  }
+ ],
+ "_note": ""
+}

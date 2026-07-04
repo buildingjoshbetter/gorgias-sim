@@ -1,0 +1,33 @@
+{
+ "cite": "Tax Code \u00a726.03",
+ "heading": "TREATMENT OF CAPTURED APPRAISED VALUE AND TAX INCREMENT",
+ "operative_text": "(a) In this section, \"captured appraised value,\" \"reinvestment zone,\" \"tax increment,\" and \"tax increment fund\" have the meanings assigned by Chapter 311.\n(b) This section does not apply to a school district.\n(c) The portion of the captured appraised value of real property taxable by a taxing unit that corresponds to the portion of the tax increment of the unit from that property that the unit has agreed to pay into the tax increment fund for a reinvestment zone and that is not included in the calculation of \"new property value\" as defined by Section 26.012 is excluded from the value of property taxable by the unit in any tax rate calculation under this chapter.\n(d) The portion of the tax increment of a taxing unit that the unit has agreed to pay into the tax increment fund for a reinvestment zone is excluded from the amount of taxes imposed or collected by the unit in any tax rate calculation under this chapter, except that the portion of the tax increment is not excluded if in the same tax rate calculation there is no portion of captured appraised value excluded from the value of property taxable by the unit under Subsection (c) for the same reinvestment zone.\n(e) For a taxing unit in which a tax rate calculation for a tax year is affected by the application of this section, the adjustments to the value of property taxable by the unit and to the amount of taxes imposed or collected by the unit prescribed by this section shall be calculated separately for each reinvestment zone in which the taxing unit participates. The comptroller shall ensure that the tax rate calculation forms prescribed under Section 5.07 provide for the calculations to be made in the manner required by this subsection.",
+ "cross_refs": [
+  "Chapter 311",
+  "Section 26.012",
+  "Section 5.07"
+ ],
+ "defined_terms": [
+  {
+   "term": "captured appraised value",
+   "definition_excerpt": "\"captured appraised value,\" \"reinvestment zone,\" \"tax increment,\" and \"tax increment fund\" have the meanings assigned by Chapter 311."
+  },
+  {
+   "term": "reinvestment zone",
+   "definition_excerpt": "\"captured appraised value,\" \"reinvestment zone,\" \"tax increment,\" and \"tax increment fund\" have the meanings assigned by Chapter 311."
+  },
+  {
+   "term": "tax increment",
+   "definition_excerpt": "\"captured appraised value,\" \"reinvestment zone,\" \"tax increment,\" and \"tax increment fund\" have the meanings assigned by Chapter 311."
+  },
+  {
+   "term": "tax increment fund",
+   "definition_excerpt": "\"captured appraised value,\" \"reinvestment zone,\" \"tax increment,\" and \"tax increment fund\" have the meanings assigned by Chapter 311."
+  },
+  {
+   "term": "new property value",
+   "definition_excerpt": "\"new property value\" as defined by Section 26.012"
+  }
+ ],
+ "_note": null
+}

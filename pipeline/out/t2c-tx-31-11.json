@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.11(h) expressly excludes overpayments caused by a change of exemption status, routing those to Sections 26.15 or 42.43. Increasing the homestead exemption triggers that carve-out, so no conflict arises.",
+ "quote": "This section does not apply to an overpayment caused by a change of exemption status or correction of a tax roll, including an overpayment received after a correction of a tax roll as a result of an appeal under Chapter 42. Such an overpayment is covered by Section 26.15 or 42.43, as applicable.",
+ "_note": "None."
+}

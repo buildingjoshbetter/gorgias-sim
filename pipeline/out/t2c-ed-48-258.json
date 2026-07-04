@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces taxable values statewide, potentially triggering rapid-decline adjustments under \u00a748.258(a). The commissioner may need rulemaking to address legislatively-caused declines versus other factors beyond board control.",
+ "quote": "the commissioner shall adjust the taxable value of property in a school district that, due to factors beyond the control of the board of trustees, experiences a rapid decline in the tax base used in calculating taxable values in excess of four percent of the tax base used in the preceding year.",
+ "_note": "Conflict is indirect: the proposed exemption increase could cause taxable-value declines exceeding 4% in some districts, activating this adjustment mechanism. No direct statutory contradiction, but operational interaction may require updated commissioner rules."
+}

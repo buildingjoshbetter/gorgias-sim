@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 49.352 establishes consolidation selection criteria based on local revenue levels and taxable values. It does not reference the homestead exemption amount or \u00a711.13(b). The proposed change alters underlying taxable values but does not conflict with these operative criteria.",
+ "quote": "In selecting the districts to be consolidated with a district that has taxable values of property in an amount that exceeds the local revenue level established under Section 48.257, the commissioner shall select one or more districts that, when consolidated, will result in a consolidated district with a local revenue level equal to or less than the level established under Section 48.257.",
+ "_note": "No direct conflict. Increasing the homestead exemption would reduce taxable property values, indirectly affecting which districts exceed the local revenue level under \u00a748.257, but \u00a749.352's selection criteria operate on whatever values result and require no statutory amendment."
+}

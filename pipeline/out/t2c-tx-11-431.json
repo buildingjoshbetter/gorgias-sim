@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 11.431 references 'the exempted amount' generically without hardcoding a dollar figure. Increasing the exemption under \u00a711.13(b) automatically flows through to late-application refunds and deductions with no textual conflict.",
+ "quote": "The collector shall deduct from the person's tax bill the amount of tax imposed on the exempted amount if the tax has not been paid.",
+ "_note": "No conflict; \u00a711.431 uses generic term 'exempted amount' and adapts to any exemption level set by \u00a711.13(b)."
+}

@@ -1,0 +1,23 @@
+{
+ "cite": "Educ. Code \u00a748.101",
+ "heading": "SMALL AND MID-SIZED DISTRICT ALLOTMENT",
+ "operative_text": "(a) Small and mid-sized districts are entitled to an annual allotment in accordance with this section. In this section: (1) \"AA\" is the district's annual allotment per student in average daily attendance; (2) \"ADA\" is the number of students in average daily attendance for which the district is entitled to an allotment under Section 48.051, other than students in average daily attendance who do not reside in the district and are enrolled in a full-time virtual program; and (3) \"BA\" is the basic allotment determined under Section 48.051. (b) A school district that has fewer than 1,600 students in average daily attendance is entitled to an annual allotment for each student in average daily attendance based on the following formula: AA = ((1,600 - ADA) X .00046) X BA (c) A school district that offers a kindergarten through grade 12 program and has less than 5,000 students in average daily attendance is entitled to an annual allotment for each student in average daily attendance based on the formula, of the following formulas, that results in the greatest annual allotment: (1) the formula in Subsection (b), if the district is eligible for that formula; or (2) AA = ((5,000 - ADA) X .00003) X BA. (d) Instead of the allotment under Subsection (b) or (c)(1), a school district that has fewer than 300 students in average daily attendance and is the only school district located in and operating in a county is entitled to an annual allotment for each student in average daily attendance based on the following formula: AA = ((1,600 - ADA) X .0005) X BA",
+ "cross_refs": [
+  "Educ. Code \u00a748.051"
+ ],
+ "defined_terms": [
+  {
+   "term": "AA",
+   "definition_excerpt": "the district's annual allotment per student in average daily attendance"
+  },
+  {
+   "term": "ADA",
+   "definition_excerpt": "the number of students in average daily attendance for which the district is entitled to an allotment under Section 48.051, other than students in average daily attendance who do not reside in the district and are enrolled in a full-time virtual program"
+  },
+  {
+   "term": "BA",
+   "definition_excerpt": "the basic allotment determined under Section 48.051"
+  }
+ ],
+ "_note": "Added by Acts 2019, 86th Leg., R.S., Ch. 943 (H.B. 3), Sec. 1.024, eff. September 1, 2019. Amended by Acts 2025, 89th Leg., R.S., Ch. 1065 (H.B. 2), Sec. 7.13, eff. September 1, 2025. Text of section effective until September 01, 2026."
+}

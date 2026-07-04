@@ -1,0 +1,30 @@
+{
+ "cite": "Gov't Code \u00a7403.3011",
+ "heading": "DEFINITIONS",
+ "operative_text": "In this subchapter: (1) \"Study\" means a study conducted under Section 403.302. (2) \"Eligible school district\" means a school district for which the comptroller has determined the following: (A) in the most recent study, the local value is invalid under Section 403.302(c) and does not exceed the state value for the school district determined in the study; (B) in the two studies preceding the most recent study, the school district's local value was valid under Section 403.302(c); (C) in the most recent study, the aggregate local value of all of the categories of property sampled by the comptroller is not less than 90 percent of the lower limit of the margin of error as determined by the comptroller of the aggregate value as determined by the comptroller of all of the categories of property sampled by the comptroller; and (D) the appraisal district that appraises property for the school district was in compliance with the scoring requirement of the comptroller's most recent review of the appraisal district conducted under Section 5.102, Tax Code. (3) \"Local value\" means the market value of property in a school district as determined by the appraisal district that appraises property for the school district, less the total amounts and values listed in Section 403.302(d) as determined by that appraisal district. (4) \"State value\" means the value of property in a school district as determined in a study.",
+ "cross_refs": [
+  "Gov't Code \u00a7403.302",
+  "Gov't Code \u00a7403.302(c)",
+  "Gov't Code \u00a7403.302(d)",
+  "Tax Code \u00a75.102"
+ ],
+ "defined_terms": [
+  {
+   "term": "Study",
+   "definition_excerpt": "a study conducted under Section 403.302"
+  },
+  {
+   "term": "Eligible school district",
+   "definition_excerpt": "a school district for which the comptroller has determined the following:"
+  },
+  {
+   "term": "Local value",
+   "definition_excerpt": "the market value of property in a school district as determined by the appraisal district that appraises property for the school district, less the total amounts and values listed in Section 403.302(d) as determined by that appraisal district"
+  },
+  {
+   "term": "State value",
+   "definition_excerpt": "the value of property in a school district as determined in a study"
+  }
+ ],
+ "_note": null
+}

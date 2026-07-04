@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.04 governs postponement of tax delinquency dates based on bill mailing timing. It does not reference homestead exemption amounts or \u00a711.13(b). No conflict exists.",
+ "quote": "Sec. 31.04. POSTPONEMENT OF DELINQUENCY DATE. (a) If a tax bill is mailed after January 10, the delinquency date provided by Section 31.02 of this code is postponed to the first day of the next month that will provide a period of at least 21 days after the date of mailing for payment of taxes before delinquent",
+ "_note": "No intersection between proposed homestead exemption increase and delinquency date postponement rules."
+}

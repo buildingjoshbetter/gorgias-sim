@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "Increasing the homestead exemption reduces taxable property values, which directly affects 'wealth per student' under \u00a748.273(a)(4), potentially reclassifying districts among Categories 1\u20133 and altering their payment installment schedules.",
+ "quote": "\"Wealth per student\" means the taxable property values reported by the comptroller to the commissioner under Section 48.256 divided by the number of students in average daily attendance.",
+ "_note": "The proposed change to Tax Code \u00a711.13(b) indirectly impacts the wealth-per-student calculation that determines district categorization and payment timing under this section."
+}

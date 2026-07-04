@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces total taxable property value. The comptroller's biennial estimate of total taxable value under \u00a748.269(a)(2) must incorporate the new exemption amount, requiring a methodology update but no statutory amendment.",
+ "quote": "the comptroller shall submit to the legislature an estimate of the total taxable value of all property in the state",
+ "_note": "Proposed change affects inputs to the comptroller's taxable-value estimate but does not alter the statutory duty or deadline; only the estimation methodology must be updated."
+}

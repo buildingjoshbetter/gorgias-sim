@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.063 governs tax rate notice content when the de minimis rate exceeds the voter-approval tax rate. It references rates computed under other sections but does not itself incorporate or depend on the homestead exemption amount in \u00a711.13(b). No textual conflict exists.",
+ "quote": "The de minimis rate is the rate equal to the sum of the no-new-revenue maintenance and operations rate for (name of taxing unit), the rate that will raise $500,000, and the current debt rate for (name of taxing unit).",
+ "_note": "The proposed increase to the \u00a711.13(b) homestead exemption affects taxable value computations upstream (e.g., no-new-revenue rate under \u00a726.012\u201326.013), but \u00a726.063's notice provisions and de minimis formula ($500,000 fixed amount) are not directly dependent on the exemption amount. No amendment to \u00a726.063 is required."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "\u00a726.08(n)'s voter-approval tax rate calculation uses taxable value and references Ed. Code \u00a748.2551 (compressed rate) and \u00a745.0032 (enrichment rate). Increasing the homestead exemption reduces taxable values, creating a transition-year mismatch between preceding-year and current-year calculations requiring conforming amendments.",
+ "quote": "(n) For purposes of this section, the voter-approval tax rate of a school district is the sum of the following:\n(1) the rate per $100 of taxable value that is equal to the district's maximum compressed tax rate, as determined under Section 48.2551, Education Code, for the current year;\n(2) the greater of:\n(A) the district's enrichment tax rate for the preceding tax year; or\n(B) the rate of $0.05 per $100 of taxable value; and\n(3) the district's current debt rate.",
+ "_note": "Conflict is indirect: \u00a726.08 does not reference \u00a711.13(b) directly, but its voter-approval tax rate calculation depends on taxable values, which are directly affected by the homestead exemption amount. The referenced Education Code provisions (\u00a748.2551, \u00a745.0032) may also require conforming amendments."
+}

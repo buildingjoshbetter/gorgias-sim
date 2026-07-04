@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 25.25 references Section 11.13 by section number only, not by dollar amount. Changing the homestead exemption amount does not alter appraisal roll correction procedures or thresholds in this section.",
+ "quote": "an erroneous denial or cancellation of any exemption authorized by Section 11.13 if the applicant or recipient is disabled or is 65 or older or an exemption authorized by Section 11.13(q), 11.131, or 11.22",
+ "_note": "No conflict. \u00a725.25 cross-references \u00a711.13 by section number only; the exemption dollar amount is not embedded in \u00a725.25's operative text."
+}

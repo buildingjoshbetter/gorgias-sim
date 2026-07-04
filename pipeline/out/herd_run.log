@@ -1,0 +1,7 @@
+[driver] start cumulative=$6.503 global_cap=$150 batch=150
+[driver] jobs/t2_crawl.jsonl: 7564 jobs
+[driver] batch 1 of t2_crawl.jsonl: 150/150 ok | run_total 150/150 | cumulative=$6.761
+[driver] batch 2 of t2_crawl.jsonl: 149/150 ok | run_total 299/300 | cumulative=$6.996
+[driver] batch 3 of t2_crawl.jsonl: 150/150 ok | run_total 449/450 | cumulative=$7.230
+[driver] batch 4 of t2_crawl.jsonl: 149/150 ok | run_total 598/600 | cumulative=$7.471
+[driver] batch 5 of t2_crawl.jsonl: 149/150 ok | run_total 747/750 | cumulative=$7.747

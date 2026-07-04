@@ -1,0 +1,17 @@
+{
+ "cite": "Educ. Code \u00a748.2552",
+ "heading": "LIMITATION ON MAXIMUM COMPRESSED RATE",
+ "operative_text": "(a) Each year, the agency shall evaluate the difference between school districts' maximum compressed rates, as determined under Section 48.2551. (b) If a school district's maximum compressed rate as calculated under Section 48.2551(b) would be less than 90 percent of another school district's maximum compressed rate, the district's maximum compressed rate is the value at which the district's maximum compressed rate would be equal to 90 percent of the other district's maximum compressed rate. (c) The amount of revenue available to the state as a result of the differences in the amount of state aid and reduction in local revenue between calculating a district's maximum compressed rate in accordance with Subsection (b) and calculating the district's maximum compressed rate under Section 48.2551 shall be used to lower the state compression percentage under Section 48.255. The agency shall provide estimates to the legislature of the reduction of the state compression percentage based on this subsection.",
+ "cross_refs": [
+  "Educ. Code \u00a748.2551",
+  "Educ. Code \u00a748.2551(b)",
+  "Educ. Code \u00a748.255"
+ ],
+ "defined_terms": [
+  {
+   "term": "maximum compressed rate",
+   "definition_excerpt": "the district's maximum compressed rate is the value at which the district's maximum compressed rate would be equal to 90 percent of the other district's maximum compressed rate"
+  }
+ ],
+ "_note": "No explicit definition of 'maximum compressed rate' is provided in this section; the term is defined under Section 48.2551. The excerpt in defined_terms captures the operative limitation rule from Subsection (b)."
+}

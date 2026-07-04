@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.081 governs property tax withholding on purchases of businesses or inventory. It does not reference residence homestead exemptions or Tax Code \u00a711.13(b), so increasing the homestead exemption amount does not conflict with this section.",
+ "quote": "This section applies only to a person who purchases a business, an interest in a business, or the inventory of a business from a person who is liable under this title for the payment of taxes imposed on personal property used in the operation of that business.",
+ "_note": "No conflict; \u00a731.081 concerns business personal property tax withholding and is unrelated to residence homestead exemptions."
+}

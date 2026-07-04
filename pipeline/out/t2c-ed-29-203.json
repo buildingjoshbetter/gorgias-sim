@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces school district property tax revenue, altering local revenue levels used in \u00a729.203(b) state aid calculations for public education grant students. Commissioner rules may need updating to reflect adjusted local revenue levels.",
+ "quote": "If the district has a local revenue level greater than the guaranteed local revenue level but less than the level established under Section 48.257, a school district is entitled under rules adopted by the commissioner to additional state aid in an amount equal to the difference between the cost to the district of providing services to a student using a public education grant and the sum of the state aid received because of the allotment under Section 48.107 and money from the available school fund attributable to the student.",
+ "_note": "Indirect fiscal interaction: homestead exemption change affects local revenue levels referenced in this section but does not require amendment to \u00a729.203 itself; commissioner rulemaking under subsection (b) may need adjustment."
+}

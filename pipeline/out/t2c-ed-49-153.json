@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces taxable value, lowering school district M&O tax revenue and final tax collections that \u00a749.153 usesto compute the cost of attendance credit. No direct textual conflict, but fiscal calculations under this section are affected, requiring rulemaking updates.",
+ "quote": "The cost of attendance credit for a school district is computed using the final tax collections of the district.",
+ "_note": "Indirect fiscal impact via reduced M&O tax revenue; no direct statutory cross-reference to Tax Code \u00a711.13(b) exists in this section."
+}

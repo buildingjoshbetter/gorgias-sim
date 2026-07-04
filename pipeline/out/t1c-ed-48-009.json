@@ -1,0 +1,28 @@
+{
+ "cite": "Educ. Code \u00a748.009",
+ "heading": "REQUIRED PEIMS REPORTING",
+ "operative_text": "The commissioner by rule shall require each school district and open-enrollment charter school to report through the Public Education Information Management System information regarding: (1) the number of students enrolled in the district or school who are identified as having dyslexia; (2) the availability of school counselors, including the number of full-time equivalent school counselors, at each campus; (3) the availability of expanded learning opportunities as described by Section 33.252 at each campus; (4) the total number of students, other than students described by Subdivision (5), enrolled in the district or school with whom the district or school, as applicable, used intervention strategies, as that term is defined by Section 26.004, at any time during the year for which the report is made; (5) the total number of students enrolled in the district or school to whom the district or school provided aids, accommodations, or services under Section 504, Rehabilitation Act of 1973 (29 U.S.C. Section 794), at any time during the year for which the report is made; (6) disaggregated by campus and grade, the number of: (A) children who are required to attend school under Section 25.085, are not exempted under Section 25.086, and fail to attend school without excuse for 10 or more days or parts of days within a six-month period in the same school year, in total and disaggregated by whether the child is receiving instructional services under Section 29.081; (B) students for whom the district initiates a truancy prevention measure under Section 25.0915(a-4); and (C) parents of students against whom an attendance officer or other appropriate school official has filed a complaint under Section 25.093; (7) the number of students who are enrolled in a high school equivalency program, a dropout recovery school, or an adult education program provided under a high school diploma and industry certification charter school program provided by the district or school and who: (A) are at least 18 years of age and under 26 years of age; (B) have not previously been reported to the agency as dropouts; and (C) enroll in the program at the district or school after not attending school for a period of at least nine months; and (8) the number of chronically absent students enrolled at each campus in the district or school, in total and disaggregated by whether the student is receiving instructional services under Section 29.081.",
+ "cross_refs": [
+  "Educ. Code \u00a733.252",
+  "Educ. Code \u00a726.004",
+  "Educ. Code \u00a725.085",
+  "Educ. Code \u00a725.086",
+  "Educ. Code \u00a729.081",
+  "Educ. Code \u00a725.0915(a-4)",
+  "Educ. Code \u00a725.093",
+  "Educ. Code \u00a748.102",
+  "Educ. Code \u00a748.1021",
+  "29 U.S.C. \u00a7794"
+ ],
+ "defined_terms": [
+  {
+   "term": "Chronically absent student",
+   "definition_excerpt": "a student who is absent from school for more than 10 percent of the school's required operation and instructional time within:\n(A) a school year; or\n(B) an enrollment period that exceeds 30 instructional days."
+  },
+  {
+   "term": "Full-time equivalent school counselor",
+   "definition_excerpt": "40 hours of counseling services a week."
+  }
+ ],
+ "_note": "Text contains two versions of subsection (b): the current version (eff. Sept. 1, 2025, per S.B. 991) and a future version effective Sept. 1, 2026 (per H.B. 2 and S.B. 568). The future version replaces subdivision (b)(8) with special education reporting under Subchapter A, Chapter 29, and removes the chronic absenteeism disaggregation by Section 29.081 from (b)(6)(A). Operative_text reflects the current (2025) version. Subsection (b-4) requires annual bullying incident reporting including cyberbullying. Subsection (c-1) requires public availability of truancy and chronic absenteeism data. Subsection (d) required PEIMS to include pregnancy as a withdrawal reason by Jan. 1, 2020."
+}

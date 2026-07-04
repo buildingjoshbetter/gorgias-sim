@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change to Tax Code \u00a711.13(b) residence homestead exemption is unrelated to \u00a711.146, which governs mineral interest exemptions under $500. No overlap or interaction between the provisions.",
+ "quote": "A person is entitled to an exemption from taxation of a mineral interest the person owns if the interest has a taxable value of less than $500.",
+ "_note": "\u00a711.146 addresses mineral interest exemptions; proposed change targets residence homestead exemption under \u00a711.13(b). No conflict."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 11.46 is a reporting/compilation requirement. Changing the homestead exemption dollar amount does not conflict; the chief appraiser would simply report the updated exemption values.",
+ "quote": "Each year the chief appraiser shall compile and make available to the public a list showing for each taxing unit in the district the number of each kind of partial exemption allowed in that tax year and the total assessed value of each taxing unit that is exempted by each kind of partial exemption.",
+ "_note": "No conflict. \u00a711.46 is procedural and operates regardless of the specific exemption dollar amount."
+}

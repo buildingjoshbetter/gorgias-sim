@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 11.35 provides a disaster exemption calculated as a percentage of appraised value based on damage level. It does not reference or depend on the \u00a711.13(b) homestead exemption amount. The two exemptions operate independently; increasing the homestead exemption does not alter \u00a711.35's calculation methodology.",
+ "quote": "the amount of the exemption authorized by this section for an item of qualified property is determined by multiplying the appraised value, determined for the tax year in which the disaster occurred, of the property by",
+ "_note": "No direct conflict. \u00a711.35's exemption is a percentage of appraised value independent of the \u00a711.13(b) flat-dollar homestead exemption. Potential interaction if both apply to same property, but no statutory dependency exists."
+}

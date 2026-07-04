@@ -1,0 +1,31 @@
+{
+ "cite": "Educ. Code \u00a744.004",
+ "heading": "NOTICE OF BUDGET AND TAX RATE MEETING; BUDGET ADOPTION",
+ "operative_text": "(f) The board of trustees, at the meeting called for that purpose, shall adopt a budget to cover all expenditures for the school district for the next succeeding fiscal year. Any taxpayer of the district may be present and participate in the meeting. (g) The budget must be adopted before the adoption of the tax rate for the tax year in which the fiscal year covered by the budget begins.",
+ "cross_refs": [
+  "Educ. Code \u00a744.002",
+  "Tax Code \u00a726.04",
+  "Tax Code \u00a726.01",
+  "Educ. Code ch. 48",
+  "Educ. Code ch. 46",
+  "Educ. Code ch. 43",
+  "Tax Code \u00a723.23",
+  "Tax Code \u00a726.08",
+  "Educ. Code \u00a745.003",
+  "Educ. Code \u00a745.001",
+  "Tax Code \u00a726.01(e)",
+  "Tax Code \u00a726.01(a)",
+  "Tax Code \u00a726.05(g)"
+ ],
+ "defined_terms": [
+  {
+   "term": "Local Revenue per Student",
+   "definition_excerpt": "the \"Local Revenue per Student,\" which is computed by multiplying the district's total taxable value of property, as certified by the chief appraiser for the applicable school year under Section 26.01, Tax Code, and as adjusted to reflect changes made by the chief appraiser as of the time the notice is prepared, by the total tax rate, and dividing the product by the number of students in average daily attendance in the district for the applicable school year"
+  },
+  {
+   "term": "State Revenue per Student",
+   "definition_excerpt": "the \"State Revenue per Student,\" which is computed by determining the amount of state aid received or to be received by the district under Chapters 43, 46, and 48 and dividing that amount by the number of students in average daily attendance in the district for the applicable school year"
+  }
+ ],
+ "_note": "None"
+}

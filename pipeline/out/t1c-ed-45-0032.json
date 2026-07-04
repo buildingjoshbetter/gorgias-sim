@@ -1,0 +1,24 @@
+{
+ "cite": "Educ. Code \u00a745.0032",
+ "heading": "COMPONENTS OF MAINTENANCE AND OPERATIONS TAX",
+ "operative_text": "(a) A school district's tier one maintenance and operations tax rate is the number of cents levied by the district for maintenance and operations that does not exceed the maximum compressed rate, as determined under Section 48.2551. (b) A district's enrichment tax rate consists of: (1) any cents of additional maintenance and operations tax effort, not to exceed eight cents over the maximum tax rate described by Subsection (a); and (2) any cents of additional maintenance and operations tax effort that exceeds the sum of the maximum tax rate described by Subsection (a) and the maximum number of cents permitted under Subdivision (1). (c) For a district to which Section 45.003(f) applies, any cents of maintenance and operations tax effort that exceeds the maximum rate permitted under Section 45.003(d) are not included in the district's tier one maintenance and operations tax rate under Subsection (a) or the district's enrichment tax rate under Subsection (b), and the district is not entitled to the guaranteed yield amount of state funds under Section 48.202 for those cents of tax effort. (d) For a district to which Section 26.042(e), Tax Code, applies, the amount by which the district's maintenance tax rate exceeds the district's voter-approval tax rate, excluding the district's current debt rate under Section 26.08(n)(3), Tax Code, for the preceding year is not considered in determining a district's tier one maintenance and operations tax rate under Subsection (a) or the district's enrichment tax rate under Subsection (b) for the current tax year.",
+ "cross_refs": [
+  "Educ. Code \u00a748.2551",
+  "Educ. Code \u00a745.003(f)",
+  "Educ. Code \u00a745.003(d)",
+  "Educ. Code \u00a748.202",
+  "Tax Code \u00a726.042(e)",
+  "Tax Code \u00a726.08(n)(3)"
+ ],
+ "defined_terms": [
+  {
+   "term": "tier one maintenance and operations tax rate",
+   "definition_excerpt": "the number of cents levied by the district for maintenance and operations that does not exceed the maximum compressed rate, as determined under Section 48.2551"
+  },
+  {
+   "term": "enrichment tax rate",
+   "definition_excerpt": "A district's enrichment tax rate consists of: (1) any cents of additional maintenance and operations tax effort, not to exceed eight cents over the maximum tax rate described by Subsection (a); and (2) any cents of additional maintenance and operations tax effort that exceeds the sum of the maximum tax rate described by Subsection (a) and the maximum number of cents permitted under Subdivision (1)."
+  }
+ ],
+ "_note": null
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Educ. Code \u00a745.0032 governs school district M&O tax rate components (tier one, enrichment). It does not reference the \u00a711.13(b) homestead exemption amount. Increasing the exemption affects taxable value, not the rate structure defined here.",
+ "quote": "A school district's tier one maintenance and operations tax rate is the number of cents levied by the district for maintenance and operations that does not exceed the maximum compressed rate, as determined under Section 48.2551.",
+ "_note": "No direct or indirect textual conflict; \u00a745.0032 addresses tax rate composition, not exemption amounts."
+}

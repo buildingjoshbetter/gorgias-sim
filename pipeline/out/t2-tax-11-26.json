@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Section 11.26(a-10)(4) directly references the \u00a711.13(b) exemption amount in its tax-limitation formula. The formula self-adjusts to the new $140,000 amount, but implementing agencies must update calculation procedures and systems.",
+ "quote": "(4) multiplying the amount of any increase in the current tax year as compared to the preceding tax year in the aggregate amount of the exemptions to which the individual is entitled under Sections 11.13(b) and (c) by the school district's tax rate for the current tax year; and",
+ "_note": "No hardcoded dollar amount in \u00a711.26; cross-reference to \u00a711.13(b) means the formula auto-incorporates the new exemption value. Severity 1 because no statutory amendment to \u00a711.26 is required, but comptroller and chief appraisers must update calculation methodologies."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 48.107's allotment formula is based on the basic allotment and student counts, not on homestead exemption amounts or property tax values. No operative text references Tax Code \u00a711.13 or homestead exemptions.",
+ "quote": "the district in which the student attends school is entitled to an annual allotment equal to the basic allotment multiplied by a weight of 0.1.",
+ "_note": "No direct or indirect reference to homestead exemption amounts; the allotment is derived from the basic allotment, not local property tax revenue."
+}

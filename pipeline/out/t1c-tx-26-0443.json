@@ -1,0 +1,24 @@
+{
+ "cite": "Tax Code \u00a726.0443",
+ "heading": "TAX RATE ADJUSTMENT FOR ELIGIBLE COUNTY HOSPITAL EXPENDITURES",
+ "operative_text": "If a county's or municipality's eligible county hospital expenditures exceed the amount of those expenditures for the preceding tax year, the no-new-revenue maintenance and operations rate for the county or municipality, as applicable, is increased by the lesser of the rates computed according to the following formulas: (Current Tax Year's Eligible County Hospital Expenditures - Preceding Tax Year's Eligible County Hospital Expenditures) / (Current Total Value - New Property Value) or (Preceding Tax Year's Eligible County Hospital Expenditures x 0.08) / (Current Total Value - New Property Value)",
+ "cross_refs": [
+  "Health and Safety Code Chapter 263",
+  "Health and Safety Code Chapter 265",
+  "Tex. Const. art. IX, \u00a7\u00a74-11",
+  "Tax Code \u00a726.04(e)",
+  "Tax Code \u00a726.06",
+  "Tax Code \u00a726.061"
+ ],
+ "defined_terms": [
+  {
+   "term": "Eligible county hospital",
+   "definition_excerpt": "a hospital that: (A) is: (i) owned or leased by a county and operated in accordance with Chapter 263, Health and Safety Code; or (ii) owned or leased jointly by a municipality and a county and operated in accordance with Chapter 265, Health and Safety Code; and (B) is located in an area not served by a hospital district created under Sections 4 through 11, Article IX, Texas Constitution."
+  },
+  {
+   "term": "Eligible county hospital expenditures",
+   "definition_excerpt": "for a tax year means the amount paid by a county or municipality in the period beginning on July 1 of the tax year preceding the tax year for which the tax is adopted and ending on June 30 of the tax year for which the tax is adopted to maintain and operate an eligible county hospital."
+  }
+ ],
+ "_note": ""
+}

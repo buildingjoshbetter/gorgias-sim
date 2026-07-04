@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 49.258 governs distribution of maintenance tax revenue among component districts based on WADA. It does not set exemption amounts or tax rates, so increasing the homestead exemption does not directly conflict with this distribution formula.",
+ "quote": "The consolidated taxing district shall distribute maintenance tax revenue to the component districts on the basis of the number of students in weighted average daily attendance in the component districts.",
+ "_note": "No direct conflict. Reduced taxable value from a larger homestead exemption may lower total maintenance tax revenue available for distribution, but the distribution mechanism itself remains operative and unaffected."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Educ. Code \u00a748.053 governs special-purpose district funding and references tier one local share under \u00a748.256, but does not reference homestead exemption amounts or Tax Code \u00a711.13(b). No direct conflict.",
+ "quote": "A school district to which this section applies is entitled to funding under this chapter as if the district were a full-time hybrid campus or full-time virtual campus for purposes of Section 30B.106 with no tier one local share for purposes of Section 48.256 for each student enrolled in the district",
+ "_note": "No direct reference to homestead exemption or Tax Code \u00a711.13(b) in this section. Indirect fiscal interactions would flow through \u00a748.256 local share calculations, not this section."
+}

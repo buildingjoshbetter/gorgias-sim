@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.071 governs conditional payments during pending protests and references appraised value and tax due without hardcoding any exemption amount. Increasing the homestead exemption under \u00a711.13(b) changes taxable value but requires no amendment to this section.",
+ "quote": "A property owner whose property is subject to a pending protest or challenge may pay the tax due on the amount of value of the property involved in the pending action that is not in dispute or the amount of tax paid on the property in the preceding year, whichever is greater, but not to exceed the amount of tax that would be due on the appraised value that is subject to protest or challenge.",
+ "_note": null
+}

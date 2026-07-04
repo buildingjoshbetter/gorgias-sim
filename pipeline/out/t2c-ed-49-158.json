@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 49.158 governs which districts are subject to Sections 49.154 and 49.157 based on attendance credit and nonresident student agreements. It does not reference homestead exemption amounts or Tax Code \u00a711.13(b). No direct textual conflict.",
+ "quote": "Sec. 49.158. LIMITATION. (a) Sections 49.154 and 49.157 apply only to a district that:",
+ "_note": "No direct conflict. Indirectly, increasing the homestead exemption reduces district taxable value, which could shift local revenue levels relative to the Section 48.257 threshold and affect whether districts must execute agreements under this section. This is a fiscal-dynamics interaction, not a textual conflict requiring amendment to \u00a749.158."
+}

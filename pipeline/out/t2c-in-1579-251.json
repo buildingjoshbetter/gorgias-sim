@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "State health contribution is distributed through school finance formulas (Ch. 48 & 49, Educ. Code). Raising the homestead exemption reduces local property tax revenue feeding those formulas, potentially requiring rulemaking to adjust distribution mechanics, though the $900 per-employee amount is unaffected.",
+ "quote": "The state contribution shall be distributed through the school finance formulas under Chapters 48 and 49, Education Code, and used by school districts and charter schools as provided by Section 48.275, Education Code.",
+ "_note": "Indirect interaction only; \u00a71579.251 does not reference homestead exemption amounts directly. Any conflict arises through school finance formula mechanics, not the $900 contribution level itself."
+}

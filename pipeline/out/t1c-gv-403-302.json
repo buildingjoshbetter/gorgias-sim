@@ -1,0 +1,43 @@
+{
+ "cite": "Gov't Code \u00a7403.302",
+ "heading": "DETERMINATION OF SCHOOL DISTRICT PROPERTY VALUES",
+ "operative_text": "The comptroller shall conduct a study using comparable sales and generally accepted auditing and sampling techniques to determine the total taxable value of all property in each school district. The study shall determine the taxable value of all property and of each category of property in the district and the productivity value of all land that qualifies for appraisal on the basis of its productive capacity and for which the owner has applied for and received a productivity appraisal. The comptroller shall make appropriate adjustments in the study to account for actions taken under Chapter 49, Education Code.",
+ "cross_refs": [
+  "Educ. Code Ch. 49",
+  "Tax Code \u00a741.43",
+  "Tax Code \u00a711.13(b)",
+  "Tax Code \u00a711.13(c)",
+  "Tax Code \u00a711.13(n)",
+  "Tax Code Ch. 312",
+  "Tax Code \u00a7311.003(e)",
+  "Tax Code Ch. 311",
+  "Tax Code \u00a7311.011(d)",
+  "Tax Code \u00a7311.011(c)(8)",
+  "Tax Code \u00a7311.011(c)(9)",
+  "Tax Code \u00a7311.017",
+  "Tax Code \u00a711.251",
+  "Tax Code \u00a711.253",
+  "Tax Code \u00a711.26",
+  "Tax Code \u00a711.26(a-10)",
+  "Tax Code \u00a711.311",
+  "Tax Code \u00a733.06",
+  "Tax Code \u00a733.065",
+  "Tax Code \u00a723.23",
+  "Tax Code \u00a723.231",
+  "Tax Code \u00a711.35",
+  "Tax Code \u00a711.131",
+  "Tax Code \u00a711.133",
+  "Tax Code \u00a711.134",
+  "Tax Code \u00a711.136",
+  "Tax Code \u00a725.25",
+  "Tax Code \u00a742.41",
+  "Tax Code \u00a75.102"
+ ],
+ "defined_terms": [
+  {
+   "term": "taxable value",
+   "definition_excerpt": "For the purposes of this section, \"taxable value\" means the market value of all taxable property less:\n(1) the total dollar amount of any residence homestead exemptions lawfully granted under Section 11.13(b) or (c), Tax Code, in the year that is the subject of the study for each school district;\n(2) one-half of the total dollar amount of any residence homestead exemptions granted under Section 11.13(n), Tax Code, in the year that is the subject of the study for each school district;\n(3) the total dollar amount of any exemptions granted before May 31, 1993, within a reinvestment zone under agreements authorized by Chapter 312, Tax Code;"
+  }
+ ],
+ "_note": "Statute is extremely long; operative_text captures subsection (a) as the core directive. Full text includes subsections (a) through (o) with two versions of subsections (d) and (i) (one effective until Jan 1, 2027, one effective on Jan 1, 2027). Defined term excerpt is truncated at subsection (d)(1)-(d)(3) for length; full definition continues through (d)(14). Subsections (m), (m-1), and (n) are repealed."
+}

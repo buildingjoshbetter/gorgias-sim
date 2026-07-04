@@ -1,0 +1,20 @@
+{
+ "cite": "Tax Code \u00a711.13(b)",
+ "heading": "RESIDENCE HOMESTEAD",
+ "operative_text": "An adult is entitled to exemption from taxation by a school district of $140,000 of the appraised value of the adult's residence homestead, except that only $5,000 of the exemption applies to an entity operating under former Chapter 17, 18, 25, 26, 27, or 28, Education Code, as those chapters existed on May 1, 1995, as permitted by Section 11.301, Education Code.",
+ "cross_refs": [
+  "Educ. Code ch. 17, 18, 25, 26, 27, or 28 (former, as existed May 1, 1995)",
+  "Educ. Code \u00a711.301"
+ ],
+ "defined_terms": [
+  {
+   "term": "Residence homestead",
+   "definition_excerpt": "\"Residence homestead\" means a structure (including a mobile home) or a separately secured and occupied portion of a structure (together with the land, not to exceed 20 acres, and improvements used in the residential occupancy of the structure, if the structure and the land and improvements have identical ownership) that:\n(A) is owned by one or more individuals, either directly or through a beneficial interest in a qualifying trust;\n(B) is designed or adapted for human residence;\n(C) is used as a residence; and\n(D) is occupied as the individual's principal residence by an owner, by an owner's surviving spouse who has a life estate in the property, or, for property owned through a beneficial interest in a qualifying trust, by a trustor or beneficiary of the trust who qualifies for the exemption."
+  },
+  {
+   "term": "School district",
+   "definition_excerpt": "\"School district\" means a political subdivision organized to provide general elementary and secondary public education. \"School district\" does not include a junior college district or a political subdivision organized to provide special education services."
+  }
+ ],
+ "_note": ""
+}

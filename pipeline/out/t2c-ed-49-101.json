@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 49.101 governs detachment/annexation agreements between school districts and references local revenue levels under Sections 48.257 and 48.202. It does not reference the homestead exemption amount or Tax Code \u00a711.13(b). Any revenue impact is indirect.",
+ "quote": "the local revenue level of the district from which territory is detached is equal to or less than the level established under Section 48.257",
+ "_note": "No direct conflict. The homestead exemption increase would indirectly affect local revenue levels referenced in \u00a749.101, but the statute does not cite or depend on the exemption amount. Downstream effects may surface in \u00a748.257 or \u00a748.202 calculations."
+}

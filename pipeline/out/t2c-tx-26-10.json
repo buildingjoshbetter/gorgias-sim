@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.10 proration formulas reference specific exemption subsections and calculate tax due based on whatever exemption amount applies. Increasing the \u00a711.13(b) amount does not alter proration mechanics or require amendment to \u00a726.10.",
+ "quote": "the tax due against the property is calculated by multiplying the tax due for the entire year as determined as provided by Section 26.09 by a fraction",
+ "_note": "No conflict. Section 26.10 references \u00a711.13(c) and (d) but not (b); proration formulas operate on whatever exemption amount is in effect, so no amendment to \u00a726.10 is required."
+}

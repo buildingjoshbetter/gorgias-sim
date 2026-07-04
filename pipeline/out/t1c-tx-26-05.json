@@ -1,0 +1,25 @@
+{
+ "cite": "Tax Code \u00a726.05",
+ "heading": "TAX RATE",
+ "operative_text": "The governing body of each taxing unit shall adopt a tax rate for the current tax year and shall notify the assessor for the taxing unit of the rate adopted. The governing body must adopt a tax rate before the later of September 30 or the 60th day after the date the certified appraisal roll is received by the taxing unit, except that the governing body must adopt a tax rate that exceeds the voter-approval tax rate not later than the 71st day before the next uniform election date prescribed by Section 41.001, Election Code, that occurs in November of that year. The tax rate consists of two components, each of which must be approved separately.",
+ "cross_refs": [
+  "Election Code \u00a741.001",
+  "Tax Code \u00a726.04(e)(3)(C)",
+  "Educ. Code \u00a744.004(c)(5)(A)(ii)(b)",
+  "Educ. Code \u00a744.004(c)(5)(A)(ii)",
+  "Tax Code \u00a726.04",
+  "Tax Code \u00a726.06",
+  "Tax Code \u00a726.065",
+  "Tax Code \u00a726.04(e-2)",
+  "Tax Code \u00a726.04(e-6)",
+  "Tax Code \u00a726.17(f)",
+  "Tax Code \u00a726.01(e)"
+ ],
+ "defined_terms": [
+  {
+   "term": "current debt rate",
+   "definition_excerpt": "the rate approved under Subsection (a-1) is considered to be the current debt rate of the taxing unit for that tax year."
+  }
+ ],
+ "_note": "Full operative text spans subsections (a) through (g); operative_text field truncated to subsection (a) opening for brevity. No explicit definitions provided for 'voter-approval tax rate' or 'no-new-revenue tax rate' within this section."
+}

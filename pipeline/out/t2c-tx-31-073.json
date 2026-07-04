@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.073 governs void restrictions on tax payment checks; it is unrelated to the homestead exemption amount in \u00a711.13(b). No conflict arises.",
+ "quote": "A restriction or condition placed on a check in payment of taxes, penalties, or interest by the maker that limits the amount of taxes, penalties, or interest owed to an amount less than that stated in the tax bill or shown by the tax collector's records is void unless the restriction or condition is authorized by this code.",
+ "_note": "Rule text concerns payment-check restrictions, not exemption amounts; no interaction with proposed change."
+}

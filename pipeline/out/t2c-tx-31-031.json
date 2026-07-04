@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.031 governs installment payment mechanics for taxpayers qualifying under \u00a711.13(c), \u00a711.132, or \u00a711.22. Changing the \u00a711.13(b) exemption amount does not alter eligibility, installment structure, or deadlines in \u00a731.031; no amendment needed.",
+ "quote": "(a) This section applies only to:\n(1) an individual who is:\n(A) disabled or at least 65 years of age; and\n(B) qualified for an exemption under Section 11.13(c); or\n(2) an individual who is:\n(A) a disabled veteran or the unmarried surviving spouse of a disabled veteran; and\n(B) qualified for an exemption under Section 11.132 or 11.22.",
+ "_note": "No direct conflict. \u00a731.031 references \u00a711.13(c), not \u00a711.13(b). The proposed change to the general homestead exemption amount under \u00a711.13(b) does not require conforming amendments to the installment payment provisions of \u00a731.031."
+}

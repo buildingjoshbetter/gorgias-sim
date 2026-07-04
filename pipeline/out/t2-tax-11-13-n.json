@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 11.13(n) provides a debt-obligation carve-out that operates independently of the exemption amount. Increasing the exemption from $100,000 to $140,000 does not alter the mechanism allowing units to collect debt-pledged taxes without deducting the exemption.",
+ "quote": "granting the exemption would impair the obligation of the contract creating the debt.",
+ "_note": "No direct conflict; subsection (n) functions regardless of exemption dollar amount."
+}

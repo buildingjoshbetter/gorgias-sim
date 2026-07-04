@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Subsection (e) requires grant amounts to account for Chapter 48 funds. Increasing the homestead exemption reduces local property tax revenue, altering Chapter 48 distributions and thus grant calculations. No statutory amendment needed; commissioner must adjust grant awards administratively.",
+ "quote": "The amount of a grant under this section must take into account funds distributed to the school district under Chapter 48.",
+ "_note": "Indirect fiscal linkage via Chapter 48 school finance formulas; \u00a729.086 does not directly reference Tax Code \u00a711.13 or homestead exemptions."
+}

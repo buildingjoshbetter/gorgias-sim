@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 11.37(g)(1) cross-references Section 11.13 generally but does not depend on the specific dollar amount of the homestead exemption. Changing the exemption amount from $140,000 to $200,000 has no operative effect on \u00a711.37.",
+ "quote": "a person may not claim an exemption under Subsection (b)(2) for property:\n(1) for which the person claims an exemption under Section 11.13;",
+ "_note": "No conflict. \u00a711.37 references \u00a711.13 by section number only, not by dollar threshold."
+}

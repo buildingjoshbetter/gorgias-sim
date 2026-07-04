@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 25.02 governs form and content of appraisal records. It already requires listing the kind of partial exemption and whether it applies to appraised or assessed value. Changing the homestead exemption amount does not conflict; appraisal records simply reflect whatever exemption is authorized.",
+ "quote": "the kind of any partial exemption the owner is entitled to receive, whether the exemption applies to appraised or assessed value, and, in the case of an exemption authorized by Section 11.23, the amount of the exemption",
+ "_note": "No conflict. Section 25.02 is procedural regarding appraisal record content and already accommodates any exemption amount set elsewhere in the code."
+}

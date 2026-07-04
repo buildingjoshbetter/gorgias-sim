@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.1125 governs proration of taxes for disabled veteran exemptions under Section 11.131, a separate provision from the general residence homestead exemption in Section 11.13(b). The proposed change to the \u00a711.13(b) exemption amount does not alter the proration formula or recalculation procedures in \u00a726.1125.",
+ "quote": "If a person qualifies for an exemption under Section 11.131 after the beginning of a tax year, the amount of the taxes on the residence homestead of the person for the tax year is calculated by multiplying the amount of the taxes that otherwise would be imposed on the residence homestead for the entire year had the person not qualified for the exemption under Section 11.131 by a fraction",
+ "_note": "No direct conflict. \u00a726.1125 references \u00a711.131 (disabled veteran exemption), not \u00a711.13(b) (general homestead exemption). The proposed change to \u00a711.13(b) exemption amount does not require amendment to \u00a726.1125's proration methodology."
+}

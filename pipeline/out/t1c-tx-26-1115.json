@@ -1,0 +1,11 @@
+{
+ "cite": "Tax Code \u00a726.1115",
+ "heading": "CALCULATION OF TAXES ON RESIDENCE HOMESTEAD GENERALLY",
+ "operative_text": "If an individual receives one or more exemptions under Section 11.13 for a portion of a tax year as provided by Section 11.42(f), except as provided by Subsection (b) of this section, the amount of tax due on the property for that year is calculated by: (1) subtracting: (A) the amount of the taxes that otherwise would be imposed on the property for the entire year had the individual qualified for the exemptions for the entire year; from (B) the amount of the taxes that otherwise would be imposed on the property for the entire year had the individual not qualified for the exemptions during the year; (2) multiplying the remainder determined under Subdivision (1) by a fraction, the denominator of which is 365 and the numerator of which is the number of days in that year that elapsed before the date the individual first qualified the property for the exemptions; and (3) adding the product determined under Subdivision (2) and the amount described by Subdivision (1)(A).",
+ "cross_refs": [
+  "Tax Code \u00a711.13",
+  "Tax Code \u00a711.42(f)"
+ ],
+ "defined_terms": [],
+ "_note": "Subsections (b) and (c) provide alternative calculation for exemptions terminating in year of acquisition and recalculation/refund procedures. Enacted by Acts 2021, 87th Leg., 2nd C.S., Ch. 12 (S.B. 8), Sec. 4, eff. January 1, 2022."
+}

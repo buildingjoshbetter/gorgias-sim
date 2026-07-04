@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the mandatory homestead exemption under \u00a711.13(b) reduces school district taxable values, affecting funding calculations under \u00a7403.302(d)(2), Gov't Code, referenced throughout this section. Rulemaking updates may be needed to reflect revised taxable value computations, though the section addresses \u00a711.13(n) optional exemptions specifically.",
+ "quote": "the commissioner may not provide funding under this chapter or Chapter 46 based on a school district's taxable value of property computed in accordance with Section 403.302(d)(2), Government Code",
+ "_note": "Rule specifically references \u00a711.13(n) optional exemptions, not \u00a711.13(b) mandatory exemption, but funding calculations tied to \u00a7403.302(d)(2) taxable values would be indirectly affected by any change to homestead exemption amounts."
+}

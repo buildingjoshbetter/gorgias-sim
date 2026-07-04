@@ -1,0 +1,32 @@
+{
+ "cite": "Tax Code \u00a726.04",
+ "heading": "SUBMISSION OF ROLL TO GOVERNING BODY; NO-NEW-REVENUE AND VOTER-APPROVAL TAX RATES",
+ "operative_text": "On receipt of the appraisal roll, the assessor for a taxing unit shall determine the total appraised value, the total assessed value, and the total taxable value of property taxable by the unit. He shall also determine, using information provided by the appraisal office, the appraised, assessed, and taxable value of new property.",
+ "cross_refs": [
+  "Tax Code \u00a726.01",
+  "Tax Code \u00a726.012",
+  "Tax Code \u00a726.16",
+  "Tax Code \u00a726.17",
+  "Tax Code \u00a726.18",
+  "Tax Code \u00a75.07",
+  "Tax Code \u00a76.24",
+  "Tax Code \u00a741.48",
+  "Tex. Const. art. III, \u00a752",
+  "Tex. Const. art. XVI, \u00a759"
+ ],
+ "defined_terms": [
+  {
+   "term": "No-new-revenue tax rate",
+   "definition_excerpt": "\"No-new-revenue tax rate\" means a rate expressed in dollars per $100 of taxable value calculated according to the following formula:\nNO-NEW-REVENUE TAX RATE = (LAST YEAR'S LEVY - LOST PROPERTY LEVY) / (CURRENT TOTAL VALUE - NEW PROPERTY VALUE)"
+  },
+  {
+   "term": "Voter-approval tax rate",
+   "definition_excerpt": "\"Voter-approval tax rate\" means a rate expressed in dollars per $100 of taxable value calculated according to the following applicable formula:\n(A) for a special taxing unit:\nVOTER-APPROVAL TAX RATE = (NO-NEW-REVENUE MAINTENANCE AND OPERATIONS RATE x 1.08) + CURRENT DEBT RATE\n; or\n(B) for a taxing unit other than a special taxing unit:\nVOTER-APPROVAL TAX RATE = (NO-NEW-REVENUE MAINTENANCE AND OPERATIONS RATE x 1.035) + (CURRENT DEBT RATE + UNUSED INCREMENT RATE)"
+  },
+  {
+   "term": "anticipated collection rate",
+   "definition_excerpt": "the anticipated collection rate of a taxing unit is the percentage relationship that the total amount of estimated tax collections for the current year bears to the total amount of taxes imposed for the current year."
+  }
+ ],
+ "_note": "Text includes two competing versions of subsection (a-1) and (c-1) added by different 2025 acts (S.B. 4, Ch. 338 and S.B. 23, Ch. 340), both effective June 16, 2025, both expiring December 31, 2026. This may indicate a legislative conflict requiring reconciliation. Full operative text spans subsections (a) through (j); only (a) is quoted in operative_text due to length."
+}

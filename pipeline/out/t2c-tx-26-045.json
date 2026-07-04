@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.045 adjusts the voter-approval tax rate for pollution control spending and does not reference homestead exemptions or Tax Code \u00a711.13. Increasing the \u00a711.13(b) exemption amount does not alter any operative language or calculation under \u00a726.045.",
+ "quote": "The voter-approval tax rate for a political subdivision of this state is increased by the rate that, if applied to the current total value, would impose an amount of taxes equal to the amount the political subdivision will spend out of its maintenance and operation funds under Section 26.012(16) to pay for a facility, device, or method for the control of air, water, or land pollution",
+ "_note": "No cross-reference to \u00a711.13 or homestead exemptions appears in \u00a726.045; the two provisions operate independently."
+}

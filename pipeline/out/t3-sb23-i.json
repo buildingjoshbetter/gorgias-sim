@@ -1,0 +1,126 @@
+{
+ "rows": [
+  {
+   "fiscal_year": 2026,
+   "line": "Probable Net Positive/(Negative) Impact to General Revenue Related Funds",
+   "amount_usd": -576859000,
+   "fund": "General Revenue Related Funds"
+  },
+  {
+   "fiscal_year": 2027,
+   "line": "Probable Net Positive/(Negative) Impact to General Revenue Related Funds",
+   "amount_usd": -630365000,
+   "fund": "General Revenue Related Funds"
+  },
+  {
+   "fiscal_year": 2028,
+   "line": "Probable Net Positive/(Negative) Impact to General Revenue Related Funds",
+   "amount_usd": -477194000,
+   "fund": "General Revenue Related Funds"
+  },
+  {
+   "fiscal_year": 2029,
+   "line": "Probable Net Positive/(Negative) Impact to General Revenue Related Funds",
+   "amount_usd": -487382000,
+   "fund": "General Revenue Related Funds"
+  },
+  {
+   "fiscal_year": 2030,
+   "line": "Probable Net Positive/(Negative) Impact to General Revenue Related Funds",
+   "amount_usd": -542066000,
+   "fund": "General Revenue Related Funds"
+  },
+  {
+   "fiscal_year": 2026,
+   "line": "Probable Savings/(Cost) from Foundation School Fund",
+   "amount_usd": -576859000,
+   "fund": "Foundation School Fund (193)"
+  },
+  {
+   "fiscal_year": 2026,
+   "line": "Probable Revenue Gain/(Loss) from Recapture Payments Atten Crdts",
+   "amount_usd": -136260000,
+   "fund": "Recapture Payments Atten Crdts (8905)"
+  },
+  {
+   "fiscal_year": 2026,
+   "line": "Probable Revenue Gain/(Loss) from School Districts Levy Loss",
+   "amount_usd": -559198000,
+   "fund": "School Districts Levy Loss"
+  },
+  {
+   "fiscal_year": 2027,
+   "line": "Probable Savings/(Cost) from Foundation School Fund",
+   "amount_usd": -630365000,
+   "fund": "Foundation School Fund (193)"
+  },
+  {
+   "fiscal_year": 2027,
+   "line": "Probable Revenue Gain/(Loss) from Recapture Payments Atten Crdts",
+   "amount_usd": -147523000,
+   "fund": "Recapture Payments Atten Crdts (8905)"
+  },
+  {
+   "fiscal_year": 2027,
+   "line": "Probable Revenue Gain/(Loss) from School Districts Levy Loss",
+   "amount_usd": -611812000,
+   "fund": "School Districts Levy Loss"
+  },
+  {
+   "fiscal_year": 2028,
+   "line": "Probable Savings/(Cost) from Foundation School Fund",
+   "amount_usd": -477194000,
+   "fund": "Foundation School Fund (193)"
+  },
+  {
+   "fiscal_year": 2028,
+   "line": "Probable Revenue Gain/(Loss) from Recapture Payments Atten Crdts",
+   "amount_usd": -130615000,
+   "fund": "Recapture Payments Atten Crdts (8905)"
+  },
+  {
+   "fiscal_year": 2028,
+   "line": "Probable Revenue Gain/(Loss) from School Districts Levy Loss",
+   "amount_usd": -578644000,
+   "fund": "School Districts Levy Loss"
+  },
+  {
+   "fiscal_year": 2029,
+   "line": "Probable Savings/(Cost) from Foundation School Fund",
+   "amount_usd": -487382000,
+   "fund": "Foundation School Fund (193)"
+  },
+  {
+   "fiscal_year": 2029,
+   "line": "Probable Revenue Gain/(Loss) from Recapture Payments Atten Crdts",
+   "amount_usd": -136060000,
+   "fund": "Recapture Payments Atten Crdts (8905)"
+  },
+  {
+   "fiscal_year": 2029,
+   "line": "Probable Revenue Gain/(Loss) from School Districts Levy Loss",
+   "amount_usd": -592326000,
+   "fund": "School Districts Levy Loss"
+  },
+  {
+   "fiscal_year": 2030,
+   "line": "Probable Savings/(Cost) from Foundation School Fund",
+   "amount_usd": -542066000,
+   "fund": "Foundation School Fund (193)"
+  },
+  {
+   "fiscal_year": 2030,
+   "line": "Probable Revenue Gain/(Loss) from Recapture Payments Atten Crdts",
+   "amount_usd": -124959000,
+   "fund": "Recapture Payments Atten Crdts (8905)"
+  },
+  {
+   "fiscal_year": 2030,
+   "line": "Probable Revenue Gain/(Loss) from School Districts Levy Loss",
+   "amount_usd": -635722000,
+   "fund": "School Districts Levy Loss"
+  }
+ ],
+ "low_confidence_cells": [],
+ "_note": "All amounts are negative as shown in parentheses in the source. Biennium total of ($1,207,224,000) confirmed as sum of FY2026 and FY2027 GR amounts. No low-confidence cells; all figures clearly legible."
+}

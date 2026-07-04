@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.16 mandates posting of tax rate information on county websites. Changing the homestead exemption amount under \u00a711.13(b) affects underlying tax calculations but does not alter any posting, formatting, or procedural requirement in \u00a726.16.",
+ "quote": "The county assessor-collector for each county shall post on the Internet website maintained by the county the following information for the most recent five tax years for each taxing unit",
+ "_note": "No conflict. \u00a726.16 governs disclosure/posting mechanics; the homestead exemption dollar amount change flows through tax rate calculations but requires no amendment to \u00a726.16."
+}

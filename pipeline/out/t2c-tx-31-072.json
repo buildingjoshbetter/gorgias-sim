@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.072 governs escrow account mechanics and does not reference the homestead exemption amount. Estimation and refund provisions in (d) and (g) automatically adjust to changed tax liabilities, so no amendment is required.",
+ "quote": "A contract to establish an escrow account must provide for deposits that would provide, as of the date the collector estimates the tax bill for the property will be prepared, a total deposit that is not less than the amount of taxes estimated by the collector or the amount of taxes imposed on the property by the affected taxing units in the preceding year, whichever is less.",
+ "_note": "No direct conflict. Escrow estimation and refund mechanisms self-adjust to changed tax amounts."
+}

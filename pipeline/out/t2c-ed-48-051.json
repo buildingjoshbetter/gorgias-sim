@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces local property tax bases, indirectly affecting tier one M&O tax rates (TR) and maximum compressed rates (MCR) that drive the basic allotment formula. No direct textual conflict, but downstream rulemaking under \u00a748.2551 may need adjustment.",
+ "quote": "\"TR\" is the district's tier one maintenance and operations tax rate, as provided by Section 45.0032; and\n\"MCR\" is the district's maximum compressed tax rate, as determined under Section 48.2551.",
+ "_note": "Indirect fiscal linkage via tax rate compression; no direct reference to \u00a711.13(b) in \u00a748.051 text."
+}

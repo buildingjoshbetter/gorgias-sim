@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 48.265 governs grants from excess Foundation School Program funds using M&O tax rates and revenue per weighted student as priority factors. The homestead exemption amount indirectly affects these inputs but the statute contains no direct reference to Tax Code \u00a711.13(b) or the exemption amount, so no textual conflict arises.",
+ "quote": "the commissioner shall give highest priority to districts with maintenance and operations tax rates at the greatest rates permitted by law",
+ "_note": "No direct conflict. Increasing the homestead exemption may indirectly alter M&O tax rates and revenue-per-weighted-student figures used as grant priority criteria, but \u00a748.265 operates on whatever resulting values exist without referencing the exemption amount."
+}

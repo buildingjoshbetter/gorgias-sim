@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces taxable property values, which feeds into the 'property value per student' computation under \u00a748.204. The statute itself need not be amended, but commissioner rulemaking may be needed to update valuation methodologies.",
+ "quote": "State assistance under this subchapter for a school district located on a federal military installation or at Moody State School is computed using the average tax rate and property value per student of school districts in the county, as determined by the commissioner.",
+ "_note": "Indirect fiscal interaction only; \u00a748.204 operative text does not reference homestead exemption amounts directly."
+}

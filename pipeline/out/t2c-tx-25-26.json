@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 25.26 governs prepayment requirements for 25.25 motions based on taxable value not in dispute. The homestead exemption amount is an input to taxable value but the rule operates regardless of the specific exemption figure; no amendment needed.",
+ "quote": "a property owner who files a motion under Section 25.25 must pay the amount of taxes due on the portion of the taxable value of the property that is the subject of the motion that is not in dispute before the delinquency date",
+ "_note": "No direct conflict; \u00a725.26 references taxable value generically and does not hardcode any exemption amount."
+}

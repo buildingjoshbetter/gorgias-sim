@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Educ. Code \u00a712.106 governs charter school state funding formulas and does not reference the Tax Code \u00a711.13(b) homestead exemption amount. Any revenue impact flows indirectly through Chapter 48 formulas, not through this statute's operative provisions.",
+ "quote": "A charter holder is entitled to receive for the open-enrollment charter school funding under Chapter 48 equal to the amount of funding per student in weighted average daily attendance to which the charter holder would be entitled for the school under that chapter if the school were a school district without a tier one local share for purposes of Section 48.266",
+ "_note": "No direct textual conflict. The homestead exemption increase affects local property tax revenue, which may indirectly alter Chapter 48 local-share calculations, but \u00a712.106 explicitly excludes tier one local share from charter funding."
+}

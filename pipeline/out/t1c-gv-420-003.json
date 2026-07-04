@@ -1,0 +1,72 @@
+{
+ "cite": "Gov't Code \u00a7420.003",
+ "heading": "Sec. 420.003. DEFINITIONS.",
+ "operative_text": "In this chapter:\n(1) \"Accredited crime laboratory\" means a crime laboratory, as that term is defined by Article 38.35, Code of Criminal Procedure, that has been accredited under Article 38.01 of that code.\n(1-a) \"Active criminal case\" means a case:\n(A) in which:\n(i) a sexual assault or other sex offense has been reported to a law enforcement agency;\n(ii) physical evidence of the offense has been submitted to the agency or an accredited crime laboratory under this chapter for analysis; and\n(iii) the agency documents that an offense has been committed and reported; and\n(B) for which:\n(i) the statute of limitations has not run with respect to the prosecution of the offense; or\n(ii) a DNA profile was obtained that is eligible under Section 420.043 for comparison with DNA profiles in the state database or CODIS DNA database.\n(1-b) \"Advocate\" means a person who provides advocacy services as an employee or volunteer of a sexual assault program.\n(1-c) \"Department\" means the Department of Public Safety of the State of Texas.\n(1-d) \"Law enforcement agency\" means a state or local law enforcement agency in this state with jurisdiction over the investigation of a sexual assault or other sex offense.\n(1-e) \"Minimum services\" means:\n(A) a 24-hour crisis hotline;\n(B) crisis intervention;\n(C) public education;\n(D) advocacy; and\n(E) accompaniment to hospitals, law enforcement offices, prosecutors' offices, and courts.\n(2) Repealed by Acts 2013, 83rd Leg., R.S., Ch. 1173, Sec. 17, eff. September 1, 2013.\n(3) \"Sex offense\" means an offense under Chapter 21, Penal Code, for which biological evidence is collected in an evidence collection kit.\n(4) \"Sexual assault\" means any act or attempted act as described by Section 21.02, 21.11, 22.011, 22.021, or 25.02, Penal Code.\n(5) \"Sexual assault examiner\" means a person who uses an attorney general-approved evidence collection kit and protocol to collect and preserve evidence of a sexual assault or other sex offense.\n(6) \"Sexual assault nurse examiner\" means a registered nurse who has completed an attorney general-approved examiner training course described by Section 420.011 and who is certified according to minimum standards prescribed by attorney general rule.\n(7) \"Sexual assault program\" means any local public or private nonprofit corporation, independent of a law enforcement agency or prosecutor's office, that is operated as an independent program or as part of a municipal, county, or state agency and that provides the minimum services to adult survivors of stranger and non-stranger sexual assault.\n(7-a) \"State sexual assault coalition\" means a statewide nonprofit organization that has been identified as a state sexual assault coalition by a state or federal agency authorized to make that designation.\n(8) \"Survivor\" means an individual who is a victim of a sexual assault or other sex offense, regardless of whether a report or conviction is made in the incident.",
+ "cross_refs": [
+  "Code Crim. Proc. art. 38.35",
+  "Code Crim. Proc. art. 38.01",
+  "Gov't Code \u00a7420.043",
+  "Penal Code ch. 21",
+  "Penal Code \u00a721.02",
+  "Penal Code \u00a721.11",
+  "Penal Code \u00a722.011",
+  "Penal Code \u00a722.021",
+  "Penal Code \u00a725.02",
+  "Gov't Code \u00a7420.011"
+ ],
+ "defined_terms": [
+  {
+   "term": "Accredited crime laboratory",
+   "definition_excerpt": "a crime laboratory, as that term is defined by Article 38.35, Code of Criminal Procedure, that has been accredited under Article 38.01 of that code."
+  },
+  {
+   "term": "Active criminal case",
+   "definition_excerpt": "a case:\n(A) in which:\n(i) a sexual assault or other sex offense has been reported to a law enforcement agency;\n(ii) physical evidence of the offense has been submitted to the agency or an accredited crime laboratory under this chapter for analysis; and\n(iii) the agency documents that an offense has been committed and reported; and\n(B) for which:\n(i) the statute of limitations has not run with respect to the prosecution of the offense; or\n(ii) a DNA profile was obtained that is eligible under Section 420.043 for comparison with DNA profiles in the state database or CODIS DNA database."
+  },
+  {
+   "term": "Advocate",
+   "definition_excerpt": "a person who provides advocacy services as an employee or volunteer of a sexual assault program."
+  },
+  {
+   "term": "Department",
+   "definition_excerpt": "the Department of Public Safety of the State of Texas."
+  },
+  {
+   "term": "Law enforcement agency",
+   "definition_excerpt": "a state or local law enforcement agency in this state with jurisdiction over the investigation of a sexual assault or other sex offense."
+  },
+  {
+   "term": "Minimum services",
+   "definition_excerpt": "(A) a 24-hour crisis hotline;\n(B) crisis intervention;\n(C) public education;\n(D) advocacy; and\n(E) accompaniment to hospitals, law enforcement offices, prosecutors' offices, and courts."
+  },
+  {
+   "term": "Sex offense",
+   "definition_excerpt": "an offense under Chapter 21, Penal Code, for which biological evidence is collected in an evidence collection kit."
+  },
+  {
+   "term": "Sexual assault",
+   "definition_excerpt": "any act or attempted act as described by Section 21.02, 21.11, 22.011, 22.021, or 25.02, Penal Code."
+  },
+  {
+   "term": "Sexual assault examiner",
+   "definition_excerpt": "a person who uses an attorney general-approved evidence collection kit and protocol to collect and preserve evidence of a sexual assault or other sex offense."
+  },
+  {
+   "term": "Sexual assault nurse examiner",
+   "definition_excerpt": "a registered nurse who has completed an attorney general-approved examiner training course described by Section 420.011 and who is certified according to minimum standards prescribed by attorney general rule."
+  },
+  {
+   "term": "Sexual assault program",
+   "definition_excerpt": "any local public or private nonprofit corporation, independent of a law enforcement agency or prosecutor's office, that is operated as an independent program or as part of a municipal, county, or state agency and that provides the minimum services to adult survivors of stranger and non-stranger sexual assault."
+  },
+  {
+   "term": "State sexual assault coalition",
+   "definition_excerpt": "a statewide nonprofit organization that has been identified as a state sexual assault coalition by a state or federal agency authorized to make that designation."
+  },
+  {
+   "term": "Survivor",
+   "definition_excerpt": "an individual who is a victim of a sexual assault or other sex offense, regardless of whether a report or conviction is made in the incident."
+  }
+ ],
+ "_note": "History and enactment notes were excluded from operative_text as they are not operative law. Subsection (2) was repealed and therefore excluded from defined_terms."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "Increasing the homestead exemption reduces taxable property values statewide, directly lowering DPV in the LFA formula. This shrinks each district's local share, shifting program costs to the state and likely requiring consequential FSP funding adjustments.",
+ "quote": "\"DPV\" is the taxable value of property in the school district for the current tax year determined under Subchapter M, Chapter 403, Government Code.",
+ "_note": "No direct textual conflict, but the formula's DPV input automatically reflects the larger exemption, materially reducing local fund assignments and creating fiscal pressure on the state share."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 48.101 formulas depend on ADA and the basic allotment (BA) under \u00a748.051, not on homestead exemption amounts. No direct reference to Tax Code \u00a711.13 or property tax exemption values appears in this section.",
+ "quote": "\"BA\" is the basic allotment determined under Section 48.051.",
+ "_note": "No direct conflict; indirect fiscal linkage through school finance funding formulas may exist but is not captured in this section's operative text."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Gov't Code \u00a7403.302(d)(1) dynamically references 'the total dollar amount of any residence homestead exemptions lawfully granted under Section 11.13(b)\u2026Tax Code' without hardcoding a dollar figure. Increasing the \u00a711.13(b) exemption amount is automatically incorporated into the comptroller's study; no amendment to \u00a7403.302 is required.",
+ "quote": "(1) the total dollar amount of any residence homestead exemptions lawfully granted under Section 11.13(b) or (c), Tax Code, in the year that is the subject of the study for each school district;",
+ "_note": "No direct conflict. The rule uses a dynamic cross-reference to Tax Code \u00a711.13(b) rather than specifying a fixed dollar amount, so the comptroller's property value study would automatically deduct the higher exemption. Consequential impacts on school funding formulas (Education Code) are outside the scope of this rule."
+}

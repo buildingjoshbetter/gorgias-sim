@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces taxable property values, which affects the denominator (Current Total Value - New Property Value) in the \u00a726.0443 rate-adjustment formulas, indirectly altering computed rate increases for eligible county hospital expenditures.",
+ "quote": "(Current Tax Year's Eligible County Hospital Expenditures - Preceding Tax Year's Eligible County Hospital Expenditures) / (Current Total Value - New Property Value)",
+ "_note": "Indirect interaction: proposed change alters inputs to the \u00a726.0443 formula but does not require amendment to the statute itself; implementing agencies must account for reduced taxable values in rate calculations."
+}

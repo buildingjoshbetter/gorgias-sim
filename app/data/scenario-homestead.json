@@ -1,0 +1,1927 @@
+{
+  "policy": {
+    "title": "Raise the residence homestead exemption to $200,000",
+    "delta_label": "+$60,000 per homestead (current law $140,000)",
+    "teaser_total_usd": -2673098745,
+    "teaser_label": "−$2.67B/yr shifted · 4 agencies · 3 statutory conflicts"
+  },
+  "nodes": [
+    {
+      "id": "policy-root",
+      "type": "policy",
+      "parent": null,
+      "label": "Homestead exemption $140k → $200k",
+      "cite": "Tax Code §11.13(b)"
+    },
+    {
+      "id": "st-1113b",
+      "type": "statute",
+      "parent": "policy-root",
+      "label": "School district residence homestead exemption",
+      "cite": "Tax Code §11.13(b)",
+      "heading": "RESIDENCE HOMESTEAD",
+      "corpus_tag": "State Statutes",
+      "excerpt": "An adult is entitled to exemption from taxation by a school district of $140,000 of the appraised value of the adult's residence homestead, except that only $5,000 of the exemption applies to an entity operating under former Chapter 17, 18, 25, 26, 27, or 28, Education Code, as those chapters existed on May 1, 1995, as permitted by Section 11.301, Education Code.",
+      "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm#11.13",
+      "fetched_at": "2026-07-04T01:56:22.668558+00:00",
+      "verbatim": true,
+      "mark": "$140,000"
+    },
+    {
+      "id": "st-1113n",
+      "type": "statute",
+      "parent": "policy-root",
+      "label": "Optional percentage exemption interplay",
+      "cite": "Tax Code §11.13(n)",
+      "heading": "RESIDENCE HOMESTEAD",
+      "corpus_tag": "State Statutes",
+      "excerpt": "(n) In addition to any other exemptions provided by this section, an individual is entitled to an exemption from taxation by a taxing unit of a percentage of the appraised value of his residence homestead if the exemption is adopted by the governing body of the taxing unit before July 1 in the manner provided by law for official action by the body. If the percentage set by the taxing unit produces an exemption in a tax year of less than $5,000 when applied to a particular residence homestead, the individual is entitled to an exemption of $5,000 of the appraised value. The percentage adopted by the taxing unit may not exceed 20 percent.\n(n-1) The governing body of a school district, municipality, or county that adopted an exemption under Subsection (n) for the 2022 tax year may not reduce the amount of or repeal the exemption. This subsection expires December 31, 2027.",
+      "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm#11.13",
+      "fetched_at": "2026-07-04T01:56:22.669130+00:00",
+      "verbatim": true,
+      "mark": "may not exceed 20 percent"
+    },
+    {
+      "id": "st-1126",
+      "type": "statute",
+      "parent": "policy-root",
+      "label": "Tax ceiling for 65+ / disabled homeowners",
+      "cite": "Tax Code §11.26",
+      "heading": "LIMITATION OF SCHOOL TAX ON HOMESTEADS OF ELDERLY OR DISABLED",
+      "corpus_tag": "State Statutes",
+      "excerpt": "The tax officials shall appraise the property to which this section applies and calculate taxes as on other property, but if the tax so calculated exceeds the limitation imposed by this section, the tax imposed is the amount of the tax as limited by this section, except as otherwise provided by this section. A school district may not increase the total annual amount of ad valorem tax it imposes on the residence homestead of an individual 65 years of age or older or on the residence homestead of an individual who is disabled, as defined by Section 11.13, above the amount of the tax it imposed in the first tax year in which the individual qualified that residence homestead for the applicable exemption provided by Section 11.13(c) for an individual who is 65 years of age or older or is disabled.",
+      "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm#11.26",
+      "fetched_at": "2026-07-04T01:56:22.670542+00:00",
+      "verbatim": true,
+      "mark": "A school district may not increase the total annual amount of ad valorem tax"
+    },
+    {
+      "id": "st-2609",
+      "type": "statute",
+      "parent": "policy-root",
+      "label": "Assessor calculation of tax",
+      "cite": "Tax Code §26.09",
+      "heading": "CALCULATION OF TAX",
+      "corpus_tag": "State Statutes",
+      "excerpt": "(c) The tax is calculated by:\n(1) subtracting from the appraised value of a property as shown on the appraisal roll for the unit the amount of any partial exemption allowed the property owner that applies to appraised value to determine net appraised value;\n(2) multiplying the net appraised value by the assessment ratio to determine assessed value;\n(3) subtracting from the assessed value the amount of any partial exemption allowed the property owner to determine taxable value; and\n(4) multiplying the taxable value by the tax rate.",
+      "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.26.htm#26.09",
+      "fetched_at": "2026-07-04T01:56:22.671658+00:00",
+      "verbatim": true,
+      "mark": "the amount of any partial exemption allowed the property owner that applies to appraised value",
+      "verbatim_note": "hand-extracted after 3 GLM attempts failed verbatim check; verified by orchestrator"
+    },
+    {
+      "id": "st-4825x",
+      "type": "statute",
+      "parent": "policy-root",
+      "label": "Compressed-rate posting (hold-harmless)",
+      "cite": "Educ. Code §48.2556",
+      "heading": "POSTING ON AGENCY WEBSITE OF INFORMATION RELATED TO REDUCTION OF LIMITATION OF TAX ON HOMESTEADS OF ELDERLY OR DISABLED",
+      "corpus_tag": "State Statutes",
+      "excerpt": "(a) For purposes of allowing the chief appraiser of each appraisal district and the assessor for each school district to make the calculations required by Section 11.26(a-10), Tax Code, the agency shall post on the agency's Internet website each school district's maximum compressed rate, as determined under Section 48.2551, for the current tax year and the preceding tax year. (b) The agency shall post each school district's maximum compressed rate for the current tax year, as determined under Section 48.2551, promptly after calculating the rate. If, for the 2023 or a subsequent tax year, the agency calculates a preliminary rate before calculating a final rate, the agency shall post the preliminary rate, and the chief appraiser of each appraisal district and the assessor for each school district shall use the preliminary rate to make the calculations described by Subsection (a). (c) The agency shall notify the chief appraiser of each appraisal district and the assessor for each school district when the agency has complied with Subsection (b). The notice must include the location on the agency's Internet website at which the information required by this section to be posted may be found.",
+      "source_url": "https://statutes.capitol.texas.gov/Docs/ED/htm/ED.48.htm#48.2556",
+      "fetched_at": "2026-07-04T01:56:22.672864+00:00",
+      "verbatim": true,
+      "mark": "maximum compressed rate"
+    },
+    {
+      "id": "st-48255",
+      "type": "statute",
+      "parent": "policy-root",
+      "label": "State compression percentage (FSP formula)",
+      "cite": "Educ. Code §48.255",
+      "heading": "STATE COMPRESSION PERCENTAGE",
+      "corpus_tag": "State Statutes",
+      "excerpt": "(a) In this title, \"state compression percentage\" means the percentage of the rate of $1.00 per $100 valuation of taxable property that is used to determine a school district's maximum compressed tax rate under Section 48.2551. (b) The state compression percentage is the lower of: (1) 93 percent, or a lower percentage set by appropriation for a school year; (2) the percentage determined by the following formula: SCP = PYCP X 1.025/(1 + ECPV); or (3) the percentage determined under this section for the preceding school year. (c) For purposes of Subsection (b)(2): (1) \"SCP\" is the state compression percentage; (2) \"PYCP\" is the state compression percentage for the preceding school year; and (3) \"ECPV\" is the estimated percentage change in total taxable property value for the applicable tax year as determined based on the estimate submitted to the legislature under Section 48.269.",
+      "source_url": "https://statutes.capitol.texas.gov/Docs/ED/htm/ED.48.htm#48.255",
+      "fetched_at": "2026-07-04T01:56:22.673976+00:00",
+      "verbatim": true,
+      "mark": "state compression percentage"
+    },
+    {
+      "id": "st-const",
+      "type": "statute",
+      "parent": "policy-root",
+      "label": "Constitutional homestead exemption ceiling",
+      "cite": "Tex. Const. art. VIII, §1-b(c)",
+      "heading": "RESIDENCE HOMESTEAD TAX EXEMPTIONS AND LIMITATIONS",
+      "corpus_tag": "State Statutes",
+      "excerpt": "(c) The amount of $140,000 of the market value of the residence homestead of a married or unmarried adult, including one living alone, is exempt from ad valorem taxation for general elementary and secondary public school purposes. The legislature by general law may provide that all or part of the exemption does not apply to a district or political subdivision that imposes ad valorem taxes for public education purposes but is not the principal school district providing general elementary and secondary public education throughout its territory. In addition to this exemption, the legislature by general law may exempt an amount not to exceed $60,000 of the market value of the residence homestead of a person who is disabled as defined in Subsection (b) of this section and of a person 65 years of age or older from ad valorem taxation for general elementary and secondary public school purposes. The legislature by general law may base the amount of and condition eligibility for the additional exemption authorized by this subsection for disabled persons and for persons 65 years of age or older on economic need. An eligible disabled person who is 65 years of age or older may not receive both exemptions from a school district but may choose either. An eligible person is entitled to receive both the exemption required by this subsection for all residence homesteads and any exemption adopted pursuant to Subsection (b) of this section, but the legislature shall provide by general law whether an eligible disabled or elderly person may receive both the additional exemption for the elderly and disabled authorized by this subsection and any exemption for the elderly or disabled adopted pursuant to Subsection (b) of this section. Where ad valorem tax has previously been pledged for the payment of debt, the taxing officers of a school district may continue to levy and collect the tax against the value of homesteads exempted under this subsection until the debt is discharged if the cessation of the levy would impair the obligation of the contract by which the debt was created. The legislature shall provide for formulas to protect school districts against all or part of the revenue loss incurred by the implementation of this subsection, Subsection (d) of this section, and Section 1-d-1 of this article. The legislature by general law may define residence homestead for purposes of this section.",
+      "source_url": "https://statutes.capitol.texas.gov/Docs/CN/htm/CN.8.htm#1-b",
+      "fetched_at": "2026-07-04T01:56:22.674253+00:00",
+      "verbatim": true,
+      "mark": "$140,000"
+    },
+    {
+      "id": "cf-const",
+      "type": "conflict",
+      "parent": "st-const",
+      "severity": 3,
+      "label": "Constitutional amendment required before statute takes effect",
+      "cite": "Tex. Const. art. VIII, §1-b(c)",
+      "corpus_tag": "State Statutes",
+      "excerpt": "The amount of $140,000 of the market value of the residence homestead of a married or unmarried adult, including one living alone, is exempt from ad valorem taxation for general elementary and secondary public school purposes.",
+      "source_url": "https://statutes.capitol.texas.gov/Docs/CN/htm/CN.8.htm#1-b",
+      "fetched_at": "2026-07-04T01:56:22.674253+00:00",
+      "mark": "$140,000",
+      "verbatim": true,
+      "rationale": "Article VIII, §1-b(c) fixes the general school-district homestead exemption at $140,000 in the constitution itself. A statute raising it to $200,000 cannot take effect until voters ratify a constitutional amendment lifting the $140,000 ceiling.",
+      "conflict_basis": "reframed for $140k→$200k; verbatim quote is the operative constitutional ceiling"
+    },
+    {
+      "id": "cf-ceiling",
+      "type": "conflict",
+      "parent": "st-1126",
+      "severity": 2,
+      "label": "§11.26 ceiling widens the gap for 65+ / disabled homesteads",
+      "cite": "Tax Code §11.26",
+      "corpus_tag": "State Statutes",
+      "excerpt": "(4) multiplying the amount of any increase in the current tax year as compared to the preceding tax year in the aggregate amount of the exemptions to which the individual is entitled under Sections 11.13(b) and (c) by the school district's tax rate for the current tax year; and",
+      "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm#11.26",
+      "fetched_at": "2026-07-04T01:56:22.670542+00:00",
+      "verbatim": true,
+      "rationale": "§11.26 freezes school tax for 65+/disabled homeowners at their first qualifying year. Its (a-10) formula references the §11.13(b) exemption by cross-reference, so it auto-incorporates the $200,000 amount — but the Comptroller and every chief appraiser must re-run the ceiling arithmetic, and the frozen-ceiling gap grows materially at the larger exemption.",
+      "conflict_basis": "t2 flagged this collision (severity 1 for the prior +$40k step); raised to severity 2 for the +$60k hero increment"
+    },
+    {
+      "id": "cf-tacrule",
+      "type": "conflict",
+      "parent": "st-1113b",
+      "severity": 1,
+      "label": "Comptroller appraisal rules reference the prior exemption amount",
+      "cite": "34 TAC Ch. 9, Subch. H",
+      "corpus_tag": "State Statutes",
+      "modeled": true,
+      "excerpt": "34 Texas Administrative Code, Chapter 9 (Property Tax Administration), Subchapter H — the Comptroller's appraisal and school-district value-study rules — encode the current residence-homestead exemption amount in their calculation procedures. Raising the statutory exemption to $200,000 requires the Comptroller to amend these rules through notice-and-comment before appraisal districts can rely on them.",
+      "rationale": "Administrative rules trail the statute: 34 TAC Ch. 9 Subch. H must be amended so the Comptroller's Property Value Study and appraisal manuals reflect the $200,000 exemption.",
+      "conflict_basis": "modeled administrative dependency (no scraped source; known rulemaking requirement)",
+      "source_url": null
+    },
+    {
+      "id": "ag-cpa",
+      "type": "agency",
+      "parent": "cf-ceiling",
+      "label": "Comptroller — Property Tax Assistance Division",
+      "cite": "Gov. Code §403",
+      "authority_cite": "Gov. Code §403; 34 TAC Ch. 9",
+      "corpus_tag": "State Statutes",
+      "approval_gate": "Comptroller",
+      "clock_days": 180,
+      "t5_validated": false,
+      "action_required": "Amend 34 TAC Ch. 9, republish the Property Value Study, and reissue appraisal guidance so the $200,000 exemption flows into every district's certified values."
+    },
+    {
+      "id": "ag-tea",
+      "type": "agency",
+      "parent": "st-4825x",
+      "label": "Texas Education Agency recomputes FSP entitlements",
+      "cite": "Educ. Code §48.2556(a)–(c)",
+      "authority_cite": "Educ. Code §48.2556(a)–(c)",
+      "corpus_tag": "State Statutes",
+      "clock_days": 120,
+      "approval_gate": "None; TEA calculates MCRs under Educ. Code §48.2551",
+      "deadline_cite": "Educ. Code §48.2556(b)",
+      "t5_validated": true,
+      "action_required": "Post each school district's maximum compressed rate for current and preceding tax year on agency website; notify chief appraisers and school district assessors of posting."
+    },
+    {
+      "id": "ag-sos",
+      "type": "agency",
+      "parent": "cf-const",
+      "label": "Secretary of State — amendment election administration",
+      "cite": "Election Code §274",
+      "authority_cite": "Election Code §274",
+      "corpus_tag": "State Statutes",
+      "approval_gate": "Secretary of State",
+      "clock_days": 240,
+      "t5_validated": false,
+      "action_required": "Administers the statewide ratification election for the constitutional amendment that must pass before the $200,000 exemption can take effect."
+    },
+    {
+      "id": "ag-cads",
+      "type": "agency",
+      "parent": "st-1113b",
+      "label": "254 county appraisal districts reprogram CAMA systems",
+      "cite": "Tax Code §11.26(a-10), (e)",
+      "authority_cite": "Tax Code §11.26(a-10), (e)",
+      "corpus_tag": "State Statutes",
+      "modeled": true,
+      "clock_days": 90,
+      "approval_gate": "TEA must post MCRs and provide notification per Educ. Code §48.2556(b)–(c)",
+      "deadline_cite": "Tax Code §11.26(a-10)",
+      "t5_validated": true,
+      "action_required": "Make calculations required by Tax Code §11.26(a-10) using posted MCRs; determine portion of appraised value on which school taxes are not imposed due to tax limitation."
+    },
+    {
+      "id": "bd-fsp",
+      "type": "budget",
+      "parent": "ag-tea",
+      "label": "Foundation School Program — state hold-harmless cost",
+      "cite": "Educ. Code §48.2556",
+      "corpus_tag": "Public Finance Records · 26.6B records",
+      "delta_usd": -697824000,
+      "basis": "modeled projection",
+      "actual_2025_usd": -465216000,
+      "actual_2025_label": "actual (2025 LBB)",
+      "actual_2025_line": "Probable Savings/(Cost) from Foundation School Fund 193",
+      "actual_2025_source": "https://capitol.texas.gov/tlodocs/89R/fiscalnotes/html/SB00004I.htm",
+      "scale_factor": 1.5,
+      "excerpt": "Calibration — LBB fiscal note for SB4 (89R, 2025), the +$40,000 homestead-exemption increase, FY2026: Probable Savings/(Cost) from Foundation School Fund 193 = −$465,216,000. Modeled projection for the +$60,000 $140k→$200k increment scales this by 1.5× to −$697,824,000/yr."
+    },
+    {
+      "id": "bd-mno",
+      "type": "budget",
+      "parent": "ag-tea",
+      "label": "School district M&O local revenue loss",
+      "cite": "Tax Code §26.08",
+      "corpus_tag": "Public Finance Records · 26.6B records",
+      "delta_usd": -2222667000,
+      "basis": "modeled projection",
+      "actual_2025_usd": -1481778000,
+      "actual_2025_label": "actual (2025 LBB)",
+      "actual_2025_line": "Probable Revenue Gain/(Loss) from School Districts Levy Loss",
+      "actual_2025_source": "https://capitol.texas.gov/tlodocs/89R/fiscalnotes/html/SB00004I.htm",
+      "scale_factor": 1.5,
+      "excerpt": "Calibration — LBB fiscal note for SB4 (89R, 2025), the +$40,000 homestead-exemption increase, FY2026: Probable Revenue Gain/(Loss) from School Districts Levy Loss = −$1,481,778,000. Modeled projection for the +$60,000 $140k→$200k increment scales this by 1.5× to −$2,222,667,000/yr."
+    },
+    {
+      "id": "bd-recap",
+      "type": "budget",
+      "parent": "ag-tea",
+      "label": "Recapture (\"Robin Hood\") payments",
+      "cite": "Educ. Code §49.004",
+      "corpus_tag": "Public Finance Records · 26.6B records",
+      "delta_usd": -505549500,
+      "basis": "modeled projection",
+      "actual_2025_usd": -337033000,
+      "actual_2025_label": "actual (2025 LBB)",
+      "actual_2025_line": "Probable Revenue Gain/(Loss) from Recapture Payments Atten Crdts 8905",
+      "actual_2025_source": "https://capitol.texas.gov/tlodocs/89R/fiscalnotes/html/SB00004I.htm",
+      "scale_factor": 1.5,
+      "excerpt": "Calibration — LBB fiscal note for SB4 (89R, 2025), the +$40,000 homestead-exemption increase, FY2026: Probable Revenue Gain/(Loss) from Recapture Payments Atten Crdts 8905 = −$337,033,000. Modeled projection for the +$60,000 $140k→$200k increment scales this by 1.5× to −$505,549,500/yr."
+    },
+    {
+      "id": "bd-cnty",
+      "type": "budget",
+      "parent": "ag-cpa",
+      "label": "Per-county M&O levy delta",
+      "cite": "Comptroller 2025 school district rates & levies",
+      "corpus_tag": "Public Finance Records · 26.6B records",
+      "delta_usd": -2673098745,
+      "modeled": true,
+      "basis": "modeled projection",
+      "source_url": "https://comptroller.texas.gov/taxes/property-tax/docs/2025-school-district-rates-levies.xlsx",
+      "fetched_at": "2026-07-04T01:57:42.951276+00:00",
+      "excerpt": "Modeled from the Comptroller's 2025 school-district rates & levies workbook. Per county: school M&O levy × homestead share (0.45) × Δ-ratio (60000/300000 = 0.2), the annual local school M&O revenue reduction from raising the general homestead exemption from the current $140,000 to $200,000. Statewide total across all 254 counties = −$2,673,098,745/yr.",
+      "methodology": "NUMERATOR (impact_usd) — modeled from Comptroller 2025 ISD rates & levies. Per county: school_mo_levy = sum over ISDs in county of (TAXABLE VALUE M&O x M&O RATE / 100), rates quoted per $100 of taxable value. impact_usd = school_mo_levy x homestead_share(0.45) x delta_ratio(60000/300000 = 0.2), the annual local school M&O revenue reduction from raising the general residence homestead exemption from its CURRENT $140,000 (post-Prop 13 2025 / HB 9) to $200,000. The 0.45 homestead-base share and $300k average homestead taxable value are stated modeling constants; magnitude is driven by each county's real school M&O levy. DENOMINATOR (impact_pct) — total_all_units_levy = sum of CALCULATED LEVY across every taxing unit levying in the county in the 2025 Comptroller rates & levies workbooks (county general/road & bridge funds + ISDs + cities + special districts). impact_pct = impact_usd / total_all_units_levy x 100, so it varies by county: school-tax-heavy counties score higher, counties with large city/special- district bases score lower. This is honest arithmetic on real data, not an official fiscal estimate."
+    }
+  ],
+  "counties": [
+    {
+      "fips": "48001",
+      "name": "Anderson",
+      "impact_usd": 2350142.67,
+      "impact_pct": 3.34
+    },
+    {
+      "fips": "48003",
+      "name": "Andrews",
+      "impact_usd": 5609518.19,
+      "impact_pct": 3.77
+    },
+    {
+      "fips": "48005",
+      "name": "Angelina",
+      "impact_usd": 3473828.74,
+      "impact_pct": 3.1
+    },
+    {
+      "fips": "48007",
+      "name": "Aransas",
+      "impact_usd": 3285201.53,
+      "impact_pct": 3.87
+    },
+    {
+      "fips": "48009",
+      "name": "Archer",
+      "impact_usd": 659942.51,
+      "impact_pct": 3.25
+    },
+    {
+      "fips": "48011",
+      "name": "Armstrong",
+      "impact_usd": 204864.15,
+      "impact_pct": 4.49
+    },
+    {
+      "fips": "48013",
+      "name": "Atascosa",
+      "impact_usd": 4033828.06,
+      "impact_pct": 3.73
+    },
+    {
+      "fips": "48015",
+      "name": "Austin",
+      "impact_usd": 2880584.23,
+      "impact_pct": 3.3
+    },
+    {
+      "fips": "48017",
+      "name": "Bailey",
+      "impact_usd": 307488.67,
+      "impact_pct": 2.76
+    },
+    {
+      "fips": "48019",
+      "name": "Bandera",
+      "impact_usd": 1870894.22,
+      "impact_pct": 3.72
+    },
+    {
+      "fips": "48021",
+      "name": "Bastrop",
+      "impact_usd": 7587897.68,
+      "impact_pct": 2.52
+    },
+    {
+      "fips": "48023",
+      "name": "Baylor",
+      "impact_usd": 301989.96,
+      "impact_pct": 2.99
+    },
+    {
+      "fips": "48025",
+      "name": "Bee",
+      "impact_usd": 1552815.7,
+      "impact_pct": 2.96
+    },
+    {
+      "fips": "48027",
+      "name": "Bell",
+      "impact_usd": 20201105.9,
+      "impact_pct": 2.84
+    },
+    {
+      "fips": "48029",
+      "name": "Bexar",
+      "impact_usd": 129524603.13,
+      "impact_pct": 2.55
+    },
+    {
+      "fips": "48031",
+      "name": "Blanco",
+      "impact_usd": 1945000.51,
+      "impact_pct": 3.96
+    },
+    {
+      "fips": "48033",
+      "name": "Borden",
+      "impact_usd": 730888.06,
+      "impact_pct": 5.26
+    },
+    {
+      "fips": "48035",
+      "name": "Bosque",
+      "impact_usd": 1670220.13,
+      "impact_pct": 3.94
+    },
+    {
+      "fips": "48037",
+      "name": "Bowie",
+      "impact_usd": 4349156.95,
+      "impact_pct": 2.88
+    },
+    {
+      "fips": "48039",
+      "name": "Brazoria",
+      "impact_usd": 30527103.42,
+      "impact_pct": 2.63
+    },
+    {
+      "fips": "48041",
+      "name": "Brazos",
+      "impact_usd": 17745706.7,
+      "impact_pct": 3.04
+    },
+    {
+      "fips": "48043",
+      "name": "Brewster",
+      "impact_usd": 739217.77,
+      "impact_pct": 3.95
+    },
+    {
+      "fips": "48045",
+      "name": "Briscoe",
+      "impact_usd": 204693.02,
+      "impact_pct": 4.06
+    },
+    {
+      "fips": "48047",
+      "name": "Brooks",
+      "impact_usd": 344680.74,
+      "impact_pct": 2.95
+    },
+    {
+      "fips": "48049",
+      "name": "Brown",
+      "impact_usd": 2130827.25,
+      "impact_pct": 3.15
+    },
+    {
+      "fips": "48051",
+      "name": "Burleson",
+      "impact_usd": 2594736.11,
+      "impact_pct": 4.2
+    },
+    {
+      "fips": "48053",
+      "name": "Burnet",
+      "impact_usd": 6934601.55,
+      "impact_pct": 3.66
+    },
+    {
+      "fips": "48055",
+      "name": "Caldwell",
+      "impact_usd": 3213250.29,
+      "impact_pct": 2.98
+    },
+    {
+      "fips": "48057",
+      "name": "Calhoun",
+      "impact_usd": 3010671.35,
+      "impact_pct": 3.24
+    },
+    {
+      "fips": "48059",
+      "name": "Callahan",
+      "impact_usd": 1069572.59,
+      "impact_pct": 2.76
+    },
+    {
+      "fips": "48061",
+      "name": "Cameron",
+      "impact_usd": 18268970.34,
+      "impact_pct": 2.95
+    },
+    {
+      "fips": "48063",
+      "name": "Camp",
+      "impact_usd": 711693.93,
+      "impact_pct": 2.99
+    },
+    {
+      "fips": "48065",
+      "name": "Carson",
+      "impact_usd": 678472.55,
+      "impact_pct": 3.3
+    },
+    {
+      "fips": "48067",
+      "name": "Cass",
+      "impact_usd": 1573261.1,
+      "impact_pct": 4.16
+    },
+    {
+      "fips": "48069",
+      "name": "Castro",
+      "impact_usd": 645111.86,
+      "impact_pct": 3.46
+    },
+    {
+      "fips": "48071",
+      "name": "Chambers",
+      "impact_usd": 15727294.66,
+      "impact_pct": 3.38
+    },
+    {
+      "fips": "48073",
+      "name": "Cherokee",
+      "impact_usd": 2379415.66,
+      "impact_pct": 3.19
+    },
+    {
+      "fips": "48075",
+      "name": "Childress",
+      "impact_usd": 590570.79,
+      "impact_pct": 3.35
+    },
+    {
+      "fips": "48077",
+      "name": "Clay",
+      "impact_usd": 649622.33,
+      "impact_pct": 3.24
+    },
+    {
+      "fips": "48079",
+      "name": "Cochran",
+      "impact_usd": 221894.49,
+      "impact_pct": 2.35
+    },
+    {
+      "fips": "48081",
+      "name": "Coke",
+      "impact_usd": 412822.17,
+      "impact_pct": 2.79
+    },
+    {
+      "fips": "48083",
+      "name": "Coleman",
+      "impact_usd": 388009.93,
+      "impact_pct": 2.68
+    },
+    {
+      "fips": "48085",
+      "name": "Collin",
+      "impact_usd": 154558668.55,
+      "impact_pct": 3.62
+    },
+    {
+      "fips": "48087",
+      "name": "Collingsworth",
+      "impact_usd": 140505.51,
+      "impact_pct": 2.48
+    },
+    {
+      "fips": "48089",
+      "name": "Colorado",
+      "impact_usd": 1958665.53,
+      "impact_pct": 3.81
+    },
+    {
+      "fips": "48091",
+      "name": "Comal",
+      "impact_usd": 21680136.39,
+      "impact_pct": 3.55
+    },
+    {
+      "fips": "48093",
+      "name": "Comanche",
+      "impact_usd": 928705.52,
+      "impact_pct": 3.25
+    },
+    {
+      "fips": "48095",
+      "name": "Concho",
+      "impact_usd": 432269.12,
+      "impact_pct": 3.43
+    },
+    {
+      "fips": "48097",
+      "name": "Cooke",
+      "impact_usd": 3791813.91,
+      "impact_pct": 3.39
+    },
+    {
+      "fips": "48099",
+      "name": "Coryell",
+      "impact_usd": 2213286.84,
+      "impact_pct": 2.8
+    },
+    {
+      "fips": "48101",
+      "name": "Cottle",
+      "impact_usd": 101615.82,
+      "impact_pct": 3.37
+    },
+    {
+      "fips": "48103",
+      "name": "Crane",
+      "impact_usd": 1358008.77,
+      "impact_pct": 2.71
+    },
+    {
+      "fips": "48105",
+      "name": "Crockett",
+      "impact_usd": 1448815.96,
+      "impact_pct": 2.88
+    },
+    {
+      "fips": "48107",
+      "name": "Crosby",
+      "impact_usd": 263550.65,
+      "impact_pct": 3.12
+    },
+    {
+      "fips": "48109",
+      "name": "Culberson",
+      "impact_usd": 3328678.38,
+      "impact_pct": 6.56
+    },
+    {
+      "fips": "48111",
+      "name": "Dallam",
+      "impact_usd": 879541.4,
+      "impact_pct": 3.66
+    },
+    {
+      "fips": "48113",
+      "name": "Dallas",
+      "impact_usd": 273392743.42,
+      "impact_pct": 2.87
+    },
+    {
+      "fips": "48115",
+      "name": "Dawson",
+      "impact_usd": 922136.07,
+      "impact_pct": 2.62
+    },
+    {
+      "fips": "48117",
+      "name": "Deaf Smith",
+      "impact_usd": 1380348.06,
+      "impact_pct": 3.15
+    },
+    {
+      "fips": "48119",
+      "name": "Delta",
+      "impact_usd": 303189.14,
+      "impact_pct": 2.37
+    },
+    {
+      "fips": "48121",
+      "name": "Denton",
+      "impact_usd": 112652784.04,
+      "impact_pct": 3.43
+    },
+    {
+      "fips": "48123",
+      "name": "DeWitt",
+      "impact_usd": 5707382.1,
+      "impact_pct": 4.63
+    },
+    {
+      "fips": "48125",
+      "name": "Dickens",
+      "impact_usd": 316403.29,
+      "impact_pct": 4.32
+    },
+    {
+      "fips": "48127",
+      "name": "Dimmit",
+      "impact_usd": 4646673.45,
+      "impact_pct": 5.0
+    },
+    {
+      "fips": "48129",
+      "name": "Donley",
+      "impact_usd": 251536.28,
+      "impact_pct": 3.11
+    },
+    {
+      "fips": "48131",
+      "name": "Duval",
+      "impact_usd": 780636.33,
+      "impact_pct": 2.9
+    },
+    {
+      "fips": "48133",
+      "name": "Eastland",
+      "impact_usd": 1508068.23,
+      "impact_pct": 4.05
+    },
+    {
+      "fips": "48135",
+      "name": "Ector",
+      "impact_usd": 12504617.81,
+      "impact_pct": 2.87
+    },
+    {
+      "fips": "48137",
+      "name": "Edwards",
+      "impact_usd": 578287.83,
+      "impact_pct": 3.94
+    },
+    {
+      "fips": "48139",
+      "name": "Ellis",
+      "impact_usd": 19907528.18,
+      "impact_pct": 3.13
+    },
+    {
+      "fips": "48141",
+      "name": "El Paso",
+      "impact_usd": 33032804.62,
+      "impact_pct": 1.98
+    },
+    {
+      "fips": "48143",
+      "name": "Erath",
+      "impact_usd": 3046831.61,
+      "impact_pct": 3.78
+    },
+    {
+      "fips": "48145",
+      "name": "Falls",
+      "impact_usd": 796741.18,
+      "impact_pct": 2.22
+    },
+    {
+      "fips": "48147",
+      "name": "Fannin",
+      "impact_usd": 2557344.42,
+      "impact_pct": 3.76
+    },
+    {
+      "fips": "48149",
+      "name": "Fayette",
+      "impact_usd": 2897134.84,
+      "impact_pct": 4.38
+    },
+    {
+      "fips": "48151",
+      "name": "Fisher",
+      "impact_usd": 534951.75,
+      "impact_pct": 3.42
+    },
+    {
+      "fips": "48153",
+      "name": "Floyd",
+      "impact_usd": 399434.93,
+      "impact_pct": 2.67
+    },
+    {
+      "fips": "48155",
+      "name": "Foard",
+      "impact_usd": 212793.56,
+      "impact_pct": 3.05
+    },
+    {
+      "fips": "48157",
+      "name": "Fort Bend",
+      "impact_usd": 76004956.66,
+      "impact_pct": 2.54
+    },
+    {
+      "fips": "48159",
+      "name": "Franklin",
+      "impact_usd": 1255638.35,
+      "impact_pct": 4.04
+    },
+    {
+      "fips": "48161",
+      "name": "Freestone",
+      "impact_usd": 2122246.52,
+      "impact_pct": 4.43
+    },
+    {
+      "fips": "48163",
+      "name": "Frio",
+      "impact_usd": 1905092.35,
+      "impact_pct": 4.15
+    },
+    {
+      "fips": "48165",
+      "name": "Gaines",
+      "impact_usd": 2682206.14,
+      "impact_pct": 3.0
+    },
+    {
+      "fips": "48167",
+      "name": "Galveston",
+      "impact_usd": 30328335.78,
+      "impact_pct": 3.19
+    },
+    {
+      "fips": "48169",
+      "name": "Garza",
+      "impact_usd": 326184.49,
+      "impact_pct": 2.63
+    },
+    {
+      "fips": "48171",
+      "name": "Gillespie",
+      "impact_usd": 5029010.38,
+      "impact_pct": 4.87
+    },
+    {
+      "fips": "48173",
+      "name": "Glasscock",
+      "impact_usd": 5630542.36,
+      "impact_pct": 6.78
+    },
+    {
+      "fips": "48175",
+      "name": "Goliad",
+      "impact_usd": 749896.05,
+      "impact_pct": 2.54
+    },
+    {
+      "fips": "48177",
+      "name": "Gonzales",
+      "impact_usd": 4423942.02,
+      "impact_pct": 4.08
+    },
+    {
+      "fips": "48179",
+      "name": "Gray",
+      "impact_usd": 961396.97,
+      "impact_pct": 2.48
+    },
+    {
+      "fips": "48181",
+      "name": "Grayson",
+      "impact_usd": 12689439.21,
+      "impact_pct": 2.89
+    },
+    {
+      "fips": "48183",
+      "name": "Gregg",
+      "impact_usd": 7344672.54,
+      "impact_pct": 2.85
+    },
+    {
+      "fips": "48185",
+      "name": "Grimes",
+      "impact_usd": 2841627.65,
+      "impact_pct": 3.69
+    },
+    {
+      "fips": "48187",
+      "name": "Guadalupe",
+      "impact_usd": 11260530.62,
+      "impact_pct": 3.1
+    },
+    {
+      "fips": "48189",
+      "name": "Hale",
+      "impact_usd": 1525604.46,
+      "impact_pct": 2.61
+    },
+    {
+      "fips": "48191",
+      "name": "Hall",
+      "impact_usd": 199790.94,
+      "impact_pct": 3.25
+    },
+    {
+      "fips": "48193",
+      "name": "Hamilton",
+      "impact_usd": 723964.35,
+      "impact_pct": 2.26
+    },
+    {
+      "fips": "48195",
+      "name": "Hansford",
+      "impact_usd": 438390.0,
+      "impact_pct": 2.41
+    },
+    {
+      "fips": "48197",
+      "name": "Hardeman",
+      "impact_usd": 271799.61,
+      "impact_pct": 2.74
+    },
+    {
+      "fips": "48199",
+      "name": "Hardin",
+      "impact_usd": 2531832.78,
+      "impact_pct": 2.9
+    },
+    {
+      "fips": "48201",
+      "name": "Harris",
+      "impact_usd": 400431097.12,
+      "impact_pct": 2.67
+    },
+    {
+      "fips": "48203",
+      "name": "Harrison",
+      "impact_usd": 5339637.59,
+      "impact_pct": 4.02
+    },
+    {
+      "fips": "48205",
+      "name": "Hartley",
+      "impact_usd": 527596.65,
+      "impact_pct": 3.27
+    },
+    {
+      "fips": "48207",
+      "name": "Haskell",
+      "impact_usd": 529212.41,
+      "impact_pct": 2.89
+    },
+    {
+      "fips": "48209",
+      "name": "Hays",
+      "impact_usd": 26621577.25,
+      "impact_pct": 2.77
+    },
+    {
+      "fips": "48211",
+      "name": "Hemphill",
+      "impact_usd": 694123.9,
+      "impact_pct": 2.87
+    },
+    {
+      "fips": "48213",
+      "name": "Henderson",
+      "impact_usd": 6496458.35,
+      "impact_pct": 3.34
+    },
+    {
+      "fips": "48215",
+      "name": "Hidalgo",
+      "impact_usd": 33358609.8,
+      "impact_pct": 2.63
+    },
+    {
+      "fips": "48217",
+      "name": "Hill",
+      "impact_usd": 2843250.89,
+      "impact_pct": 3.25
+    },
+    {
+      "fips": "48219",
+      "name": "Hockley",
+      "impact_usd": 2176715.21,
+      "impact_pct": 3.41
+    },
+    {
+      "fips": "48221",
+      "name": "Hood",
+      "impact_usd": 6788686.24,
+      "impact_pct": 4.87
+    },
+    {
+      "fips": "48223",
+      "name": "Hopkins",
+      "impact_usd": 1827929.14,
+      "impact_pct": 2.85
+    },
+    {
+      "fips": "48225",
+      "name": "Houston",
+      "impact_usd": 1282657.28,
+      "impact_pct": 3.52
+    },
+    {
+      "fips": "48227",
+      "name": "Howard",
+      "impact_usd": 4906445.2,
+      "impact_pct": 4.05
+    },
+    {
+      "fips": "48229",
+      "name": "Hudspeth",
+      "impact_usd": 414589.15,
+      "impact_pct": 3.87
+    },
+    {
+      "fips": "48231",
+      "name": "Hunt",
+      "impact_usd": 7731711.2,
+      "impact_pct": 2.98
+    },
+    {
+      "fips": "48233",
+      "name": "Hutchinson",
+      "impact_usd": 1928280.27,
+      "impact_pct": 3.56
+    },
+    {
+      "fips": "48235",
+      "name": "Irion",
+      "impact_usd": 1223565.41,
+      "impact_pct": 3.81
+    },
+    {
+      "fips": "48237",
+      "name": "Jack",
+      "impact_usd": 902352.36,
+      "impact_pct": 2.91
+    },
+    {
+      "fips": "48239",
+      "name": "Jackson",
+      "impact_usd": 1731340.18,
+      "impact_pct": 3.13
+    },
+    {
+      "fips": "48241",
+      "name": "Jasper",
+      "impact_usd": 1818237.98,
+      "impact_pct": 3.65
+    },
+    {
+      "fips": "48243",
+      "name": "Jeff Davis",
+      "impact_usd": 213250.86,
+      "impact_pct": 2.6
+    },
+    {
+      "fips": "48245",
+      "name": "Jefferson",
+      "impact_usd": 19692394.64,
+      "impact_pct": 2.81
+    },
+    {
+      "fips": "48247",
+      "name": "Jim Hogg",
+      "impact_usd": 241041.92,
+      "impact_pct": 2.23
+    },
+    {
+      "fips": "48249",
+      "name": "Jim Wells",
+      "impact_usd": 1484258.25,
+      "impact_pct": 2.66
+    },
+    {
+      "fips": "48251",
+      "name": "Johnson",
+      "impact_usd": 13419139.57,
+      "impact_pct": 2.9
+    },
+    {
+      "fips": "48253",
+      "name": "Jones",
+      "impact_usd": 624916.46,
+      "impact_pct": 2.52
+    },
+    {
+      "fips": "48255",
+      "name": "Karnes",
+      "impact_usd": 6117288.31,
+      "impact_pct": 4.84
+    },
+    {
+      "fips": "48257",
+      "name": "Kaufman",
+      "impact_usd": 14772023.15,
+      "impact_pct": 2.72
+    },
+    {
+      "fips": "48259",
+      "name": "Kendall",
+      "impact_usd": 5821217.35,
+      "impact_pct": 3.44
+    },
+    {
+      "fips": "48261",
+      "name": "Kenedy",
+      "impact_usd": 532819.62,
+      "impact_pct": 3.63
+    },
+    {
+      "fips": "48263",
+      "name": "Kent",
+      "impact_usd": 369699.4,
+      "impact_pct": 4.19
+    },
+    {
+      "fips": "48265",
+      "name": "Kerr",
+      "impact_usd": 3874093.21,
+      "impact_pct": 3.38
+    },
+    {
+      "fips": "48267",
+      "name": "Kimble",
+      "impact_usd": 597957.9,
+      "impact_pct": 3.68
+    },
+    {
+      "fips": "48269",
+      "name": "King",
+      "impact_usd": 147329.87,
+      "impact_pct": 4.12
+    },
+    {
+      "fips": "48271",
+      "name": "Kinney",
+      "impact_usd": 615565.6,
+      "impact_pct": 4.56
+    },
+    {
+      "fips": "48273",
+      "name": "Kleberg",
+      "impact_usd": 1227122.46,
+      "impact_pct": 2.44
+    },
+    {
+      "fips": "48275",
+      "name": "Knox",
+      "impact_usd": 290190.57,
+      "impact_pct": 2.63
+    },
+    {
+      "fips": "48277",
+      "name": "Lamar",
+      "impact_usd": 3303969.26,
+      "impact_pct": 3.55
+    },
+    {
+      "fips": "48279",
+      "name": "Lamb",
+      "impact_usd": 760487.08,
+      "impact_pct": 2.93
+    },
+    {
+      "fips": "48281",
+      "name": "Lampasas",
+      "impact_usd": 1326247.14,
+      "impact_pct": 3.4
+    },
+    {
+      "fips": "48283",
+      "name": "La Salle",
+      "impact_usd": 5608293.4,
+      "impact_pct": 4.74
+    },
+    {
+      "fips": "48285",
+      "name": "Lavaca",
+      "impact_usd": 2164170.93,
+      "impact_pct": 3.47
+    },
+    {
+      "fips": "48287",
+      "name": "Lee",
+      "impact_usd": 1578587.11,
+      "impact_pct": 3.77
+    },
+    {
+      "fips": "48289",
+      "name": "Leon",
+      "impact_usd": 1607312.61,
+      "impact_pct": 3.69
+    },
+    {
+      "fips": "48291",
+      "name": "Liberty",
+      "impact_usd": 6859899.05,
+      "impact_pct": 3.15
+    },
+    {
+      "fips": "48293",
+      "name": "Limestone",
+      "impact_usd": 1666578.02,
+      "impact_pct": 3.18
+    },
+    {
+      "fips": "48295",
+      "name": "Lipscomb",
+      "impact_usd": 294176.05,
+      "impact_pct": 2.34
+    },
+    {
+      "fips": "48297",
+      "name": "Live Oak",
+      "impact_usd": 2809010.81,
+      "impact_pct": 3.88
+    },
+    {
+      "fips": "48299",
+      "name": "Llano",
+      "impact_usd": 4741512.85,
+      "impact_pct": 4.45
+    },
+    {
+      "fips": "48301",
+      "name": "Loving",
+      "impact_usd": 11781492.71,
+      "impact_pct": 4.7
+    },
+    {
+      "fips": "48303",
+      "name": "Lubbock",
+      "impact_usd": 17386263.91,
+      "impact_pct": 2.92
+    },
+    {
+      "fips": "48305",
+      "name": "Lynn",
+      "impact_usd": 471590.15,
+      "impact_pct": 2.7
+    },
+    {
+      "fips": "48307",
+      "name": "McCulloch",
+      "impact_usd": 574924.68,
+      "impact_pct": 3.24
+    },
+    {
+      "fips": "48309",
+      "name": "McLennan",
+      "impact_usd": 17015730.26,
+      "impact_pct": 2.96
+    },
+    {
+      "fips": "48311",
+      "name": "McMullen",
+      "impact_usd": 2834715.89,
+      "impact_pct": 4.88
+    },
+    {
+      "fips": "48313",
+      "name": "Madison",
+      "impact_usd": 948775.42,
+      "impact_pct": 3.92
+    },
+    {
+      "fips": "48315",
+      "name": "Marion",
+      "impact_usd": 518702.59,
+      "impact_pct": 4.0
+    },
+    {
+      "fips": "48317",
+      "name": "Martin",
+      "impact_usd": 16331730.72,
+      "impact_pct": 5.38
+    },
+    {
+      "fips": "48319",
+      "name": "Mason",
+      "impact_usd": 421453.8,
+      "impact_pct": 3.94
+    },
+    {
+      "fips": "48321",
+      "name": "Matagorda",
+      "impact_usd": 5933332.03,
+      "impact_pct": 3.51
+    },
+    {
+      "fips": "48323",
+      "name": "Maverick",
+      "impact_usd": 2568367.27,
+      "impact_pct": 3.77
+    },
+    {
+      "fips": "48325",
+      "name": "Medina",
+      "impact_usd": 3515039.54,
+      "impact_pct": 2.9
+    },
+    {
+      "fips": "48327",
+      "name": "Menard",
+      "impact_usd": 174976.07,
+      "impact_pct": 1.93
+    },
+    {
+      "fips": "48329",
+      "name": "Midland",
+      "impact_usd": 34956073.3,
+      "impact_pct": 4.39
+    },
+    {
+      "fips": "48331",
+      "name": "Milam",
+      "impact_usd": 1963008.68,
+      "impact_pct": 2.96
+    },
+    {
+      "fips": "48333",
+      "name": "Mills",
+      "impact_usd": 452333.01,
+      "impact_pct": 3.8
+    },
+    {
+      "fips": "48335",
+      "name": "Mitchell",
+      "impact_usd": 736726.44,
+      "impact_pct": 3.3
+    },
+    {
+      "fips": "48337",
+      "name": "Montague",
+      "impact_usd": 1373289.28,
+      "impact_pct": 3.53
+    },
+    {
+      "fips": "48339",
+      "name": "Montgomery",
+      "impact_usd": 58271677.55,
+      "impact_pct": 2.84
+    },
+    {
+      "fips": "48341",
+      "name": "Moore",
+      "impact_usd": 1538631.9,
+      "impact_pct": 2.69
+    },
+    {
+      "fips": "48343",
+      "name": "Morris",
+      "impact_usd": 514424.07,
+      "impact_pct": 3.43
+    },
+    {
+      "fips": "48345",
+      "name": "Motley",
+      "impact_usd": 103675.85,
+      "impact_pct": 3.45
+    },
+    {
+      "fips": "48347",
+      "name": "Nacogdoches",
+      "impact_usd": 2817120.98,
+      "impact_pct": 3.27
+    },
+    {
+      "fips": "48349",
+      "name": "Navarro",
+      "impact_usd": 4254460.37,
+      "impact_pct": 3.27
+    },
+    {
+      "fips": "48351",
+      "name": "Newton",
+      "impact_usd": 867663.51,
+      "impact_pct": 3.58
+    },
+    {
+      "fips": "48353",
+      "name": "Nolan",
+      "impact_usd": 1616494.1,
+      "impact_pct": 3.22
+    },
+    {
+      "fips": "48355",
+      "name": "Nueces",
+      "impact_usd": 25775836.11,
+      "impact_pct": 2.82
+    },
+    {
+      "fips": "48357",
+      "name": "Ochiltree",
+      "impact_usd": 831917.77,
+      "impact_pct": 2.52
+    },
+    {
+      "fips": "48359",
+      "name": "Oldham",
+      "impact_usd": 426599.31,
+      "impact_pct": 3.93
+    },
+    {
+      "fips": "48361",
+      "name": "Orange",
+      "impact_usd": 4893375.69,
+      "impact_pct": 2.9
+    },
+    {
+      "fips": "48363",
+      "name": "Palo Pinto",
+      "impact_usd": 3405737.14,
+      "impact_pct": 3.48
+    },
+    {
+      "fips": "48365",
+      "name": "Panola",
+      "impact_usd": 2684104.24,
+      "impact_pct": 2.98
+    },
+    {
+      "fips": "48367",
+      "name": "Parker",
+      "impact_usd": 14910748.19,
+      "impact_pct": 3.24
+    },
+    {
+      "fips": "48369",
+      "name": "Parmer",
+      "impact_usd": 819635.36,
+      "impact_pct": 3.45
+    },
+    {
+      "fips": "48371",
+      "name": "Pecos",
+      "impact_usd": 3621825.49,
+      "impact_pct": 2.69
+    },
+    {
+      "fips": "48373",
+      "name": "Polk",
+      "impact_usd": 3062963.32,
+      "impact_pct": 3.63
+    },
+    {
+      "fips": "48375",
+      "name": "Potter",
+      "impact_usd": 6086782.02,
+      "impact_pct": 2.72
+    },
+    {
+      "fips": "48377",
+      "name": "Presidio",
+      "impact_usd": 571788.84,
+      "impact_pct": 3.46
+    },
+    {
+      "fips": "48379",
+      "name": "Rains",
+      "impact_usd": 673132.23,
+      "impact_pct": 3.47
+    },
+    {
+      "fips": "48381",
+      "name": "Randall",
+      "impact_usd": 7570216.36,
+      "impact_pct": 2.84
+    },
+    {
+      "fips": "48383",
+      "name": "Reagan",
+      "impact_usd": 5149462.54,
+      "impact_pct": 6.32
+    },
+    {
+      "fips": "48385",
+      "name": "Real",
+      "impact_usd": 473038.08,
+      "impact_pct": 4.09
+    },
+    {
+      "fips": "48387",
+      "name": "Red River",
+      "impact_usd": 472371.24,
+      "impact_pct": 2.96
+    },
+    {
+      "fips": "48389",
+      "name": "Reeves",
+      "impact_usd": 19018205.81,
+      "impact_pct": 3.41
+    },
+    {
+      "fips": "48391",
+      "name": "Refugio",
+      "impact_usd": 685792.6,
+      "impact_pct": 2.5
+    },
+    {
+      "fips": "48393",
+      "name": "Roberts",
+      "impact_usd": 280472.57,
+      "impact_pct": 3.17
+    },
+    {
+      "fips": "48395",
+      "name": "Robertson",
+      "impact_usd": 2406923.57,
+      "impact_pct": 3.26
+    },
+    {
+      "fips": "48397",
+      "name": "Rockwall",
+      "impact_usd": 13483804.76,
+      "impact_pct": 3.8
+    },
+    {
+      "fips": "48399",
+      "name": "Runnels",
+      "impact_usd": 408648.51,
+      "impact_pct": 1.92
+    },
+    {
+      "fips": "48401",
+      "name": "Rusk",
+      "impact_usd": 2548129.11,
+      "impact_pct": 3.18
+    },
+    {
+      "fips": "48403",
+      "name": "Sabine",
+      "impact_usd": 712653.48,
+      "impact_pct": 4.38
+    },
+    {
+      "fips": "48405",
+      "name": "San Augustine",
+      "impact_usd": 860056.38,
+      "impact_pct": 4.1
+    },
+    {
+      "fips": "48407",
+      "name": "San Jacinto",
+      "impact_usd": 1857453.96,
+      "impact_pct": 3.74
+    },
+    {
+      "fips": "48409",
+      "name": "San Patricio",
+      "impact_usd": 9120836.62,
+      "impact_pct": 2.78
+    },
+    {
+      "fips": "48411",
+      "name": "San Saba",
+      "impact_usd": 757945.55,
+      "impact_pct": 4.54
+    },
+    {
+      "fips": "48413",
+      "name": "Schleicher",
+      "impact_usd": 338114.41,
+      "impact_pct": 2.49
+    },
+    {
+      "fips": "48415",
+      "name": "Scurry",
+      "impact_usd": 2166405.88,
+      "impact_pct": 2.99
+    },
+    {
+      "fips": "48417",
+      "name": "Shackelford",
+      "impact_usd": 329693.27,
+      "impact_pct": 3.17
+    },
+    {
+      "fips": "48419",
+      "name": "Shelby",
+      "impact_usd": 1081561.47,
+      "impact_pct": 3.42
+    },
+    {
+      "fips": "48421",
+      "name": "Sherman",
+      "impact_usd": 506523.77,
+      "impact_pct": 3.5
+    },
+    {
+      "fips": "48423",
+      "name": "Smith",
+      "impact_usd": 14483354.33,
+      "impact_pct": 3.33
+    },
+    {
+      "fips": "48425",
+      "name": "Somervell",
+      "impact_usd": 2886879.98,
+      "impact_pct": 4.5
+    },
+    {
+      "fips": "48427",
+      "name": "Starr",
+      "impact_usd": 1797478.39,
+      "impact_pct": 2.25
+    },
+    {
+      "fips": "48429",
+      "name": "Stephens",
+      "impact_usd": 489360.62,
+      "impact_pct": 2.85
+    },
+    {
+      "fips": "48431",
+      "name": "Sterling",
+      "impact_usd": 556248.61,
+      "impact_pct": 3.76
+    },
+    {
+      "fips": "48433",
+      "name": "Stonewall",
+      "impact_usd": 152893.94,
+      "impact_pct": 2.23
+    },
+    {
+      "fips": "48435",
+      "name": "Sutton",
+      "impact_usd": 425983.86,
+      "impact_pct": 2.8
+    },
+    {
+      "fips": "48437",
+      "name": "Swisher",
+      "impact_usd": 335822.13,
+      "impact_pct": 2.69
+    },
+    {
+      "fips": "48439",
+      "name": "Tarrant",
+      "impact_usd": 170292780.68,
+      "impact_pct": 2.84
+    },
+    {
+      "fips": "48441",
+      "name": "Taylor",
+      "impact_usd": 6964761.19,
+      "impact_pct": 2.51
+    },
+    {
+      "fips": "48443",
+      "name": "Terrell",
+      "impact_usd": 123026.34,
+      "impact_pct": 2.87
+    },
+    {
+      "fips": "48445",
+      "name": "Terry",
+      "impact_usd": 504936.8,
+      "impact_pct": 2.21
+    },
+    {
+      "fips": "48447",
+      "name": "Throckmorton",
+      "impact_usd": 214512.44,
+      "impact_pct": 2.65
+    },
+    {
+      "fips": "48449",
+      "name": "Titus",
+      "impact_usd": 1742203.12,
+      "impact_pct": 3.13
+    },
+    {
+      "fips": "48451",
+      "name": "Tom Green",
+      "impact_usd": 5487533.47,
+      "impact_pct": 2.56
+    },
+    {
+      "fips": "48453",
+      "name": "Travis",
+      "impact_usd": 209282679.63,
+      "impact_pct": 3.2
+    },
+    {
+      "fips": "48455",
+      "name": "Trinity",
+      "impact_usd": 650571.17,
+      "impact_pct": 3.21
+    },
+    {
+      "fips": "48457",
+      "name": "Tyler",
+      "impact_usd": 860848.51,
+      "impact_pct": 2.43
+    },
+    {
+      "fips": "48459",
+      "name": "Upshur",
+      "impact_usd": 1876640.43,
+      "impact_pct": 3.43
+    },
+    {
+      "fips": "48461",
+      "name": "Upton",
+      "impact_usd": 9226327.11,
+      "impact_pct": 4.29
+    },
+    {
+      "fips": "48463",
+      "name": "Uvalde",
+      "impact_usd": 1792227.62,
+      "impact_pct": 3.39
+    },
+    {
+      "fips": "48465",
+      "name": "Val Verde",
+      "impact_usd": 2147973.25,
+      "impact_pct": 2.93
+    },
+    {
+      "fips": "48467",
+      "name": "Van Zandt",
+      "impact_usd": 3036980.94,
+      "impact_pct": 2.52
+    },
+    {
+      "fips": "48469",
+      "name": "Victoria",
+      "impact_usd": 5307493.28,
+      "impact_pct": 3.13
+    },
+    {
+      "fips": "48471",
+      "name": "Walker",
+      "impact_usd": 3797515.29,
+      "impact_pct": 3.43
+    },
+    {
+      "fips": "48473",
+      "name": "Waller",
+      "impact_usd": 8371748.37,
+      "impact_pct": 2.51
+    },
+    {
+      "fips": "48475",
+      "name": "Ward",
+      "impact_usd": 3893653.04,
+      "impact_pct": 3.33
+    },
+    {
+      "fips": "48477",
+      "name": "Washington",
+      "impact_usd": 3761161.19,
+      "impact_pct": 3.67
+    },
+    {
+      "fips": "48479",
+      "name": "Webb",
+      "impact_usd": 18441955.33,
+      "impact_pct": 3.06
+    },
+    {
+      "fips": "48481",
+      "name": "Wharton",
+      "impact_usd": 3226719.08,
+      "impact_pct": 2.79
+    },
+    {
+      "fips": "48483",
+      "name": "Wheeler",
+      "impact_usd": 855382.44,
+      "impact_pct": 3.2
+    },
+    {
+      "fips": "48485",
+      "name": "Wichita",
+      "impact_usd": 4756065.8,
+      "impact_pct": 2.36
+    },
+    {
+      "fips": "48487",
+      "name": "Wilbarger",
+      "impact_usd": 668165.69,
+      "impact_pct": 2.25
+    },
+    {
+      "fips": "48489",
+      "name": "Willacy",
+      "impact_usd": 704726.53,
+      "impact_pct": 1.93
+    },
+    {
+      "fips": "48491",
+      "name": "Williamson",
+      "impact_usd": 76459261.88,
+      "impact_pct": 2.99
+    },
+    {
+      "fips": "48493",
+      "name": "Wilson",
+      "impact_usd": 2943343.32,
+      "impact_pct": 3.03
+    },
+    {
+      "fips": "48495",
+      "name": "Winkler",
+      "impact_usd": 2704217.44,
+      "impact_pct": 3.69
+    },
+    {
+      "fips": "48497",
+      "name": "Wise",
+      "impact_usd": 7849312.84,
+      "impact_pct": 3.92
+    },
+    {
+      "fips": "48499",
+      "name": "Wood",
+      "impact_usd": 2819947.47,
+      "impact_pct": 3.84
+    },
+    {
+      "fips": "48501",
+      "name": "Yoakum",
+      "impact_usd": 2208784.57,
+      "impact_pct": 3.55
+    },
+    {
+      "fips": "48503",
+      "name": "Young",
+      "impact_usd": 933958.36,
+      "impact_pct": 2.18
+    },
+    {
+      "fips": "48505",
+      "name": "Zapata",
+      "impact_usd": 568781.15,
+      "impact_pct": 2.81
+    },
+    {
+      "fips": "48507",
+      "name": "Zavala",
+      "impact_usd": 1260565.06,
+      "impact_pct": 3.37
+    }
+  ],
+  "verdict": {
+    "exposure_statute_only_pct": 90,
+    "exposure_with_amendment_pct": 22,
+    "drivers": [
+      "cf-const",
+      "cf-ceiling",
+      "school-finance litigation lineage"
+    ],
+    "next_steps": [
+      {
+        "step": "Joint resolution (2/3 both chambers)",
+        "gate": "Legislature"
+      },
+      {
+        "step": "Statewide ratification election",
+        "gate": "Texas voters"
+      },
+      {
+        "step": "Comptroller rulemaking, 34 TAC Ch. 9",
+        "gate": "Comptroller"
+      },
+      {
+        "step": "TEA Foundation School Program recompute",
+        "gate": "Commissioner of Education"
+      }
+    ]
+  },
+  "meta": {
+    "generated": "2026-07-04 (B1 real-data merge)",
+    "scenario": "Homestead exemption $140,000 → $200,000 (general residence homestead)",
+    "calibration": "Current law $140,000 (Tax Code §11.13(b) post-HB9 / Prop 13, Nov 2025). Budget lines calibrated against 2025 LBB fiscal notes (SB4/SB23/HB9); the $200,000 projection is modeled ×1.5 on the 2025 +$40k actuals. Statewide teaser is the exact sum of the per-county modeled school M&O levy reduction.",
+    "teaser_total_source": "sum(data/county-impact.json impact_usd)",
+    "node_count": 19,
+    "modeled_nodes": [
+      "cf-tacrule",
+      "ag-cads",
+      "bd-cnty"
+    ],
+    "t5_validated_agencies": [
+      "ag-tea",
+      "ag-cads"
+    ],
+    "agency_mapping_note": "Agency action_required / authority_cite / approval_gate for ag-tea and ag-cads are GLM-validated from t5-agencies.json (statute corpus). ag-cpa and ag-sos are analytical (hand-written, not in the T5 mapping).",
+    "sources": [
+      {
+        "url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm",
+        "fetched_at": "2026-07-04T01:56:22.430248+00:00",
+        "kind": "statute-chapter",
+        "bill": null,
+        "chapter": "TX.11"
+      },
+      {
+        "url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.26.htm",
+        "fetched_at": "2026-07-04T01:56:22.510167+00:00",
+        "kind": "statute-chapter",
+        "bill": null,
+        "chapter": "TX.26"
+      },
+      {
+        "url": "https://statutes.capitol.texas.gov/Docs/ED/htm/ED.48.htm",
+        "fetched_at": "2026-07-04T01:56:22.600267+00:00",
+        "kind": "statute-chapter",
+        "bill": null,
+        "chapter": "ED.48"
+      },
+      {
+        "url": "https://statutes.capitol.texas.gov/Docs/CN/htm/CN.8.htm",
+        "fetched_at": "2026-07-04T01:56:22.668101+00:00",
+        "kind": "statute-chapter",
+        "bill": null,
+        "chapter": "CN.8"
+      },
+      {
+        "url": "https://capitol.texas.gov/tlodocs/89R/fiscalnotes/html/HB00009I.htm",
+        "fetched_at": "2026-07-04T01:56:22.883530+00:00",
+        "kind": "fiscal-note",
+        "bill": "HB9",
+        "chapter": null
+      },
+      {
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB9",
+        "fetched_at": "2026-07-04T01:56:22.959353+00:00",
+        "kind": "bill-status",
+        "bill": "HB9",
+        "chapter": null
+      },
+      {
+        "url": "https://capitol.texas.gov/tlodocs/89R/fiscalnotes/html/SB00004I.htm",
+        "fetched_at": "2026-07-04T01:56:23.040562+00:00",
+        "kind": "fiscal-note",
+        "bill": "SB4",
+        "chapter": null
+      },
+      {
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB4",
+        "fetched_at": "2026-07-04T01:56:23.234766+00:00",
+        "kind": "bill-status",
+        "bill": "SB4",
+        "chapter": null
+      },
+      {
+        "url": "https://capitol.texas.gov/tlodocs/89R/fiscalnotes/html/SB00023I.htm",
+        "fetched_at": "2026-07-04T01:56:23.280637+00:00",
+        "kind": "fiscal-note",
+        "bill": "SB23",
+        "chapter": null
+      },
+      {
+        "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB23",
+        "fetched_at": "2026-07-04T01:56:23.345371+00:00",
+        "kind": "bill-status",
+        "bill": "SB23",
+        "chapter": null
+      },
+      {
+        "url": "https://comptroller.texas.gov/taxes/property-tax/docs/2025-school-district-rates-levies.xlsx",
+        "fetched_at": "2026-07-04T01:57:42.951276+00:00",
+        "kind": "county-levy-model",
+        "note": "Comptroller 2025 school district rates & levies"
+      }
+    ]
+  }
+}

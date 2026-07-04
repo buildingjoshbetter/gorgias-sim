@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "\u00a726.112 is a procedural provision governing mid-year qualification timing for exemptions under \u00a711.13(c) or (d). It does not reference \u00a711.13(b) or specify dollar amounts, so increasing the (b) exemption amount creates no textual conflict.",
+ "quote": "if at any time during a tax year property is owned by an individual who qualifies for an exemption under Section 11.13(c) or (d), 11.133, 11.134, or 11.136, the amount of the tax due on the property for the tax year is calculated as if the individual qualified for the exemption on January 1 and continued to qualify for the exemption for the remainder of the tax year.",
+ "_note": "No conflict. \u00a726.112 cross-references \u00a711.13(c) and (d) only; proposed change targets \u00a711.13(b) dollar amount. \u00a726.112 contains no dollar figures and operates as a timing/calculation mechanism regardless of exemption amount."
+}

@@ -1,0 +1,17 @@
+{
+ "cite": "Tax Code \u00a726.044",
+ "heading": "NO-NEW-REVENUE TAX RATE TO PAY FOR STATE CRIMINAL JUSTICE MANDATE",
+ "operative_text": "(a) The first time that a county adopts a tax rate after September 1, 1991, in which the state criminal justice mandate applies to the county, the no-new-revenue maintenance and operation rate for the county is increased by the rate calculated according to the following formula:\n(State Criminal Justice Mandate) / (Current Total Value - New Property Value)\n(b) In the second and subsequent years that a county adopts a tax rate, if the amount spent by the county for the state criminal justice mandate increased over the previous year, the no-new-revenue maintenance and operation rate for the county is increased by the rate calculated according to the following formula:\n(This Year's State Criminal Justice Mandate - Previous Year's State Criminal Justice Mandate) / (Current Total Value - New Property Value)\n(c) The county shall include a notice of the increase in the no-new-revenue maintenance and operation rate provided by this section, including a description and amount of the state criminal justice mandate, in the information published under Section 26.04(e) and, as applicable, in the notice prescribed by Section 26.06 or 26.061.",
+ "cross_refs": [
+  "Tax Code \u00a726.04(e)",
+  "Tax Code \u00a726.06",
+  "Tax Code \u00a726.061"
+ ],
+ "defined_terms": [
+  {
+   "term": "state criminal justice mandate",
+   "definition_excerpt": "the amount spent by the county in the previous 12 months providing for the maintenance and operation cost of keeping inmates in county-paid facilities after they have been sentenced to the Texas Department of Criminal Justice as certified by the county auditor based on information provided by the county sheriff, minus the amount received from state revenue for reimbursement of such costs."
+  }
+ ],
+ "_note": null
+}

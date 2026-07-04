@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change concerns Tax Code \u00a711.13(b) homestead exemption amounts. Educ. Code \u00a722.0837 governs fees for national criminal history record reviews. No overlap in subject matter.",
+ "quote": "The agency by rule shall require a person submitting to a national criminal history record information review under Section 22.0832, 22.0833, or 22.0836 to pay a fee for the review",
+ "_note": "No conflict; the rule_text addresses an unrelated education code provision on criminal history record review fees."
+}

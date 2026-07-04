@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.18 mandates website posting of tax rates and budget information. Increasing the homestead exemption changes underlying revenue and rate calculations but does not alter any posting requirement or referenced data field in this section.",
+ "quote": "Each taxing unit shall post or cause to be posted on the Internet website the following information in a format prescribed by the comptroller:",
+ "_note": "No direct conflict. Posted values would naturally reflect new exemption amounts without amending \u00a726.18."
+}

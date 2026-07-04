@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.113 prorates taxes based on exemptions referenced in Section 11.42(d) and computed under Section 26.09. It does not reference the homestead exemption amount in Section 11.13(b), so increasing that amount has no effect on this proration mechanism.",
+ "quote": "the amount of tax due on the property for that year is computed by multiplying the amount of taxes imposed on the property for the entire year as provided by Section 26.09 by a fraction",
+ "_note": "No direct or indirect conflict identified. \u00a726.113's proration formula operates on post-exemption tax amounts and is agnostic to the specific dollar value of the homestead exemption."
+}

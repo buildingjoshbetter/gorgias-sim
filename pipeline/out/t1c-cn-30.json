@@ -1,0 +1,25 @@
+{
+ "cite": "Tex. Const. art. VIII, \u00a730",
+ "heading": "CERTAIN TAXES ON SECURITIES MARKET OPERATORS AND SECURITIES TRANSACTIONS PROHIBITED",
+ "operative_text": "(b) The legislature may not enact a law that imposes:\n(1) an occupation tax on a registered securities market operator; or\n(2) a tax on a securities transaction conducted by a registered securities market operator.\n(c) This section does not prohibit:\n(1) the imposition of:\n(A) a general business tax measured by business activity;\n(B) a tax on the production of minerals;\n(C) a tax on insurance premiums;\n(D) sales and use taxes on tangible personal property or services; or\n(E) a fee based on the cost of processing or creating documents; or\n(2) a change in the rate of a tax in existence on January 1, 2026.",
+ "cross_refs": [
+  "15 U.S.C. Section 78a et seq.",
+  "15 U.S.C. Section 78f",
+  "7 U.S.C. Section 1 et seq."
+ ],
+ "defined_terms": [
+  {
+   "term": "Registered securities market operator",
+   "definition_excerpt": "means any of the following entities, to the extent the entity is subject to registration with and regulation by the United States Securities and Exchange Commission or the United States Commodity Futures Trading Commission, or the successor in function to either commission:"
+  },
+  {
+   "term": "Securities transaction",
+   "definition_excerpt": "means the purchase or sale of a security, a contract or agreement to purchase or sell a security, or a service to facilitate, match parties to, process, report, clear, or settle the purchase or sale of a security on behalf of a customer."
+  },
+  {
+   "term": "Security",
+   "definition_excerpt": "has the meaning assigned by the Securities Exchange Act of 1934 (15 U.S.C. Section 78a et seq.) in effect on January 1, 2025."
+  }
+ ],
+ "_note": ""
+}

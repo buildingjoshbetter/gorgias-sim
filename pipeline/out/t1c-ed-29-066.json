@@ -1,0 +1,36 @@
+{
+ "cite": "Educ. Code \u00a729.066",
+ "heading": "PEIMS REPORTING REQUIREMENTS",
+ "operative_text": "(a) A school district that is required to offer bilingual education or special language programs shall include the following information in the district's Public Education Information Management System (PEIMS) report: (1) demographic information, as determined by the commissioner, on students enrolled in district bilingual education or special language programs; (2) the number and percentage of students enrolled in each instructional model of a bilingual education or special language program offered by the district; and (3) the number and percentage of students identified as emergent bilingual students who do not receive specialized instruction. (b) For purposes of this section, the commissioner shall adopt rules to classify programs under this section as follows: (1) if the program is a bilingual education program, the program must be classified under the Public Education Information Management System (PEIMS) report as: (A) transitional bilingual/early exit: a bilingual program that serves students identified as emergent bilingual students in both English and Spanish and transfers a student to English-only instruction not earlier than two or later than five years after the student enrolls in school; (B) transitional bilingual/late exit: a bilingual program that serves students identified as emergent bilingual students in both English and Spanish and transfers a student to English-only instruction not earlier than six or later than seven years after the student enrolls in school; (C) dual language immersion/two-way: a biliteracy program that integrates students proficient in English and students identified as emergent bilingual students in both English and Spanish and transfers a student identified as an emergent bilingual student to English-only instruction not earlier than six or later than seven years after the student enrolls in school; or (D) dual language immersion/one-way: a biliteracy program that serves only students identified as emergent bilingual students in both English and Spanish and transfers a student to English-only instruction not earlier than six or later than seven years after the student enrolls in school; and (2) if the program is a special language program, the program must be classified under the Public Education Information Management System (PEIMS) report as: (A) English as a second language/content-based: an English program that serves students identified as emergent bilingual students in English only by providing a full-time teacher certified under Section 29.061(c) to provide supplementary instruction for all content area instruction; or (B) English as a second language/pull-out: an English program that serves students identified as emergent bilingual students in English only by providing a part-time teacher certified under Section 29.061(c) to provide English language arts instruction exclusively, while the student remains in a mainstream instructional arrangement in the remaining content areas. (c) If the school district has received a waiver and is not required to offer a bilingual education or special language program in a student's native language or if the student's parents have refused to approve the student's entry into a program as provided by Section 29.056, the program must be classified under the Public Education Information Management System (PEIMS) report as: no bilingual education or special language services provided.",
+ "cross_refs": [
+  "Educ. Code \u00a729.061(c)",
+  "Educ. Code \u00a729.056"
+ ],
+ "defined_terms": [
+  {
+   "term": "transitional bilingual/early exit",
+   "definition_excerpt": "a bilingual program that serves students identified as emergent bilingual students in both English and Spanish and transfers a student to English-only instruction not earlier than two or later than five years after the student enrolls in school"
+  },
+  {
+   "term": "transitional bilingual/late exit",
+   "definition_excerpt": "a bilingual program that serves students identified as emergent bilingual students in both English and Spanish and transfers a student to English-only instruction not earlier than six or later than seven years after the student enrolls in school"
+  },
+  {
+   "term": "dual language immersion/two-way",
+   "definition_excerpt": "a biliteracy program that integrates students proficient in English and students identified as emergent bilingual students in both English and Spanish and transfers a student identified as an emergent bilingual student to English-only instruction not earlier than six or later than seven years after the student enrolls in school"
+  },
+  {
+   "term": "dual language immersion/one-way",
+   "definition_excerpt": "a biliteracy program that serves only students identified as emergent bilingual students in both English and Spanish and transfers a student to English-only instruction not earlier than six or later than seven years after the student enrolls in school"
+  },
+  {
+   "term": "English as a second language/content-based",
+   "definition_excerpt": "an English program that serves students identified as emergent bilingual students in English only by providing a full-time teacher certified under Section 29.061(c) to provide supplementary instruction for all content area instruction"
+  },
+  {
+   "term": "English as a second language/pull-out",
+   "definition_excerpt": "an English program that serves students identified as emergent bilingual students in English only by providing a part-time teacher certified under Section 29.061(c) to provide English language arts instruction exclusively, while the student remains in a mainstream instructional arrangement in the remaining content areas"
+  }
+ ],
+ "_note": "Complete statute text extracted. Subsection (c) classification label 'no bilingual education or special language services provided' is not a defined term per se but is a required PEIMS classification. Legislative history and subchapter heading excluded from operative_text."
+}

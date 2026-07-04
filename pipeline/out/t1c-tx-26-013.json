@@ -1,0 +1,41 @@
+{
+ "cite": "Tax Code \u00a726.013",
+ "heading": "UNUSED INCREMENT RATE",
+ "operative_text": "(a) In this section: (1) \"Actual tax rate\" means a taxing unit's actual tax rate used to levy taxes in the applicable preceding tax year. (1-a) \"Foregone revenue amount\" means the greater of: (A) zero; or (B) the amount expressed in dollars calculated according to the following formula: FOREGONE REVENUE AMOUNT = (VOTER-APPROVAL TAX RATE - ACTUAL TAX RATE) x PRECEDING TOTAL VALUE (1-b) \"Preceding total value\" means a taxing unit's current total value in the applicable preceding tax year. (2) \"Voter-approval tax rate\" means a taxing unit's voter-approval tax rate in the applicable preceding tax year, as adopted by the taxing unit during the applicable preceding tax year, less the unused increment rate for that preceding tax year. (3) \"Year 1\" means the third tax year preceding the current tax year. (4) \"Year 2\" means the second tax year preceding the current tax year. (5) \"Year 3\" means the tax year preceding the current tax year. (b) In this chapter, \"unused increment rate\" means the greater of: (1) zero; or (2) the rate expressed in dollars per $100 of taxable value calculated according to the following formula: UNUSED INCREMENT RATE = (YEAR 1 FOREGONE REVENUE AMOUNT + YEAR 2 FOREGONE REVENUE AMOUNT + YEAR 3 FOREGONE REVENUE AMOUNT) / CURRENT TOTAL VALUE",
+ "cross_refs": [],
+ "defined_terms": [
+  {
+   "term": "Actual tax rate",
+   "definition_excerpt": "a taxing unit's actual tax rate used to levy taxes in the applicable preceding tax year"
+  },
+  {
+   "term": "Foregone revenue amount",
+   "definition_excerpt": "the greater of:\n(A) zero; or\n(B) the amount expressed in dollars calculated according to the following formula:\nFOREGONE REVENUE AMOUNT = (VOTER-APPROVAL TAX RATE - ACTUAL TAX RATE) x PRECEDING TOTAL VALUE"
+  },
+  {
+   "term": "Preceding total value",
+   "definition_excerpt": "a taxing unit's current total value in the applicable preceding tax year"
+  },
+  {
+   "term": "Voter-approval tax rate",
+   "definition_excerpt": "a taxing unit's voter-approval tax rate in the applicable preceding tax year, as adopted by the taxing unit during the applicable preceding tax year, less the unused increment rate for that preceding tax year"
+  },
+  {
+   "term": "Year 1",
+   "definition_excerpt": "the third tax year preceding the current tax year"
+  },
+  {
+   "term": "Year 2",
+   "definition_excerpt": "the second tax year preceding the current tax year"
+  },
+  {
+   "term": "Year 3",
+   "definition_excerpt": "the tax year preceding the current tax year"
+  },
+  {
+   "term": "unused increment rate",
+   "definition_excerpt": "the greater of:\n(1) zero; or\n(2) the rate expressed in dollars per $100 of taxable value calculated according to the following formula:\nUNUSED INCREMENT RATE = (YEAR 1 FOREGONE REVENUE AMOUNT + YEAR 2 FOREGONE REVENUE AMOUNT + YEAR 3 FOREGONE REVENUE AMOUNT) / CURRENT TOTAL VALUE"
+  }
+ ],
+ "_note": ""
+}

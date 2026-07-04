@@ -1,0 +1,53 @@
+{
+ "cite": "Tax Code \u00a711.18",
+ "heading": "CHARITABLE ORGANIZATIONS.",
+ "operative_text": "(a) An organization that qualifies as a charitable organization as provided by this section is entitled to an exemption from taxation of:\n(1) the buildings and tangible personal property that:\n(A) are owned by the charitable organization; and\n(B) except as permitted by Subsection (b), are used exclusively by qualified charitable organizations;\n(2) the real property owned by the charitable organization consisting of:\n(A) an incomplete improvement that:\n(i) is under active construction or other physical preparation; and\n(ii) is designed and intended to be used exclusively by qualified charitable organizations; and\n(B) the land on which the incomplete improvement is located that will be reasonably necessary for the use of the improvement by qualified charitable organizations; and\n(3) if the charitable organization is described by Subsection (d)(1), (2), (3)(A)(ii), (5), (8), (13), (15), or (19), the real property owned by the charitable organization consisting of an interest in a mineral in place, including a royalty interest, provided that the interest:\n(A) is not severed from the surface estate; or\n(B) was donated to the charitable organization by the previous owner of the interest.",
+ "cross_refs": [
+  "Tax Code \u00a711.18(b)",
+  "Tax Code \u00a711.18(d)",
+  "Tax Code \u00a711.18(e)",
+  "Tax Code \u00a711.18(f)",
+  "Tax Code \u00a711.18(g)",
+  "Tax Code \u00a711.1801",
+  "41 U.S.C. \u00a7\u00a78501-8506",
+  "IRC \u00a7501(a)",
+  "IRC \u00a7501(c)(3)",
+  "Local Gov't Code ch. 379C",
+  "Local Gov't Code ch. 379E",
+  "47 U.S.C. \u00a7396",
+  "IRC \u00a7501(c)(12)",
+  "Educ. Code \u00a761.003",
+  "Tax Code \u00a711.1801(a)(2)"
+ ],
+ "defined_terms": [
+  {
+   "term": "building",
+   "definition_excerpt": "includes the land that is reasonably necessary for use of, access to, and ornamentation of the building."
+  },
+  {
+   "term": "Assisted living services",
+   "definition_excerpt": "means responsible adult supervision of or assistance with routine living functions of an individual in instances where the individual's condition necessitates that supervision or assistance."
+  },
+  {
+   "term": "Charitable housing and services",
+   "definition_excerpt": "means the following provided by a charitable organization to a person 62 years of age or older in financial need:\n(A) housing, including as an independent living facility, assisted living facility, or nursing facility; and\n(B) any service designed to meet the unique needs of a person 62 years of age or older, including:\n(i) ministerial services;\n(ii) government-sponsored indigent health care;\n(iii) social services;\n(iv) health services;\n(v) educational services; and\n(vi) donations to an organization that qualifies for an exemption under Subsection (d)(13) or (19)."
+  },
+  {
+   "term": "Charity care, government-sponsored indigent health care, and net resident revenue",
+   "definition_excerpt": "are determined in the same manner for a retirement community or nursing home as \"charity care,\" \"government-sponsored indigent health care,\" and \"net patient revenue,\" respectively, are determined for a hospital under Section 11.1801(a)(2)."
+  },
+  {
+   "term": "Nursing care services",
+   "definition_excerpt": "includes services provided by nursing personnel, including patient observation, the promotion and maintenance of health, prevention of illness or disability, guidance and counseling to individuals and families, and referral of patients to physicians, other health care providers, or community resources if appropriate."
+  },
+  {
+   "term": "Retirement community",
+   "definition_excerpt": "means a collection of various types of housing that are under common ownership and designed for habitation by individuals over the age of 62."
+  },
+  {
+   "term": "Single campus",
+   "definition_excerpt": "means a facility designed to provide multiple levels of retirement housing that is geographically situated on a site at which all levels of housing are contiguous to each other on a single property."
+  }
+ ],
+ "_note": null
+}

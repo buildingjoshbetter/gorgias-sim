@@ -1,0 +1,23 @@
+{
+ "cite": "Tax Code \u00a726.0444",
+ "heading": "TAX RATE ADJUSTMENT FOR DEFUNDING MUNICIPALITY",
+ "operative_text": "(b) The no-new-revenue maintenance and operations rate for a defunding municipality is decreased by the rate computed according to the following formula:\nMunicipal Public Safety Expenditure Adjustment / (Current Total Value - New Property Value)\n(c) A defunding municipality shall provide a notice of the decrease in the no-new-revenue maintenance and operations rate provided by this section in the information published under Section 26.04(e) and, as applicable, in the notice prescribed by Section 26.06 or 26.061.\n(d) For purposes of Subsection (a)(2), the amount of money appropriated for public safety and the amount of money spent by the municipality for public safety does not include:\n(1) any grant money received by the municipality during any fiscal year; or\n(2) any sales and use tax revenue received by the municipality for the purpose of financing a crime control and prevention district under Chapter 363, Local Government Code, during any fiscal year.",
+ "cross_refs": [
+  "Tax Code \u00a726.04(e)",
+  "Tax Code \u00a726.06",
+  "Tax Code \u00a726.061",
+  "Loc. Gov't Code ch. 109",
+  "Loc. Gov't Code ch. 363"
+ ],
+ "defined_terms": [
+  {
+   "term": "Defunding municipality",
+   "definition_excerpt": "a municipality that is considered to be a defunding municipality for the current tax year under Chapter 109, Local Government Code."
+  },
+  {
+   "term": "Municipal public safety expenditure adjustment",
+   "definition_excerpt": "an amount equal to the positive difference, if any, between:\n(A) the amount of money appropriated for public safety in the budget adopted by the municipality for the preceding fiscal year; and\n(B) the amount of money spent by the municipality for public safety during the period for which the budget described by Paragraph (A) is in effect."
+  }
+ ],
+ "_note": null
+}

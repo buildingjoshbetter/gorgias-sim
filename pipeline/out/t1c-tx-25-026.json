@@ -1,0 +1,26 @@
+{
+ "cite": "Tax Code \u00a725.026",
+ "heading": "CONFIDENTIALITY OF CERTAIN SHELTER CENTER AND SEXUAL ASSAULT PROGRAM ADDRESS INFORMATION",
+ "operative_text": "Information in appraisal records under Section 25.02 is confidential and is available only for the official use of the appraisal district, this state, the comptroller, and taxing units and political subdivisions of this state if the information identifies the address of a family violence shelter center, a sexual assault program, or a victims of trafficking shelter center.",
+ "cross_refs": [
+  "Tax Code \u00a725.02",
+  "Human Resources Code \u00a751.002",
+  "Government Code \u00a7420.003",
+  "Penal Code \u00a720A.02"
+ ],
+ "defined_terms": [
+  {
+   "term": "Family violence shelter center",
+   "definition_excerpt": "has the meaning assigned by Section 51.002, Human Resources Code."
+  },
+  {
+   "term": "Sexual assault program",
+   "definition_excerpt": "has the meaning assigned by Section 420.003, Government Code."
+  },
+  {
+   "term": "Victims of trafficking shelter center",
+   "definition_excerpt": "means a program that:\n(A) is operated by a public or private nonprofit organization; and\n(B) provides comprehensive residential and nonresidential services to victims of trafficking of persons under Section 20A.02, Penal Code."
+  }
+ ],
+ "_note": null
+}

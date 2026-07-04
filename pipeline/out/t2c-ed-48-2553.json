@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 48.2553 governs school district M&O tax rate authority when the basic allotment declines below 2020-2021 levels. The proposed homestead exemption increase does not alter or contradict these operative provisions, which are triggered by basic allotment changes, not exemption levels.",
+ "quote": "if the maximum amount of the basic allotment provided under Section 48.051(a) or (b) for a school year is less than the maximum amount provided for the 2020-2021 school year",
+ "_note": "No direct conflict. Indirect interaction possible: a larger homestead exemption reduces local taxable value, which could affect per-student revenue calculations referenced in \u00a748.2553(b)(1) loss-of-funding statements, but the section's trigger is basic allotment decline, not exemption changes."
+}

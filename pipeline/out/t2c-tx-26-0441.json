@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.0441's formulas use 'Current Total Value,' which already accounts for homestead exemptions. Increasing the exemption reduces taxable value but does not conflict with or require amendment to this section; the formula operates as written.",
+ "quote": "Amount of Increase = Enhanced Indigent Health Care Expenditures / (Current Total Value - New Property Value)",
+ "_note": "No direct conflict. Increasing the homestead exemption under \u00a711.13(b) would reduce 'Current Total Value' used in the \u00a726.0441 denominator, producing a marginally higher indigent health care rate adjustment, but the statute operates as written without amendment."
+}

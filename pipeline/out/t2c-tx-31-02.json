@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.02 governs the delinquency date for property taxes and military penalty waivers. Increasing the homestead exemption amount under \u00a711.13(b) affects tax liability calculation, not delinquency timing or military provisions, so no conflict arises.",
+ "quote": "Except as provided by Subsection (b) of this section and by Sections 31.03 and 31.04 of this code, taxes are due on receipt of the tax bill and are delinquent if not paid before February 1 of the year following the year in which imposed.",
+ "_note": "No conflict between homestead exemption amount increase and delinquency date provisions."
+}

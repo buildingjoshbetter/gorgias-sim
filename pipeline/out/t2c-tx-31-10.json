@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.10 governs tax collector reporting and remittance procedures. It is agnostic to exemption amounts and would continue to operate unchanged regardless of the homestead exemption level.",
+ "quote": "Each month the collector of taxes for a taxing unit shall prepare and submit to the governing body of the unit a written report made under oath accounting for all taxes collected for the unit during the preceding month.",
+ "_note": "No conflict identified. \u00a731.10 addresses reporting mechanics, not exemption thresholds or tax calculation."
+}

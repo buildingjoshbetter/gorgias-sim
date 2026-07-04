@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces local M&O tax revenue, indirectly affecting the basic allotment and tax rate compression that drive the minimum salary formula. No statutory amendment needed, but commissioner rulemaking under Subsection (b) must account for revenue shifts.",
+ "quote": "\"FS\" is the amount, as determined by the commissioner under Subsection (b), of the basic allotment as provided by Section 48.051(a) or (b) for a school district with a maintenance and operations tax rate at least equal to the state maximum compressed tax rate, as defined by Section 48.051(a).",
+ "_note": "Conflict is indirect: homestead exemption increase affects local school district M&O revenue, which feeds into basic allotment and compression rate calculations referenced by the salary formula. The statute itself requires no amendment; commissioner rulemaking under Subsection (b) suffices."
+}

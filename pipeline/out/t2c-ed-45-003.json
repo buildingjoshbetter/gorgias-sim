@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces school district taxable value, affecting revenue available under the maintenance tax rate limits tied to taxable value and compressed rates referenced here.",
+ "quote": "the maintenance tax rate per $100 of taxable value adopted by the district may not exceed the rate equal to the sum of $0.17 and the district's maximum compressed rate, as determined under Section 48.2551",
+ "_note": "Indirect fiscal interaction: higher exemption shrinks the tax base, meaning districts collect less revenue at any given rate. No direct statutory prohibition, but compression rate calculations under \u00a748.2551 may require rulemaking adjustment to account for reduced taxable value."
+}

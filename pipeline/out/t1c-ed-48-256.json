@@ -1,0 +1,28 @@
+{
+ "cite": "Educ. Code \u00a748.256",
+ "heading": "LOCAL SHARE OF PROGRAM COST (TIER ONE)",
+ "operative_text": "(a) Each school district's share of the Foundation School Program is determined by the following formula:\nLFA = TR X DPV\nwhere:\n\"LFA\" is the school district's local share;\n\"TR\" is the school district's adopted tier one maintenance and operations tax rate, as described by Section 45.0032(a) for each hundred dollars of valuation; and\n\"DPV\" is the taxable value of property in the school district for the current tax year determined under Subchapter M, Chapter 403, Government Code.\n(b) The commissioner shall adjust the values reported by the comptroller to reflect reductions in taxable value of property resulting from natural or economic disaster in the year in which the valuations are determined. The decision of the commissioner is final. An adjustment does not affect the local fund assignment of any other school district.\n(c) Appeals of district values shall be held pursuant to Section 403.303, Government Code.\n(d) This subsection applies to a school district in which the board of trustees entered into a written agreement with a property owner for the implementation of a limitation on taxable value under Subchapter T, Chapter 403, Government Code. For purposes of determining \"DPV\" under Subsection (a) for a school district to which this subsection applies, the commissioner shall exclude a portion of the market value of property not otherwise fully taxable by the district under Subchapter T, Chapter 403, Government Code. The comptroller shall provide information to the agency necessary for this subsection.\n(d-1) Subsection (d) applies to an agreement for the implementation of a limitation on appraised value under former Subchapter B or C, Chapter 313, Tax Code, that was in effect on January 1, 2023, in the same manner as that subsection applies to an agreement described by that subsection. If the agreement for the limitation on appraised value requires a revenue protection payment to the school district, the payment shall be based on the district's taxable value of property for the preceding tax year.\n(e) Subsection (d-1) does not apply to property that was the subject of an application under former Subchapter B or C, Chapter 313, Tax Code, made after May 1, 2009, that the comptroller recommended should be disapproved.",
+ "cross_refs": [
+  "Educ. Code \u00a745.0032(a)",
+  "Gov't Code ch. 403, subch. M",
+  "Gov't Code \u00a7403.303",
+  "Gov't Code ch. 403, subch. T",
+  "Tax Code ch. 313, subch. B",
+  "Tax Code ch. 313, subch. C"
+ ],
+ "defined_terms": [
+  {
+   "term": "LFA",
+   "definition_excerpt": "the school district's local share"
+  },
+  {
+   "term": "TR",
+   "definition_excerpt": "the school district's adopted tier one maintenance and operations tax rate, as described by Section 45.0032(a) for each hundred dollars of valuation"
+  },
+  {
+   "term": "DPV",
+   "definition_excerpt": "the taxable value of property in the school district for the current tax year determined under Subchapter M, Chapter 403, Government Code"
+  }
+ ],
+ "_note": ""
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 25.08 governs how improvements are listed and apportioned for tax purposes. It references the residence homestead exemption in Subsection (g) but does not set or depend on the exemption dollar amount, so increasing it poses no conflict.",
+ "quote": "The chief appraiser shall apportion a residence homestead exemption for property consisting of land and a manufactured home listed separately on the tax roll on a pro rata basis based on the appraised value of the land and the manufactured home.",
+ "_note": "Section 25.08(g) references the residence homestead exemption generically without specifying an amount; the proposed increase to \u00a711.13(b) flows through automatically with no statutory conflict."
+}

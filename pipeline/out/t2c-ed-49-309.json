@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 49.309 governs allocation of taxable value when property is split across school districts by detachment/annexation. Changing the homestead exemption amount under Tax Code \u00a711.13(b) does not alter this allocation mechanism.",
+ "quote": "the commissioner shall determine the portion of the taxable value of the property that is located in each of those school districts based on the square footage of the property, or any other reasonable method adopted by the commissioner.",
+ "_note": "No direct conflict. The homestead exemption reduces appraised value at the taxpayer level; \u00a749.309 operates on allocation of taxable value among districts after detachment/annexation orders. The exemption amount change does not require amendment to this section."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "Increasing the homestead exemption reduces taxable appraised value, which affects the local share calculation under \u00a748.256 referenced in the \u00a748.203 DTR limitationformula, requiring consequential amendment to maintain rate alignment.",
+ "quote": "the rate used to determine the district's local share under Section 48.256",
+ "_note": "\u00a748.203 does not directly reference the homestead exemption, but its formula depends on \u00a748.256 local share, which is sensitive to taxable value changes from homestead exemption adjustments."
+}

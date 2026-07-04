@@ -1,0 +1,26 @@
+{
+ "cite": "Tax Code \u00a711.11",
+ "heading": "PUBLIC PROPERTY",
+ "operative_text": "(a) Except as provided by Subsections (b) and (c) of this section, property owned by this state or a political subdivision of this state is exempt from taxation if the property is used for public purposes.",
+ "cross_refs": [
+  "Tax Code \u00a725.19",
+  "Tex. Const. art. VII, \u00a76",
+  "Educ. Code \u00a761.003",
+  "Tax Code \u00a711.18(e)",
+  "Tax Code \u00a711.18(f)",
+  "Health & Safety Code \u00a7301.031",
+  "Transportation Code \u00a791",
+  "Transportation Code \u00a7223"
+ ],
+ "defined_terms": [
+  {
+   "term": "public purposes",
+   "definition_excerpt": "property owned by this state or a political subdivision of this state is exempt from taxation if the property is used for public purposes"
+  },
+  {
+   "term": "not used for public purposes",
+   "definition_excerpt": "Property owned by a state agency or institution is not used for public purposes if the property is rented or leased for compensation to a private business enterprise to be used by it for a purpose not related to the performance of the duties and functions of the state agency or institution or used to provide private residential housing for compensation to members of the public other than students and employees of the state agency or institution owning the property, unless the residential use is secondary to its use by an educational institution primarily for instructional purposes."
+  }
+ ],
+ "_note": "Subsection (i) references Article 1396-1.01 et seq., Vernon's Texas Civil Statutes (Texas Non-Profit Corporation Act), a non-codified statute; cited verbatim from source."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The rule text defines terms for an education savings account program. It contains no provisionsrelated to homestead exemptions or property tax appraised value, so the proposed Tax Code change does not conflict.",
+ "quote": "\"Program\" means the program established under this subchapter.",
+ "_note": "No conflict; rule_text is a definitions section for an ESA program unrelated to homestead exemptions."
+}

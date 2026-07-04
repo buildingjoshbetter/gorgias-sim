@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "The MCR formula in (b) depends on DPV (taxable property values). Increasing the homestead exemption reduces DPV. Subsections (d-3)\u2013(d-6) only address the specific 2025 increase to $140,000; a further increase to $200,000 is not covered, requiring new statutory provisions for MCR calculation and commissioner adjustment authority.",
+ "quote": "In calculating and making available school districts' maximum compressed rates under this section for the 2025-2026 school year, the agency shall calculate and make available the rates as if the increase in the residence homestead exemption under Section 1-b(c), Article VIII, Texas Constitution, as proposed by the 89th Legislature, Regular Session, 2025, took effect.",
+ "_note": "The existing (d-3)\u2013(d-6) provisions are tied specifically to the 89th Legislature's 2025 proposed increase (to $140,000). A further increase to $200,000 would require analogous statutory amendments to govern MCR calculation and commissioner adjustment authority for affected school years."
+}

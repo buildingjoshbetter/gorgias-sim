@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 1,
+ "rationale": "Section 48.257 formulas are self-adjusting based on actual local revenue and entitlement amounts. Increasing the homestead exemption reduces local M&O collections, changing inputs but not requiring statutory amendment; agency rulemaking may be needed for implementation guidance.",
+ "quote": "if a school district's tier one local share under Section 48.256 exceeds the district's entitlement under Section 48.266(a)(1) less the district's distribution from the state available school fund, the district must reduce the district's tier one revenue level in accordance with Chapter 49",
+ "_note": "No direct reference to Tax Code \u00a711.13(b) or homestead exemption amounts in \u00a748.257. The statute operates on computed local share and entitlement figures, so increased exemption flows through indirectly via reduced local tax collections. No statutory amendment required, but TEA may need rulemaking to clarify implementation."
+}

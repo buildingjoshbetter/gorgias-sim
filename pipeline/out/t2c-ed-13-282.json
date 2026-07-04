@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 13.282 computes incentive aid by reference to entitlements under Section 48.266. It does not directly reference the homestead exemption amount or Tax Code \u00a711.13(b). Any indirect effect flows through \u00a748.266 calculations, not this statute.",
+ "quote": "The amount of incentive aid payments may not exceed the difference between:\n(1) the sum of the entitlements computed under Section 48.266 that would have been paid to the districts included in the reorganized district if the districts had not been consolidated; and\n(2) the amount to which the reorganized district is entitled under Section 48.266.",
+ "_note": "No direct conflict. \u00a713.282's formula is self-adjusting via \u00a748.266 references; a homestead exemption change would alter underlying entitlement values but not the operative formula here."
+}

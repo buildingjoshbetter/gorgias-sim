@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 25.07 governs taxation of leasehold interests in exempt property and cross-references only \u00a711.11(b) and (c). It does not reference or depend on the \u00a711.13(b) homestead exemption amount, so raising that amount creates no conflict.",
+ "quote": "Except as provided by Sections 11.11(b) and (c), a leasehold or other possessory interest in exempt property may not be listed if:",
+ "_note": "No conflict found. \u00a725.07's only cross-reference to exemption provisions is \u00a711.11(b) and (c), not \u00a711.13(b)."
+}

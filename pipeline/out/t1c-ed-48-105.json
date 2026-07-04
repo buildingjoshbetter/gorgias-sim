@@ -1,0 +1,18 @@
+{
+ "cite": "Educ. Code \u00a748.105",
+ "heading": "BILINGUAL EDUCATION ALLOTMENT",
+ "operative_text": "For each student in average daily attendance in a bilingual education or special language program under Subchapter B, Chapter 29, a district is entitled to an annual allotment equal to the basic allotment multiplied by: (1) for an emergent bilingual student, as defined by Section 29.052: (A) 0.1; or (B) 0.15 if the student is in a bilingual education program using a dual language immersion/one-way or two-way program model; and (2) for a student not described by Subdivision (1), 0.05 if the student is in a bilingual education program using a dual language immersion/two-way program model.",
+ "cross_refs": [
+  "Educ. Code \u00a729.052",
+  "Educ. Code \u00a729.054(d)",
+  "Educ. Code \u00a744.008",
+  "Educ. Code Subchapter B, Chapter 29"
+ ],
+ "defined_terms": [
+  {
+   "term": "emergent bilingual student",
+   "definition_excerpt": "as defined by Section 29.052"
+  }
+ ],
+ "_note": "Subsections (a-1) through (e) also operative; operative_text captures core allotment formula from Subsection (a). Full section includes alternative language education method allotment (a-1, a-2), 55% use requirement (b), reporting rules (c), commissioner review (d), and withholding provisions (e)."
+}

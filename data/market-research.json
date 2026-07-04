@@ -1,0 +1,159 @@
+{
+  "generated": "2026-07-03",
+  "researcher": "F2",
+  "product_thesis": "A policy-impact simulation platform: type a proposed law and see every statute touched, every conflict created, every agency triggered, every dollar moved, every county affected, and litigation exposure BEFORE a vote. This file gathers citable evidence for why that is a large market advantage.",
+  "verification_note": "Facts marked verification:'deep-fetch' were pulled from the full source page. Facts marked verification:'search-result' come from the fetched search-engine result content (title+snippet) for the cited URL and were not deep-fetched; treat their exact figures as reported-by-that-source and re-open the page before publishing if precision matters. No numbers were invented.",
+
+  "cost_of_bad_legislation": [
+    {
+      "claim": "Texas spent nearly three years and at least $768,722 of its own AG-office costs defending HB2 (abortion clinic restrictions) before the U.S. Supreme Court struck it down 5-3 as unconstitutional in Whole Woman's Health v. Hellerstedt (June 2016); a related earlier defense (Planned Parenthood v. Abbott) cost another $311,355, and the winning plaintiffs then filed to recover about $4.5 million in attorney's fees the state could be ordered to pay.",
+      "numbers": {"tx_ag_defense_cost_usd": 768722, "prior_case_defense_cost_usd": 311355, "plaintiff_fee_request_usd": 4500000, "years_defended": 3, "scotus_vote": "5-3"},
+      "why_it_matters": "The exact failure a pre-vote simulation prevents: a statute enacted, litigated for years, struck down, and then the state pays both its own defense and the other side's fees. Texas-specific, hard numbers.",
+      "verification": "deep-fetch",
+      "source_urls": [
+        "https://www.texastribune.org/2016/10/08/texas-may-owe-abortion-providers-lawyers-3-million/",
+        "https://www.texasmonthly.com/the-daily-post/texass-hb2-abortion-law-cost-taxpayers-millions/",
+        "http://sanantonioreport.org/abortion-legal-fight-cost-texas-more-than-1-million/"
+      ]
+    },
+    {
+      "claim": "A Congressional Research Service review of the Unfunded Mandates Reform Act cites findings that Congress shifted at least $131 billion in costs onto states over a five-year window, and testimony in the record documents Ohio alone absorbing roughly $1.7 billion in unfunded mandates between 1992 and 1995.",
+      "numbers": {"cost_shifted_to_states_usd": 131000000000, "ohio_unfunded_mandates_1992_1995_usd": 1700000000},
+      "why_it_matters": "Quantifies the 'every dollar moved / unfunded consequence' axis: laws routinely move enormous costs onto other governments without anyone modeling it at passage.",
+      "verification": "search-result",
+      "source_urls": [
+        "https://www.congress.gov/crs-product/R40957",
+        "https://www.govinfo.gov/content/pkg/CHRG-109shrg21429/html/CHRG-109shrg21429.htm"
+      ]
+    },
+    {
+      "claim": "Fee-shifting after a government loss is a recurring, seven-figure line item: a Washington court ordered the state Attorney General to pay $4.3 million in attorney's fees and costs after an unsuccessful consumer-protection action against a thrift-store chain.",
+      "numbers": {"wa_ag_fee_award_usd": 4300000},
+      "why_it_matters": "Second concrete data point that losing on a bad legal theory is not free: courts make the losing government pay the winner's lawyers.",
+      "verification": "search-result",
+      "source_urls": [
+        "https://www.consumerfinancialserviceslawmonitor.com/2023/10/washington-ag-ordered-to-pay-4-3m-in-attorneys-fees-and-costs-to-thrift-store-chain/"
+      ]
+    },
+    {
+      "claim": "Vulcan Technologies frames the core waste in its own YC launch: agencies 'spend millions of dollars and years hiring consultancies and law firms just to double-check that their proposed implementation of laws and executive orders is actually lawful,' and each step 'creates new arenas for political conflict, wastes taxpayer dollars,' because a change that doesn't cohere with existing state law, federal law, and case law risks litigation and loss of budget.",
+      "numbers": {},
+      "why_it_matters": "The market leader in this exact space describes the pain in dollars-and-years terms; a simulation that surfaces the conflicts before the vote is the pre-emptive version of what they sell post-filing.",
+      "verification": "deep-fetch",
+      "source_urls": [
+        "https://www.ycombinator.com/companies/vulcan-technologies",
+        "https://fondo.com/blog/vulcan-technologies-launches"
+      ]
+    }
+  ],
+
+  "status_quo_tooling_gap": [
+    {
+      "claim": "Texas's status-quo bill-impact tool is the LBB fiscal note: state statute requires the Legislative Budget Board to prepare one to accompany a bill AS IT MOVES THROUGH the process (i.e., after filing/referral), the LBB has up to 15 days after receiving a bill to produce it, and by definition it is only 'a written estimate of the costs, savings, revenue gain, or revenue loss' — it does not map statutory conflicts, constitutionality, agency triggers, county-level effects, or litigation exposure.",
+      "numbers": {"lbb_production_window_days": 15},
+      "why_it_matters": "Defines the gap the product fills. The existing artifact is late (after filing), narrow (dollars only), and slow (days, human-produced). The simulation is pre-vote, multi-axis, and instant.",
+      "verification": "search-result",
+      "source_urls": [
+        "https://www.lbb.texas.gov/Fiscal_Notes.aspx",
+        "https://www.lbb.texas.gov/Fiscal_Notes/Guide%20to%20Fiscal%20Notes%20Committee%20Staff.pdf",
+        "https://www.lbb.texas.gov/Fiscal_Notes/Guide_to_Fiscal_Notes_Agencies.pdf"
+      ]
+    },
+    {
+      "claim": "Cost anchor for the legacy manual approach: Vulcan's Virginia engagement was a $150,000, three-month pilot (May 1 - Aug 1, 2025) that replaced a manual, line-by-line human review of roughly 24 million words of regulation. Vulcan's own CEO called Virginia's by-hand review 'the gold standard' — i.e., the alternative to the software is armies of humans reading the entire code by hand.",
+      "numbers": {"vulcan_virginia_pilot_usd": 150000, "pilot_months": 3, "virginia_reg_word_count": 24000000},
+      "why_it_matters": "Direct, on-point cost anchor: $150K of software stood in for a manual review of 24 million words. The '10% of legacy consultancy quotes' framing is consistent with the pilot being a five-figure line where consultancies bill six-to-seven.",
+      "verification": "deep-fetch",
+      "source_urls": [
+        "https://reason.com/2025/07/23/virginia-is-using-ai-to-identify-illegal-and-redundant-regulations/"
+      ]
+    },
+    {
+      "claim": "The upside of getting regulatory impact right is measured in billions: Virginia's regulatory-reduction effort (the process Vulcan's AI now powers) streamlined 26.8% of regulatory requirements and, per the governor's office, saves Virginia citizens over $1.2 billion per year, roughly $700 million of it from housing-code changes that shave about $24,000 off the cost of a new house.",
+      "numbers": {"annual_savings_usd": 1200000000, "housing_share_usd": 700000000, "per_house_savings_usd": 24000, "requirements_streamlined_pct": 26.8},
+      "why_it_matters": "Shows the dollar magnitude on the other side of the ledger: correctly modeling what a rule/law actually does is worth billions per year in a single mid-size state.",
+      "verification": "deep-fetch",
+      "source_urls": [
+        "https://reason.com/2025/07/23/virginia-is-using-ai-to-identify-illegal-and-redundant-regulations/",
+        "https://www.govtech.com/artificial-intelligence/virginia-to-use-agentic-ai-to-power-review-of-regulations"
+      ]
+    },
+    {
+      "claim": "Consulting is the expensive incumbent for this work and is itself flagged as overpriced: a GSA Inspector General audit found improper pricing on a single McKinsey professional-services contract that 'may cost the United States an estimated $69 million,' and reporting on government consulting describes multimillion-dollar-per-year effective staffing costs.",
+      "numbers": {"mckinsey_gsa_overcharge_estimate_usd": 69000000},
+      "why_it_matters": "Establishes that the budget line the product displaces (regulatory/legal consulting) is large and already politically unpopular, strengthening the 'replace expensive consultants' wedge.",
+      "verification": "search-result",
+      "source_urls": [
+        "https://www.gsaig.gov/sites/default/files/audit-reports/A210050%20McKinsey%20Implementation%20Review-%20508%20Compliant.pdf",
+        "https://www.promarket.org/2020/01/10/why-the-us-government-buys-overpriced-services-from-mckinsey/"
+      ]
+    }
+  ],
+
+  "market_size": [
+    {
+      "metric": "US government technology spending",
+      "value": "Government tech = 12.3% of total US tech spending of $2.9 trillion in 2026",
+      "source": "Forrester",
+      "year": 2026,
+      "verification": "search-result",
+      "source_urls": ["https://www.forrester.com/blogs/the-us-government-tech-market-enters-a-new-phase-of-change/"]
+    },
+    {
+      "metric": "AI in government & public services market",
+      "value": "$19.7B in 2025, ~19.4% CAGR 2026-2035 (GM Insights); a separate estimate puts it at $26.4B in 2025 rising to $31.1B by end of 2026 (Future Market Insights)",
+      "source": "GM Insights; Future Market Insights",
+      "year": 2025,
+      "verification": "search-result",
+      "source_urls": [
+        "https://www.gminsights.com/industry-analysis/ai-in-government-and-public-services-market",
+        "https://www.futuremarketinsights.com/reports/ai-in-government-and-public-services-market"
+      ]
+    },
+    {
+      "metric": "Global govtech market",
+      "value": "$825.49B in 2026, projected to $3,090.93B by 2035",
+      "source": "Business Research Insights",
+      "year": 2026,
+      "verification": "search-result",
+      "source_urls": ["https://www.businessresearchinsights.com/market-reports/govtech-market-102878"]
+    },
+    {
+      "metric": "State + local government tech spend split",
+      "value": "~$78B projected from states and ~$75B from city/county governments",
+      "source": "VistaPoint Advisors, GovTech Quarterly Q3 2025",
+      "year": 2025,
+      "verification": "search-result",
+      "source_urls": ["https://cms.vistapointadvisors.com/system/uploads/fae/file/asset/829/GovTech_Quarterly_Report_Q3_25.pdf"]
+    },
+    {
+      "metric": "Legal AI market",
+      "value": "$1.45B in 2024 to $3.90B by 2030 at 17.3% CAGR (Grand View); LegalTech-AI segment $2.82B in 2025 to $3.7B in 2026 at 31.4% CAGR (Research and Markets)",
+      "source": "Grand View Research; Research and Markets",
+      "year": 2024,
+      "verification": "search-result",
+      "source_urls": [
+        "https://www.grandviewresearch.com/industry-analysis/legal-ai-market-report",
+        "https://www.researchandmarkets.com/report/legal-ai-software"
+      ]
+    },
+    {
+      "metric": "Legal technology market (total)",
+      "value": "$33.97B in 2025, projected to $77.93B by 2034",
+      "source": "Fortune Business Insights",
+      "year": 2025,
+      "verification": "search-result",
+      "source_urls": ["https://www.fortunebusinessinsights.com/legal-technology-market-109527"]
+    }
+  ],
+
+  "buyer_map": [
+    {"buyer": "Legislative councils / legislative counsel (bill-drafting offices)", "why": "They draft and legally vet bills today by hand; a simulation that flags every statute touched and conflict created is a direct force-multiplier on their core job."},
+    {"buyer": "Fiscal / budget analysts (e.g., Texas LBB)", "why": "They already owe a fiscal note per statute; the product does the dollars-moved axis faster and adds the axes (conflicts, agencies, counties) the fiscal note omits."},
+    {"buyer": "Attorney General / state solicitor offices", "why": "They are the ones who defend enacted statutes and eat the litigation cost and fee-shifting when a law is struck; pre-vote litigation-exposure scoring is loss-avoidance they can price."},
+    {"buyer": "Government efficiency / regulatory offices (Texas TREO, Virginia ORM, DOGE-style units)", "why": "Explicitly chartered to cut red tape and cost; Virginia already institutionalized exactly this category of AI by executive order and law."},
+    {"buyer": "Lobbying, advocacy, and trade associations", "why": "They want to model a bill's full footprint (winners, losers, counties, conflicts) before spending to push or kill it; commercial willingness-to-pay and no procurement cycle."},
+    {"buyer": "Litigation / public-interest law shops", "why": "Fee-shifting cuts both ways: challengers want to identify the constitutionally weakest provisions to target; a conflict/precedent map is offense for them."},
+    {"buyer": "Municipal-bond insurers and rating agencies (adjacent / hypothesis)", "why": "A law that moves dollars or triggers unfunded mandates changes issuer fiscal health; impact simulation is a novel risk-underwriting input. Framed as a hypothesis, not a validated buyer."}
+  ]
+}

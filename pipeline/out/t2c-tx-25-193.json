@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 25.193 references Section 11.13 generally for notice triggers but specifies no dollar amounts. Increasing the exemption from $140,000 to $200,000 does not alter the notice mechanism, which depends on cancellation or reduction of an approved exemption, not the exemption's value.",
+ "quote": "if the property is a single-family residence that qualifies for an exemption under Section 11.13",
+ "_note": "No conflict. \u00a725.193 operates by cross-reference to \u00a711.13 without embedding dollar thresholds, so the proposed increase requires no amendment to this section."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 25.19 requires chief appraisers to report the kind and amount of exemptions approved, which dynamically reflects whatever amount Section 11.13(b) sets. No dollar figure is hardcoded in Section 25.19, so increasing the homestead exemption requires no amendment here.",
+ "quote": "the kind and amount of each exemption and partial exemption, if any, approved for the property for the current year and for the preceding year",
+ "_note": "No conflict found. Section 25.19 notice requirements are amount-agnostic and would automatically reflect the new $200,000 exemption without statutory amendment."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 2,
+ "rationale": "Increasing the homestead exemption reduces taxable property values statewide, directly lowering tier one local share and shifting costs to state entitlements under \u00a748.266's distribution formulas, requiring consequential fiscal adjustments and appropriations.",
+ "quote": "the commissioner shall reduce the entitlement of each district that has a final taxable value of property for the second year of a state fiscal biennium that is higher than the estimate under Section 48.269 or the General Appropriations Act, as applicable.",
+ "_note": "\u00a748.266 repeatedly relies on 'taxable value of property' as an input to entitlement and local-share determinations; a larger homestead exemption reduces that base, flowing through the formulas and increasing state cost."
+}

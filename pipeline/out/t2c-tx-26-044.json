@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "No direct conflict. \u00a726.044's formula is self-adjusting: increasing the homestead exemption reduces Current Total Value in the denominator, indirectly increasing the calculated rate adjustment, but the statute remains operable without amendment.",
+ "quote": "(State Criminal Justice Mandate) / (Current Total Value - New Property Value)",
+ "_note": "Indirect fiscal interaction only \u2014 the proposed homestead exemption increase shrinks the taxable value base used in the \u00a726.044 formula denominator, which would marginally increase counties' NNR rate adjustments. No statutory amendment to \u00a726.044 is required."
+}

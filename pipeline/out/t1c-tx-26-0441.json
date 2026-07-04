@@ -1,0 +1,19 @@
+{
+ "cite": "Tax Code \u00a726.0441",
+ "heading": "TAX RATE ADJUSTMENT FOR INDIGENT HEALTH CARE",
+ "operative_text": "(a) In the first tax year in which a taxing unit adopts a tax rate after January 1, 2000, and in which the enhanced minimum eligibility standards for indigent health care established under Section 61.006, Health and Safety Code, apply to the taxing unit, the no-new-revenue maintenance and operations rate for the taxing unit is increased by the rate computed according to the following formula:\nAmount of Increase = Enhanced Indigent Health Care Expenditures / (Current Total Value - New Property Value)\n(b) In each subsequent tax year, if the taxing unit's enhanced indigent health care expenses exceed the amount of those expenses for the preceding year, the no-new-revenue maintenance and operations rate for the taxing unit is increased by the rate computed according to the following formula:\nAmount of Increase = (Current Tax Year's Enhanced Indigent Health Care Expenditures - Preceding Tax Year's Indigent Health Care Expenditures) / (Current Total Value - New Property Value)\n(c) The taxing unit shall include a notice of the increase in its no-new-revenue maintenance and operations rate provided by this section, including a brief description and the amount of the enhanced indigent health care expenditures, in the information published under Section 26.04(e) and, as applicable, in the notice prescribed by Section 26.06 or 26.061.\n(d) In this section, \"enhanced indigent health care expenditures\" for a tax year means the amount spent by the taxing unit for the maintenance and operation costs of providing indigent health care at the increased minimum eligibility standards established under Section 61.006, Health and Safety Code, effective on or after January 1, 2000, in the period beginning on July 1 of the year preceding the tax year for which the tax is adopted and ending on June 30 of the tax year for which the tax is adopted, less the amount of state assistance received by the taxing unit in accordance with Chapter 61, Health and Safety Code, that is attributable to those costs.",
+ "cross_refs": [
+  "Tax Code \u00a726.04(e)",
+  "Tax Code \u00a726.06",
+  "Tax Code \u00a726.061",
+  "Health and Safety Code \u00a761.006",
+  "Health and Safety Code ch. 61"
+ ],
+ "defined_terms": [
+  {
+   "term": "enhanced indigent health care expenditures",
+   "definition_excerpt": "the amount spent by the taxing unit for the maintenance and operation costs of providing indigent health care at the increased minimum eligibility standards established under Section 61.006, Health and Safety Code, effective on or after January 1, 2000, in the period beginning on July 1 of the year preceding the tax year for which the tax is adopted and ending on June 30 of the tax year for which the tax is adopted, less the amount of state assistance received by the taxing unit in accordance with Chapter 61, Health and Safety Code, that is attributable to those costs."
+  }
+ ],
+ "_note": ""
+}

@@ -1,0 +1,39 @@
+{
+ "cite": "Educ. Code \u00a748.2551",
+ "heading": "MAXIMUM COMPRESSED TAX RATE",
+ "operative_text": "Sec. 48.2551. MAXIMUM COMPRESSED TAX RATE. (a) In this section:\n(1) \"DPV\" is the taxable value of property in the school district, as determined by the agency by rule, using locally determined property values adjusted in accordance with Section 403.302(d), Government Code;\n(2) \"E\" is the expiration of the exclusion of appraised property value for the preceding tax year that is recognized as taxable property value for the current tax year, which is the sum of the following:\n(A) property value that is no longer subject to a limitation on appraised value under former Subchapter B or C, Chapter 313, Tax Code, or a limitation on taxable value under Subchapter T, Chapter 403, Government Code; and\n(B) property value under Section 311.013(n), Tax Code, that is no longer excluded from the calculation of \"DPV\" from the preceding year because of refinancing or renewal after September 1, 2019;\n(3) \"MCR\" is the district's maximum compressed rate, which is the tax rate for the current tax year per $100 of valuation of taxable property at which the district must levy a maintenance and operations tax to receive the full amount of the tier one allotment to which the district is entitled under this chapter;\n(4) \"PYDPV\" is the district's value of \"DPV\" for the preceding tax year; and\n(5) \"PYMCR\" is the district's value of \"MCR\" for the preceding tax year.\n(b) Except as provided by Subsection (c), a district's maximum compressed rate (\"MCR\") is the lesser of:\n(1) the rate determined by the following applicable formula:\n(A) if \"DPV\" exceeds \"PYDPV\" by an amount equal to or greater than 2.5 percent:\nMCR = (1.025((PYDPV+E) X PYMCR))/DPV; or\n(B) if Paragraph (A) does not apply:\nMCR = PYMCR; or\n(2) the product of the state compression percentage, as determined under Section 48.255, for the current tax year, multiplied by $1.00.\n(c) Notwithstanding Subsection (b), for a district to which Section 48.2552(b) applies, the district's maximum compressed rate is the value calculated in accordance with Section 48.2552(b).\n(d) The agency shall:\n(1) calculate and make available school districts' maximum compressed rates, as determined under this section; and\n(2) post the information described by Section 48.2556 on the agency's Internet website as required by that section.\n(d-1) Local appraisal districts, school districts, and the comptroller shall provide any information necessary to the agency to implement this section.\n(d-2) A school district may appeal to the commissioner the district's taxable property value as determined by the agency under this section. A decision by the commissioner is final and may not be appealed.\n(d-3) In calculating and making available school districts' maximum compressed rates under this section for the 2025-2026 school year, the agency shall calculate and make available the rates as if the increase in the residence homestead exemption under Section 1-b(c), Article VIII, Texas Constitution, as proposed by the 89th Legislature, Regular Session, 2025, took effect. This subsection expires September 1, 2026.\n(d-4) If the increase in the residence homestead exemption under Section 1-b(c), Article VIII, Texas Constitution, as proposed by the 89th Legislature, Regular Session, 2025, does not take effect, the commissioner may adjust school districts' maximum compressed rates under this section for the 2025-2026 school year accordingly. Before making an adjustment under this subsection, the commissioner shall notify and must receive approval from the Legislative Budget Board and the office of the governor. This subsection expires September 1, 2029.\n(d-5) In calculating and making available school districts' maximum compressed rates under this section for the 2025-2026 school year, the agency shall calculate and make available the rates as if the increase in the residence homestead exemption for a person who is elderly or disabled under Section 1-b(c), Article VIII, Texas Constitution, as proposed by the 89th Legislature, Regular Session, 2025, took effect. This subsection expires September 1, 2026.\n(d-6) If the increase in the residence homestead exemption for a person who is elderly or disabled under Section 1-b(c), Article VIII, Texas Constitution, as proposed by the 89th Legislature, Regular Session, 2025, does not take effect, the commissioner may adjust school districts' maximum compressed rates under this section for the 2025-2026 school year accordingly. Before making an adjustment under this subsection, the commissioner shall notify and must receive approval from the Legislative Budget Board and the office of the governor. This subsection expires September 1, 2029.\n(e) It is the intent of the legislature that the state continue to fund public schools at the same or similar level as the state would have if this section had not taken effect.\nAdded by Acts 2019, 86th Leg., R.S., Ch. 943 (H.B. 3), Sec. 1A.007, eff. September 1, 2020.\nAmended by:\nActs 2021, 87th Leg., R.S., Ch. 806 (H.B. 1525), Sec. 33, eff. September 1, 2021.\nActs 2021, 87th Leg., 2nd C.S., Ch. 14 (S.B. 12), Sec. 3, eff. January 1, 2023.\nActs 2023, 88th Leg., R.S., Ch. 377 (H.B. 5), Sec. 2, eff. January 1, 2024.\nActs 2025, 89th Leg., R.S., Ch. 338 (S.B. 4), Sec. 2.02, eff. June 16, 2025.\nActs 2025, 89th Leg., R.S., Ch. 340 (S.B. 23), Sec. 2.01, eff. June 16, 2025.",
+ "cross_refs": [
+  "Gov't Code \u00a7403.302(d)",
+  "Tax Code Ch. 313, Subch. B",
+  "Tax Code Ch. 313, Subch. C",
+  "Gov't Code Ch. 403, Subch. T",
+  "Tax Code \u00a7311.013(n)",
+  "Educ. Code \u00a748.255",
+  "Educ. Code \u00a748.2552(b)",
+  "Educ. Code \u00a748.2556",
+  "Tex. Const. art. VIII, \u00a71-b(c)"
+ ],
+ "defined_terms": [
+  {
+   "term": "DPV",
+   "definition_excerpt": "(1) \"DPV\" is the taxable value of property in the school district, as determined by the agency by rule, using locally determined property values adjusted in accordance with Section 403.302(d), Government Code;"
+  },
+  {
+   "term": "E",
+   "definition_excerpt": "(2) \"E\" is the expiration of the exclusion of appraised property value for the preceding tax year that is recognized as taxable property value for the current tax year, which is the sum of the following:\n(A) property value that is no longer subject to a limitation on appraised value under former Subchapter B or C, Chapter 313, Tax Code, or a limitation on taxable value under Subchapter T, Chapter 403, Government Code; and\n(B) property value under Section 311.013(n), Tax Code, that is no longer excluded from the calculation of \"DPV\" from the preceding year because of refinancing or renewal after September 1, 2019;"
+  },
+  {
+   "term": "MCR",
+   "definition_excerpt": "(3) \"MCR\" is the district's maximum compressed rate, which is the tax rate for the current tax year per $100 of valuation of taxable property at which the district must levy a maintenance and operations tax to receive the full amount of the tier one allotment to which the district is entitled under this chapter;"
+  },
+  {
+   "term": "PYDPV",
+   "definition_excerpt": "(4) \"PYDPV\" is the district's value of \"DPV\" for the preceding tax year;"
+  },
+  {
+   "term": "PYMCR",
+   "definition_excerpt": "(5) \"PYMCR\" is the district's value of \"MCR\" for the preceding tax year."
+  }
+ ],
+ "_note": ""
+}

@@ -1,0 +1,93 @@
+{
+  "policy": {
+    "title": "Raise the residence homestead exemption to $200,000",
+    "delta_label": "+$60,000 per homestead (current law $140,000)",
+    "teaser_total_usd": -4650000000,
+    "teaser_label": "−$4.65B/yr shifted · 4 agencies · 3 statutory conflicts"
+  },
+  "nodes": [
+    {"id": "policy-root", "type": "policy", "parent": null,
+     "label": "Homestead exemption $140k → $200k", "cite": "Tax Code §11.13(b)"},
+
+    {"id": "st-1113b", "type": "statute", "parent": "policy-root",
+     "label": "School district residence homestead exemption", "cite": "Tax Code §11.13(b)",
+     "corpus_tag": "State Statutes", "excerpt": "STUB — replaced by pipeline",
+     "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm"},
+    {"id": "st-1113n", "type": "statute", "parent": "policy-root",
+     "label": "Optional percentage exemption interplay", "cite": "Tax Code §11.13(n)",
+     "corpus_tag": "State Statutes", "excerpt": "STUB — replaced by pipeline",
+     "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm"},
+    {"id": "st-1126", "type": "statute", "parent": "policy-root",
+     "label": "Tax ceiling for 65+ / disabled homeowners", "cite": "Tax Code §11.26",
+     "corpus_tag": "State Statutes", "excerpt": "STUB — replaced by pipeline",
+     "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm"},
+    {"id": "st-2609", "type": "statute", "parent": "policy-root",
+     "label": "Assessor calculation of tax", "cite": "Tax Code §26.09",
+     "corpus_tag": "State Statutes", "excerpt": "STUB — replaced by pipeline",
+     "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.26.htm"},
+    {"id": "st-4825x", "type": "statute", "parent": "policy-root",
+     "label": "State hold-harmless for exemption revenue loss", "cite": "Educ. Code §48.2556",
+     "corpus_tag": "State Statutes", "excerpt": "STUB — replaced by pipeline",
+     "source_url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.EDUC.48.htm"},
+
+    {"id": "cf-const", "type": "conflict", "parent": "st-1113b", "severity": 3,
+     "label": "Constitutional amendment required before statute takes effect",
+     "cite": "Tex. Const. art. VIII, §1-b(c)"},
+    {"id": "cf-ceiling", "type": "conflict", "parent": "st-1126", "severity": 2,
+     "label": "§11.26 ceiling over-taxes 65+ homeowners if left unamended",
+     "cite": "Tax Code §11.26"},
+    {"id": "cf-tacrule", "type": "conflict", "parent": "st-1113b", "severity": 1,
+     "label": "Comptroller appraisal rules reference prior exemption amount",
+     "cite": "34 TAC §9.415"},
+
+    {"id": "ag-cpa", "type": "agency", "parent": "cf-ceiling",
+     "label": "Comptroller — Property Tax Assistance Division",
+     "cite": "Gov. Code §403", "approval_gate": "Comptroller", "clock_days": 180},
+    {"id": "ag-tea", "type": "agency", "parent": "st-4825x",
+     "label": "Texas Education Agency recomputes FSP entitlements",
+     "cite": "Educ. Code §48.255", "approval_gate": "Commissioner of Education", "clock_days": 120},
+    {"id": "ag-sos", "type": "agency", "parent": "cf-const",
+     "label": "Secretary of State — amendment election administration",
+     "cite": "Election Code §274", "approval_gate": "Secretary of State", "clock_days": 240},
+    {"id": "ag-cads", "type": "agency", "parent": "st-1113b",
+     "label": "253 county appraisal districts reprogram CAMA systems",
+     "cite": null, "approval_gate": "Chief Appraisers", "modeled": true, "clock_days": 90},
+
+    {"id": "bd-fsp", "type": "budget", "parent": "ag-tea",
+     "label": "Foundation School Program — state hold-harmless cost",
+     "cite": "Educ. Code §48.2556", "delta_usd": -4650000000},
+    {"id": "bd-mno", "type": "budget", "parent": "ag-tea",
+     "label": "School district M&O local revenue",
+     "cite": "Tax Code §26.08", "delta_usd": -3720000000},
+    {"id": "bd-recap", "type": "budget", "parent": "ag-tea",
+     "label": "Recapture (\"Robin Hood\") payments",
+     "cite": "Educ. Code §49.004", "delta_usd": -930000000},
+    {"id": "bd-cnty", "type": "budget", "parent": "ag-cpa",
+     "label": "Per-county levy delta (map input)",
+     "cite": "Comptroller 2025 levies", "delta_usd": -618000000, "modeled": true}
+  ],
+  "counties": [
+    {"fips": "48201", "name": "Harris",      "impact_usd": 618000000, "impact_pct": 13.3},
+    {"fips": "48113", "name": "Dallas",      "impact_usd": 496500000, "impact_pct": 10.7},
+    {"fips": "48439", "name": "Tarrant",     "impact_usd": 402000000, "impact_pct":  8.6},
+    {"fips": "48029", "name": "Bexar",       "impact_usd": 336000000, "impact_pct":  7.2},
+    {"fips": "48453", "name": "Travis",      "impact_usd": 307500000, "impact_pct":  6.6},
+    {"fips": "48085", "name": "Collin",      "impact_usd": 267000000, "impact_pct":  5.7},
+    {"fips": "48121", "name": "Denton",      "impact_usd": 223500000, "impact_pct":  4.8},
+    {"fips": "48157", "name": "Fort Bend",   "impact_usd": 181500000, "impact_pct":  3.9},
+    {"fips": "48215", "name": "Hidalgo",     "impact_usd": 147000000, "impact_pct":  3.2},
+    {"fips": "48491", "name": "Williamson",  "impact_usd": 129000000, "impact_pct":  2.8}
+  ],
+  "verdict": {
+    "exposure_statute_only_pct": 90,
+    "exposure_with_amendment_pct": 22,
+    "drivers": ["cf-const", "cf-ceiling", "school-finance litigation lineage"],
+    "next_steps": [
+      {"step": "Joint resolution (2/3 both chambers)", "gate": "Legislature"},
+      {"step": "Statewide election", "gate": "Texas voters"},
+      {"step": "Comptroller rulemaking, 34 TAC Ch. 9", "gate": "Comptroller"},
+      {"step": "TEA FSP recompute", "gate": "Commissioner of Education"}
+    ]
+  },
+  "meta": {"generated": "STUB", "sources": [], "model_note": "stub — fake but proportional; calibrated against 2025 exemption increase (HB 9 / Prop 13)"}
+}

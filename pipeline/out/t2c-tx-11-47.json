@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 11.47 governs mail survey procedures for verifying homestead exemption eligibility. It references exemptions generally without specifying dollar amounts, so increasing the exemption value under \u00a711.13(b) creates no conflict.",
+ "quote": "The appraisal office shall include on the card the description of the property and the kind and amount of residence homestead exemptions allowed for the property according to the appraisal office records.",
+ "_note": "No conflict; \u00a711.47 is procedural and amount-agnostic."
+}

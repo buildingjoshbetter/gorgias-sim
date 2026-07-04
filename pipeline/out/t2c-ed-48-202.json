@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 48.202 references taxable value as determined under Subchapter M, Chapter 403, Government Code, not a hardcoded homestead amount. Increasing the \u00a711.13(b) exemption flows through the formula automatically; no amendment to this statute is required.",
+ "quote": "\"DTR\" is the district enrichment tax rate of the school district, which is determined by subtracting the amounts specified by Subsection (b) from the total amount of maintenance and operations taxes collected by the school district for the applicable school year and dividing the difference by the quotient of the district's taxable value of property as determined under Subchapter M, Chapter 403, Government Code, or, if applicable, under Section 48.258 or by the quotient of the value of \"DPV\" as determined under Section 48.256(d) if that subsection applies to the district, divided by 100; and",
+ "_note": "No direct conflict. The statute's formulas incorporate taxable value by reference to external law; a homestead exemption increase alters inputs but does not require statutory amendment to \u00a748.202. Fiscal effects (reduced local revenue, increased state guarantee) are consequential but not a textual conflict."
+}

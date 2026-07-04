@@ -1,0 +1,137 @@
+{
+  "generated": "2026-07-03",
+  "researcher": "D4",
+  "cases": [
+    {
+      "name": "Edgewood ISD v. Kirby (Edgewood I)",
+      "cite": "777 S.W.2d 391 (Tex. 1989)",
+      "year": 1989,
+      "holding_one_line": "The school-finance system violated the Article VII, §1 duty to maintain an \"efficient\" system: districts must have \"substantially equal access to similar revenues per pupil at similar levels of tax effort.\"",
+      "relevance": "Establishes the affirmative state duty. When a policy erodes the local property-tax base unevenly (a homestead-exemption jump hits districts differently by home values), the state's efficiency obligation is what plaintiffs invoke.",
+      "source_urls": [
+        "https://law.justia.com/cases/texas/supreme-court/1989/c-8353.html",
+        "https://nces.ed.gov/edfin/pdf/lawsuits/Edgewood_v_Kirby_TX.pdf",
+        "https://www.tshaonline.org/handbook/entries/edgewood-isd-v-kirby"
+      ]
+    },
+    {
+      "name": "Edgewood ISD v. Kirby (Edgewood II)",
+      "cite": "804 S.W.2d 491 (Tex. 1991)",
+      "year": 1991,
+      "holding_one_line": "The Legislature's first fix (SB 1) still failed efficiency — simply adding state money without restructuring how districts access revenue did not cure the constitutional defect.",
+      "relevance": "Directly on point for a revenue drop: the Court held the state cannot satisfy its duty by pouring money in; the structural relationship between local tax effort and available revenue must be fixed. A homestead cut that shifts the burden to state backfill invites this scrutiny.",
+      "source_urls": [
+        "https://nces.ed.gov/edfin/pdf/lawsuits/Edgewood_II_TX.pdf",
+        "https://commons.stmarytx.edu/cgi/viewcontent.cgi?article=1113&context=facarticles",
+        "https://www.txcourts.gov/media/1371143/140776c2.pdf"
+      ]
+    },
+    {
+      "name": "Carrollton-Farmers Branch ISD v. Edgewood ISD (Edgewood III)",
+      "cite": "826 S.W.2d 489 (Tex. 1992)",
+      "year": 1992,
+      "holding_one_line": "An ad valorem tax becomes an unconstitutional statewide property tax (Art. VIII, §1-e) when \"the State so completely controls the levy, assessment and disbursement of revenue … that the authority employed is without meaningful discretion\"; the County Education District tax was struck.",
+      "relevance": "The core state-property-tax test. If the state raises the exemption and then leans on districts to tax to the cap to replace lost revenue, districts lose meaningful discretion — the exact trigger Edgewood III defines.",
+      "source_urls": [
+        "https://case-law.vlex.com/vid/neeley-v-west-orange-888556409",
+        "https://commons.stmarytx.edu/cgi/viewcontent.cgi?article=1113&context=facarticles"
+      ]
+    },
+    {
+      "name": "Edgewood ISD v. Meno (Edgewood IV)",
+      "cite": "917 S.W.2d 717 (Tex. 1995)",
+      "year": 1995,
+      "holding_one_line": "SB 7 (including recapture / \"Robin Hood\") did not violate Art. VII §1 or Art. VIII §1-e, but the system was \"minimally acceptable only when viewed through the prism of history.\"",
+      "relevance": "Marks how little headroom the system has. The Court signaled the structure was already at its constitutional floor — any further erosion of local capacity (e.g., a large exemption increase) pushes it below that floor.",
+      "source_urls": [
+        "https://nces.ed.gov/edfin/pdf/lawsuits/edgewood_iv_tx.pdf",
+        "https://law.justia.com/cases/texas/supreme-court/2003/2000665.html",
+        "https://case-law.vlex.com/vid/edgewood-independent-school-dist-890625675"
+      ]
+    },
+    {
+      "name": "Neeley v. West Orange-Cove Consolidated ISD",
+      "cite": "176 S.W.3d 746 (Tex. 2005)",
+      "year": 2005,
+      "holding_one_line": "Local property taxes had become an unconstitutional state property tax because the State left districts \"no meaningful discretion to tax below maximum rates\"; adequacy claim rejected but the structural warning was renewed.",
+      "relevance": "The end of the lineage and the sharpest fit: when state policy forces districts to the rate ceiling to fund what the state mandates, the local tax is a de facto state tax. A homestead-exemption hike that erodes the base while spending mandates hold reopens this exact theory.",
+      "source_urls": [
+        "https://case-law.vlex.com/vid/neeley-v-west-orange-888556409",
+        "https://caselaw.findlaw.com/court/tx-supreme-court/1153227.html",
+        "https://fedsoc.org/scdw/texas-supreme-court-declares-the-state-school-finance-system-unconstitutional",
+        "http://docs.texasappellate.com/scotx/op/04-1144/2005-11-22.hecht.pdf"
+      ]
+    }
+  ],
+  "prop13": {
+    "jr_number": "SJR 2 (89th Legislature, R.S., 2025)",
+    "enabling_bill": "SB 4 (89th Legislature)",
+    "ballot_label": "Proposition 13",
+    "election_date": "2025-11-04",
+    "pass_pct": 79.41,
+    "vote_yes": 2348815,
+    "vote_no": 609203,
+    "no_pct": 20.59,
+    "change": "Increased the school-district homestead exemption from $100,000 to $140,000 of market value.",
+    "source_urls": [
+      "https://ballotpedia.org/Texas_Proposition_13,_Increase_Homestead_Property_Tax_Exemption_Amendment_(2025)",
+      "https://lrl.texas.gov/legis/billsearch/amendmentdetails.cfm?legSession=89-0&billtypeDetail=SJR&billNumberDetail=2",
+      "https://www.ltgov.texas.gov/2025/02/13/lt-gov-dan-patrick-statement-on-the-unanimous-passage-of-senate-bill-4-and-senate-joint-resolution-2-increasing-the-homestead-exemption-to-140000-and-150000-for-seniors/",
+      "https://www.fox26houston.com/election/texas-proposition-13-election-results-2025"
+    ]
+  },
+  "tac_rules": [
+    {
+      "rule": "34 TAC §9.415",
+      "subject": "Applications for Property Tax Exemptions — governs the residence-homestead exemption application and the forms the Comptroller prescribes (which state the exemption amount). Subchapter C, Appraisal District Administration.",
+      "verified": true,
+      "source_urls": [
+        "https://www.law.cornell.edu/regulations/texas/34-Tex-Admin-Code-SS-9-415",
+        "http://txrules.elaws.us/rule/title34_chapter9"
+      ]
+    },
+    {
+      "rule": "34 TAC §9.416",
+      "subject": "Continuation of Residence Homestead Exemption While Replacement Structure is Constructed. Subchapter C.",
+      "verified": true,
+      "source_urls": [
+        "http://txrules.elaws.us/rule/title34_chapter9",
+        "https://regulations.justia.com/states/texas/title-34/part-1/chapter-9/"
+      ]
+    },
+    {
+      "rule": "34 TAC §9.3010",
+      "subject": "Partial Exemption Lists — the appraisal-record rule for partial exemptions such as the residence homestead. Subchapter H, Tax Record Requirements.",
+      "verified": true,
+      "source_urls": [
+        "http://txrules.elaws.us/rule/title34_chapter9"
+      ]
+    },
+    {
+      "rule": "34 TAC §9.3034",
+      "subject": "Notice of Exemption Application Requirement. Subchapter H, Tax Record Requirements.",
+      "verified": true,
+      "source_urls": [
+        "http://txrules.elaws.us/rule/title34_chapter9"
+      ]
+    }
+  ],
+  "forms": [
+    {
+      "number": "Form 50-114",
+      "name": "Application for Residence Homestead Exemption",
+      "source_urls": [
+        "https://comptroller.texas.gov/forms/50-114.pdf",
+        "https://comptroller.texas.gov/taxes/property-tax/exemptions/"
+      ]
+    },
+    {
+      "number": "Form 50-114-A",
+      "name": "Residence Homestead Exemption Affidavits",
+      "source_urls": [
+        "https://comptroller.texas.gov/forms/50-114-a.pdf",
+        "https://comptroller.texas.gov/taxes/property-tax/exemptions/"
+      ]
+    }
+  ]
+}

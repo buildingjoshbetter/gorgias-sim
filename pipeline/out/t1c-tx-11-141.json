@@ -1,0 +1,20 @@
+{
+ "cite": "Tax Code \u00a711.141",
+ "heading": "PRECIOUS METAL HELD IN PRECIOUS METAL DEPOSITORY",
+ "operative_text": "A person is entitled to an exemption from taxation of the precious metal that the person owns and that is held in a precious metal depository located in this state, regardless of whether the precious metal is held or used by the person for the production of income.",
+ "cross_refs": [
+  "Gov't Code \u00a72116.001",
+  "Tax Code \u00a711.14(c)"
+ ],
+ "defined_terms": [
+  {
+   "term": "Precious metal",
+   "definition_excerpt": "has the meaning assigned by Section 2116.001, Government Code."
+  },
+  {
+   "term": "Precious metal depository",
+   "definition_excerpt": "means a depository that:\n(A) is primarily engaged in the business of providing precious metal storage to the general public; and\n(B) maintains sufficient insurance to cover precious metal deposited in the depository."
+  }
+ ],
+ "_note": null
+}

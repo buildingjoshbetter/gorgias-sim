@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.12 governs refund timing and interest for an enumerated list of statutory sections. Section 11.13(b) is not among them. Increasing the homestead exemption amount does not alter any refund trigger, deadline, or interest provision in this section.",
+ "quote": "A refund of a tax provided by Section 11.35(j), 11.431(b), 11.436(b), 11.438(c), 11.439(b), 23.1243(d), 23.48(d), 23.60(d), 26.05(e), 26.07(g), 26.075(k), 26.08(d-2), 26.1115(c), 26.112(b), 26.1125(b), 26.1127(b), 26.15(f), 31.061(e), 31.071(c), 31.11, 31.111, or 31.112(c)(3) must be paid not later than the 60th day after the date the liability for the refund arises as determined under this section.",
+ "_note": "Section 11.13(b) is not referenced anywhere in \u00a731.12. While \u00a711.35(j) (late homestead exemption refunds) is listed, the proposed change to the exemption amount in \u00a711.13(b) does not modify any refund mechanism governed by \u00a731.12."
+}

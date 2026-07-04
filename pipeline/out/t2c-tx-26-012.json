@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.012 is a definitions chapter that does not reference the specific dollar amount of the \u00a711.13(b) homestead exemption. Definitions like 'current total value' and 'last year's total value' incorporate exemptions generically and would automatically adjust.",
+ "quote": "\"Current total value\" means the total taxable value of property listed on the appraisal roll for the current year, including all appraisal roll supplements and corrections as of the date of the calculation, less the taxable value of property exempted for the current tax year for the first time under Section 11.31 or 11.315",
+ "_note": "No direct conflict; \u00a726.012 definitions operate regardless of the specific homestead exemption dollar amount in \u00a711.13(b). Downstream rate calculations would automatically reflect the changed taxable values."
+}

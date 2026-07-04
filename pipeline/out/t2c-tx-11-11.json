@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 11.11 governs exemptions for public property; it does not address residence homestead exemptions under Section 11.13(b). The proposed change to the homestead exemption amount has no bearing on public property tax rules.",
+ "quote": "Except as provided by Subsections (b) and (c) of this section, property owned by this state or a political subdivision of this state is exempt from taxation if the property is used for public purposes.",
+ "_note": "No conflict: \u00a711.11 (public property) and \u00a711.13(b) (residence homestead) are distinct exemption categories with no operative overlap."
+}

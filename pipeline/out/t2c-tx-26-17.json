@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.17 requires the database to display each property's taxable value and related tax calculations, but does not hardcode any homestead exemption amount. The database would automatically reflect updated taxable values resulting from the changed exemption without any statutory amendment to this section.",
+ "quote": "(3) the property's taxable value;",
+ "_note": "No direct or indirect conflict. The database mechanism dynamically incorporates taxable value regardless of the exemption dollar amount set in \u00a711.13(b)."
+}

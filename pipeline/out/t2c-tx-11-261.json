@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Section 11.261 freezes taxes based on first-year tax amount when individual qualified under Section 11.13(c). Increasing the Section 11.13(b) exemption alters the base tax calculation for new qualifiers also receiving the elderly/disabled exemption, requiring rulemaking guidance but no statutory amendment to Section 11.261.",
+ "quote": "the county, municipality, or junior college district may not increase the total annual amount of ad valorem taxes the county, municipality, or junior college district imposes on the residence homestead of a disabled individual or an individual 65 years of age or older above the amount of the taxes the county, municipality, or junior college district imposed on the residence homestead in the first tax year",
+ "_note": "Section 11.261 references Section 11.13(c) specifically and Section 11.13 generally; it does not hardcode the Section 11.13(b) dollar amount, so no textual amendment to Section 11.261 is required. The interaction is operational: a larger Section 11.13(b) exemption lowers the frozen base tax for new dual-qualifier homesteads."
+}

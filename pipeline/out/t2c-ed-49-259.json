@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 49.259 governs component district bond taxes and guaranteed yield calculations based on tax rate limits under \u00a748.203. It does not reference the homestead exemption amount or Tax Code \u00a711.13(b), so no direct conflict arises.",
+ "quote": "A component district levying an ad valorem tax under this section or Section 49.260(b)(1) is entitled to the guaranteed yield provided by Subchapter E, Chapter 48, for that portion of its tax rate that, when added to the maintenance tax levied by the consolidated taxing unit, does not exceed the limitation provided by Section 48.203.",
+ "_note": "No direct reference to homestead exemption or Tax Code \u00a711.13(b) in this section. Indirect fiscal impact on taxable values is possible but does not create a statutory conflict."
+}

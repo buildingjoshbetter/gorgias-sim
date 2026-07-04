@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 49.157's appraisal-cost credit formula uses 'total amount of taxes imposed in the district,' which is indirectly affected by homestead exemption changes but self-adjusts without requiring amendment to this statute.",
+ "quote": "the total amount of taxes imposed in the district for that year",
+ "_note": "No direct conflict. Increasing the homestead exemption reduces taxable value and thus total taxes imposed, which indirectly changes the percentage computed in the formula, but the statute operates automatically without amendment."
+}

@@ -1,0 +1,22 @@
+{
+ "cite": "Tax Code \u00a711.35",
+ "heading": "TEMPORARY EXEMPTION FOR QUALIFIED PROPERTY DAMAGED BY DISASTER",
+ "operative_text": "A person is entitled to an exemption from taxation by a taxing unit of a portion of the appraised value of qualified property that the person owns in an amount determined under Subsection (h).",
+ "cross_refs": [
+  "Tax Code \u00a722.01",
+  "Tax Code \u00a725.18",
+  "Occupations Code \u00a71201.003",
+  "Occupations Code \u00a71201.2055"
+ ],
+ "defined_terms": [
+  {
+   "term": "Damage",
+   "definition_excerpt": "\"Damage\" means physical damage."
+  },
+  {
+   "term": "Qualified property",
+   "definition_excerpt": "\"Qualified property\" means property that:\n(A) consists of:\n(i) tangible personal property used for the production of income;\n(ii) an improvement to real property; or\n(iii) a manufactured home as that term is defined by Section 1201.003, Occupations Code, that is used as a dwelling, regardless of whether the owner of the manufactured home elects to treat the manufactured home as real property under Section 1201.2055, Occupations Code;\n(B) is located in an area declared by the governor to be a disaster area following a disaster;\n(C) is at least 15 percent damaged by the disaster, as determined by the chief appraiser under this section; and\n(D) for property described by Paragraph (A)(i), is the subject of a rendition statement or property report filed by the property owner under Section 22.01 that demonstrates that the property had taxable situs in the disaster area for the tax year in which the disaster occurred."
+  }
+ ],
+ "_note": "Subsections (c), (d), and (e) repealed by Acts 2021. Damage assessment ratings (Levels I\u2013IV) and corresponding exemption percentages (15%, 30%, 60%, 100%) defined in Subsections (g) and (h). Pro-rated exemption calculation for mid-year qualification per Subsection (i). Exemption expires January 1 of first tax year property is reappraised under \u00a725.18."
+}

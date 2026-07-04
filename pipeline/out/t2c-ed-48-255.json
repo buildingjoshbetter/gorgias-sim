@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces total taxable property value, affecting ECPV in the compression formula. No statutory amendment to this section is required, but the estimate under \u00a748.269 must account for the change.",
+ "quote": "\"ECPV\" is the estimated percentage change in total taxable property value for the applicable tax year as determined based on the estimate submitted to the legislature under Section 48.269.",
+ "_note": "Indirect interaction: larger homestead exemption lowers taxable property values, which feeds into ECPV and thus the state compression percentage calculation. No direct textual conflict with \u00a748.255."
+}

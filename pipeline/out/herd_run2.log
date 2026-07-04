@@ -1,0 +1,2 @@
+[driver] start cumulative=$7.766 global_cap=$150 batch=200
+[driver] jobs/t2_crawl.jsonl: 6804 jobs

@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 48.267 governs commissioner adjustments for major taxpayer valuation protests. It does not reference the homestead exemption amount or Tax Code \u00a711.13(b), so increasing the exemption does not directly conflict with its operative provisions.",
+ "quote": "The commissioner may make the adjustment only to the extent the commissioner determines that making the adjustment will not:",
+ "_note": "No direct conflict. Increased homestead exemption would reduce taxable values generally, which could indirectly affect downstream calculations under Chapters 46/48/49, but \u00a748.267's operative text is silent on homestead exemption amounts."
+}

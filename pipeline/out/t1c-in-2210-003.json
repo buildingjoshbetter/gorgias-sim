@@ -1,0 +1,83 @@
+{
+ "cite": "Ins. Code \u00a72210.003",
+ "heading": "GENERAL DEFINITIONS.",
+ "operative_text": "In this chapter, unless the context clearly indicates otherwise:",
+ "cross_refs": [
+  "Ins. Code \u00a72210.062",
+  "Ins. Code \u00a72210.005",
+  "Ins. Code Subchapter J",
+  "Ins. Code \u00a72210.634",
+  "Gov. Code \u00a7404.0242"
+ ],
+ "defined_terms": [
+  {
+   "term": "Administrator",
+   "definition_excerpt": "an entity contractually retained to manage the association and administer the plan of operation under Section 2210.062."
+  },
+  {
+   "term": "Association",
+   "definition_excerpt": "the Texas Windstorm Insurance Association."
+  },
+  {
+   "term": "Board of directors",
+   "definition_excerpt": "the board of directors of the association."
+  },
+  {
+   "term": "Catastrophe area",
+   "definition_excerpt": "a municipality, a part of a municipality, a county, or a part of a county designated by the commissioner under Section 2210.005."
+  },
+  {
+   "term": "Catastrophe reserve trust fund",
+   "definition_excerpt": "the trust fund established under Subchapter J."
+  },
+  {
+   "term": "Catastrophe year",
+   "definition_excerpt": "a calendar year in which an occurrence or a series of occurrences results in insured losses, regardless of when the insured losses are ultimately paid."
+  },
+  {
+   "term": "Financing arrangement",
+   "definition_excerpt": "an arrangement entered into by the association for the financing of payments for the uses authorized by Section 2210.634. The term includes an arrangement between the association and this state under Section 404.0242, Government Code."
+  },
+  {
+   "term": "Financing arrangement administrative expense",
+   "definition_excerpt": "an expense incurred to administer a financing arrangement issued under this chapter, including:\n(A) a fee for credit enhancement;\n(B) a payment to a paying agent, trustee, or attorney; or\n(C) an expense relating to another professional service necessary to carry out a financing arrangement."
+  },
+  {
+   "term": "Financing arrangement obligation",
+   "definition_excerpt": "the principal of and any premium and interest on a financing arrangement issued under this chapter."
+  },
+  {
+   "term": "First tier coastal county",
+   "definition_excerpt": ":\n(A) Aransas County;\n(B) Brazoria County;\n(C) Calhoun County;\n(D) Cameron County;\n(E) Chambers County;\n(F) Galveston County;\n(G) Jefferson County;\n(H) Kenedy County;\n(I) Kleberg County;\n(J) Matagorda County;\n(K) Nueces County;\n(L) Refugio County;\n(M) San Patricio County; or\n(N) Willacy County."
+  },
+  {
+   "term": "Insurance",
+   "definition_excerpt": "Texas windstorm and hail insurance."
+  },
+  {
+   "term": "Net direct premium",
+   "definition_excerpt": "gross direct written premium less return premium on each canceled contract, regardless of assumed or ceded reinsurance, that is written on property in this state, as defined by the board of directors."
+  },
+  {
+   "term": "New building code",
+   "definition_excerpt": "a building standard, specification, or guideline adopted by the commissioner after May 1, 1997, that must be satisfied before new residential construction qualifies for a certificate of compliance that constitutes evidence of insurability of the structure by the association."
+  },
+  {
+   "term": "Plan of operation",
+   "definition_excerpt": "the plan adopted under this chapter for the operation of the association."
+  },
+  {
+   "term": "Seacoast territory",
+   "definition_excerpt": "the territory of this state composed of the first tier coastal counties and the second tier coastal counties."
+  },
+  {
+   "term": "Second tier coastal county",
+   "definition_excerpt": ":\n(A) Bee County;\n(B) Brooks County;\n(C) Fort Bend County;\n(D) Goliad County;\n(E) Hardin County;\n(F) Harris County;\n(G) Hidalgo County;\n(H) Jackson County;\n(I) Jim Wells County;\n(J) Liberty County;\n(K) Live Oak County;\n(L) Orange County;\n(M) Victoria County; or\n(N) Wharton County."
+  },
+  {
+   "term": "Texas windstorm and hail insurance",
+   "definition_excerpt": "deductible insurance against:\n(A) direct loss to insurable property incurred as a result of windstorm or hail, as those terms are defined and limited in policies and forms approved by the department; and\n(B) indirect losses resulting from the direct loss."
+  }
+ ],
+ "_note": ""
+}

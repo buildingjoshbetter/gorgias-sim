@@ -1,0 +1,33 @@
+{
+ "agencies": [
+  {
+   "agency": "Texas Education Agency",
+   "action_required": "Post each school district's maximum compressed rate for current and preceding tax year on agency website; notify chief appraisers and school district assessors of posting.",
+   "authority_cite": "Educ. Code \u00a748.2556(a)\u2013(c)",
+   "deadline_cite": "Educ. Code \u00a748.2556(b)",
+   "approval_gate": "None; TEA calculates MCRs under Educ. Code \u00a748.2551"
+  },
+  {
+   "agency": "Chief Appraiser of each Appraisal District",
+   "action_required": "Make calculations required by Tax Code \u00a711.26(a-10) using posted MCRs; determine portion of appraised value on which school taxes are not imposed due to tax limitation.",
+   "authority_cite": "Tax Code \u00a711.26(a-10), (e)",
+   "deadline_cite": "Tax Code \u00a711.26(a-10)",
+   "approval_gate": "TEA must post MCRs and provide notification per Educ. Code \u00a748.2556(b)\u2013(c)"
+  },
+  {
+   "agency": "School District Assessor",
+   "action_required": "Calculate tax imposed on residence homesteads applying \u00a711.26 limitation; for 2025 tax year calculate both with and without S.B. 4/S.B. 23 changes.",
+   "authority_cite": "Tax Code \u00a726.09(a), (c-1); Tax Code \u00a711.26(a-10)",
+   "deadline_cite": "Tax Code \u00a726.09(a)",
+   "approval_gate": "Chief appraiser calculations and TEA MCR posting must be completed first"
+  },
+  {
+   "agency": "School District Governing Body",
+   "action_required": "May not increase total annual ad valorem tax above limitation amount on residence homesteads of individuals 65 or older or disabled.",
+   "authority_cite": "Tax Code \u00a711.26(a)",
+   "deadline_cite": "Tax Code \u00a711.26(a)",
+   "approval_gate": "None"
+  }
+ ],
+ "_note": "Tex. Const. art. VIII, \u00a71-b(c) directs the legislature to provide formulas protecting school districts against revenue loss but does not assign a specific agency action; it is the constitutional authority underlying the statutory framework. Tax Code \u00a726.09(c-1) contains two conflicting versions from S.B. 4 and S.B. 23, both eff. June 16, 2025; both require dual calculation for 2025 tax year."
+}

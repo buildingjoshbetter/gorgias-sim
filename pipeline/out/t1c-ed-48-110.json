@@ -1,0 +1,26 @@
+{
+ "cite": "Educ. Code \u00a748.110",
+ "heading": "COLLEGE, CAREER, OR MILITARY READINESS OUTCOMES BONUS",
+ "operative_text": "The purpose of this section is to further the goal set under the state's master plan for higher education developed under Section 61.051 for at least 60 percent of all adults aged 25 to 34 in this state to achieve a postsecondary degree or workforce credential by 2030.",
+ "cross_refs": [
+  "Educ. Code \u00a761.051",
+  "Educ. Code \u00a751.334",
+  "Educ. Code Ch. 39",
+  "Educ. Code Ch. 29, Subch. A"
+ ],
+ "defined_terms": [
+  {
+   "term": "college readiness",
+   "definition_excerpt": "college readiness if the annual graduate:\n(A) both:\n(i) achieves college readiness standards used for accountability purposes under Chapter 39 on the ACT, the SAT, or an assessment instrument designated by the Texas Higher Education Coordinating Board under Section 51.334; and\n(ii) during a time period established by commissioner rule, enrolls at a postsecondary educational institution; or\n(B) earns an associate degree from a postsecondary educational institution approved by the Texas Higher Education Coordinating Board while attending high school or during a time period established by commissioner rule"
+  },
+  {
+   "term": "career readiness",
+   "definition_excerpt": "career readiness if the annual graduate:\n(A) achieves college readiness standards used for accountability purposes under Chapter 39 on the ACT, the SAT, or an assessment instrument designated by the Texas Higher Education Coordinating Board under Section 51.334; and\n(B) during a time period established by commissioner rule, earns an industry-accepted certificate"
+  },
+  {
+   "term": "military readiness",
+   "definition_excerpt": "military readiness if the annual graduate:\n(A) achieves a passing score set by the applicable military branch on the Armed Services Vocational Aptitude Battery; and\n(B) during a time period established by commissioner rule, enlists in the armed forces of the United States or the Texas National Guard."
+  }
+ ],
+ "_note": ""
+}

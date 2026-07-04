@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 11.28 governs city tax abatement agreements under Chapter 312, unrelated to residence homestead exemptions under \u00a711.13(b). No overlap or interaction between the two provisions.",
+ "quote": "The owner of property to which an agreement made under the Property Redevelopment and Tax Abatement Act (Chapter 312 of this code) applies is entitled to exemption from taxation by an incorporated city or town or other taxing unit of all or part of the value of the property as provided by the agreement.",
+ "_note": "No conflict; \u00a711.28 addresses Chapter 312 abatement agreements, not homestead exemptions."
+}

@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces local property tax revenue, altering current-year funding calculations under Chapters 48 and 49 referenced in \u00a748.285(a). The retention allotment aid formula depends on current-year funding amounts, requiring rulemaking adjustments to account for reduced local revenue.",
+ "quote": "the funding the district is entitled to under this chapter and Chapter 49 for the current year",
+ "_note": "Indirect fiscal interaction; \u00a748.285 does not directly reference Tax Code \u00a711.13(b) but its formula depends on current-year Chapter 48/49 funding amounts, which are affected by homestead exemption changes."
+}

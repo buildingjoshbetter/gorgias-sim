@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.062 requires tax rate notices to compare taxes on the average residence homestead using actual taxable values. Increasing the \u00a711.13(b) exemption automatically flows through to lower taxable values in the required table; no amendment to \u00a726.062 is needed.",
+ "quote": "the third column of the third row must state the average taxable value of a residence homestead in the taxing unit for the current tax year",
+ "_note": "Rule operates mechanically and incorporates whatever exemption amount is in effect; no hardcoded dollar figure appears in \u00a726.062."
+}

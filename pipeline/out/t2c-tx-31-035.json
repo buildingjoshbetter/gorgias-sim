@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.035 governs service-in-lieu-of-payment for elderly homesteads and operates on taxes owed after exemptions are applied. It does not reference or depend on the \u00a711.13(b) exemption amount. No conflict arises.",
+ "quote": "The governing body of a taxing unit by order or resolution may permit an individual who is at least 65 years of age to perform service for the taxing unit in lieu of paying taxes imposed by the taxing unit on property owned by the individual and occupied as the individual's residence homestead.",
+ "_note": "No direct or indirect conflict. \u00a731.035 functions downstream of the homestead exemption; a larger exemption would reduce tax liability for qualifying elderly homeowners but does not impair the operative mechanism of this section."
+}

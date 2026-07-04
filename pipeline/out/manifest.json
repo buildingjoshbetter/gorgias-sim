@@ -1,0 +1,109 @@
+[
+  {
+    "url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.11.htm",
+    "fetch_url": "https://tcss.legis.texas.gov/resources/TX/htm/TX.11.htm",
+    "status": 200,
+    "bytes": 474190,
+    "text_chars": 326955,
+    "fetched_at": "2026-07-04T01:56:22.430248+00:00",
+    "kind": "statute-chapter",
+    "chapter": "TX.11",
+    "spa_shell": false
+  },
+  {
+    "url": "https://statutes.capitol.texas.gov/Docs/TX/htm/TX.26.htm",
+    "fetch_url": "https://tcss.legis.texas.gov/resources/TX/htm/TX.26.htm",
+    "status": 200,
+    "bytes": 289518,
+    "text_chars": 194502,
+    "fetched_at": "2026-07-04T01:56:22.510167+00:00",
+    "kind": "statute-chapter",
+    "chapter": "TX.26",
+    "spa_shell": false
+  },
+  {
+    "url": "https://statutes.capitol.texas.gov/Docs/ED/htm/ED.48.htm",
+    "fetch_url": "https://tcss.legis.texas.gov/resources/ED/htm/ED.48.htm",
+    "status": 200,
+    "bytes": 398322,
+    "text_chars": 235276,
+    "fetched_at": "2026-07-04T01:56:22.600267+00:00",
+    "kind": "statute-chapter",
+    "chapter": "ED.48",
+    "spa_shell": false
+  },
+  {
+    "url": "https://statutes.capitol.texas.gov/Docs/CN/htm/CN.8.htm",
+    "fetch_url": "https://tcss.legis.texas.gov/resources/CN/htm/CN.8.htm",
+    "status": 200,
+    "bytes": 119830,
+    "text_chars": 92085,
+    "fetched_at": "2026-07-04T01:56:22.668101+00:00",
+    "kind": "statute-chapter",
+    "chapter": "CN.8",
+    "spa_shell": false
+  },
+  {
+    "url": "https://capitol.texas.gov/tlodocs/89R/fiscalnotes/html/HB00009I.htm",
+    "status": 200,
+    "bytes": 15158,
+    "text_chars": 4052,
+    "dollars_found": 32,
+    "fetched_at": "2026-07-04T01:56:22.883530+00:00",
+    "kind": "fiscal-note",
+    "bill": "HB9",
+    "version": "I"
+  },
+  {
+    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=HB9",
+    "status": 200,
+    "bytes": 78811,
+    "text_chars": 7589,
+    "fetched_at": "2026-07-04T01:56:22.959353+00:00",
+    "kind": "bill-status",
+    "bill": "HB9",
+    "last_action": "06/12/2025 E See remarks for effective date"
+  },
+  {
+    "url": "https://capitol.texas.gov/tlodocs/89R/fiscalnotes/html/SB00004I.htm",
+    "status": 200,
+    "bytes": 22482,
+    "text_chars": 6869,
+    "dollars_found": 46,
+    "fetched_at": "2026-07-04T01:56:23.040562+00:00",
+    "kind": "fiscal-note",
+    "bill": "SB4",
+    "version": "I"
+  },
+  {
+    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB4",
+    "status": 200,
+    "bytes": 85018,
+    "text_chars": 8564,
+    "fetched_at": "2026-07-04T01:56:23.234766+00:00",
+    "kind": "bill-status",
+    "bill": "SB4",
+    "last_action": "06/16/2025 E See remarks for effective date"
+  },
+  {
+    "url": "https://capitol.texas.gov/tlodocs/89R/fiscalnotes/html/SB00023I.htm",
+    "status": 200,
+    "bytes": 15696,
+    "text_chars": 4336,
+    "dollars_found": 32,
+    "fetched_at": "2026-07-04T01:56:23.280637+00:00",
+    "kind": "fiscal-note",
+    "bill": "SB23",
+    "version": "I"
+  },
+  {
+    "url": "https://capitol.texas.gov/BillLookup/History.aspx?LegSess=89R&Bill=SB23",
+    "status": 200,
+    "bytes": 80584,
+    "text_chars": 8370,
+    "fetched_at": "2026-07-04T01:56:23.345371+00:00",
+    "kind": "bill-status",
+    "bill": "SB23",
+    "last_action": "06/16/2025 E See remarks for effective date"
+  }
+]

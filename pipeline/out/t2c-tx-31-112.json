@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 31.112 governs refund procedures for tax payments made to multiple taxing units due to boundary disputes or errors. It does not reference or depend on homestead exemption amounts under \u00a711.13(b), so increasing the exemption creates no conflict.",
+ "quote": "(c) Like taxing units to which a property owner has made tax payments under protest as a result of a dispute or error described by Section 72.010(c), Local Government Code, may enter into an agreement to resolve the dispute or error.",
+ "_note": "No conflict. \u00a731.112 addresses refunds for boundary-dispute overpayments; homestead exemption amount under \u00a711.13(b) is unrelated to this provision's operative scope."
+}

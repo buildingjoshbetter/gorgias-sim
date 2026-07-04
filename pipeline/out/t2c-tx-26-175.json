@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.175 governs a property tax database locator website. It references no exemption dollar amounts and is unaffected by changing the homestead exemption figure in \u00a711.13(b).",
+ "quote": "\"property tax database\" means a property tax database required to be created and maintained by a chief appraiser under Section 26.17.",
+ "_note": "No conflict; \u00a726.175 is procedural/IT infrastructure and does not reference \u00a711.13(b) exemption amounts."
+}

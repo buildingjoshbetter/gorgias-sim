@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.111 governs proration of taxes on property acquired by charitable organizations under Sections 11.181(a) and 11.182(a). It does not reference the residence homestead exemption in Section 11.13(b).",
+ "quote": "If an organization acquires taxable property that qualifies for and is granted an exemption under Section 11.181(a) or 11.182(a) for the year in which the property was acquired, the amount of tax due on the property for that year is calculated by multiplying the amount of taxes imposed on the property for the entire year as provided by Section 26.09 by a fraction, the denominator of which is 365 and the numerator of which is the number of days in that year before the date the charitable organization acquired the property.",
+ "_note": "No conflict identified; \u00a726.111 addresses charitable organization exemptions, not the residence homestead exemption in \u00a711.13(b)."
+}

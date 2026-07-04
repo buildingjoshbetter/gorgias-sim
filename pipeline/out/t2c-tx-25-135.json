@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 25.135 governs how qualifying trust interests in a homestead are listed for appraisal records. It references \u00a711.13(j) for the qualifying-trust definition, not the \u00a711.13(b) dollar exemption amount. Raising the dollar threshold creates no conflict.",
+ "quote": "The interest of a qualifying trust as defined by Section 11.13(j) in a residence homestead shall be listed in the name of the trustor of the trust.",
+ "_note": "No conflict; \u00a725.135 cites \u00a711.13(j), not \u00a711.13(b)."
+}

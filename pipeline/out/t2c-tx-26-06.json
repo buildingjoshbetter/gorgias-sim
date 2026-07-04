@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.06 governs notice, hearing, and vote procedures for tax increases. It references taxable value generically but does not reference the homestead exemption amount in \u00a711.13(b). Increasing the exemption does not require any amendment to this section's operative text or notice forms.",
+ "quote": "Property tax amount = tax rate x taxable value of your property / 100",
+ "_note": "No direct or indirect conflict. The notice formulas in \u00a726.06 use 'taxable value' generically and remain accurate regardless of the homestead exemption dollar amount."
+}

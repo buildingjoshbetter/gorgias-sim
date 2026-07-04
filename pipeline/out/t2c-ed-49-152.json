@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 49.152 governs credit purchased reducing a district's local revenue level for \u00a748.257 threshold purposes. The homestead exemption increase affects taxable value, not the credit mechanism described here; no direct textual conflict arises.",
+ "quote": "The amount of credit purchased decreases the dollar amount of a district's local revenue level for purposes of determining whether the district exceeds the level established under Section 48.257.",
+ "_note": "Indirect fiscal interaction possible\u2014larger homestead exemption reduces taxable value and thus local revenue, which could affect \u00a748.257 threshold calculations\u2014but no direct statutory conflict with \u00a749.152 as written."
+}

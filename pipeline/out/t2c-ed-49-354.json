@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change increases a homestead exemption but does not abolish ad valorem taxes for school M&O, which is the sole trigger for \u00a749.354 dissolution authority. No conflict.",
+ "quote": "If the legislature abolishes ad valorem taxes for public school maintenance and operations and adopts another method of funding public education, the board of trustees of a consolidated district created under this subchapter may dissolve the consolidated district",
+ "_note": "Increasing the homestead exemption amount does not abolish ad valorem taxes for school maintenance and operations, so the operative trigger in \u00a749.354(a) is not implicated."
+}

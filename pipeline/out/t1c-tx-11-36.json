@@ -1,0 +1,21 @@
+{
+ "cite": "Tax Code \u00a711.36",
+ "heading": "MEDICAL OR BIOMEDICAL PROPERTY",
+ "operative_text": "(b) A person is entitled to an exemption from taxation of medical or biomedical property the person owns or leases that is located in a medical or biomedical manufacturing facility that the person owns or leases.\n(c) Notwithstanding Section 11.14(c), the governing body of a taxing unit may not provide for taxation of medical or biomedical property exempted under this section.",
+ "cross_refs": [
+  "Section 151.318",
+  "Chapter 151",
+  "Section 11.14(c)"
+ ],
+ "defined_terms": [
+  {
+   "term": "Medical or biomedical property",
+   "definition_excerpt": "tangible personal property that is:\n(A) stored, used, or consumed in the manufacturing or processing of medical or biomedical products by a medical or biomedical manufacturer; or\n(B) intended for use in the diagnosis, cure, mitigation, treatment, or prevention of a condition or disease or in medical or biomedical research, including the invention, development, and dissemination of materials, tools, technologies, processes, and similar means for translating and applying medical and scientific research for practical applications to advance public health, including:\n(i) devices;\n(ii) therapeutics;\n(iii) pharmaceuticals;\n(iv) personal protective equipment;\n(v) tools, apparatuses, instruments, implants, or other similar or related component parts or accessories;\n(vi) property exempted under Section 151.318 from the taxes imposed by Chapter 151; and\n(vii) manufacturing inventories, including finished goods."
+  },
+  {
+   "term": "Medical or biomedical manufacturing facility",
+   "definition_excerpt": "a facility at which a person conducts manufacturing or processing of medical or biomedical products for the purpose of development and commercialization of products to advance public health."
+  }
+ ],
+ "_note": null
+}

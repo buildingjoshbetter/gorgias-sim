@@ -1,0 +1,30 @@
+{
+ "cite": "Educ. Code \u00a748.051",
+ "heading": "BASIC ALLOTMENT",
+ "operative_text": "For each student in average daily attendance, not including the time students spend each day in career and technology education programs or in special education programs in a setting other than a general education setting, for which an additional allotment is made under Subchapter C, a school district is entitled to an allotment equal to the lesser of the amounts that result from the following formulas:\n(1) A = $6,160 + GYIA; or\n(2) A = ($6,160 + GYIA) X TR/MCR\nwhere:\n\"A\" is the allotment to which a district is entitled;\n\"GYIA\" is the guaranteed yield increment adjustment determined under Section 48.2561;\n\"TR\" is the district's tier one maintenance and operations tax rate, as provided by Section 45.0032; and\n\"MCR\" is the district's maximum compressed tax rate, as determined under Section 48.2551.\n(b) A greater amount for any school year may be provided by appropriation.",
+ "cross_refs": [
+  "Educ. Code \u00a748.2561",
+  "Educ. Code \u00a745.0032",
+  "Educ. Code \u00a748.2551",
+  "Educ. Code ch. 48, subch. C"
+ ],
+ "defined_terms": [
+  {
+   "term": "A",
+   "definition_excerpt": "\"A\" is the allotment to which a district is entitled;"
+  },
+  {
+   "term": "GYIA",
+   "definition_excerpt": "\"GYIA\" is the guaranteed yield increment adjustment determined under Section 48.2561;"
+  },
+  {
+   "term": "TR",
+   "definition_excerpt": "\"TR\" is the district's tier one maintenance and operations tax rate, as provided by Section 45.0032; and"
+  },
+  {
+   "term": "MCR",
+   "definition_excerpt": "\"MCR\" is the district's maximum compressed tax rate, as determined under Section 48.2551."
+  }
+ ],
+ "_note": "Subsections (c), (c-1), (c-2), and (d) were repealed by Acts 2025, 89th Leg., R.S., Ch. 1065 (H.B. 2), Sec. 1.10, eff. June 20, 2025, and are excluded from operative_text. Subsection (a) label omitted from operative_text excerpt for readability; verbatim text preserved."
+}

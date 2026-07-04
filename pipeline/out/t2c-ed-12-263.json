@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 12.263 funding formulas reference the basic allotment under Section 48.051 and attendance metrics, not property tax values or homestead exemption amounts. The proposed exemption increase does not alter these statutory funding calculations.",
+ "quote": "funding for an adult education program operated under a charter granted under this subchapter is an amount per participant through the Foundation School Program equal to the amount of state funding per student in weighted average daily attendance that would be allocated under the Foundation School Program for the student's attendance at an open-enrollment charter school in accordance with Section 12.106.",
+ "_note": "No direct conflict. The homestead exemption affects local property tax revenue, but \u00a712.263 funding is tied to the basic allotment and ADA, not to local property values or exemption levels."
+}

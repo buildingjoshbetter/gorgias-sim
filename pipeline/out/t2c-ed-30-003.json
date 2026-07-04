@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces district property tax revenue, which directly affects the cost-share calculation under Subsection (b) based on taxes imposed. No statutory amendment needed, but commissioner rules may require updates to reflect adjusted calculations.",
+ "quote": "the dollar amount of maintenance and debt service taxes imposed by the district for that year",
+ "_note": "Indirect fiscal interaction: statute self-adjusts to actual tax amounts but increased exemption lowers district revenue feeding the \u00a730.003(b) formula. Subsection (f-1) also references \u00a7\u00a748.255 and 48.2551, which interact with homestead exemptions in school finance."
+}

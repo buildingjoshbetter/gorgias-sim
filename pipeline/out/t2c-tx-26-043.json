@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "Section 26.043 governs city tax rate adjustments for mass transit sales taxes and references current total value without referencing the homestead exemption amount. The exemption increase flows through taxable value automatically; no amendment needed.",
+ "quote": "the designated officer or employee shall subtract from the city's voter-approval and no-new-revenue tax rates the amount that, if applied to the city's current total value, would impose an amount equal to the amount of property taxes budgeted in the current tax year to pay for expenses related to mass transit services.",
+ "_note": "No direct or indirect conflict. \u00a726.043 operates on current total value, which already reflects whatever homestead exemption is in effect under \u00a711.13(b)."
+}
