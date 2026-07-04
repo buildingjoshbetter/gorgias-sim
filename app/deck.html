@@ -335,7 +335,7 @@ h2.head{font-family:'Archivo',sans-serif;font-weight:900;line-height:1.0;letter-
   "use strict";
   var slides = Array.prototype.slice.call(document.querySelectorAll('.slide'));
   var N = slides.length;
-  var i = 0, animated = {};
+  var i = -1, animated = {};
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var elCur = document.getElementById('cur'), elProg = document.getElementById('progress');
   var elPrev = document.getElementById('prev'), elNext = document.getElementById('next');
