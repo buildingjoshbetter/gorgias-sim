@@ -1,0 +1,12 @@
+import { chromium } from 'playwright';
+const url = process.argv[2], out = process.argv[3], scene = process.argv[4]||'cascade', waitMs = parseInt(process.argv[5]||'10800',10);
+const b = await chromium.launch();
+const p = await b.newPage({ viewport:{width:1920,height:1080}, deviceScaleFactor:1 });
+const errs=[]; p.on('console',m=>{if(m.type()==='error')errs.push(m.text());}); p.on('pageerror',e=>errs.push('PAGEERR: '+e.message));
+await p.goto(url,{waitUntil:'networkidle'}); await p.waitForTimeout(400);
+const idx={console:0,cascade:1,map:2,verdict:3,graph:4}[scene];
+await p.evaluate(i=>{if(window.GORGIAS&&window.GORGIAS.showScene)window.GORGIAS.showScene(i);}, idx);
+await p.waitForTimeout(waitMs);
+await p.screenshot({path:out});
+console.log('SHOT '+out+(errs.length?'  ERR:\n'+errs.slice(0,8).join('\n'):'  (clean)'));
+await b.close();

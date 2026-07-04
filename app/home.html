@@ -1360,6 +1360,28 @@ html.reduced .stratum, html.reduced .c-dither, html.reduced .c-drop { opacity:1 
 .windshield .ws-r.dim { stroke:rgba(255,255,255,.16); }
 .windshield .ws-lane { stroke:rgba(255,200,97,.45); stroke-dasharray:7 9; }
 .windshield .ws-grid { stroke:rgba(255,255,255,.12); }
+
+/* ── tightened cascade nodes (cites only) ── */
+.strat-nodes.tight { grid-template-columns:repeat(auto-fit,minmax(160px,1fr)); }
+.strat-nodes.tight .cnode { padding:15px 18px; }
+
+/* ── the grounded strip (replaces the audit plate) ── */
+.grounded { max-width:1000px; margin:0 auto; padding:0 52px; text-align:center; }
+.g-label { font-family:'Departure Mono', monospace; font-size:10px; letter-spacing:.24em;
+  text-transform:uppercase; color:#ffc861; text-shadow:0 0 12px rgba(255,195,95,.4);
+  display:flex; align-items:center; justify-content:center; gap:14px; }
+.g-label::before, .g-label::after { content:''; width:28px; height:1px; background:#ffc861; box-shadow:0 0 8px rgba(255,195,95,.6); }
+.g-line { font-family:'Archivo', sans-serif; font-weight:800; text-transform:uppercase;
+  font-size:clamp(24px,3.4vw,44px); line-height:1.1; letter-spacing:-.01em;
+  color:rgba(255,255,255,.95); margin-top:24px; }
+.g-line .g-em { color:#ffd684; text-shadow:0 0 14px rgba(255,195,95,.5), 0 0 36px rgba(255,160,40,.25); }
+.g-link { display:inline-block; margin-top:28px;
+  font-family:'Departure Mono', monospace; font-size:11px; letter-spacing:.18em;
+  text-transform:uppercase; color:rgba(255,255,255,.7);
+  border-bottom:1px solid rgba(255,255,255,.24); padding-bottom:6px;
+  transition:color .25s ease, border-color .25s ease, text-shadow .25s ease; }
+.g-link:hover { color:#ffe9b8; border-color:rgba(255,200,97,.85); text-shadow:0 0 12px rgba(255,195,95,.6); }
+@media (max-width:740px) { .grounded { padding:0 24px; } }
 </style>
 </head>
 <body>
@@ -1377,12 +1399,9 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
   <span class="rl-line" aria-hidden="true"><span class="rl-fill" id="rlfill"></span></span>
   <div class="rl-list">
     <a class="rl-i" data-t=".hero" href="#"><b>01</b><i>SIGNAL</i></a>
-    <a class="rl-i" data-t=".sec" href="#"><b>02</b><i>PROBLEM</i></a>
-    <a class="rl-i" data-t=".u-sec" href="#"><b>03</b><i>CASCADE</i></a>
-    <a class="rl-i" data-t=".r-sec" href="#"><b>04</b><i>GROUNDED</i></a>
-    <a class="rl-i" data-t=".d-sec" href="#"><b>05</b><i>EDGE</i></a>
-    <a class="rl-i" data-t=".i-sec" href="#"><b>06</b><i>RUN</i></a>
-    <a class="rl-i" data-t=".c-sec" href="#"><b>07</b><i>DOOR</i></a>
+    <a class="rl-i" data-t=".u-sec" href="#"><b>02</b><i>CASCADE</i></a>
+    <a class="rl-i" data-t=".r-sec" href="#"><b>03</b><i>GROUNDED</i></a>
+    <a class="rl-i" data-t=".c-sec" href="#"><b>04</b><i>DOOR</i></a>
   </div>
 </nav>
 
@@ -1403,9 +1422,8 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
 
   <div class="content">
     <p class="kicker">A FLIGHT SIMULATOR FOR LAWMAKING</p>
-    <p class="sub">Type a proposed law. Gorgias shows every statute it touches, every
-    conflict it creates, every agency it wakes, every dollar it moves, and every county
-    that feels it. Each node cites the primary source. Before a single vote.</p>
+    <p class="sub">Type a proposed law. See every statute, conflict, agency, dollar, and
+    county it moves, grounded in the primary source, before a single vote.</p>
     <div class="cta-row">
       <a class="cta cta-primary" href="/sim">OPEN THE SIMULATOR &rarr;</a>
       <a class="cta cta-secondary" href="#how">SEE HOW IT WORKS &rarr;</a>
@@ -1413,116 +1431,6 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
   </div>
 </main>
 
-<section class="sec">
-  <div class="head rise">
-    <div>
-      <div class="label">The problem</div>
-      <h2>Laws ship blind.<br><span class="dim">The bill comes later.</span></h2>
-    </div>
-  </div>
-
-  <div class="inst rise">
-    <div class="bay">
-      <span class="reg tl" aria-hidden="true"></span><span class="reg tr" aria-hidden="true"></span>
-      <span class="reg bl" aria-hidden="true"></span><span class="reg br" aria-hidden="true"></span>
-
-      <!-- ── ticker: the cost of bad legislation, in coal glyphs ── -->
-      <div class="ticker" id="ticker">
-        <div class="tick gold">
-          <span class="vh">131 billion dollars shifted to states</span>
-          <canvas class="num" data-text="$131B" aria-hidden="true"></canvas>
-          <div class="tlab">SHIFTED</div>
-        </div>
-        <div class="tick">
-          <span class="vh">768 thousand dollars to defend HB2</span>
-          <canvas class="num" data-text="$768K" aria-hidden="true"></canvas>
-          <div class="tlab">HB2 DEFENSE</div>
-        </div>
-        <div class="tick">
-          <span class="vh">4.5 million dollars in fees billed back</span>
-          <canvas class="num" data-text="$4.5M" aria-hidden="true"></canvas>
-          <div class="tlab">FEES BILLED</div>
-        </div>
-        <div class="tick">
-          <span class="vh">69 million dollar consulting overcharge</span>
-          <canvas class="num" data-text="$69M" aria-hidden="true"></canvas>
-          <div class="tlab">ONE CONTRACT</div>
-        </div>
-      </div>
-
-      <!-- ── main: blast radius + status-quo dossier ── -->
-      <div class="main">
-        <div class="specimen">
-          <div class="blastwrap" aria-label="Diagram: one line of law, and the blast radius it sets off">
-            <svg class="blast" viewBox="0 0 320 320" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <circle class="ring r5" cx="160" cy="160" r="150"/>
-              <circle class="ring r4" cx="160" cy="160" r="118"/>
-              <circle class="ring r3" cx="160" cy="160" r="86"/>
-              <circle class="ring r2" cx="160" cy="160" r="54"/>
-              <g class="doc">
-                <rect x="139" y="132" width="42" height="56" />
-                <line x1="146" y1="146" x2="174" y2="146"/>
-                <line x1="146" y1="154" x2="174" y2="154"/>
-                <line x1="146" y1="162" x2="168" y2="162"/>
-                <line class="crack" x1="160" y1="132" x2="152" y2="160"/>
-                <line class="crack" x1="152" y1="160" x2="164" y2="188"/>
-              </g>
-              <circle class="hit" cx="160" cy="10" r="3"/>
-              <circle class="hit" cx="278" cy="118" r="3"/>
-              <circle class="hit" cx="238" cy="256" r="3"/>
-              <circle class="hit" cx="66"  cy="238" r="3"/>
-              <circle class="hit" cx="40"  cy="96"  r="3"/>
-            </svg>
-            <div class="blab">ONE LINE · FULL BLAST RADIUS</div>
-          </div>
-        </div>
-
-        <div class="dossier">
-          <div class="doss-head">
-            <span><b>THE STATUS QUO</b></span>
-            <span id="siteNo">4 GAPS</span>
-          </div>
-          <div class="rows" aria-label="Four gaps in how laws are reviewed today">
-
-            <div class="row">
-              <span class="rtag"><span class="no">01</span>THE FISCAL NOTE <span class="map">→ LATE</span></span>
-              <p>Texas law only requires a cost estimate after a bill is filed. The board has up to 15 days.</p>
-            </div>
-
-            <div class="row">
-              <span class="rtag"><span class="no">02</span>THE FISCAL NOTE <span class="map">→ BLIND</span></span>
-              <p>It estimates dollars. It never checks whether the bill is even legal.</p>
-            </div>
-
-            <div class="row">
-              <span class="rtag"><span class="no">03</span>THE REVIEW <span class="map">→ BY HAND</span></span>
-              <p>Virginia read 24 million words of code line by line. Agencies pay millions to ask if a rule is lawful.</p>
-            </div>
-
-            <div class="row">
-              <span class="rtag"><span class="no">04</span>THE VERDICT <span class="map">→ IN COURT</span></span>
-              <p>You find out what a law breaks after it passes. Then you defend it for three years.</p>
-            </div>
-
-          </div>
-        </div>
-      </div>
-
-      <!-- ── bottom strip ── -->
-      <div class="bay-foot">
-        <p class="para">Everyone else in the room built a mirror for elections. The failure
-        mode that actually costs money is different: passing a law nobody traced the
-        consequences of. The tooling for that arrives late, checks only cost, and never
-        opens the statute book.</p>
-        <div class="footart" aria-hidden="true">
-          <div class="fatag">SOURCES · TX TRIBUNE · CRS · GSA IG · LBB</div>
-          <div class="footnote-mono">$768,722 + $311,355 own cost · $4.5M fee request · $131B shifted over five years · $69M single-contract overcharge</div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
 
 <section class="u-sec" id="how">
   <div class="u-head rise">
@@ -1545,13 +1453,13 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
       <!-- 01 statute -->
       <div class="stratum" data-strat="1">
         <div class="strat-label"><span class="sl-no">01</span> STATUTE <span class="sl-meta">5,256 sections crawled · 7 touched</span></div>
-        <div class="strat-nodes">
-          <div class="cnode"><span class="cn-t">Tax Code §11.13(b)</span><span class="cn-d">The $140,000 exemption itself</span></div>
-          <div class="cnode"><span class="cn-t">Tax Code §11.26</span><span class="cn-d">The 65+ / disabled tax ceiling</span></div>
-          <div class="cnode"><span class="cn-t">Tax Code §26.09</span><span class="cn-d">The tax-calculation steps</span></div>
-          <div class="cnode"><span class="cn-t">Educ. Code §48.2556</span><span class="cn-d">School-finance hold-harmless</span></div>
-          <div class="cnode"><span class="cn-t">Educ. Code §48.255</span><span class="cn-d">State compression percentage</span></div>
-          <div class="cnode"><span class="cn-t">Const. art. VIII §1-b(c)</span><span class="cn-d">The $140,000 written into the constitution</span></div>
+        <div class="strat-nodes tight">
+          <div class="cnode"><span class="cn-t">Tax Code §11.13(b)</span></div>
+          <div class="cnode"><span class="cn-t">Tax Code §11.26</span></div>
+          <div class="cnode"><span class="cn-t">Tax Code §26.09</span></div>
+          <div class="cnode"><span class="cn-t">Educ. Code §48.2556</span></div>
+          <div class="cnode"><span class="cn-t">Educ. Code §48.255</span></div>
+          <div class="cnode"><span class="cn-t">Const. art. VIII §1-b(c)</span></div>
         </div>
       </div>
       <div class="c-dither" aria-hidden="true">░▒▓█▓▒░</div>
@@ -1560,9 +1468,9 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
       <div class="stratum" data-strat="2">
         <div class="strat-label"><span class="sl-no">02</span> CONFLICT <span class="sl-meta">545-node graph · 3 layers</span></div>
         <div class="strat-nodes">
-          <div class="cnode gold"><span class="cn-sev">SEV 3</span><span class="cn-t">Constitutional ceiling</span><span class="cn-d">$200,000 exceeds the $140,000 fixed in the constitution. It cannot take effect until voters ratify an amendment.</span></div>
-          <div class="cnode gold"><span class="cn-sev">SEV 2</span><span class="cn-t">Frozen 65+ ceiling</span><span class="cn-d">§11.26(a-10) freezes older homeowners' tax; the gap it leaves widens as the exemption rises.</span></div>
-          <div class="cnode"><span class="cn-sev">SEV 1</span><span class="cn-t">Stale exemption form</span><span class="cn-d">34 TAC §9.415 ties the district form to the amount. The moment it changes, the form is wrong.</span></div>
+          <div class="cnode gold"><span class="cn-sev">SEV 3</span><span class="cn-t">Constitutional ceiling</span><span class="cn-d">$200,000 exceeds the $140,000 fixed in the constitution. Needs a voter amendment first.</span></div>
+          <div class="cnode gold"><span class="cn-sev">SEV 2</span><span class="cn-t">Frozen 65+ ceiling</span><span class="cn-d">§11.26(a-10) freezes older homeowners' tax; the gap widens.</span></div>
+          <div class="cnode"><span class="cn-sev">SEV 1</span><span class="cn-t">Stale exemption form</span><span class="cn-d">34 TAC §9.415 form goes wrong the moment the amount changes.</span></div>
         </div>
       </div>
       <div class="c-dither" aria-hidden="true">░▒▓█▓▒░</div>
@@ -1570,11 +1478,11 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
       <!-- 03 agency -->
       <div class="stratum" data-strat="3">
         <div class="strat-label"><span class="sl-no">03</span> AGENCY <span class="sl-meta">who has to move</span></div>
-        <div class="strat-nodes">
-          <div class="cnode"><span class="cn-t">Comptroller · PTAD</span><span class="cn-d">Reprint Form 50-114, revise the rules</span></div>
-          <div class="cnode"><span class="cn-t">TEA</span><span class="cn-d">Recompute the Foundation School Program</span></div>
-          <div class="cnode"><span class="cn-t">Secretary of State</span><span class="cn-d">Administer the amendment election</span></div>
-          <div class="cnode"><span class="cn-t">254 appraisal districts</span><span class="cn-d">Reprogram every CAMA system</span></div>
+        <div class="strat-nodes tight">
+          <div class="cnode"><span class="cn-t">Comptroller · PTAD</span></div>
+          <div class="cnode"><span class="cn-t">TEA</span></div>
+          <div class="cnode"><span class="cn-t">Secretary of State</span></div>
+          <div class="cnode"><span class="cn-t">254 appraisal districts</span></div>
         </div>
       </div>
       <div class="c-dither" aria-hidden="true">░▒▓█▓▒░</div>
@@ -1608,187 +1516,22 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
       <div class="c-verdict stratum">
         <div class="cv-tag">VERDICT · BEFORE THE VOTE</div>
         <div class="cv-line">Constitutional amendment required. <b>90%</b> statute-only litigation exposure, <b>22%</b> with the amendment.</div>
-        <div class="cv-sub">Precedent: the last time this was walked, Proposition 13 (SJR 2) passed 79.41% on Nov 4, 2025. Litigation theory: the Edgewood I to IV and Neeley school-finance cases.</div>
+        <div class="cv-sub">Precedent: Proposition 13 (SJR 2), Nov 2025, passed 79.41%. Litigation theory: the Edgewood and Neeley school-finance cases.</div>
       </div>
 
-    </div>
-  </div>
-
-  <div class="after rise">
-    <div>
-      <p class="refrain">Every node opens <b>its primary source.</b></p>
-      <p class="sub">GROUNDED&nbsp;BEFORE&nbsp;GENERATED · HUMAN&nbsp;GATE&nbsp;ON&nbsp;EVERY&nbsp;CONSEQUENTIAL&nbsp;STEP</p>
-    </div>
-    <div class="cta-row">
-      <a class="cta cta-primary" href="/sim">OPEN THE SIMULATOR &rarr;</a>
-      <a class="cta cta-secondary" href="#audit">SEE THE AUDIT TRAIL &rarr;</a>
     </div>
   </div>
 </section>
 
 <section class="r-sec" id="audit">
-  <div class="r-head rise">
-    <div class="r-label">The audit trail</div>
-    <h2>Grounded <span class="dim">before generated.</span></h2>
+  <div class="grounded rise">
+    <div class="g-label">Grounded before generated</div>
+    <p class="g-line">Every node cites the primary source, <span class="g-em">verbatim.</span></p>
+    <a class="g-link" href="/sim">See it in the simulator &rarr;</a>
   </div>
-
-  <div class="r-inst rise">
-
-    <!-- ── the artifact: a verbatim statute citation card ── -->
-    <div class="platewrap">
-      <span class="ptag">VERBATIM · PRIMARY SOURCE</span>
-      <div class="plate" aria-label="A node's source: the actual text of Texas Tax Code section 11.13(b)">
-        <div class="p-id"><span>TEX. TAX CODE §11.13(b)</span><span>statutes.capitol.texas.gov</span></div>
-        <h3 class="p-title">Residence Homestead · School District Exemption</h3>
-        <div class="p-rule"></div>
-        <div class="p-ab">OPERATIVE TEXT · AS FETCHED</div>
-        <p class="p-statute">(b) An adult is entitled to exemption from taxation by a school
-        district of <mark>$140,000</mark> of the appraised value of the adult's residence
-        homestead, except that <mark>$5,000</mark> of the exemption does not apply to an entity
-        operating under a written agreement with a school district under Section 11.13(n)…</p>
-        <div class="p-rule"></div>
-        <div class="p-check">
-          <span class="p-tick">&check;</span>
-          <span>365-char substring · whitespace-normalized · matches the fetched chapter exactly</span>
-        </div>
-        <div class="p-foot"><span>NODE st-1113b</span><span>VERIFIED</span></div>
-      </div>
-    </div>
-
-    <!-- ── the words ── -->
-    <div class="r-col">
-      <h3 class="rh">Anything a node quotes<br><span class="r-g">is a verbatim quotation.</span></h3>
-      <p class="r-story">Every excerpt on every node is checked by string containment against
-      the page it was pulled from. Every real dollar figure traces to a fiscal note. Every
-      projection is labeled modeled, with its calibration one line away. When an extraction
-      failed the verbatim check three times, we pulled the text by hand and left the failures
-      in the manifest. The audit closed with zero unresolved discrepancies.</p>
-
-      <div class="manifest">
-        <div class="mrow">
-          <span class="k">TEXAS LAW CRAWLED</span><span class="v">5,256 sections</span>
-        </div>
-        <div class="mrow">
-          <span class="k">CONFLICT GRAPH</span><span class="v">545 nodes, 3 layers</span>
-        </div>
-        <div class="mrow">
-          <span class="k">EXTRACTION JOBS</span><span class="v">1,000+ validated, public manifest</span>
-        </div>
-        <div class="mrow">
-          <span class="k">COUNTY MODEL</span><span class="v">254 counties, Comptroller levy</span>
-        </div>
-        <div class="mrow">
-          <span class="k">FISCAL ACTUALS</span><span class="v">SB4 89R note, verbatim</span>
-        </div>
-        <div class="mrow">
-          <span class="k">AUDIT</span><span class="v">zero unresolved discrepancies</span>
-        </div>
-      </div>
-    </div>
-
-  </div>
-
   </section>
 
-<section class="d-sec">
-  <div class="d-head rise">
-    <h2>Everyone built a mirror.<br><span class="dim">We built a windshield.</span></h2>
-  </div>
 
-  <div class="figwrap rise">
-    <div class="figure" id="figure" aria-label="Diagram: a windshield looking forward at the road a law creates">
-      <svg class="windshield" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <line class="ws-h" x1="70" y1="238" x2="450" y2="238"/>
-        <line class="ws-r" x1="150" y1="470" x2="246" y2="240"/>
-        <line class="ws-r" x1="370" y1="470" x2="274" y2="240"/>
-        <line class="ws-r dim" x1="210" y1="470" x2="256" y2="240"/>
-        <line class="ws-r dim" x1="310" y1="470" x2="264" y2="240"/>
-        <line class="ws-lane" x1="260" y1="470" x2="260" y2="242"/>
-        <line class="ws-grid" x1="120" y1="300" x2="400" y2="300"/>
-        <line class="ws-grid" x1="150" y1="360" x2="370" y2="360"/>
-        <line class="ws-grid" x1="180" y1="420" x2="340" y2="420"/>
-      </svg>
-      <div class="flab">THE ROAD A LAW CREATES</div>
-      <div class="core">
-        <div class="ct">PRE-VOTE</div>
-        <div class="cs">WHILE IT CAN STILL CHANGE</div>
-      </div>
-    </div>
-  </div>
-
-  <p class="argue rise">A mirror shows the election that already happened. The fiscal note
-  shows the cost, weeks after filing, and never looks at the law. <b>Gorgias looks forward:</b>
-  it runs the bill through the whole corpus before the vote, while a legislator can still
-  change a word. Getting that right is not academic. Virginia's regulatory review saved
-  citizens <b>over $1.2 billion a year</b>. A single software line replaced reading
-  <b>24 million words</b> of code by hand. The category was signed into a state executive
-  order in 2025. The lane nobody owns yet is the pre-vote simulation.</p>
-
-
-  </section>
-
-<section class="i-sec">
-  <div class="i-head rise">
-    <div class="i-label">The simulator</div>
-    <h2>Type a law.<br><span class="dim">Read the verdict.</span></h2>
-    <p class="fork-sub">Plain English in. A grounded, reviewable footprint out.</p>
-  </div>
-
-  <div class="i-inst rise">
-
-    <!-- ── the terminal: a query resolving to a verdict ── -->
-    <div class="term" id="term" aria-label="Simulator: running a proposed law">
-      <div class="tbar" aria-hidden="true">
-        <div class="tsq"><span></span><span></span><span></span></div>
-        <div class="tname">GORGIAS · SIM</div>
-      </div>
-      <div class="tbody" id="tbody">
-<div class="i-tl" data-type="cmd"><span class="pr">&gt;</span> <span class="cmd">raise the homestead exemption to $200,000</span></div>
-<div class="i-tl" data-type="gap">&nbsp;</div>
-<div class="i-tl" data-type="out">parsing proposed change <span class="ok">· ok</span></div>
-<div class="i-tl" data-type="out">crawling texas statute graph <span class="ok">· 5,256 sections</span></div>
-<div class="i-tl" data-type="out">resolving conflicts <span class="ok">· 545 nodes · 3 layers</span></div>
-<div class="i-tl" data-type="out">grounding every node in primary source <span class="ok">· verbatim</span></div>
-<div class="i-tl" data-type="out">modeling county impact <span class="ok">· 254 counties</span></div>
-<div class="i-tl" data-type="gap">&nbsp;</div>
-<div class="i-tl i-gold" data-type="gold">verdict · amendment required · &minus;$2.67B local · 90% exposure</div>
-<div class="i-tl" data-type="cur"><span class="pr">&gt;</span> <span class="cur" aria-hidden="true"></span></div>
-      </div>
-    </div>
-
-    <!-- ── the words ── -->
-    <div class="i-col">
-      <p class="i-story">Ask in plain English. Gorgias walks the change through the corpus and
-      lays out the whole footprint, <b>every node linked to the text it came from.</b> Nothing
-      consequential runs on its own: the steps that would change the world sit behind a human
-      approval gate. The path from question to source to answer is real, and it is reviewable.</p>
-
-      <div class="grid" id="chips">
-        <div class="chip"><span class="dot" aria-hidden="true"></span>STATUTES</div>
-        <div class="chip"><span class="dot" aria-hidden="true"></span>CONFLICTS</div>
-        <div class="chip"><span class="dot" aria-hidden="true"></span>AGENCIES</div>
-        <div class="chip"><span class="dot" aria-hidden="true"></span>BUDGET</div>
-        <div class="chip"><span class="dot" aria-hidden="true"></span>COUNTIES</div>
-        <div class="chip"><span class="dot" aria-hidden="true"></span>LITIGATION</div>
-      </div>
-
-      <div class="fork">
-        <a class="fcell i-gold" href="/sim">
-          <span class="fk-t">RUN THE HERO SCENARIO</span>
-          <span class="fk-d">Homestead exemption, fully grounded, offline</span>
-          <span class="fk-a">OPEN THE SIMULATOR &rarr;</span>
-        </a>
-        <a class="fcell" href="#audit">
-          <span class="fk-t">CHECK THE WORK</span>
-          <span class="fk-d">Every number to a source, or labeled modeled</span>
-          <span class="fk-a">READ THE METHOD &rarr;</span>
-        </a>
-      </div>
-    </div>
-
-  </div>
-
-  </section>
 
 <section class="c-sec">
   <div class="c-inst">
@@ -1800,15 +1543,11 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
 
     <div class="close-row rise">
       <div>
-        <p class="refrain">See it break, <b>before the vote.</b></p>
-        <p class="sub">GROUNDED&nbsp;BEFORE&nbsp;GENERATED · A&nbsp;WINDSHIELD&nbsp;FOR&nbsp;LEGISLATION</p>
+        <p class="refrain">One line moves <b>&minus;$2.67B</b> across 254 counties.</p>
+        <p class="sub">GORGIAS · A FLIGHT SIMULATOR FOR LAWMAKING</p>
       </div>
-      <div>
-        <div class="cta-row">
-          <a class="cta cta-primary" href="/sim">OPEN THE SIMULATOR &rarr;</a>
-          <a class="cta cta-secondary" href="#audit">READ THE METHOD &rarr;</a>
-        </div>
-        <a class="tert" href="#how">OR WALK THE CASCADE AGAIN &rarr;</a>
+      <div class="cta-row">
+        <a class="cta cta-primary" href="/sim">OPEN THE SIMULATOR &rarr;</a>
       </div>
     </div>
   </div>
@@ -2423,204 +2162,6 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
   }
 })();
 </script>
-<script>
-(function () {
-  'use strict';
-  var STILL = document.documentElement.classList.contains('noanim') ||
-              document.documentElement.classList.contains('reduced');
-  var GOLD = '#ffc861', GOLD_HI = '#ffd684', GOLD_HOT = '#ffe9b8';
-
-  function hash(ix, iy) {
-    var n = ix * 374761393 + iy * 668265263;
-    n = (n ^ (n >> 13)) >>> 0;
-    n = (n * 1274126177) >>> 0;
-    return (n & 0xffff) / 0xffff;
-  }
-
-  var CORE = ['#', '@', '8'];
-  var DPR = Math.min(window.devicePixelRatio || 1, 2);
-  var ROWSN = 15;
-
-  function tickAvail(cv) {
-    var p = cv.parentElement;
-    var cs = getComputedStyle(p);
-    return p.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight) - 2;
-  }
-  function fitCell(cv) {
-    var availW = tickAvail(cv);
-    var meas = document.createElement('canvas').getContext('2d');
-    meas.font = '900 100px Archivo, sans-serif';
-    var w100 = meas.measureText(cv.dataset.text).width;
-    var capCells = ROWSN - 2;
-    var CELL = 6;
-    var wpx = w100 / 100 * (capCells * CELL / 0.72);
-    if (wpx > availW) CELL = Math.max(2.0, CELL * availW / wpx);
-    return CELL;
-  }
-  function buildNum(cv, CELL) {
-    var text = cv.dataset.text;
-    var gold = cv.parentElement.classList.contains('gold');
-    var capCells = ROWSN - 2;
-    var meas = document.createElement('canvas').getContext('2d');
-    meas.font = '900 100px Archivo, sans-serif';
-    var w100 = meas.measureText(text).width;
-    var font = capCells * CELL / 0.72;
-    var wpx = w100 / 100 * font;
-    var cols = Math.ceil(wpx / CELL) + 1;
-    var SS = 3;
-    var off = document.createElement('canvas');
-    off.width = cols * SS; off.height = ROWSN * SS;
-    var m = off.getContext('2d', { willReadFrequently: true });
-    m.setTransform(SS / CELL, 0, 0, SS / CELL, 0, 0);
-    m.fillStyle = '#fff';
-    m.font = '900 ' + font + 'px Archivo, sans-serif';
-    m.textBaseline = 'alphabetic';
-    m.fillText(text, 0, (ROWSN - 1) * CELL);
-    var img = m.getImageData(0, 0, off.width, off.height).data;
-    var on = new Uint8Array(cols * ROWSN);
-    for (var cy = 0; cy < ROWSN; cy++) {
-      for (var cx = 0; cx < cols; cx++) {
-        var cov = 0;
-        for (var sy = 0; sy < SS; sy++) {
-          var ro = ((cy * SS + sy) * off.width + cx * SS) * 4 + 3;
-          for (var sx = 0; sx < SS; sx++) cov += img[ro + sx * 4];
-        }
-        if (cov / (SS * SS * 255) >= 0.5) on[cy * cols + cx] = 1;
-      }
-    }
-    function lit(x, y) {
-      if (x < 0 || y < 0 || x >= cols || y >= ROWSN) return 0;
-      return on[y * cols + x];
-    }
-    var cells = [];
-    for (var y2 = 0; y2 < ROWSN; y2++) {
-      for (var x2 = 0; x2 < cols; x2++) {
-        if (!lit(x2, y2)) continue;
-        var h1 = hash(x2 + 31, y2 + 77), h2 = hash(x2 + 517, y2 + 211);
-        cells.push({
-          x: (x2 + 0.5) * CELL, y: (y2 + 0.5) * CELL,
-          core: true,
-          ch: CORE[(h1 * CORE.length) | 0],
-          base: 0.92 + h2 * 0.08,
-          ph: h1 * Math.PI * 2, sp: 0.8 + h2 * 1.4,
-          ord: hash(x2 + 907, y2 + 13)
-        });
-      }
-    }
-    cells.sort(function (a, b) { return a.ord - b.ord; });
-    var W = Math.ceil(cols * CELL), H = Math.ceil(ROWSN * CELL);
-    cv.style.width = W + 'px'; cv.style.height = H + 'px';
-    cv.width = Math.round(W * DPR); cv.height = Math.round(H * DPR);
-    cv._cells = cells; cv._cell = CELL; cv._gold = gold;
-    cv._W = W; cv._H = H;
-  }
-  function renderNum(cv, t, prog) {
-    var ctx = cv.getContext('2d');
-    var cells = cv._cells, CELL = cv._cell, gold = cv._gold;
-    if (!cells) return;
-    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
-    ctx.clearRect(0, 0, cv._W, cv._H);
-    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-    ctx.font = '400 ' + (CELL * 1.6) + 'px "JetBrains Mono", monospace';
-    var nShow = Math.round(cells.length * prog);
-    ctx.shadowBlur = 0;
-    for (var i = 0; i < nShow; i++) {
-      var c = cells[i];
-      if (c.core) continue;
-      var a = c.base * (0.88 + 0.12 * Math.sin(t * c.sp + c.ph));
-      ctx.fillStyle = gold ? 'rgba(255,200,97,' + a.toFixed(3) + ')'
-                           : 'rgba(255,255,255,' + a.toFixed(3) + ')';
-      ctx.fillText(c.ch, c.x, c.y);
-    }
-    if (gold) { ctx.shadowColor = 'rgba(255,195,95,.7)'; ctx.shadowBlur = 5; }
-    for (var j = 0; j < nShow; j++) {
-      var d = cells[j];
-      if (!d.core) continue;
-      var b = d.base * (0.97 + 0.03 * Math.sin(t * d.sp + d.ph));
-      if (gold) {
-        ctx.fillStyle = b > 0.9 ? GOLD_HOT : GOLD_HI;
-        ctx.globalAlpha = Math.min(1, 0.7 + b * 0.3);
-      } else {
-        ctx.fillStyle = 'rgba(255,255,255,' + Math.min(0.98, b).toFixed(3) + ')';
-      }
-      ctx.fillText(d.ch, d.x, d.y);
-      ctx.globalAlpha = 1;
-    }
-    ctx.shadowBlur = 0;
-  }
-
-  var nums = Array.prototype.slice.call(document.querySelectorAll('canvas.num'));
-  var numProg = nums.map(function () { return STILL ? 1 : 0; });
-  var assembling = false, assembleT0 = 0;
-  function buildAllNums() {
-    var CELL = 6;
-    nums.forEach(function (cv) { CELL = Math.min(CELL, fitCell(cv)); });
-    nums.forEach(function (cv) { buildNum(cv, CELL); });
-  }
-
-  /* dossier: walk the gold highlight through the status-quo rows */
-  var rowEls = Array.prototype.slice.call(document.querySelectorAll('.dossier .row'));
-  var activeRow = 0;
-  function setRow(i) { rowEls.forEach(function (r, k) { r.classList.toggle('on', k === i); }); }
-
-  var raf = 0, running = false, tNow = 0, lastFrame = 0, lastMs = 0, dwell = 0, visible = false;
-  function step(now) {
-    if (!running) return;
-    raf = requestAnimationFrame(step);
-    if (now - lastFrame < 1000 / 13) return;
-    var dt = Math.min((now - lastMs) / 1000, 0.15);
-    lastFrame = now; lastMs = now; tNow += dt;
-    dwell += dt;
-    if (dwell >= 3.4 && rowEls.length) { dwell = 0; activeRow = (activeRow + 1) % rowEls.length; setRow(activeRow); }
-    if (assembling) {
-      var ap = Math.min((now - assembleT0) / 1100, 1);
-      nums.forEach(function (cv, i) { numProg[i] = Math.max(numProg[i], Math.min(Math.max(ap * 1.45 - i * 0.12, 0), 1)); });
-      if (ap >= 1 && numProg.every(function (p) { return p >= 1; })) assembling = false;
-    }
-    nums.forEach(function (cv, i) { renderNum(cv, tNow, numProg[i]); });
-  }
-  function setRunning(on) {
-    if (STILL) return;
-    if (on && !running) { running = true; lastFrame = 0; lastMs = performance.now(); raf = requestAnimationFrame(step); }
-    else if (!on && running) { running = false; cancelAnimationFrame(raf); }
-  }
-  var bay = document.querySelector('.bay');
-  if (bay && 'IntersectionObserver' in window) {
-    new IntersectionObserver(function (es) {
-      visible = es[0].isIntersecting;
-      setRunning(visible && !document.hidden);
-      if (visible && !STILL && !assembling && numProg[0] === 0) { assembling = true; assembleT0 = performance.now(); }
-    }, { threshold: 0.05 }).observe(bay);
-  } else { visible = true; numProg = nums.map(function () { return 1; }); setRunning(true); }
-  document.addEventListener('visibilitychange', function () {
-    setRunning(visible && !document.hidden);
-    if (document.hidden) numProg = numProg.map(function () { return 1; });
-  });
-
-  function boot() {
-    buildAllNums();
-    setRow(0);
-    if (STILL) { nums.forEach(function (cv) { renderNum(cv, 1.7, 1); }); }
-    else { nums.forEach(function (cv) { renderNum(cv, 0, 0); }); }
-  }
-  var resizeTimer = 0;
-  window.addEventListener('resize', function () {
-    clearTimeout(resizeTimer);
-    resizeTimer = setTimeout(function () {
-      buildAllNums();
-      numProg = numProg.map(function (p) { return STILL ? 1 : Math.max(p, 1); });
-      nums.forEach(function (cv, i) { renderNum(cv, STILL ? 1.7 : tNow, numProg[i]); });
-    }, 150);
-  });
-  boot();
-  if (document.fonts && document.fonts.ready) {
-    document.fonts.ready.then(function () {
-      buildAllNums();
-      nums.forEach(function (cv, i) { renderNum(cv, STILL ? 1.7 : tNow, STILL ? 1 : numProg[i]); });
-    });
-  }
-})();
-</script>
 
 <script>
 (function () {
@@ -2641,84 +2182,6 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
 })();
 </script>
 
-<script>
-(function () {
-  'use strict';
-  var STILL = document.documentElement.classList.contains('noanim') ||
-              document.documentElement.classList.contains('reduced');
-
-  /* reveals */
-  var risers = document.querySelectorAll('.rise');
-  if (!STILL && 'IntersectionObserver' in window) {
-    var rio = new IntersectionObserver(function (es) {
-      es.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('in'); rio.unobserve(e.target); } });
-    }, { threshold: 0.12 });
-    risers.forEach(function (el) { rio.observe(el); });
-  } else {
-    risers.forEach(function (el) { el.classList.add('in'); });
-  }
-
-  var term = document.getElementById('term');
-  var lines = Array.prototype.slice.call(term.querySelectorAll('.i-tl'));
-  var chips = Array.prototype.slice.call(document.querySelectorAll('#chips .chip'));
-
-  function lightChips(instant) {
-    chips.forEach(function (c, i) {
-      if (instant) { c.classList.add('lit'); return; }
-      setTimeout(function () { c.classList.add('lit'); }, 220 * i);
-    });
-  }
-
-  /* still frame: everything printed, everything lit */
-  if (STILL) { lightChips(true); return; }
-
-  /* animated: hide the transcript, then play it back once, when seen */
-  term.classList.add('arm');
-  var played = false;
-
-  function typeCommand(line, done) {
-    var cmdEl = line.querySelector('.cmd');
-    var full = cmdEl.textContent;
-    cmdEl.textContent = '';
-    line.classList.add('on');
-    var i = 0;
-    (function tick() {
-      if (document.hidden) { setTimeout(tick, 200); return; }
-      cmdEl.textContent = full.slice(0, ++i);
-      if (i < full.length) setTimeout(tick, 42 + Math.random() * 40);
-      else setTimeout(done, 420);
-    })();
-  }
-
-  function play() {
-    if (played) return; played = true;
-    var idx = 0;
-    (function next() {
-      if (idx >= lines.length) { setTimeout(function () { lightChips(false); }, 260); return; }
-      if (document.hidden) { setTimeout(next, 250); return; }
-      var line = lines[idx++];
-      var t = line.getAttribute('data-type');
-      if (t === 'cmd') { typeCommand(line, next); return; }
-      line.classList.add('on');
-      var wait = t === 'gap' ? 120 : t === 'gold' ? 520 : t === 'cur' ? 60 : 380 + Math.random() * 240;
-      setTimeout(next, wait);
-    })();
-  }
-
-  /* start when seen; blink only while on screen and tab visible */
-  var seen = false;
-  if ('IntersectionObserver' in window) {
-    new IntersectionObserver(function (es) {
-      seen = es[0].isIntersecting;
-      term.classList.toggle('live', seen && !document.hidden);
-      if (seen) play();
-    }, { threshold: 0.3 }).observe(term);
-  } else { seen = true; term.classList.add('live'); play(); }
-  document.addEventListener('visibilitychange', function () {
-    term.classList.toggle('live', seen && !document.hidden);
-  });
-})();
-</script>
 <script>
 (function () {
   var STILL = document.documentElement.classList.contains('noanim') ||
@@ -2893,18 +2356,6 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
   function buildTargets() {
     targets = [];
 
-    /* BILL — the proposed law: a document, gold title line (the one edited line) */
-    targets.push(sample(function (m, s) {
-      m.lineWidth = s * 0.011; m.strokeStyle = '#fff';
-      m.strokeRect(s * 0.28, s * 0.1, s * 0.44, s * 0.8);
-      for (var i = 0; i < 9; i++) {
-        var y = s * (0.2 + i * 0.072);
-        m.globalAlpha = i === 0 ? 1 : 0.55;
-        m.fillRect(s * 0.34, y, s * (i === 0 ? 0.3 : 0.24 + hash(i) * 0.08), s * 0.02);
-      }
-      m.globalAlpha = 1;
-    }, function (x, y) { return y < 0.26; }));
-
     /* GRAPH — the cascade: a root branching down three tiers, conflicts in gold */
     targets.push(sample(function (m, s) {
       var nodes = [
@@ -2951,33 +2402,6 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
       return dx * dx + dy * dy < 0.020;
     }));
 
-    /* WINDSHIELD — pre-vote: the road a law creates, gold horizon */
-    targets.push(sample(function (m, s) {
-      m.lineWidth = s * 0.011; m.strokeStyle = '#fff';
-      m.beginPath();
-      m.moveTo(0.16 * s, 0.20 * s); m.lineTo(0.84 * s, 0.20 * s);
-      m.lineTo(0.74 * s, 0.82 * s); m.lineTo(0.26 * s, 0.82 * s); m.closePath(); m.stroke();
-      m.beginPath(); m.moveTo(0.20 * s, 0.48 * s); m.lineTo(0.80 * s, 0.48 * s); m.stroke();
-      m.lineWidth = s * 0.008; m.globalAlpha = 0.7;
-      [[0.30, 0.82], [0.42, 0.82], [0.58, 0.82], [0.70, 0.82]].forEach(function (b) {
-        m.beginPath(); m.moveTo(b[0] * s, b[1] * s); m.lineTo(0.5 * s, 0.485 * s); m.stroke();
-      });
-      m.globalAlpha = 1;
-    }, function (x, y) { return Math.abs(y - 0.48) < 0.028 && x > 0.19 && x < 0.81; }));
-
-    /* COMMAND — the query: gorgias sim, gold prompt */
-    targets.push(sample(function (m, s) {
-      m.textAlign = 'center';
-      var cl = ['> gorgias', 'sim'];
-      for (var ci = 0; ci < cl.length; ci++) {
-        var cf = s * 0.115;
-        m.font = '500 ' + cf + 'px "JetBrains Mono", monospace';
-        var cw = m.measureText(cl[ci]).width;
-        if (cw > s * 0.9) { cf *= s * 0.9 / cw; m.font = '500 ' + cf + 'px "JetBrains Mono", monospace'; }
-        m.fillText(cl[ci], s / 2, s * (0.42 + ci * 0.18));
-      }
-    }, function (x, y) { return y < 0.5 && x < 0.28; }));
-
     /* RAIN — the organism returns to the sky it came from */
     (function () {
       var out = [];
@@ -3013,7 +2437,7 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
   }
 
   /* progress anchored to the REAL sections; hero contributes nothing */
-  var anchors = ['.sec', '.u-sec', '.r-sec', '.d-sec', '.i-sec', '.c-sec']
+  var anchors = ['.u-sec', '.r-sec', '.c-sec']
     .map(function (q) { return document.querySelector(q); });
   var FORCEP = parseFloat((location.search.match(/[?&]p=([\d.]+)/) || [])[1]);
   function docTop(el) { var r = el.getBoundingClientRect(); return r.top + scrollY; }
@@ -3124,8 +2548,6 @@ if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) document.docu
     }, { threshold: 0.18 });
     els.forEach(function (e) { io.observe(e); });
   }
-  var bw = document.querySelector('.blastwrap');
-  if (bw && !STILL) bw.classList.add('d-live-blast');
 })();
 </script>
 </body>

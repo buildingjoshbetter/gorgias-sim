@@ -1,0 +1,7 @@
+{
+ "conflict": true,
+ "severity": 1,
+ "rationale": "Increasing the homestead exemption reduces school district property tax revenue, altering local revenue levels used in FSP transfer calculations under this section. No statutory amendment needed, but FSP rulemaking and recalibration required.",
+ "quote": "If the district has a local revenue level greater than the guaranteed local revenue level but less than the level established under Section 48.257, the district in which the student is enrolled on the date a court orders the student to be confined to a juvenile residential facility shall transfer to the district providing education services an amount equal to the difference between the average Foundation School Program costs per student of the district providing education services and the sum of the state aid and the money from the available school fund received by the district that is attributable to the student for the portion of the school year for which the district provides education services to the student.",
+ "_note": "Indirect financial conflict: homestead exemption increase affects local revenue levels that feed FSP transfer calculations under \u00a737.0061. Statute is self-executing and needs no amendment, but underlying FSP formula inputs change, requiring administrative rulemaking."
+}

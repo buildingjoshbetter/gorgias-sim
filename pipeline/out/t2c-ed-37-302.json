@@ -1,0 +1,7 @@
+{
+ "conflict": false,
+ "severity": 0,
+ "rationale": "The proposed change to Tax Code \u00a711.13(b) homestead exemption amounts has no relation to Educ. Code \u00a737.302, which governs applicability of a subchapter concerning students required to register as sex offenders.",
+ "quote": "Sec. 37.302. APPLICABILITY. This subchapter:\n(1) applies to a student who is required to register as a sex offender under Chapter 62, Code of Criminal Procedure; and\n(2) does not apply to a student who is no longer required to register as a sex offender under Chapter 62, Code of Criminal Procedure, including a student who receives an exemption from registration under Subchapter H, Chapter 62, Code of Criminal Procedure, or a student who receives an early termination of the obligation to register under Subchapter I, Chapter 62, Code of Criminal Procedure.",
+ "_note": "No conflict; rule_text addresses an unrelated subject (sex offender registration applicability in education context)."
+}

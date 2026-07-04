@@ -447,7 +447,7 @@ button { font-family: inherit; cursor: pointer; }
    Scene 4 — Verdict (mount for B2; lightweight preview here)
    ============================================================ */
 #scene-verdict .verdict-wrap { height: 100%; padding: var(--s7) var(--s8); display: flex; flex-direction: column; gap: var(--s6); }
-.verdict-mount { flex: 1; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: var(--s6); min-height: 0; }
+.verdict-mount { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: var(--s6); min-height: 0; }
 .vpanel { border: 1px solid var(--hairline); padding: var(--s6); display: flex; flex-direction: column; gap: var(--s4); }
 .vpanel h3 { font-family: var(--font-mono); font-size: 12px; color: var(--text-dim); letter-spacing: 0.12em; text-transform: uppercase; font-weight: 400; }
 .gauge-score { font-family: var(--font-display); font-size: clamp(48px, 6vw, 88px); font-weight: 800; color: var(--text); line-height: 1; }
@@ -532,11 +532,9 @@ body.presenter #app { font-size: 1.06em; }
           <h1 class="console-headline" style="margin-top:20px">Propose a change. <span class="gf-dim">See what it breaks.</span></h1>
         </div>
         <p class="console-sub">Gorgias traces a proposed statutory change through every downstream rule, agency, budget line, and county — and shows you the litigation you just bought. Every node is grounded in the source text.</p>
-        <div class="console-calib">calibrated against the 2025 exemption increase (HB 9 / Prop 13) — LBB ground truth</div>
         <div class="gf-divider" aria-hidden="true">░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒░▒▓█▓▒</div>
         <div class="cards" id="cards">
           <div class="card selected" data-scenario="0" tabindex="0">
-            <span class="gf-cx tl" aria-hidden="true">+</span><span class="gf-cx tr" aria-hidden="true">+</span><span class="gf-cx bl" aria-hidden="true">+</span><span class="gf-cx br" aria-hidden="true">+</span>
             <span class="card-sel-tag">Selected</span>
             <span class="card-idx">01 / HERO</span>
             <span class="card-title">Raise the homestead exemption</span>
@@ -544,7 +542,6 @@ body.presenter #app { font-size: 1.06em; }
             <span class="card-teaser">~$4.65B/yr shifted · 4 agencies · 3 statutory conflicts</span>
           </div>
           <div class="card" data-scenario="1" tabindex="0">
-            <span class="gf-cx tl" aria-hidden="true">+</span><span class="gf-cx tr" aria-hidden="true">+</span><span class="gf-cx bl" aria-hidden="true">+</span><span class="gf-cx br" aria-hidden="true">+</span>
             <span class="card-sel-tag">Selected</span>
             <span class="card-idx">02</span>
             <span class="card-title">Cap local property-tax growth</span>
@@ -552,7 +549,6 @@ body.presenter #app { font-size: 1.06em; }
             <span class="card-teaser">~$1.4B/yr constrained · 5 agencies · 2 conflicts</span>
           </div>
           <div class="card" data-scenario="2" tabindex="0">
-            <span class="gf-cx tl" aria-hidden="true">+</span><span class="gf-cx tr" aria-hidden="true">+</span><span class="gf-cx bl" aria-hidden="true">+</span><span class="gf-cx br" aria-hidden="true">+</span>
             <span class="card-sel-tag">Selected</span>
             <span class="card-idx">03</span>
             <span class="card-title">Universal school ESA vouchers</span>
@@ -690,16 +686,9 @@ body.presenter #app { font-size: 1.06em; }
       font-size:clamp(48px,6vw,104px);line-height:1;color:var(--gx-text);
       font-variant-numeric:tabular-nums;letter-spacing:-.01em;transition:opacity .3s linear}
     #cascade-root .gx-counter .gx-cval .gx-sign{color:var(--gx-gold)}
-    #cascade-root .gx-counter .gx-clabel::before{content:"// ";color:var(--gx-gold2)}
-    #cascade-root .gx-cramp{font-family:var(--gx-mono);font-size:13px;letter-spacing:1px;line-height:1;
-      color:var(--gx-deep);margin-bottom:8px}
-    #cascade-root .gx-cramp b{color:var(--gx-goldhi);font-weight:400}
     #cascade-root .gx-stamp{font-family:var(--gx-mono);font-size:12px;letter-spacing:.22em;
       text-transform:uppercase;color:var(--gx-gold);opacity:0;transition:opacity .5s linear;margin-top:6px}
     #cascade-root .gx-stamp.gx-on{opacity:1}
-    #cascade-root .gx-trace{font-family:var(--gx-mono);font-size:10px;letter-spacing:.14em;
-      text-transform:uppercase;color:var(--gx-faint);margin-top:8px;opacity:0;transition:opacity .5s linear}
-    #cascade-root .gx-stamp.gx-on ~ .gx-trace{opacity:1}
 
     /* footer hint */
     #cascade-root .gx-hint{position:absolute;bottom:18px;left:0;right:0;text-align:center;z-index:4;
@@ -723,11 +712,9 @@ body.presenter #app { font-size: 1.06em; }
   </svg>
 
   <div class="gx-counter" aria-live="polite">
-    <div class="gx-cramp" aria-hidden="true"><b>█</b><b>█</b><b>█</b>▓▒░░</div>
     <div class="gx-clabel">Net statewide fiscal impact · annual</div>
     <div class="gx-cval">$0</div>
     <div class="gx-stamp">Settled</div>
-    <div class="gx-trace">TRACE // Tax §11.13(b) · LBB-calibrated · 19 cites</div>
   </div>
 
   <div class="gx-hint">Space &rarr; <b>county map</b></div>
@@ -768,7 +755,7 @@ body.presenter #app { font-size: 1.06em; }
       policy:{title:"Raise the residence homestead exemption to $140,000",
         delta_label:"+$40,000 per homestead", teaser_total_usd:-3100000000},
       nodes:[
-        {id:"policy-root",type:"policy",parent:null,label:"Homestead exemption $100k → $140k",cite:"Tax Code §11.13(b)"},
+        {id:"policy-root",type:"policy",parent:null,label:"Homestead exemption $140k → $200k",cite:"Tax Code §11.13(b)"},
         {id:"st-1113b",type:"statute",parent:"policy-root",label:"School district residence homestead exemption",cite:"Tax Code §11.13(b)"},
         {id:"st-1113n",type:"statute",parent:"policy-root",label:"Optional percentage exemption interplay",cite:"Tax Code §11.13(n)"},
         {id:"st-1126",type:"statute",parent:"policy-root",label:"Tax ceiling for 65+ / disabled homeowners",cite:"Tax Code §11.26"},
@@ -1145,7 +1132,6 @@ body.presenter #app { font-size: 1.06em; }
           <h2 class="scene-head">Where it <span class="gf-dim">lands.</span></h2>
           <p class="scene-sub">Per-county change in effective burden. Darker gold = larger shift.</p>
           <div class="map-toggle-row">
-            <span class="map-toggle-kicker">one policy, two Texases</span>
             <div class="map-toggle" id="map-toggle" role="tablist" aria-label="Map metric">
               <button class="mt-opt is-on" data-mode="dollars" type="button">by dollars</button>
               <button class="mt-opt" data-mode="levy" type="button">by share of local levy</button>
@@ -1220,7 +1206,7 @@ body.presenter #app { font-size: 1.06em; }
       <div class="dot-wrap"><span class="dot"></span><span class="dot-lbl">Verdict</span></div>
       <div class="dot-wrap"><span class="dot"></span><span class="dot-lbl">Graph</span></div>
     </div>
-    <div class="key-legend"><b>SPACE</b> advance&nbsp;&nbsp; <b>←/→</b> scene&nbsp;&nbsp; <b>G</b> graph&nbsp;&nbsp; <b>R</b> reset&nbsp;&nbsp; <b>C</b> citations&nbsp;&nbsp; <b>ESC</b> console</div>
+    <div class="key-legend"><b>SPACE</b>&nbsp;·&nbsp;<b>G</b>&nbsp;·&nbsp;<b>C</b>&nbsp;·&nbsp;<b>ESC</b></div>
     <div class="ftr-meta">254 counties · TX 89th Leg. corpus</div>
   </footer>
 </div>
@@ -1228,6 +1214,7 @@ body.presenter #app { font-size: 1.06em; }
 <!-- Citation drawer (B1 fills content) -->
 <div id="drawer-scrim"></div>
 <aside id="drawer" aria-hidden="true">
+  <span class="gf-cx tl" aria-hidden="true">+</span><span class="gf-cx tr" aria-hidden="true">+</span><span class="gf-cx bl" aria-hidden="true">+</span><span class="gf-cx br" aria-hidden="true">+</span>
   <button class="drawer-close" id="drawer-close">×</button>
   <!-- DRAWER-MOUNT: B1 renders node source excerpt here on node click.
        Call GORGIAS.openDrawer(nodeId) to open; GORGIAS.closeDrawer() to close. -->
@@ -1484,8 +1471,7 @@ const GORGIAS = (function () {
     return "183 of 254 counties see a net increase in local burden.";
   }
   function mapNoteText() {
-    if (mapMode === "levy") return "254 counties · shaded by share of local homestead levy erased (modeled)";
-    return "254 counties · shaded by modeled dollar burden (Comptroller 2025 levies)";
+    return mapMode === "levy" ? "254 counties · share of local levy" : "254 counties · modeled dollar burden";
   }
 
   function enterMap() {
@@ -2003,7 +1989,7 @@ window.GORGIAS = GORGIAS;
 .v-stat-k { font-family: var(--font-mono); font-size: 11px; color: var(--text-dim); letter-spacing: 0.06em; text-transform: uppercase; }
 .v-stat-v { font-family: var(--font-mono); font-size: 15px; color: var(--gold); font-variant-numeric: tabular-nums; }
 .v-brief-foot { font-family: var(--font-mono); font-size: 10px; color: var(--text-faint); line-height: 1.5; margin-top: auto; }
-.v-export { background: var(--gold); color: #0A0A0A; font-family: var(--font-display); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; padding: 12px 18px; border: 0; }
+.v-export { background: var(--gold); color: #0A0A0A; font-family: var(--font-display); font-size: 13px; font-weight: 700; letter-spacing: 0.08em; padding: 12px 18px; border: 0; margin-top: auto; align-self: flex-start; cursor: pointer; }
 .v-export:hover { background: var(--gold-btn-hover); }
 #v-overlay { position: fixed; inset: 0; z-index: 100; background: rgba(10,10,10,0.94); display: none; align-items: center; justify-content: center; padding: 5vh 4vw; }
 #v-overlay.open { display: flex; }
@@ -2148,30 +2134,16 @@ window.VerdictEngine = (function () {
           '<span class="v-gate-txt">Gorgias recommends. A person decides. No rule enacts without sign-off.</span>' +
         '</div>' +
         '<div class="v-rail">' + railRows + '</div>' +
+        '<button class="v-export" id="v-export" type="button">Export one-page brief →</button>' +
       '</div>';
 
-    /* ---- Panel 3: impact brief ---- */
+    /* ---- Brief data (rendered on demand via the export overlay) ---- */
     const teaser = (scenario.policy && scenario.policy.teaser_total_usd) || 0;
     const citeCount = (scenario.nodes || []).filter(n => n.cite).length;
     const scnTitle = (scenario.policy && scenario.policy.title) || "Proposed policy change";
     const today = new Date().toISOString().slice(0, 10);
-    const panelBrief =
-      '<div class="vpanel"><h3>One-page brief</h3>' +
-        '<div class="v-brief">' +
-          '<div class="v-brief-mast"><span class="v-brief-title">Gorgias impact brief</span><span class="v-brief-date">' + today + '</span></div>' +
-          '<div class="v-brief-scn">' + scnTitle + '</div>' +
-          '<div class="v-brief-stats">' +
-            '<div class="v-stat"><span class="v-stat-k">Net statewide fiscal · annual</span><span class="v-stat-v">' + fmtUSD(teaser) + '</span></div>' +
-            '<div class="v-stat"><span class="v-stat-k">Counties modeled</span><span class="v-stat-v">' + (scenario.counties || []).length + '</span></div>' +
-            '<div class="v-stat"><span class="v-stat-k">Litigation exposure</span><span class="v-stat-v">' + band(statutePct) + ' → ' + amendPct + '%</span></div>' +
-            '<div class="v-stat"><span class="v-stat-k">Path</span><span class="v-stat-v">' + steps.length + ' gates</span></div>' +
-          '</div>' +
-          '<button class="v-export" id="v-export" type="button">EXPORT ONE-PAGE BRIEF →</button>' +
-          '<div class="v-brief-foot">Grounded in the Vulcan statutory corpus · ' + citeCount + ' citations · generated ' + today + '</div>' +
-        '</div>' +
-      '</div>';
 
-    el.innerHTML = panelExposure + panelGates + panelBrief;
+    el.innerHTML = panelExposure + panelGates;
 
     // drawer wiring — drivers + statute-only path open the grounded source
     el.querySelectorAll("[data-node]").forEach(node => {

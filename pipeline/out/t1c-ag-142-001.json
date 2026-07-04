@@ -1,0 +1,33 @@
+{
+ "cite": "Agric. Code \u00a7142.001",
+ "heading": "DEFINITIONS",
+ "operative_text": "In this chapter: (1) \"Estray\" means stray livestock, stray exotic livestock, stray bison, or stray exotic fowl. (2) \"Perilous condition\" means a circumstance or condition in which capture and impoundment of an estray presents an immediate threat to law enforcement personnel or to the health of the estray. (3) \"Person\" does not include the government or a governmental agency or subdivision. (4) \"Exotic livestock\" means grass-eating or plant-eating, single-hooved or cloven-hooved mammals that are not indigenous to this state and are known as ungulates, including animals from the swine, horse, tapir, rhinoceros, elephant, deer, and antelope families but not including a mammal defined by Section 63.001, Parks and Wildlife Code, as a game animal, or by Section 71.001, Parks and Wildlife Code, as a fur-bearing animal, or any other indigenous mammal regulated by the Parks and Wildlife Department as an endangered or threatened species. The term does not include a nonindigenous mammal located on publicly owned land. (5) \"Exotic fowl\" means any avian species that is not indigenous to this state. The term includes ratites but does not include a bird defined by Section 64.001, Parks and Wildlife Code, as a game bird or any other indigenous bird regulated by the Parks and Wildlife Department as an endangered or threatened species. The term does not include nonindigenous birds located on publicly owned land.",
+ "cross_refs": [
+  "Parks & Wildlife Code \u00a763.001",
+  "Parks & Wildlife Code \u00a771.001",
+  "Parks & Wildlife Code \u00a764.001"
+ ],
+ "defined_terms": [
+  {
+   "term": "Estray",
+   "definition_excerpt": "stray livestock, stray exotic livestock, stray bison, or stray exotic fowl"
+  },
+  {
+   "term": "Perilous condition",
+   "definition_excerpt": "a circumstance or condition in which capture and impoundment of an estray presents an immediate threat to law enforcement personnel or to the health of the estray"
+  },
+  {
+   "term": "Person",
+   "definition_excerpt": "does not include the government or a governmental agency or subdivision"
+  },
+  {
+   "term": "Exotic livestock",
+   "definition_excerpt": "grass-eating or plant-eating, single-hooved or cloven-hooved mammals that are not indigenous to this state and are known as ungulates, including animals from the swine, horse, tapir, rhinoceros, elephant, deer, and antelope families but not including a mammal defined by Section 63.001, Parks and Wildlife Code, as a game animal, or by Section 71.001, Parks and Wildlife Code, as a fur-bearing animal, or any other indigenous mammal regulated by the Parks and Wildlife Department as an endangered or threatened species"
+  },
+  {
+   "term": "Exotic fowl",
+   "definition_excerpt": "any avian species that is not indigenous to this state. The term includes ratites but does not include a bird defined by Section 64.001, Parks and Wildlife Code, as a game bird or any other indigenous bird regulated by the Parks and Wildlife Department as an endangered or threatened species"
+  }
+ ],
+ "_note": null
+}

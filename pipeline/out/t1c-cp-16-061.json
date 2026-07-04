@@ -1,0 +1,40 @@
+{
+ "cite": "Civ. Prac. & Rem. Code \u00a716.061",
+ "heading": "RIGHTS NOT BARRED",
+ "operative_text": "A right of action of this state or a political subdivision of the state, including a county, an incorporated city or town, a navigation district, a municipal utility district, a port authority, an entity acting under Chapter 54, Transportation Code, a school district, or an entity created under Section 52, Article III, or Section 59, Article XVI, Texas Constitution, is not barred by any of the following sections: 16.001-16.004, 16.006, 16.007, 16.021-16.028, 16.030-16.032, 16.035-16.037, 16.051, 16.062, 16.063, 16.065-16.067, 16.070, 16.071, 31.006, or 71.021.",
+ "cross_refs": [
+  "Civ. Prac. & Rem. Code \u00a7\u00a716.001-16.004",
+  "Civ. Prac. & Rem. Code \u00a716.006",
+  "Civ. Prac. & Rem. Code \u00a716.007",
+  "Civ. Prac. & Rem. Code \u00a7\u00a716.021-16.028",
+  "Civ. Prac. & Rem. Code \u00a7\u00a716.030-16.032",
+  "Civ. Prac. & Rem. Code \u00a7\u00a716.035-16.037",
+  "Civ. Prac. & Rem. Code \u00a716.051",
+  "Civ. Prac. & Rem. Code \u00a716.062",
+  "Civ. Prac. & Rem. Code \u00a716.063",
+  "Civ. Prac. & Rem. Code \u00a7\u00a716.065-16.067",
+  "Civ. Prac. & Rem. Code \u00a716.070",
+  "Civ. Prac. & Rem. Code \u00a716.071",
+  "Civ. Prac. & Rem. Code \u00a731.006",
+  "Civ. Prac. & Rem. Code \u00a771.021",
+  "Transportation Code ch. 54",
+  "Tex. Const. art. III, \u00a752",
+  "Tex. Const. art. XVI, \u00a759",
+  "Water Code \u00a760.402"
+ ],
+ "defined_terms": [
+  {
+   "term": "Navigation district",
+   "definition_excerpt": "\"Navigation district\" means a navigation district organized under Section 52, Article III, or Section 59, Article XVI, Texas Constitution."
+  },
+  {
+   "term": "Port authority",
+   "definition_excerpt": "\"Port authority\" has the meaning assigned by Section 60.402, Water Code."
+  },
+  {
+   "term": "Municipal utility district",
+   "definition_excerpt": "\"Municipal utility district\" means a municipal utility district created under Section 52, Article III, or Section 59, Article XVI, Texas Constitution."
+  }
+ ],
+ "_note": null
+}
