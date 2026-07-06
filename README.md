@@ -62,4 +62,4 @@ AUDIT.md      number-by-number source audit
 
 ## Credits
 
-Corpus taxonomy after [vulcan.ai/coverage](https://vulcan.ai/coverage). Statutes from the Texas Legislature. Levies from the Texas Comptroller. Fiscal notes from the LBB. Built by Josh Adler with a fleet of Claude agents orchestrating GLM 5.2 workers.
+Corpus taxonomy after [vulcan.ai/coverage](https://vulcan.ai/coverage). Statutes from the Texas Legislature. Levies from the Texas Comptroller. Fiscal notes from the LBB. Built by @Building_josh with a fleet of Claude agents orchestrating GLM 5.2 workers.
